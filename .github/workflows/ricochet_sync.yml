@@ -1,0 +1,39 @@
+name: Ricochet Daily Sales Sync
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 11pm PDT (UTC-7) = 06:00 UTC
+  workflow_dispatch:        # Allow manual run from GitHub Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install playwright requests google-auth google-auth-httplib2 google-api-python-client
+              && playwright install chromium --with-deps
+
+      - name: Run sync script
+        env:
+          RICOCHET_EMAIL:    ${{ secrets.RICOCHET_EMAIL }}
+          RICOCHET_PASSWORD: ${{ secrets.RICOCHET_PASSWORD }}
+          GOOGLE_SA_JSON:    ${{ secrets.GOOGLE_SA_JSON }}
+          SPREADSHEET_ID:    ${{ secrets.SPREADSHEET_ID }}
+        run: python scripts/ricochet_sync.py
+
+      - name: Upload log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-log
+          path: sync.log
