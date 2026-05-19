@@ -63,6 +63,53 @@ def get_sheets_service():
     return build("sheets", "v4", credentials=creds).spreadsheets()
 
 
+# ── Step 1.5: Build SKU lookup from Inventory Summary tab ────────────────────
+
+def build_sku_lookup(sheets) -> dict:
+    """
+    Read Inventory Summary tab cols B (item name) and E (SKU).
+    Return a dict of lowercase item name → SKU so we can replace
+    Ricochet's SKUs with the correct ones from your spreadsheet.
+    """
+    result = sheets.values().get(
+        spreadsheetId=SPREADSHEET_ID,
+        range="'Inventory Summary'!B:E",
+    ).execute()
+
+    rows = result.get("values", [])
+    lookup = {}
+    for row in rows[1:]:   # skip header
+        if len(row) < 4:
+            continue
+        item_name = str(row[0]).strip()
+        sku       = str(row[3]).strip() if len(row) > 3 else ""
+        if item_name and sku:
+            lookup[item_name.lower()] = sku
+
+    log.info(f"SKU lookup loaded: {len(lookup)} entries from Inventory Summary")
+    return lookup
+
+
+def find_sku(item_name: str, lookup: dict) -> str:
+    """
+    Try to find a matching SKU from the lookup table.
+    Tries exact match first, then partial substring match.
+    Returns empty string if no match found.
+    """
+    key = item_name.strip().lower()
+
+    # Exact match
+    if key in lookup:
+        return lookup[key]
+
+    # Partial match — item name contains or is contained in a lookup key
+    for lookup_name, sku in lookup.items():
+        if key in lookup_name or lookup_name in key:
+            return sku
+
+    return ""
+
+
 # ── Step 2: Determine upload window from last column F entry ──────────────────
 
 def get_window_start(sheets) -> date:
@@ -422,12 +469,20 @@ def find_existing_block(sheets, date_range_label: str):
 # ── Step 8: Write to Google Sheet ─────────────────────────────────────────────
 
 def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
-                   first_row, last_row):
+                   first_row, last_row, sku_lookup: dict = None):
     month_name = YESTERDAY.strftime("%B")
     year       = YESTERDAY.year
 
+    def resolve_sku(item_name: str, ricochet_sku: str) -> str:
+        """Use spreadsheet SKU if found, fall back to Ricochet SKU."""
+        if sku_lookup:
+            sheet_sku = find_sku(item_name, sku_lookup)
+            if sheet_sku:
+                return sheet_sku
+        return ricochet_sku
+
     new_values = [
-        [month_name, year, m["item"], m["sku"], m["qty"], date_range_label]
+        [month_name, year, m["item"], resolve_sku(m["item"], m["sku"]), m["qty"], date_range_label]
         for m in merged
     ]
 
@@ -674,6 +729,9 @@ def main():
     # Connect to Sheets first — needed to determine the date window
     sheets = get_sheets_service()
 
+    # Load SKU lookup from Inventory Summary tab
+    sku_lookup = build_sku_lookup(sheets)
+
     # Determine window: day after last upload → yesterday
     window_start = get_window_start(sheets)
     window_end   = YESTERDAY
@@ -708,7 +766,7 @@ def main():
 
     # Write to sheet (replace existing block or append)
     first_row, last_row = find_existing_block(sheets, date_range_label)
-    write_to_sheet(sheets, merged, date_range_label, first_row, last_row)
+    write_to_sheet(sheets, merged, date_range_label, first_row, last_row, sku_lookup)
 
     # Always regenerate dashboard JSON after updating the sheet
     build_dashboard_json(sheets)
