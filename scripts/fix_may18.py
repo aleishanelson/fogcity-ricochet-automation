@@ -62,6 +62,31 @@ def find_sku(name, lookup):
     for k, v in lookup.items():
         if key in k or k in key:
             return v
+    OVERRIDES = {
+        "alcatraz island postcard":                      "ALCATRAZ_RETRO_PC",
+        "fishermans wharf acrylic die cut magnet":       "MAG-AC-SF-FW",
+        "fishermans wharf sf postcard":                  "FISHERMANSWHARF_RETRO_PC",
+        "fisherman's wharf sticker":                     "FW_ILLUSTRATED_STICKER",
+        "golden gate acrylic die cut magnet":            "MAG-AC-SF-GGB",
+        "golden gate bridge acrylic":                    "MAG-AC-SF-GGB",
+        "golden gate bridge sticker (pink)":             "GGBRIDGE_PINK_STICKER",
+        "home sweet sf magnet":                          "MAGNET_HOMESWEETSF",
+        "i love you more than a":                        "LOVEYOUMORETHANSUNNYSF_A2CARD",
+        "retro gg travel poster magnet":                 "MAG-SF-RETRO-GGB",
+        "retrogg bridge travel poster magent":           "MAG-SF-RETRO-GGB",
+        "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
+        "sf house acrylic magnet":                       "MAG-AC-SF-HOUSES",
+        "sf icon tote":                                  "SFICONS_TOTE",
+        "sf landmark magnet":                            "MAG-SF-LDMKS",
+        "stanford campus map print 8x10":               "STANFORD_BW_8x10",
+        "twist and turn card":                           "TWISTSANDTURNS_GCARD",
+        "window seat card":                              "WINDOWSEAT_A2_GREETINGCARD",
+    }
+    if key in OVERRIDES:
+        return OVERRIDES[key]
+    for k, v in OVERRIDES.items():
+        if key in k or k in key:
+            return v
     return ""
 
 # ── Normalize (copy from main script) ────────────────────────────────────────

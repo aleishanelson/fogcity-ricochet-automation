@@ -94,17 +94,47 @@ def find_sku(item_name: str, lookup: dict) -> str:
     """
     Try to find a matching SKU from the lookup table.
     Tries exact match first, then partial substring match.
+    Falls back to hardcoded overrides for items not in Inventory Summary.
     Returns empty string if no match found.
     """
     key = item_name.strip().lower()
 
-    # Exact match
+    # Exact match against Inventory Summary
     if key in lookup:
         return lookup[key]
 
     # Partial match — item name contains or is contained in a lookup key
     for lookup_name, sku in lookup.items():
         if key in lookup_name or lookup_name in key:
+            return sku
+
+    # Hardcoded overrides for items missing from Inventory Summary
+    OVERRIDES = {
+        "alcatraz island postcard":                      "ALCATRAZ_RETRO_PC",
+        "fishermans wharf acrylic die cut magnet":       "MAG-AC-SF-FW",
+        "fishermans wharf sf postcard":                  "FISHERMANSWHARF_RETRO_PC",
+        "fisherman's wharf sticker":                     "FW_ILLUSTRATED_STICKER",
+        "golden gate acrylic die cut magnet":            "MAG-AC-SF-GGB",
+        "golden gate bridge acrylic":                    "MAG-AC-SF-GGB",
+        "golden gate bridge sticker (pink)":             "GGBRIDGE_PINK_STICKER",
+        "home sweet sf magnet":                          "MAGNET_HOMESWEETSF",
+        "i love you more than a":                        "LOVEYOUMORETHANSUNNYSF_A2CARD",
+        "retro gg travel poster magnet":                 "MAG-SF-RETRO-GGB",
+        "retrogg bridge travel poster magent":           "MAG-SF-RETRO-GGB",
+        "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
+        "sf house acrylic magnet":                       "MAG-AC-SF-HOUSES",
+        "sf icon tote":                                  "SFICONS_TOTE",
+        "sf landmark magnet":                            "MAG-SF-LDMKS",
+        "stanford campus map print 8x10":               "STANFORD_BW_8x10",
+        "twist and turn card":                           "TWISTSANDTURNS_GCARD",
+        "window seat card":                              "WINDOWSEAT_A2_GREETINGCARD",
+    }
+    if key in OVERRIDES:
+        return OVERRIDES[key]
+
+    # Partial match against overrides
+    for override_name, sku in OVERRIDES.items():
+        if key in override_name or override_name in key:
             return sku
 
     return ""
