@@ -462,6 +462,209 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
              f"{sum(m['qty'] for m in merged)} total units written.")
 
 
+# ── Dashboard JSON export ─────────────────────────────────────────────────────
+
+def build_dashboard_json(sheets):
+    """
+    Read the last 30 days of Fog City Sales data from the sheet,
+    compute top 10 items and hot/cold trends, write data.json.
+    """
+    log.info("Building dashboard JSON…")
+
+    result = sheets.values().get(
+        spreadsheetId=SPREADSHEET_ID,
+        range=f"'{FOG_CITY_TAB}'!A1:F25000",
+    ).execute()
+    all_rows = result.get("values", [])
+
+    # Parse each row: A=Month, B=Year, C=Item, D=SKU, E=Qty, F=Source
+    import re as _re
+    from collections import defaultdict as _dd
+
+    def parse_source_dates(source, year):
+        tokens = _re.findall(r'\b(\d{1,2})/(\d{1,2})\b', str(source))
+        if not tokens:
+            return None, None
+        try:
+            s = date(year, int(tokens[0][0]),  int(tokens[0][1]))
+            e = date(year, int(tokens[-1][0]), int(tokens[-1][1]))
+            if e < s:
+                e = date(year + 1, int(tokens[-1][0]), int(tokens[-1][1]))
+            return s, e
+        except Exception:
+            return None, None
+
+    # Group rows by source label
+    source_groups = {}
+    for row in all_rows[1:]:
+        if len(row) < 6:
+            continue
+        try:
+            year_val = int(float(row[1])) if row[1] else 0
+        except Exception:
+            year_val = 0
+        if year_val < 2025:
+            continue
+        item   = str(row[2]).strip() if row[2] else ''
+        try:
+            qty = int(float(row[4])) if row[4] else 0
+        except Exception:
+            qty = 0
+        source = str(row[5]).strip() if row[5] else ''
+        if not item or not source or qty <= 0:
+            continue
+        key = f"{year_val}|{source}"
+        if key not in source_groups:
+            s, e = parse_source_dates(source, year_val)
+            source_groups[key] = {'start': s, 'end': e, 'items': _dd(int)}
+        source_groups[key]['items'][item] += qty
+
+    # Determine reference date = latest end date in the sheet
+    valid = [(k, g) for k, g in source_groups.items() if g['end']]
+    if not valid:
+        log.warning("No dated source groups found — skipping dashboard JSON.")
+        return
+    ref_date = max(g['end'] for _, g in valid)
+
+    # Windows
+    window_10_start = ref_date - timedelta(days=9)   # last 10 days
+    window_30_start = ref_date - timedelta(days=29)  # last 30 days
+    prev_start      = ref_date - timedelta(days=30)  # day 11–30 (prior 20 days)
+
+    recent_10 = _dd(float)
+    recent_30 = _dd(float)
+    prev_20   = _dd(float)
+
+    for _, g in valid:
+        s, e = g['start'], g['end']
+        span = max((e - s).days + 1, 1)
+
+        # Last 10 days
+        if e >= window_10_start and s <= ref_date:
+            ol_s = max(s, window_10_start)
+            ol_e = min(e, ref_date)
+            ratio = ((ol_e - ol_s).days + 1) / span
+            for item, qty in g['items'].items():
+                recent_10[item] += qty * ratio
+
+        # Last 30 days
+        if e >= window_30_start and s <= ref_date:
+            ol_s = max(s, window_30_start)
+            ol_e = min(e, ref_date)
+            ratio = ((ol_e - ol_s).days + 1) / span
+            for item, qty in g['items'].items():
+                recent_30[item] += qty * ratio
+
+        # Prior 20 days (days 11–30)
+        if e >= prev_start and s < window_10_start:
+            ol_s = max(s, prev_start)
+            ol_e = min(e, window_10_start - timedelta(days=1))
+            if ol_e >= ol_s:
+                ratio = ((ol_e - ol_s).days + 1) / span
+                for item, qty in g['items'].items():
+                    prev_20[item] += qty * ratio
+
+    # Normalize to daily rates
+    def daily(d, days):
+        return {k: v / days for k, v in d.items()}
+
+    rate_10 = daily(recent_10, 10)
+    rate_20 = daily(prev_20, 20)
+
+    # Clean up verbose Ricochet product name prefixes
+    prefixes = [
+        'Art By Aleisha Magnets - ', 'Art by Aleisha Magnets - ',
+        'Art By Aleisha Stickers - ', 'Art by Aleisha Stickers - ',
+        'Art by Aleisha Keychains - ', 'Art By Aleisha Keychains - ',
+        'Pencil Pouches - ', 'Art By Aleisha Postcards - ',
+        'Art by Aleisha Postcards - ', 'Art By Aleisha Cards - ',
+        'Art by Aleisha Cards - ', 'Art By Aleisha Tea Towels - ',
+        'Art by Aleisha Tea Towels - ', 'Art By Aleisha Hats - ',
+        'Art by Aleisha Hats - ',
+    ]
+
+    def clean(name):
+        for p in prefixes:
+            name = name.replace(p, '')
+        return name.strip()
+
+    def merge_canonical(d):
+        out = _dd(float)
+        for k, v in d.items():
+            out[clean(normalize(k))] += v
+        return out
+
+    r10 = merge_canonical(recent_10)
+    p20 = merge_canonical(prev_20)
+    rt10 = daily(r10, 10)
+    rt20 = daily(p20, 20)
+
+    # Top 10 by recent 10-day qty
+    top10 = sorted(r10.items(), key=lambda x: -x[1])[:10]
+
+    # Trends
+    all_items = set(list(rt10.keys()) + list(rt20.keys()))
+    trends = {}
+    for item in all_items:
+        rr = rt10.get(item, 0)
+        rp = rt20.get(item, 0)
+        qr = r10.get(item, 0)
+        qp = p20.get(item, 0)
+        if qr < 2 and qp < 2:
+            continue
+        if rp > 0.01:
+            pct = (rr - rp) / rp * 100
+        elif rr > 0:
+            pct = 150
+        else:
+            pct = 0
+        trends[item] = {'pct': pct, 'qty_r': qr, 'qty_p': qp}
+
+    hot  = sorted([(k, v) for k, v in trends.items() if v['pct'] >= 50 and v['qty_r'] >= 2],
+                  key=lambda x: -x[1]['pct'])[:6]
+    cold = sorted([(k, v) for k, v in trends.items() if v['pct'] <= -50 and v['qty_p'] >= 3],
+                  key=lambda x: x[1]['pct'])[:6]
+
+    period_label = (
+        f"{window_10_start.strftime('%-m/%-d')} – "
+        f"{ref_date.strftime('%-m/%-d, %Y')}"
+    )
+
+    data = {
+        "updated":      ref_date.strftime("%-B %-d, %Y"),
+        "period_label": period_label,
+        "total_units":  round(sum(v for _, v in top10)),
+        "top10": [
+            {"name": clean(normalize(k)), "qty": round(v)}
+            for k, v in top10
+        ],
+        "hot": [
+            {
+                "name":       k,
+                "qty_recent": round(v['qty_r']),
+                "qty_prev":   round(v['qty_p']),
+                "pct":        round(v['pct']),
+            }
+            for k, v in hot
+        ],
+        "cold": [
+            {
+                "name":       k,
+                "qty_recent": round(v['qty_r']),
+                "qty_prev":   round(v['qty_p']),
+                "pct":        round(v['pct']),
+            }
+            for k, v in cold
+        ],
+    }
+
+    with open("data.json", "w") as f:
+        json.dump(data, f, indent=2)
+
+    log.info(f"✅ data.json written — top10: {len(top10)} items, "
+             f"hot: {len(hot)}, cold: {len(cold)}")
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -480,6 +683,7 @@ def main():
             f"Sheet is already up to date through {window_end} "
             f"(last upload ended {window_end}). Nothing to do."
         )
+        build_dashboard_json(sheets)
         return
 
     date_range_label = (
@@ -505,6 +709,9 @@ def main():
     # Write to sheet (replace existing block or append)
     first_row, last_row = find_existing_block(sheets, date_range_label)
     write_to_sheet(sheets, merged, date_range_label, first_row, last_row)
+
+    # Always regenerate dashboard JSON after updating the sheet
+    build_dashboard_json(sheets)
 
     log.info("=== Done ===")
 
