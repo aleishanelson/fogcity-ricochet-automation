@@ -37,11 +37,13 @@ log = logging.getLogger(__name__)
 RICOCHET_URL   = "https://tradingpost.ricoconsign.com"
 EMAIL          = os.environ["RICOCHET_EMAIL"]
 PASSWORD       = os.environ["RICOCHET_PASSWORD"]
-_sa_raw        = os.environ["GOOGLE_SA_JSON"]
-# GitHub Actions sometimes double-escapes newlines in JSON secrets.
-# Replace literal backslash-n with real newlines before JSON parsing.
-_sa_raw        = _sa_raw.replace("\\n", "\n")
-SA_JSON        = json.loads(_sa_raw)
+import base64 as _b64
+_sa_raw        = os.environ["GOOGLE_SA_JSON"].strip()
+# Secret is stored as base64 to avoid newline escaping issues in GitHub Actions.
+try:
+    SA_JSON = json.loads(_b64.b64decode(_sa_raw).decode())
+except Exception:
+    SA_JSON = json.loads(_sa_raw)
 SPREADSHEET_ID = os.environ["SPREADSHEET_ID"]
 FOG_CITY_TAB   = "Fog City Sales"
 SOURCE_LABEL   = "ricochet export"
