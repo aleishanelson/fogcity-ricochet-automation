@@ -1,0 +1,123 @@
+{
+  "updated": "May 18, 2026",
+  "period_label": "5/9 \u2013 5/18, 2026",
+  "total_units": 184,
+  "top10": [
+    {
+      "name": "Stickers- 3 for $11",
+      "qty": 29
+    },
+    {
+      "name": "SF Illustrated Landmarks Magnet",
+      "qty": 25
+    },
+    {
+      "name": "Golden Gate Acrylic Die Cut Magnet",
+      "qty": 22
+    },
+    {
+      "name": "Retro Ferry Building Poster Magnet",
+      "qty": 20
+    },
+    {
+      "name": "San Francisco Golden Gate Bridge Retro Postcard",
+      "qty": 17
+    },
+    {
+      "name": "Golden Gate Travel Poster Magnet",
+      "qty": 17
+    },
+    {
+      "name": "Retro GG Travel Poster magnet",
+      "qty": 17
+    },
+    {
+      "name": "Postcards 3 for $11",
+      "qty": 16
+    },
+    {
+      "name": "Retro Painted Ladies Poster Magnet",
+      "qty": 11
+    },
+    {
+      "name": "Ferry Building Retro Postcard",
+      "qty": 10
+    }
+  ],
+  "hot": [
+    {
+      "name": "Bay Area Map Print 8x10",
+      "qty_recent": 5,
+      "qty_prev": 0,
+      "pct": 1825
+    },
+    {
+      "name": "UC Berkeley CAMPUS Map Print 8x10",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 550
+    },
+    {
+      "name": "SF City Name With Golden Gate Sticker",
+      "qty_recent": 4,
+      "qty_prev": 2,
+      "pct": 338
+    },
+    {
+      "name": "ACRYLIC Painted Ladies Magnet",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 267
+    },
+    {
+      "name": "Proud Tourist sticker",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 267
+    },
+    {
+      "name": "SF Block Font Magnet",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 267
+    }
+  ],
+  "cold": [
+    {
+      "name": "SFO Luggage Tag Acrylic Magnet",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "White SF City By The Bay Circle Sticker",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Blue",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Golden Gate Travel Poster - 8\"x10\"",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Ferry Building Travel Poster Card",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "SF City Name With Golden Gate",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    }
+  ]
+}
