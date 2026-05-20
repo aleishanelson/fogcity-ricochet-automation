@@ -622,8 +622,8 @@ def normalize(name: str) -> str:
 # ── Step 6: Merge by canonical name ───────────────────────────────────────────
 
 def merge_rows(records: list[dict]) -> list[dict]:
-    """Group by canonical item name, sum unit counts, keep first-seen SKU."""
-    groups: dict[str, dict] = defaultdict(lambda: {"item": "", "sku": "", "qty": 0})
+    """Group by canonical item name, sum unit counts and revenue, keep first-seen SKU."""
+    groups: dict[str, dict] = defaultdict(lambda: {"item": "", "sku": "", "qty": 0, "revenue": 0.0})
     for r in records:
         raw_name  = r.get("item", "").strip()
         canonical = normalize(raw_name)
@@ -633,9 +633,16 @@ def merge_rows(records: list[dict]) -> list[dict]:
         g["qty"]  += 1      # each raw row = 1 unit sold
         if not g["sku"]:
             g["sku"] = r.get("sku", "").strip()
+        # Sum aged price (revenue)
+        try:
+            price_str = r.get("aged_price", "0").replace("$", "").replace(",", "").strip()
+            g["revenue"] += float(price_str) if price_str else 0.0
+        except (ValueError, AttributeError):
+            pass
 
     merged = sorted(groups.values(), key=lambda x: x["item"].lower())
-    log.info(f"After merge: {len(merged)} unique items, {sum(m['qty'] for m in merged)} total units")
+    total_rev = sum(m["revenue"] for m in merged)
+    log.info(f"After merge: {len(merged)} unique items, {sum(m['qty'] for m in merged)} units, ${total_rev:.2f} revenue")
     return merged
 
 
@@ -685,7 +692,7 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
     new_values = []
     for i, m in enumerate(merged):
         sku, needs_review = resolve_sku(m["item"], m["sku"])
-        new_values.append([month_name, year, m["item"], sku, m["qty"], date_range_label])
+        new_values.append([month_name, year, m["item"], sku, m["qty"], date_range_label, round(m.get("revenue", 0.0), 2)])
         if needs_review:
             rows_needing_review.append(i)
 
@@ -693,7 +700,7 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
         # Replace the existing block in place, padding with blanks if needed
         existing_count = last_row - first_row + 1
         blanks_needed  = max(0, existing_count - len(new_values))
-        padded         = new_values + [["", "", "", "", "", ""]] * blanks_needed
+        padded         = new_values + [["", "", "", "", "", "", ""]] * blanks_needed
         range_str      = f"'{FOG_CITY_TAB}'!A{first_row}:F{first_row + len(padded) - 1}"
         log.info(f"Replacing existing {existing_count} rows at {range_str} "
                  f"with {len(new_values)} data rows + {blanks_needed} blanks")
@@ -777,7 +784,7 @@ def build_dashboard_json(sheets):
     # ── Load Fog City Sales ───────────────────────────────────────────────────
     result = sheets.values().get(
         spreadsheetId=SPREADSHEET_ID,
-        range=f"'{FOG_CITY_TAB}'!A1:F25000",
+        range=f"'{FOG_CITY_TAB}'!A1:G25000",   # now includes col G = revenue
     ).execute()
     all_rows = result.get("values", [])
 
@@ -826,8 +833,14 @@ def build_dashboard_json(sheets):
         key = f"{year_val}|{source}"
         if key not in source_groups:
             s, e = parse_source_dates(source, year_val)
-            source_groups[key] = {'start': s, 'end': e, 'skus': _dd(int)}
+            source_groups[key] = {'start': s, 'end': e, 'skus': _dd(int), 'rev': _dd(float)}
         source_groups[key]['skus'][sku] += qty
+        # Revenue from col G
+        try:
+            rev_str = str(row[6]).replace("$", "").replace(",", "").strip() if len(row) > 6 else "0"
+            source_groups[key]['rev'][sku] += float(rev_str) if rev_str else 0.0
+        except (ValueError, AttributeError):
+            pass
 
     # Determine reference date
     valid = [(k, g) for k, g in source_groups.items() if g['end']]
@@ -839,21 +852,39 @@ def build_dashboard_json(sheets):
     # Windows
     window_10_start = ref_date - timedelta(days=9)
     prev_start      = ref_date - timedelta(days=30)
+    week_start      = ref_date - timedelta(days=6)   # last 7 days
+    month_start     = ref_date.replace(day=1)         # current month
+    ytd_start       = ref_date.replace(month=1, day=1) # year to date
 
-    recent_10 = _dd(float)
-    prev_20   = _dd(float)
+    recent_10  = _dd(float)
+    prev_20    = _dd(float)
+    rev_10     = _dd(float)   # revenue last 10 days
+    rev_week   = _dd(float)   # revenue last 7 days
+    rev_month  = _dd(float)   # revenue current month
+    rev_ytd    = _dd(float)   # revenue year to date
+    rev_today  = _dd(float)   # revenue today (ref_date only)
 
     for _, g in valid:
         s, e = g['start'], g['end']
         span = max((e - s).days + 1, 1)
 
-        if e >= window_10_start and s <= ref_date:
-            ol_s = max(s, window_10_start)
-            ol_e = min(e, ref_date)
-            ratio = ((ol_e - ol_s).days + 1) / span
-            for sku, qty in g['skus'].items():
-                recent_10[sku] += qty * ratio
+        def add_window(bucket_qty, bucket_rev, win_s, win_e):
+            if e >= win_s and s <= win_e:
+                ol_s = max(s, win_s)
+                ol_e = min(e, win_e)
+                ratio = ((ol_e - ol_s).days + 1) / span
+                for sku, qty in g['skus'].items():
+                    bucket_qty[sku] += qty * ratio
+                for sku, rev in g['rev'].items():
+                    bucket_rev[sku] += rev * ratio
 
+        add_window(recent_10, rev_10,    window_10_start, ref_date)
+        add_window(_dd(float), rev_week,  week_start,       ref_date)
+        add_window(_dd(float), rev_month, month_start,      ref_date)
+        add_window(_dd(float), rev_ytd,   ytd_start,        ref_date)
+        add_window(_dd(float), rev_today, ref_date,         ref_date)
+
+        # Prev 20 days for trend comparison
         if e >= prev_start and s < window_10_start:
             ol_s = max(s, prev_start)
             ol_e = min(e, window_10_start - timedelta(days=1))
@@ -907,6 +938,12 @@ def build_dashboard_json(sheets):
         "updated":      ref_date.strftime("%-B %-d, %Y"),
         "period_label": period_label,
         "total_units":  round(sum(v for _, v in top10)),
+        "revenue": {
+            "today":   round(sum(rev_today.values()),  2),
+            "weekly":  round(sum(rev_week.values()),   2),
+            "monthly": round(sum(rev_month.values()),  2),
+            "ytd":     round(sum(rev_ytd.values()),    2),
+        },
         "top10": [
             {"name": display_name(sku), "qty": round(qty)}
             for sku, qty in top10
