@@ -756,16 +756,31 @@ def build_dashboard_json(sheets):
     """
     Read the last 30 days of Fog City Sales data from the sheet,
     compute top 10 items and hot/cold trends, write data.json.
+    Aggregates by SKU (source of truth) and maps to display names
+    from the Inventory Summary tab so naming is always consistent.
     """
     log.info("Building dashboard JSON…")
 
+    # ── Load Inventory Summary: SKU → display name ────────────────────────────
+    inv_result = sheets.values().get(
+        spreadsheetId=SPREADSHEET_ID,
+        range="'Inventory Summary'!B:E",
+    ).execute()
+    sku_to_name = {}   # SKU → clean display name
+    for row in inv_result.get("values", [])[1:]:
+        if len(row) >= 4:
+            item_name = str(row[0]).strip()
+            sku       = str(row[3]).strip()
+            if sku and item_name:
+                sku_to_name[sku.upper()] = item_name
+
+    # ── Load Fog City Sales ───────────────────────────────────────────────────
     result = sheets.values().get(
         spreadsheetId=SPREADSHEET_ID,
         range=f"'{FOG_CITY_TAB}'!A1:F25000",
     ).execute()
     all_rows = result.get("values", [])
 
-    # Parse each row: A=Month, B=Year, C=Item, D=SKU, E=Qty, F=Source
     import re as _re
     from collections import defaultdict as _dd
 
@@ -782,7 +797,7 @@ def build_dashboard_json(sheets):
         except Exception:
             return None, None
 
-    # Group rows by source label
+    # Group rows by source label, keyed by SKU
     source_groups = {}
     for row in all_rows[1:]:
         if len(row) < 6:
@@ -793,21 +808,28 @@ def build_dashboard_json(sheets):
             year_val = 0
         if year_val < 2025:
             continue
-        item   = str(row[2]).strip() if row[2] else ''
+        item_name = str(row[2]).strip() if row[2] else ''
+        sku_raw   = str(row[3]).strip() if len(row) > 3 and row[3] else ''
         try:
             qty = int(float(row[4])) if row[4] else 0
         except Exception:
             qty = 0
         source = str(row[5]).strip() if row[5] else ''
-        if not item or not source or qty <= 0:
+        if not source or qty <= 0:
             continue
+
+        # Resolve SKU: use what's in the sheet, fall back to normalizing the name
+        sku = sku_raw.upper() if sku_raw else find_sku(item_name, {}).upper()
+        if not sku:
+            sku = normalize(item_name).upper()  # last resort key
+
         key = f"{year_val}|{source}"
         if key not in source_groups:
             s, e = parse_source_dates(source, year_val)
-            source_groups[key] = {'start': s, 'end': e, 'items': _dd(int)}
-        source_groups[key]['items'][item] += qty
+            source_groups[key] = {'start': s, 'end': e, 'skus': _dd(int)}
+        source_groups[key]['skus'][sku] += qty
 
-    # Determine reference date = latest end date in the sheet
+    # Determine reference date
     valid = [(k, g) for k, g in source_groups.items() if g['end']]
     if not valid:
         log.warning("No dated source groups found — skipping dashboard JSON.")
@@ -815,89 +837,52 @@ def build_dashboard_json(sheets):
     ref_date = max(g['end'] for _, g in valid)
 
     # Windows
-    window_10_start = ref_date - timedelta(days=9)   # last 10 days
-    window_30_start = ref_date - timedelta(days=29)  # last 30 days
-    prev_start      = ref_date - timedelta(days=30)  # day 11–30 (prior 20 days)
+    window_10_start = ref_date - timedelta(days=9)
+    prev_start      = ref_date - timedelta(days=30)
 
     recent_10 = _dd(float)
-    recent_30 = _dd(float)
     prev_20   = _dd(float)
 
     for _, g in valid:
         s, e = g['start'], g['end']
         span = max((e - s).days + 1, 1)
 
-        # Last 10 days
         if e >= window_10_start and s <= ref_date:
             ol_s = max(s, window_10_start)
             ol_e = min(e, ref_date)
             ratio = ((ol_e - ol_s).days + 1) / span
-            for item, qty in g['items'].items():
-                recent_10[item] += qty * ratio
+            for sku, qty in g['skus'].items():
+                recent_10[sku] += qty * ratio
 
-        # Last 30 days
-        if e >= window_30_start and s <= ref_date:
-            ol_s = max(s, window_30_start)
-            ol_e = min(e, ref_date)
-            ratio = ((ol_e - ol_s).days + 1) / span
-            for item, qty in g['items'].items():
-                recent_30[item] += qty * ratio
-
-        # Prior 20 days (days 11–30)
         if e >= prev_start and s < window_10_start:
             ol_s = max(s, prev_start)
             ol_e = min(e, window_10_start - timedelta(days=1))
             if ol_e >= ol_s:
                 ratio = ((ol_e - ol_s).days + 1) / span
-                for item, qty in g['items'].items():
-                    prev_20[item] += qty * ratio
+                for sku, qty in g['skus'].items():
+                    prev_20[sku] += qty * ratio
 
-    # Normalize to daily rates
     def daily(d, days):
         return {k: v / days for k, v in d.items()}
 
-    rate_10 = daily(recent_10, 10)
-    rate_20 = daily(prev_20, 20)
+    rt10 = daily(recent_10, 10)
+    rt20 = daily(prev_20,   20)
 
-    # Clean up verbose Ricochet product name prefixes
-    prefixes = [
-        'Art By Aleisha Magnets - ', 'Art by Aleisha Magnets - ',
-        'Art By Aleisha Stickers - ', 'Art by Aleisha Stickers - ',
-        'Art by Aleisha Keychains - ', 'Art By Aleisha Keychains - ',
-        'Pencil Pouches - ', 'Art By Aleisha Postcards - ',
-        'Art by Aleisha Postcards - ', 'Art By Aleisha Cards - ',
-        'Art by Aleisha Cards - ', 'Art By Aleisha Tea Towels - ',
-        'Art by Aleisha Tea Towels - ', 'Art By Aleisha Hats - ',
-        'Art by Aleisha Hats - ',
-    ]
-
-    def clean(name):
-        for p in prefixes:
-            name = name.replace(p, '')
-        return name.strip()
-
-    def merge_canonical(d):
-        out = _dd(float)
-        for k, v in d.items():
-            out[clean(normalize(k))] += v
-        return out
-
-    r10 = merge_canonical(recent_10)
-    p20 = merge_canonical(prev_20)
-    rt10 = daily(r10, 10)
-    rt20 = daily(p20, 20)
+    def display_name(sku):
+        """Return the clean product name for a SKU from Inventory Summary."""
+        return sku_to_name.get(sku.upper(), sku)  # fall back to SKU itself if not found
 
     # Top 10 by recent 10-day qty
-    top10 = sorted(r10.items(), key=lambda x: -x[1])[:10]
+    top10 = sorted(recent_10.items(), key=lambda x: -x[1])[:10]
 
     # Trends
-    all_items = set(list(rt10.keys()) + list(rt20.keys()))
+    all_skus = set(list(rt10.keys()) + list(rt20.keys()))
     trends = {}
-    for item in all_items:
-        rr = rt10.get(item, 0)
-        rp = rt20.get(item, 0)
-        qr = r10.get(item, 0)
-        qp = p20.get(item, 0)
+    for sku in all_skus:
+        rr = rt10.get(sku, 0)
+        rp = rt20.get(sku, 0)
+        qr = recent_10.get(sku, 0)
+        qp = prev_20.get(sku, 0)
         if qr < 2 and qp < 2:
             continue
         if rp > 0.01:
@@ -906,9 +891,9 @@ def build_dashboard_json(sheets):
             pct = 150
         else:
             pct = 0
-        trends[item] = {'pct': pct, 'qty_r': qr, 'qty_p': qp}
+        trends[sku] = {'pct': pct, 'qty_r': qr, 'qty_p': qp}
 
-    hot  = sorted([(k, v) for k, v in trends.items() if v['pct'] >= 50 and v['qty_r'] >= 2],
+    hot  = sorted([(k, v) for k, v in trends.items() if v['pct'] >= 50  and v['qty_r'] >= 2],
                   key=lambda x: -x[1]['pct'])[:6]
     cold = sorted([(k, v) for k, v in trends.items() if v['pct'] <= -50 and v['qty_p'] >= 3],
                   key=lambda x: x[1]['pct'])[:6]
@@ -923,34 +908,32 @@ def build_dashboard_json(sheets):
         "period_label": period_label,
         "total_units":  round(sum(v for _, v in top10)),
         "top10": [
-            {"name": clean(normalize(k)), "qty": round(v)}
-            for k, v in top10
+            {"name": display_name(sku), "qty": round(qty)}
+            for sku, qty in top10
         ],
         "hot": [
             {
-                "name":       k,
+                "name":       display_name(sku),
                 "qty_recent": round(v['qty_r']),
                 "qty_prev":   round(v['qty_p']),
                 "pct":        round(v['pct']),
             }
-            for k, v in hot
+            for sku, v in hot
         ],
         "cold": [
             {
-                "name":       k,
+                "name":       display_name(sku),
                 "qty_recent": round(v['qty_r']),
                 "qty_prev":   round(v['qty_p']),
                 "pct":        round(v['pct']),
             }
-            for k, v in cold
+            for sku, v in cold
         ],
     }
 
     with open("data.json", "w") as f:
         json.dump(data, f, indent=2)
 
-    log.info(f"✅ data.json written — top10: {len(top10)} items, "
-             f"hot: {len(hot)}, cold: {len(cold)}")
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
