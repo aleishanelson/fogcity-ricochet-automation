@@ -179,9 +179,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "golden gate bridge sticker (pink)":             "GGBRIDGE_PINK_STICKER",
         "golden gate sticker (pink)":                    "GGBRIDGE_PINK_STICKER",
         "gg bridge sticker (pink)":                      "GGBRIDGE_PINK_STICKER",
-        "golden gate travel sticker":                    "GOLDENGATETRAVELPOSTER_STICKER",
-        "golden gate bridge travel sticker":             "GOLDENGATETRAVELPOSTER_STICKER",
-        "gg travel sticker":                             "GOLDENGATETRAVELPOSTER_STICKER",
+
         "retro golden gate bridge poster sticker":       "RETRO_GGB_STICKER",
         "retro golden gate poster sticker":              "RETRO_GGB_STICKER",
         "retro gg poster sticker":                       "RETRO_GGB_STICKER",
@@ -253,12 +251,37 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "home sweet home sticker":                       "HOMESWEETSANFRANCISCO_STICKER",
         "home sweet sf tote":                            "TOTE_HOMESWEETSF",
         "home sweet home tote":                          "TOTE_HOMESWEETSF",
-        "golden gate travel poster - 8x10":              "GOLDENGATETRAVELPOSTER_8x10",
-        "golden gate bridge travel poster - 8x10":       "GOLDENGATETRAVELPOSTER_8x10",
-        "gg travel poster - 8x10":                       "GOLDENGATETRAVELPOSTER_8x10",
-        "golden gate travel poster - 11x14":             "GOLDENGATETRAVELPOSTER_11x14",
-        "golden gate bridge travel poster - 11x14":      "GOLDENGATETRAVELPOSTER_11x14",
-        "gg travel poster - 11x14":                      "GOLDENGATETRAVELPOSTER_11x14",
+        # GG Travel Poster PRINTS (Landmark category, GOLDENGATE_TRAVELPOSTER_*)
+        "golden gate travel poster 8x10":                "GOLDENGATE_TRAVELPOSTER_8x10",
+        "golden gate travel poster (new version) 8x10":  "GOLDENGATE_TRAVELPOSTER_8x10",
+        "golden gate travel poster - 8x10":              "GOLDENGATE_TRAVELPOSTER_8x10",
+        "golden gate bridge travel poster 8x10":         "GOLDENGATE_TRAVELPOSTER_8x10",
+        "golden gate bridge travel poster - 8x10":       "GOLDENGATE_TRAVELPOSTER_8x10",
+        "8x10 golden gate travel poster":                "GOLDENGATE_TRAVELPOSTER_8x10",
+        "gg travel poster 8x10":                         "GOLDENGATE_TRAVELPOSTER_8x10",
+        "gg travel poster - 8x10":                       "GOLDENGATE_TRAVELPOSTER_8x10",
+        "golden gate travel poster 11x14":               "GOLDENGATE_TRAVELPOSTER_11x14",
+        "golden gate travel poster - 11x14":             "GOLDENGATE_TRAVELPOSTER_11x14",
+        "golden gate bridge travel poster 11x14":        "GOLDENGATE_TRAVELPOSTER_11x14",
+        "golden gate bridge travel poster - 11x14":      "GOLDENGATE_TRAVELPOSTER_11x14",
+        "gg travel poster 11x14":                        "GOLDENGATE_TRAVELPOSTER_11x14",
+        "gg travel poster - 11x14":                      "GOLDENGATE_TRAVELPOSTER_11x14",
+        "golden gate travel poster 12x16":               "GOLDENGATE_TRAVELPOSTER_12x16",
+        "golden gate travel poster - 12x16":             "GOLDENGATE_TRAVELPOSTER_12x16",
+        # GG Travel Poster MAGNET (separate SKU)
+        "golden gate travel poster magnet":              "MAGNET_GOLDENGATETRAVELPOSTER",
+        "golden gate bridge travel poster magnet":       "MAGNET_GOLDENGATETRAVELPOSTER",
+        "gg travel poster magnet":                       "MAGNET_GOLDENGATETRAVELPOSTER",
+        "golden gate travel (new version)":              "MAGNET_GOLDENGATETRAVELPOSTER",
+        # GG Travel Poster STICKER (separate SKU)
+        "golden gate travel sticker":                    "GOLDENGATETRAVELPOSTER_STICKER",
+        "golden gate bridge travel sticker":             "GOLDENGATETRAVELPOSTER_STICKER",
+        "golden gate travel":                            "GOLDENGATETRAVELPOSTER_STICKER",
+        "gg travel sticker":                             "GOLDENGATETRAVELPOSTER_STICKER",
+        # GG Travel Poster CARD (separate SKU — flag if not found)
+        "golden gate travel poster card":                "GGTRAVELPOSTER_GCARD",
+        "golden gate travel card":                       "GGTRAVELPOSTER_GCARD",
+        "gg travel poster card":                         "GGTRAVELPOSTER_GCARD",
         "ferry building travel poster - 8x10":           "FERRYBUILDINGTRAVELPOSTER_8x10",
         "ferry building travel poster - 11x14":          "FERRYBUILDINGTRAVELPOSTER_11x14",
         "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
@@ -415,6 +438,18 @@ def normalize(name: str) -> str:
         return 'Stickers- 3 for $11'
     if re.search(r'postcard.{0,15}11|11.{0,15}postcard|3.{0,5}for.{0,5}\$?11.{0,10}postcard|postcard.{0,10}3.{0,5}for', nl):
         return 'Postcards 3 for $11'
+
+    # GG Travel Poster PRINTS — must fire before magnet/sticker/card checks
+    if re.search(r'(gg|golden.?gate).{0,20}travel.{0,20}poster.{0,5}8x10|8x10.{0,20}(gg|golden.?gate).{0,20}travel', nl):
+        return 'Golden Gate Travel Poster 8x10'
+    if re.search(r'(gg|golden.?gate).{0,20}travel.{0,20}poster.{0,5}11x14|11x14.{0,20}(gg|golden.?gate).{0,20}travel', nl):
+        return 'Golden Gate Travel Poster 11x14'
+    if re.search(r'(gg|golden.?gate).{0,20}travel.{0,20}poster.{0,5}12x16', nl):
+        return 'Golden Gate Travel Poster 12x16'
+
+    # GG Travel Poster CARD
+    if re.search(r'(gg|golden.?gate).{0,15}travel.{0,5}(poster.{0,5})?card', nl):
+        return 'Golden Gate Travel Poster Card'
 
     # Retro GG / GG Travel Poster magnets
     if re.search(r'retro.{0,8}(gg|golden.?gate).{0,20}(magnet|magent)', nl):
