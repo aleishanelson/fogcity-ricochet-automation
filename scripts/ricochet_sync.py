@@ -279,9 +279,9 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "golden gate travel":                            "GOLDENGATETRAVELPOSTER_STICKER",
         "gg travel sticker":                             "GOLDENGATETRAVELPOSTER_STICKER",
         # GG Travel Poster CARD (separate SKU — flag if not found)
-        "golden gate travel poster card":                "GGTRAVELPOSTER_GCARD",
-        "golden gate travel card":                       "GGTRAVELPOSTER_GCARD",
-        "gg travel poster card":                         "GGTRAVELPOSTER_GCARD",
+        "golden gate travel poster card":                "GOLDENGATETRAVELPOSTER_A2CARD",
+        "golden gate travel card":                       "GOLDENGATETRAVELPOSTER_A2CARD",
+        "gg travel poster card":                         "GOLDENGATETRAVELPOSTER_A2CARD",
         "ferry building travel poster - 8x10":           "FERRYBUILDINGTRAVELPOSTER_8x10",
         "ferry building travel poster - 11x14":          "FERRYBUILDINGTRAVELPOSTER_11x14",
         "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
