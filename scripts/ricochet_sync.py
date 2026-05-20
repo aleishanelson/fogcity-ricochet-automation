@@ -134,8 +134,12 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "acrylic ferry building magnet":                 "MAG-AC-SF-FERRYB",
         "ferry building acrylic die cut magnet":         "MAG-AC-SF-FERRYB",
         "acrylic golden gate bridge magnet":             "MAG-AC-SF-GGB",
+        "acrylic golden gate magnet":                    "MAG-AC-SF-GGB",
+        "acrylic gg magnet":                             "MAG-AC-SF-GGB",
         "golden gate acrylic die cut magnet":            "MAG-AC-SF-GGB",
         "golden gate bridge acrylic":                    "MAG-AC-SF-GGB",
+        "gg acrylic die cut magnet":                     "MAG-AC-SF-GGB",
+        "golden gate bridge acrylic die cut magnet":     "MAG-AC-SF-GGB",
         "acrylic painted ladies magnet":                 "MAG-AC-SF-PLADIES-CL",
         "acrylic painted ladies":                        "MAG-AC-SF-PLADIES-CL",
         "acrylic sf houses magnet":                      "MAG-AC-SF-HOUSES",
@@ -146,6 +150,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "retro gg travel poster magnet":                 "MAG-SF-RETRO-GGB",
         "retrogg bridge travel poster magent":           "MAG-SF-RETRO-GGB",
         "retro golden gate bridge poster magnet":        "MAG-SF-RETRO-GGB",
+        "retro golden gate poster magnet":               "MAG-SF-RETRO-GGB",
         "retro ferry building poster magnet":            "MAG-SF-RETRO-FB",
         "retro painted ladies poster magnet":            "MAG-SF-RETRO-PL",
         "ferry building travel poster magnet":           "FERRYBUILDINGTRAVELPOSTER_MAGNET",
@@ -167,12 +172,20 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "stickers- 3 for $11":                          "STICKERS_3FOR11",
         "3 for 11":                                     "STICKERS_3FOR11",
         "golden gate bridge sticker (pink)":             "GGBRIDGE_PINK_STICKER",
+        "golden gate sticker (pink)":                    "GGBRIDGE_PINK_STICKER",
+        "gg bridge sticker (pink)":                      "GGBRIDGE_PINK_STICKER",
         "golden gate travel sticker":                    "GOLDENGATETRAVELPOSTER_STICKER",
+        "golden gate bridge travel sticker":             "GOLDENGATETRAVELPOSTER_STICKER",
+        "gg travel sticker":                             "GOLDENGATETRAVELPOSTER_STICKER",
         "retro golden gate bridge poster sticker":       "RETRO_GGB_STICKER",
+        "retro golden gate poster sticker":              "RETRO_GGB_STICKER",
+        "retro gg poster sticker":                       "RETRO_GGB_STICKER",
         "retro sf ferry building poster sticker":        "RETROSFFERRYBUILDING_STICKER",
         "illustrated fisherman's wharf sticker":         "FW_ILLUSTRATED_STICKER",
         "fisherman's wharf sticker":                     "FW_ILLUSTRATED_STICKER",
         "illustrated golden gate bridge sticker":        "GGB_ILLUSTRATED_STICKER",
+        "illustrated golden gate sticker":               "GGB_ILLUSTRATED_STICKER",
+        "illustrated gg sticker":                        "GGB_ILLUSTRATED_STICKER",
         "illustrated ferry building sticker":            "FB_ILLUSTRATED_STICKER",
         "sf landmark sticker sheet":                     "SS-SF-LDMKS",
         "san francisco landmark sticker sheet":          "SS-SF-LDMKS",
@@ -222,12 +235,25 @@ def find_sku(item_name: str, lookup: dict) -> str:
         # Prints (common mismatches seen in Fog City Sales)
         "home sweet san francisco art print 8x8":        "HOMESWEETSF_8x8",
         "home sweet home 8x8":                           "HOMESWEETSF_8x8",
+        "home sweet sf art print 8x8":                   "HOMESWEETSF_8x8",
         "home sweet san francisco art print 8x10":       "HOMESWEETSF_8x10",
         "home sweet home 8x10":                          "HOMESWEETSF_8x10",
+        "home sweet sf art print 8x10":                  "HOMESWEETSF_8x10",
         "home sweet san francisco art print 11x15":      "HOMESWEETSF_11x15",
         "home sweet home 11x15":                         "HOMESWEETSF_11x15",
+        "home sweet sf art print 11x15":                 "HOMESWEETSF_11x15",
+        "home sweet sf magnet":                          "MAGNET_HOMESWEETSF",
+        "home sweet home magnet":                        "MAGNET_HOMESWEETSF",
+        "home sweet sf sticker":                         "HOMESWEETSANFRANCISCO_STICKER",
+        "home sweet home sticker":                       "HOMESWEETSANFRANCISCO_STICKER",
+        "home sweet sf tote":                            "TOTE_HOMESWEETSF",
+        "home sweet home tote":                          "TOTE_HOMESWEETSF",
         "golden gate travel poster - 8x10":              "GOLDENGATETRAVELPOSTER_8x10",
+        "golden gate bridge travel poster - 8x10":       "GOLDENGATETRAVELPOSTER_8x10",
+        "gg travel poster - 8x10":                       "GOLDENGATETRAVELPOSTER_8x10",
         "golden gate travel poster - 11x14":             "GOLDENGATETRAVELPOSTER_11x14",
+        "golden gate bridge travel poster - 11x14":      "GOLDENGATETRAVELPOSTER_11x14",
+        "gg travel poster - 11x14":                      "GOLDENGATETRAVELPOSTER_11x14",
         "ferry building travel poster - 8x10":           "FERRYBUILDINGTRAVELPOSTER_8x10",
         "ferry building travel poster - 11x14":          "FERRYBUILDINGTRAVELPOSTER_11x14",
         "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
@@ -386,15 +412,15 @@ def normalize(name: str) -> str:
         return 'Postcards 3 for $11'
 
     # Retro GG / GG Travel Poster magnets
-    if re.search(r'retro.{0,8}(gg|golden gate).{0,20}(magnet|magent)', nl):
+    if re.search(r'retro.{0,8}(gg|golden.?gate).{0,20}(magnet|magent)', nl):
         return 'Retro GG Travel Poster magnet'
-    if re.search(r'(gg|golden gate).{0,10}travel.{0,10}(poster.{0,5})?magnet', nl):
+    if re.search(r'(gg|golden.?gate).{0,10}travel.{0,10}(poster.{0,5})?magnet', nl):
         return 'Golden Gate Travel Poster Magnet'
 
     # Retro GG / GG Travel Poster stickers
-    if re.search(r'retro.{0,8}(gg|golden gate).{0,20}(poster.{0,5})?sticker', nl):
+    if re.search(r'retro.{0,8}(gg|golden.?gate).{0,20}(poster.{0,5})?sticker', nl):
         return 'Retro Golden Gate Bridge Poster Sticker'
-    if re.search(r'(gg|golden gate).{0,10}travel.{0,10}(poster.{0,5})?sticker', nl):
+    if re.search(r'(gg|golden.?gate).{0,10}travel.{0,10}(poster.{0,5})?sticker', nl):
         return 'Golden Gate Travel Poster Sticker'
 
     # Ferry Building magnets / sticker
