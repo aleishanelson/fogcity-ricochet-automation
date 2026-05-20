@@ -108,26 +108,126 @@ def find_sku(item_name: str, lookup: dict) -> str:
         if key in lookup_name or lookup_name in key:
             return sku
 
-    # Hardcoded overrides for items missing from Inventory Summary
+    # Hardcoded overrides: items missing from or mismatched in Inventory Summary
     OVERRIDES = {
+        # Postcards
         "alcatraz island postcard":                      "ALCATRAZ_RETRO_PC",
-        "fishermans wharf acrylic die cut magnet":       "MAG-AC-SF-FW",
+        "alcatraz island retro postcard":                "ALCATRAZ_RETRO_PC",
         "fishermans wharf sf postcard":                  "FISHERMANSWHARF_RETRO_PC",
-        "fisherman's wharf sticker":                     "FW_ILLUSTRATED_STICKER",
+        "fisherman's wharf retro postcard":              "FISHERMANSWHARF_RETRO_PC",
+        "ferry building retro postcard":                 "FERRYBUILDING_RETRO_PC",
+        "lombard street retro postcard":                 "LOMBARDST_RETRO_PC",
+        "painted ladies retro postcard":                 "PAINTEDLADIES_RETRO_PC",
+        "pink icons postcard":                           "SFICONS_POSTCARD_PINK",
+        "art by aleisha postcards - pink":               "SFICONS_POSTCARD_PINK",
+        "sf blue icons postcard":                        "SFICONS_BLUE_4x6",
+        "blue icons postcard":                           "SFICONS_BLUE_4x6",
+        "golden gate bridge retro postcard":             "SFGGBRIDGE_RETRO_PCARD",
+        "san francisco golden gate bridge retro postcard": "SFGGBRIDGE_RETRO_PCARD",
+        "postcards 3 for $11":                           "postcards3for11",
+        "postcards- 3 for $11":                          "postcards3for11",
+        # Magnets
+        "acrylic fishermans wharf magnet":               "MAG-AC-SF-FW",
+        "acrylic fishermans wharf":                      "MAG-AC-SF-FW",
+        "fishermans wharf acrylic die cut magnet":       "MAG-AC-SF-FW",
+        "acrylic fisherman's wharf magnet":              "MAG-AC-SF-FW",
+        "acrylic ferry building magnet":                 "MAG-AC-SF-FERRYB",
+        "ferry building acrylic die cut magnet":         "MAG-AC-SF-FERRYB",
+        "acrylic golden gate bridge magnet":             "MAG-AC-SF-GGB",
         "golden gate acrylic die cut magnet":            "MAG-AC-SF-GGB",
         "golden gate bridge acrylic":                    "MAG-AC-SF-GGB",
-        "golden gate bridge sticker (pink)":             "GGBRIDGE_PINK_STICKER",
+        "acrylic painted ladies magnet":                 "MAG-AC-SF-PLADIES-CL",
+        "acrylic painted ladies":                        "MAG-AC-SF-PLADIES-CL",
+        "acrylic sf houses magnet":                      "MAG-AC-SF-HOUSES",
+        "sf house acrylic magnet":                       "MAG-AC-SF-HOUSES",
+        "acrylic sfo luggage tag":                       "MAG-AC-SF-SFO",
         "home sweet sf magnet":                          "MAGNET_HOMESWEETSF",
-        "i love you more than a":                        "LOVEYOUMORETHANSUNNYSF_A2CARD",
+        "home sweet home magnet":                        "MAGNET_HOMESWEETSF",
         "retro gg travel poster magnet":                 "MAG-SF-RETRO-GGB",
         "retrogg bridge travel poster magent":           "MAG-SF-RETRO-GGB",
-        "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
-        "sf house acrylic magnet":                       "MAG-AC-SF-HOUSES",
-        "sf icon tote":                                  "SFICONS_TOTE",
+        "retro golden gate bridge poster magnet":        "MAG-SF-RETRO-GGB",
+        "retro ferry building poster magnet":            "MAG-SF-RETRO-FB",
+        "retro painted ladies poster magnet":            "MAG-SF-RETRO-PL",
+        "ferry building travel poster magnet":           "FERRYBUILDINGTRAVELPOSTER_MAGNET",
+        "ferry building":                                "FERRYBUILDINGTRAVELPOSTER_MAGNET",
+        "sf illustrated landmarks magnet":               "MAG-SF-LDMKS",
         "sf landmark magnet":                            "MAG-SF-LDMKS",
-        "stanford campus map print 8x10":               "STANFORD_BW_8x10",
+        "sf illustrated landmark":                       "MAG-SF-LDMKS",
+        "sf pink icons magnet":                          "MAG-SF-PINKICONS",
+        "sf block font magnet":                          "MAG-SF-BLOCKFONT",
+        "cable car magnet":                              "MAG-SF-CABLECAR",
+        "yellow cable car magnet":                       "MAG-SF-CABLECAR",
+        "take the scenic route magnet":                  "TAKETHESCENICROUTE_49MILE_MAGNET",
+        "sfo luggage tag magnet":                        "SFO_LUGGAGETAG_MAGNET",
+        "vintage sfo luggage tag magnet":                "SFO_LUGGAGETAG_MAGNET",
+        "pink city by the bay circle magnet":            "MAGNET_SFCITYBYTHEBAY_PINK",
+        "city by the bay local notion magnet":           "MAGNET_SFCITYBYTHEBAY_LOCALNOTION",
+        # Stickers
+        "stickers 3 for $11":                           "STICKERS_3FOR11",
+        "stickers- 3 for $11":                          "STICKERS_3FOR11",
+        "3 for 11":                                     "STICKERS_3FOR11",
+        "golden gate bridge sticker (pink)":             "GGBRIDGE_PINK_STICKER",
+        "golden gate travel sticker":                    "GOLDENGATETRAVELPOSTER_STICKER",
+        "retro golden gate bridge poster sticker":       "RETRO_GGB_STICKER",
+        "retro sf ferry building poster sticker":        "RETROSFFERRYBUILDING_STICKER",
+        "illustrated fisherman's wharf sticker":         "FW_ILLUSTRATED_STICKER",
+        "fisherman's wharf sticker":                     "FW_ILLUSTRATED_STICKER",
+        "illustrated golden gate bridge sticker":        "GGB_ILLUSTRATED_STICKER",
+        "illustrated ferry building sticker":            "FB_ILLUSTRATED_STICKER",
+        "sf landmark sticker sheet":                     "SS-SF-LDMKS",
+        "san francisco landmark sticker sheet":          "SS-SF-LDMKS",
+        "sf map sticker":                                "SFMAP_STICKER",
+        "sf city name sticker":                          "SFCITYNAME_STICKER",
+        "sf pennant sticker":                            "SFPENNANT_STICKER",
+        "home sweet home sticker":                       "HOMESWEETSANFRANCISCO_STICKER",
+        "west coast best coast sticker":                 "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+        "proud tourist sticker":                         "PROUDTOURIST_STICKER",
+        "bon voyage sticker":                            "BONVOYAGE_STICKER",
+        "i come with baggage sticker":                   "ICOMEWITHBAGGAGE_STICKER",
+        "pink sf city by the bay circle sticker":        "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
+        # Totes
+        "sf icons tote":                                 "SFICONS_TOTE",
+        "sf icon tote":                                  "SFICONS_TOTE",
+        "san francisco icons tote":                      "SFICONS_TOTE",
+        "sf city name tote":                             "SF_BLOCKFONT_TOTE",
+        "home sweet home tote":                          "TOTE_HOMESWEETSF",
+        "sf map tote":                                   "SF_MAP_TOTE",
+        # Keychains
+        "sfo luggage tag keychain":                      "KC-SFO-LUGGAGETAG",
+        "acrylic keychain":                              "KC-SFO-LUGGAGETAG",
+        # Cards
+        "sunny and 75 in sf card":                       "LOVEYOUMORETHANSUNNYSF_A2CARD",
+        "sunny and 75 sf card":                          "LOVEYOUMORETHANSUNNYSF_A2CARD",
+        "i love you more than a":                        "LOVEYOUMORETHANSUNNYSF_A2CARD",
         "twist and turn card":                           "TWISTSANDTURNS_GCARD",
+        "thru twists and turns card":                    "TWISTSANDTURNS_GCARD",
+        "twists and turns greeting card":                "TWISTSANDTURNS_GCARD",
         "window seat card":                              "WINDOWSEAT_A2_GREETINGCARD",
+        "art by aleisha cards":                          "WINDOWSEAT_A2_GREETINGCARD",  # flag
+        # Pencil Pouches
+        "sf icons pencil pouch - natural":               "pp-sf-cn-02",
+        "sf icons pencil pouch - blue":                  "PP-SF-CB-01",
+        "pencil pouches - sf icons pencil pouch - blue": "PP-SF-CB-01",
+        # Tea Towels
+        "uc berkeley tea towels":                        "TT-CAMPUS-BERKELEY",
+        "uc berkeley tea towel":                         "TT-CAMPUS-BERKELEY",
+        "uc santa barbara tea towel":                    "TT-CAMPUS-SANTABARBARA",
+        "ucla tea towels":                               "TT-CAMPUS-UCLA",
+        "lake tahoe tea towel":                          "TT-LAKETAHOE",
+        "cal poly slo tea towel":                        "TT-CAMPUS-CALPOLYSLO",
+        "san francisco map tea towel":                   "SANFRANCISCO_MAP_DISHTOWEL",
+        "bay area tea towel":                            "BAYAREA_MAP_TEATOWEL",
+        "state of california tea towel":                 "STATEOFCALIFORNIA_MAP_TEATOWEL",
+        "santa clara university tea towel":              "TT-CAMPUS-SANTACLARA",
+        # Prints (common mismatches seen in Fog City Sales)
+        "home sweet san francisco art print 8x8":        "SF_HP_8x8",
+        "home sweet san francisco art print 8x10":       "SF_HP_8x10",
+        "golden gate travel poster - 8x10":              "GOLDENGATETRAVELPOSTER_8x10",
+        "golden gate travel poster - 11x14":             "GOLDENGATETRAVELPOSTER_11x14",
+        "ferry building travel poster - 8x10":           "FERRYBUILDINGTRAVELPOSTER_8x10",
+        "ferry building travel poster - 11x14":          "FERRYBUILDINGTRAVELPOSTER_11x14",
+        "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
+        "stanford campus map print 8x10":               "STANFORD_BW_8x10",
     }
     if key in OVERRIDES:
         return OVERRIDES[key]
@@ -503,18 +603,21 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
     month_name = YESTERDAY.strftime("%B")
     year       = YESTERDAY.year
 
-    def resolve_sku(item_name: str, ricochet_sku: str) -> str:
-        """Use spreadsheet SKU if found, fall back to Ricochet SKU."""
+    def resolve_sku(item_name: str, ricochet_sku: str) -> tuple[str, bool]:
+        """Return (sku, needs_review). needs_review=True means no match found."""
         if sku_lookup:
             sheet_sku = find_sku(item_name, sku_lookup)
             if sheet_sku:
-                return sheet_sku
-        return ricochet_sku
+                return sheet_sku, False
+        return ricochet_sku, True  # fell back to Ricochet SKU — flag for review
 
-    new_values = [
-        [month_name, year, m["item"], resolve_sku(m["item"], m["sku"]), m["qty"], date_range_label]
-        for m in merged
-    ]
+    rows_needing_review = []
+    new_values = []
+    for i, m in enumerate(merged):
+        sku, needs_review = resolve_sku(m["item"], m["sku"])
+        new_values.append([month_name, year, m["item"], sku, m["qty"], date_range_label])
+        if needs_review:
+            rows_needing_review.append(i)
 
     if first_row is not None:
         # Replace the existing block in place, padding with blanks if needed
@@ -545,6 +648,36 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
 
     log.info(f"✅ Sheet updated — {len(merged)} items, "
              f"{sum(m['qty'] for m in merged)} total units written.")
+
+    # Yellow-highlight any rows where SKU couldn't be matched (needs manual review)
+    if rows_needing_review:
+        start_row = first_row if first_row else append_row
+        yellow = {"red": 1.0, "green": 0.95, "blue": 0.0}
+        requests = []
+        for i in rows_needing_review:
+            row_idx = start_row + i - 1  # 0-indexed for batchUpdate
+            requests.append({
+                "repeatCell": {
+                    "range": {
+                        "sheetId": 1018380031,  # Fog City Sales gid
+                        "startRowIndex": row_idx,
+                        "endRowIndex":   row_idx + 1,
+                        "startColumnIndex": 0,
+                        "endColumnIndex":   6,
+                    },
+                    "cell": {
+                        "userEnteredFormat": {
+                            "backgroundColor": yellow
+                        }
+                    },
+                    "fields": "userEnteredFormat.backgroundColor",
+                }
+            })
+        sheets.batchUpdate(
+            spreadsheetId=SPREADSHEET_ID,
+            body={"requests": requests},
+        ).execute()
+        log.warning(f"⚠️  {len(rows_needing_review)} rows highlighted yellow — SKU not matched, needs review.")
 
 
 # ── Dashboard JSON export ─────────────────────────────────────────────────────
