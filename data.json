@@ -1,38 +1,34 @@
 {
   "updated": "May 19, 2026",
   "period_label": "5/10 \u2013 5/19, 2026",
-  "total_units": 187,
+  "total_units": 174,
   "top10": [
     {
-      "name": "Stickers- 3 for $11",
-      "qty": 32
+      "name": "3 for $11",
+      "qty": 28
     },
     {
-      "name": "SF Illustrated Landmarks Magnet",
-      "qty": 24
+      "name": "SF Illustrated Landmark",
+      "qty": 27
     },
     {
-      "name": "Retro Ferry Building Poster Magnet",
-      "qty": 21
+      "name": "Golden Gate Travel (new version)",
+      "qty": 19
     },
     {
-      "name": "Golden Gate Acrylic Die Cut Magnet",
-      "qty": 20
+      "name": "3 for $11",
+      "qty": 19
     },
     {
-      "name": "Golden Gate Travel Poster Magnet",
-      "qty": 20
-    },
-    {
-      "name": "San Francisco Golden Gate Bridge Retro Postcard",
+      "name": "Retro Golden Gate Bridge Poster Magnet",
       "qty": 16
     },
     {
-      "name": "Retro GG Travel Poster magnet",
-      "qty": 15
+      "name": "Golden Gate Bridge Retro Postcard",
+      "qty": 16
     },
     {
-      "name": "Postcards 3 for $11",
+      "name": "ACRYLIC Golden Gate Bridge",
       "qty": 15
     },
     {
@@ -40,83 +36,87 @@
       "qty": 12
     },
     {
-      "name": "Illustrated Ferry Building Landmark Sticker",
-      "qty": 12
+      "name": "Ferry Building",
+      "qty": 11
+    },
+    {
+      "name": "ACRYLIC Ferry Building",
+      "qty": 11
     }
   ],
   "hot": [
     {
-      "name": "Bay Area Map Print 8x10",
-      "qty_recent": 4,
-      "qty_prev": 1,
-      "pct": 1589
-    },
-    {
-      "name": "Golden Gate Travel Poster 11x14",
-      "qty_recent": 4,
-      "qty_prev": 1,
-      "pct": 644
-    },
-    {
-      "name": "UC Berkeley CAMPUS Map Print 8x10",
+      "name": "UC Berkeley 8x10",
       "qty_recent": 3,
       "qty_prev": 1,
       "pct": 456
     },
     {
-      "name": "Illustrated Golden Gate Bridge Landmark Sticker",
-      "qty_recent": 8,
-      "qty_prev": 4,
-      "pct": 348
+      "name": "SF Fog Dad Hat - Light Blue",
+      "qty_recent": 2,
+      "qty_prev": 2,
+      "pct": 204
     },
     {
-      "name": "SF Map Sticker",
+      "name": "Ferry Building Travel Poster 11x14",
       "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 330
+      "qty_prev": 3,
+      "pct": 174
     },
     {
-      "name": "SF City Name With Golden Gate Sticker",
-      "qty_recent": 4,
-      "qty_prev": 2,
-      "pct": 267
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
+      "qty_recent": 2,
+      "qty_prev": 0,
+      "pct": 150
+    },
+    {
+      "name": "Illustrated Golden Gate Bridge Landmark",
+      "qty_recent": 5,
+      "qty_prev": 0,
+      "pct": 150
+    },
+    {
+      "name": "CALIFONIA STICKER",
+      "qty_recent": 2,
+      "qty_prev": 0,
+      "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "Bay Area Map Print - 8\"x10\"",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "California Map Print - 8\"x10\"",
+      "name": "State of California 8x10",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "SF Map",
+      "name": "3FOR11STICKERS",
       "qty_recent": 0,
-      "qty_prev": 10,
+      "qty_prev": 55,
       "pct": -100
     },
     {
-      "name": "Proud Tourist",
+      "name": "Ferry Building",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Blue",
+      "name": "Blue Victorian House Icon Keychain",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "Ferry Building Travel Poster - 8\"x10\"",
+      "name": "Golden Gate Icon Keychain",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "3FOR10POSTCARDS",
+      "qty_recent": 0,
+      "qty_prev": 33,
       "pct": -100
     }
   ]
