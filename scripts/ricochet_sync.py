@@ -701,7 +701,7 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
         existing_count = last_row - first_row + 1
         blanks_needed  = max(0, existing_count - len(new_values))
         padded         = new_values + [["", "", "", "", "", "", ""]] * blanks_needed
-        range_str      = f"'{FOG_CITY_TAB}'!A{first_row}:F{first_row + len(padded) - 1}"
+        range_str      = f"'{FOG_CITY_TAB}'!A{first_row}:G{first_row + len(padded) - 1}"
         log.info(f"Replacing existing {existing_count} rows at {range_str} "
                  f"with {len(new_values)} data rows + {blanks_needed} blanks")
     else:
@@ -713,7 +713,7 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
         last_occ   = len(result.get("values", []))
         append_row = last_occ + 1
         padded     = new_values
-        range_str  = f"'{FOG_CITY_TAB}'!A{append_row}:F{append_row + len(padded) - 1}"
+        range_str  = f"'{FOG_CITY_TAB}'!A{append_row}:G{append_row + len(padded) - 1}"
         log.info(f"Appending {len(new_values)} rows starting at row {append_row}")
 
     sheets.values().update(
@@ -740,7 +740,7 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
                         "startRowIndex": row_idx,
                         "endRowIndex":   row_idx + 1,
                         "startColumnIndex": 0,
-                        "endColumnIndex":   6,
+                        "endColumnIndex":   7,
                     },
                     "cell": {
                         "userEnteredFormat": {

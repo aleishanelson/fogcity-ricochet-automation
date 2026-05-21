@@ -29,7 +29,7 @@ FOG_CITY_TAB   = "Fog City Sales"
 # May 18 only
 TARGET_DATE    = date(2026, 5, 18)
 DATE_LABEL     = "5/18 - 5/18 ricochet export"
-CLEAR_RANGE    = f"'{FOG_CITY_TAB}'!A9815:F9865"   # rows with bad SKUs
+CLEAR_RANGE    = f"'{FOG_CITY_TAB}'!A9815:G9865"   # rows with bad SKUs
 
 PDT            = timezone(timedelta(hours=-7))
 
@@ -223,7 +223,7 @@ def main():
         for m in merged
     ]
 
-    write_range = f"'{FOG_CITY_TAB}'!A9815:F{9815 + len(new_values) - 1}"
+    write_range = f"'{FOG_CITY_TAB}'!A9815:G{9815 + len(new_values) - 1}"
     sheets.values().update(
         spreadsheetId=SPREADSHEET_ID,
         range=write_range,
