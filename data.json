@@ -2,45 +2,61 @@
   "updated": "May 19, 2026",
   "period_label": "5/10 \u2013 5/19, 2026",
   "total_units": 174,
+  "revenue": {
+    "today": 0.0,
+    "weekly": 0.0,
+    "monthly": 0.0,
+    "ytd": 0.0
+  },
   "top10": [
     {
       "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
       "qty": 28
     },
     {
       "name": "SF Illustrated Landmark",
+      "sku": "MAG-SF-LDMKS",
       "qty": 27
     },
     {
       "name": "Golden Gate Travel (new version)",
+      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
       "qty": 19
     },
     {
       "name": "3 for $11",
+      "sku": "POSTCARDS3FOR11",
       "qty": 19
     },
     {
       "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "MAG-SF-RETRO-GGB",
       "qty": 16
     },
     {
       "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty": 16
     },
     {
       "name": "ACRYLIC Golden Gate Bridge",
+      "sku": "MAG-AC-SF-GGB",
       "qty": 15
     },
     {
       "name": "Ferry Building Retro Postcard",
+      "sku": "FERRYBUILDING_RETRO_PC",
       "qty": 12
     },
     {
       "name": "Ferry Building",
+      "sku": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
       "qty": 11
     },
     {
       "name": "ACRYLIC Ferry Building",
+      "sku": "MAG-AC-SF-FERRYB",
       "qty": 11
     }
   ],
@@ -64,8 +80,8 @@
       "pct": 174
     },
     {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "qty_recent": 2,
+      "name": "Illustrated Ferry Building Landmark",
+      "qty_recent": 3,
       "qty_prev": 0,
       "pct": 150
     },
@@ -76,7 +92,7 @@
       "pct": 150
     },
     {
-      "name": "CALIFONIA STICKER",
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
       "qty_recent": 2,
       "qty_prev": 0,
       "pct": 150
@@ -84,9 +100,9 @@
   ],
   "cold": [
     {
-      "name": "State of California 8x10",
+      "name": "Golden Gate Icon Keychain",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -96,27 +112,27 @@
       "pct": -100
     },
     {
-      "name": "Ferry Building",
+      "name": "State of California 8x10",
       "qty_recent": 0,
       "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Blue Victorian House Icon Keychain",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Golden Gate Icon Keychain",
-      "qty_recent": 0,
-      "qty_prev": 5,
       "pct": -100
     },
     {
       "name": "3FOR10POSTCARDS",
       "qty_recent": 0,
       "qty_prev": 33,
+      "pct": -100
+    },
+    {
+      "name": "Ferry Building",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "SFCITYBYTHEBAY_WHITECIRCLE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ]
