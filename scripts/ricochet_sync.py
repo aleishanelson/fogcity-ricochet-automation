@@ -69,18 +69,18 @@ def get_sheets_service():
 # If an item name contains one of these keywords, we only match against rows
 # from the corresponding category before falling back to a broader search.
 CATEGORY_HINTS = {
-    "sticker":   {"Stickers", "Sticker", "Sticker deal", "Sticker Sheet", "Sticker Book"},
-    "magnet":    {"Magnets"},
-    "tote":      {"Totes"},
-    "tea towel": {"Tea Towel"},
-    "towel":     {"Tea Towel"},
-    "postcard":  {"Postcards", "Postcard deal"},
-    "keychain":  {"Keychains", "Keychain"},
-    "card":      {"Greeting Card", "Card Pack"},
-    "print":     {"City Print", "School Prints", "Film Print", "Landmark"},
-    "poster":    {"City Print", "School Prints", "Film Print", "Landmark"},
+    "sticker":      {"Stickers", "Sticker", "Sticker deal", "Sticker Sheet", "Sticker Book"},
+    "magnet":       {"Magnets"},
+    "tote":         {"Totes"},
+    "tea towel":    {"Tea Towel"},
+    "towel":        {"Tea Towel"},
+    "postcard":     {"Postcards", "Postcard deal"},
+    "keychain":     {"Keychains", "Keychain"},
+    "card":         {"Greeting Card", "Card Pack"},
+    "print":        {"City Print", "School Prints", "Film Print", "Landmark"},
     "pencil pouch": {"Pencil Pouch"},
-    "tote bag":  {"Totes"},
+    "tote bag":     {"Totes"},
+    # "poster" intentionally omitted — too ambiguous (magnets, stickers, prints all say poster)
 }
 
 
@@ -123,10 +123,9 @@ def find_sku(item_name: str, lookup: dict) -> str:
     Find the correct SKU for an item name.
 
     Strategy:
-    1. Detect product type from keywords in item_name (sticker/magnet/tote/etc.)
-    2. Search ONLY within the matching Inventory Summary category first
-    3. Fall back to broader search across all categories
-    4. Fall back to hardcoded overrides for items missing from Inventory Summary
+    1. Check hardcoded overrides first (most specific, highest confidence)
+    2. Category-filtered search (only look in the right product type)
+    3. Broad search across all categories
     """
     key = item_name.strip().lower()
     all_lookup = lookup.get("all", lookup) if isinstance(lookup, dict) else lookup
@@ -141,24 +140,9 @@ def find_sku(item_name: str, lookup: dict) -> str:
                 return sku
         return ""
 
-    # 1. Category-filtered search — only look in the right product type
-    for keyword, categories in CATEGORY_HINTS.items():
-        if keyword in key:
-            cat_pool = {}
-            for cat in categories:
-                cat_pool.update(by_category.get(cat, {}))
-            if cat_pool:
-                result = _match(cat_pool, key)
-                if result:
-                    return result
-            break   # keyword matched — don't try other keywords
+    # 1. Hardcoded overrides — checked first, highest confidence
+    #    (these cover items missing from Inventory Summary or with ambiguous names)
 
-    # 2. Broad search across all categories
-    result = _match(all_lookup, key)
-    if result:
-        return result
-
-    # Hardcoded overrides: items missing from or mismatched in Inventory Summary
     OVERRIDES = {
         # Postcards
         "alcatraz island postcard":                      "ALCATRAZ_RETRO_PC",
@@ -336,14 +320,57 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "ferry building travel poster - 11x14":          "FERRYBUILDINGTRAVELPOSTER_11x14",
         "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
         "stanford campus map print 8x10":               "STANFORD_BW_8x10",
+        # California products (partial match misses "State of California" prefix)
+        "california tea towel":                          "STATEOFCALIFORNIA_MAP_TEATOWEL",
+        "califonia tea towel":                           "STATEOFCALIFORNIA_MAP_TEATOWEL",  # typo variant
+        "califonia sticker":                             "SFCITYNAME_STICKER",             # typo variant
+        # Cards that need exact routing
+        "i'd escape alcatraz card":                      "IDESCAPEALCATRAZFORYOU_A2CARD",
+        "id escape alcatraz card":                       "IDESCAPEALCATRAZFORYOU_A2CARD",
+        "home sweet home greeting card":                 "HOMESWEETSF_A2CARD",
+        "home sweet sf greeting card":                   "HOMESWEETSF_A2CARD",
+        # Normalized-form overrides — keys match what normalize() returns
+        "golden gate travel poster card":                "GOLDENGATETRAVELPOSTER_A2CARD",
+        "golden gate travel poster magnet":              "MAGNET_GOLDENGATETRAVELPOSTER",
+        "city by the bay local notion magnet":           "MAGNET_SFCITYBYTHEBAY_LOCALNOTION",
+        "ferry building acrylic die cut magnet":         "MAG-AC-SF-FERRYB",
+        "california map tea towel":                      "STATEOFCALIFORNIA_MAP_TEATOWEL",
+        "california tea towel":                          "STATEOFCALIFORNIA_MAP_TEATOWEL",
+        # Bay Area prints — "bay area map" partial match hits sticker before print
+        "bay area map print 8x10":                       "BAYAREA_BW_8x10",
+        "bay area map print 9x12":                       "BAYAREA_BW_9x12",
+        "bay area map print 11x14":                      "BAYAREA_BW_11x14",
+        "bay area map print 12x16":                      "BAYAREA_BW_12x16",
+        # SF Map Print — "san francisco map" partial match hits SFMAP_STICKER otherwise
+        "san francisco map print 8x10":                  "SF_BW_8x10",
+        "san francisco map print 9x12":                  "SF_BW_9x12",
+        "san francisco map print 11x14":                 "SF_BW_11x14",
+        "san francisco map print 12x16":                 "SF_BW_12x16",
     }
+    # Exact override match
     if key in OVERRIDES:
         return OVERRIDES[key]
-
-    # Partial match against overrides
+    # Partial override match
     for override_name, sku in OVERRIDES.items():
         if key in override_name or override_name in key:
             return sku
+
+    # 2. Category-filtered search — only look in the right product type
+    for keyword, categories in CATEGORY_HINTS.items():
+        if keyword in key:
+            cat_pool = {}
+            for cat in categories:
+                cat_pool.update(by_category.get(cat, {}))
+            if cat_pool:
+                result = _match(cat_pool, key)
+                if result:
+                    return result
+            break   # keyword matched — don't try other keywords
+
+    # 3. Broad search across all categories
+    result = _match(all_lookup, key)
+    if result:
+        return result
 
     return ""
 
@@ -513,11 +540,11 @@ def normalize(name: str) -> str:
     if re.search(r'(gg|golden.?gate).{0,10}travel.{0,10}(poster.{0,5})?sticker', nl):
         return 'Golden Gate Travel Poster Sticker'
 
-    # Ferry Building magnets / sticker
+    # Ferry Building magnets / sticker — travel poster check must come before retro check
+    if re.search(r'ferry building.{0,20}travel.{0,10}(poster.{0,5})?magnet', nl):
+        return 'Ferry Building Travel Poster Magnet'
     if re.search(r'(retro.{0,8})?ferry building.{0,20}(poster|retro).{0,10}magnet', nl):
         return 'Retro Ferry Building Poster Magnet'
-    if re.search(r'ferry building.{0,10}travel.{0,10}magnet', nl):
-        return 'Ferry Building Travel Poster Magnet'
     if re.search(r'(retro.{0,8})?ferry building.{0,20}(poster|retro).{0,10}sticker', nl):
         return 'Illustrated Ferry Building Landmark Sticker'
 
@@ -631,6 +658,7 @@ def normalize(name: str) -> str:
         if 'magnet' in nl: return 'Home Sweet SF Magnet'
         if 'sticker' in nl: return 'Home Sweet Home Sticker'
         if 'tote' in nl:   return 'Home Sweet San Francisco Tote'
+        if 'card' in nl:   return 'Home Sweet SF Greeting Card'
         return 'Home Sweet San Francisco Art Print 8x8'
 
     # Stickers
