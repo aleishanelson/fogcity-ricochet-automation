@@ -842,7 +842,13 @@ def build_dashboard_json(sheets):
         except (ValueError, AttributeError):
             pass
 
-    # Determine reference date
+    # ── Historical revenue baselines (pre-automation) ────────────────────────
+    # Covers all revenue earned before nightly col G scraping began (May 20+).
+    # The nightly scraper adds to these each night going forward.
+    # Last updated: May 20, 2026
+    BASELINE_YTD     = 85344.94   # Jan 1 – May 19, 2026
+    BASELINE_MONTHLY =  4098.18   # May 1 – May 19, 2026
+    BASELINE_WEEKLY  =  2372.68   # May 13 – May 19, 2026
     valid = [(k, g) for k, g in source_groups.items() if g['end']]
     if not valid:
         log.warning("No dated source groups found — skipping dashboard JSON.")
@@ -939,10 +945,10 @@ def build_dashboard_json(sheets):
         "period_label": period_label,
         "total_units":  round(sum(v for _, v in top10)),
         "revenue": {
-            "today":   round(sum(rev_today.values()),  2),
-            "weekly":  round(sum(rev_week.values()),   2),
-            "monthly": round(sum(rev_month.values()),  2),
-            "ytd":     round(sum(rev_ytd.values()),    2),
+            "today":   round(sum(rev_today.values()),                      2),
+            "weekly":  round(sum(rev_week.values())  + BASELINE_WEEKLY,    2),
+            "monthly": round(sum(rev_month.values()) + BASELINE_MONTHLY,   2),
+            "ytd":     round(sum(rev_ytd.values())   + BASELINE_YTD,       2),
         },
         "top10": [
             {"name": display_name(sku), "sku": sku, "qty": round(qty)}
