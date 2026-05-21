@@ -868,7 +868,7 @@ def build_dashboard_json(sheets):
     rev_week   = _dd(float)   # revenue last 7 days
     rev_month  = _dd(float)   # revenue current month
     rev_ytd    = _dd(float)   # revenue year to date
-    rev_today  = _dd(float)   # revenue today (ref_date only)
+    rev_yesterday = _dd(float)   # revenue for the most recent day (ref_date)
 
     for _, g in valid:
         s, e = g['start'], g['end']
@@ -888,7 +888,7 @@ def build_dashboard_json(sheets):
         add_window(_dd(float), rev_week,  week_start,       ref_date)
         add_window(_dd(float), rev_month, month_start,      ref_date)
         add_window(_dd(float), rev_ytd,   ytd_start,        ref_date)
-        add_window(_dd(float), rev_today, ref_date,         ref_date)
+        add_window(_dd(float), rev_yesterday, ref_date, ref_date)
 
         # Prev 20 days for trend comparison
         if e >= prev_start and s < window_10_start:
@@ -945,10 +945,11 @@ def build_dashboard_json(sheets):
         "period_label": period_label,
         "total_units":  round(sum(v for _, v in top10)),
         "revenue": {
-            "today":   round(sum(rev_today.values()),                      2),
-            "weekly":  round(sum(rev_week.values())  + BASELINE_WEEKLY,    2),
-            "monthly": round(sum(rev_month.values()) + BASELINE_MONTHLY,   2),
-            "ytd":     round(sum(rev_ytd.values())   + BASELINE_YTD,       2),
+            "yesterday":       round(sum(rev_yesterday.values()),                  2),
+            "yesterday_label": ref_date.strftime("%-m/%-d"),
+            "weekly":          round(sum(rev_week.values())  + BASELINE_WEEKLY,    2),
+            "monthly":         round(sum(rev_month.values()) + BASELINE_MONTHLY,   2),
+            "ytd":             round(sum(rev_ytd.values())   + BASELINE_YTD,       2),
         },
         "top10": [
             {"name": display_name(sku), "sku": sku, "qty": round(qty)}
