@@ -945,7 +945,7 @@ def build_dashboard_json(sheets):
             "ytd":     round(sum(rev_ytd.values()),    2),
         },
         "top10": [
-            {"name": display_name(sku), "qty": round(qty)}
+            {"name": display_name(sku), "sku": sku, "qty": round(qty)}
             for sku, qty in top10
         ],
         "hot": [
