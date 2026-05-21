@@ -65,48 +65,98 @@ def get_sheets_service():
 
 # ── Step 1.5: Build SKU lookup from Inventory Summary tab ────────────────────
 
+# Map keywords in item names → the Inventory Summary categories to search first.
+# If an item name contains one of these keywords, we only match against rows
+# from the corresponding category before falling back to a broader search.
+CATEGORY_HINTS = {
+    "sticker":   {"Stickers", "Sticker", "Sticker deal", "Sticker Sheet", "Sticker Book"},
+    "magnet":    {"Magnets"},
+    "tote":      {"Totes"},
+    "tea towel": {"Tea Towel"},
+    "towel":     {"Tea Towel"},
+    "postcard":  {"Postcards", "Postcard deal"},
+    "keychain":  {"Keychains", "Keychain"},
+    "card":      {"Greeting Card", "Card Pack"},
+    "print":     {"City Print", "School Prints", "Film Print", "Landmark"},
+    "poster":    {"City Print", "School Prints", "Film Print", "Landmark"},
+    "pencil pouch": {"Pencil Pouch"},
+    "tote bag":  {"Totes"},
+}
+
+
 def build_sku_lookup(sheets) -> dict:
     """
-    Read Inventory Summary tab cols B (item name) and E (SKU).
-    Return a dict of lowercase item name → SKU so we can replace
-    Ricochet's SKUs with the correct ones from your spreadsheet.
+    Read Inventory Summary tab cols A (category), B (item name), E (SKU).
+    Returns:
+      lookup["all"]         → {lowercase_name: sku}  (every entry)
+      lookup["by_category"] → {category: {lowercase_name: sku}}
     """
     result = sheets.values().get(
         spreadsheetId=SPREADSHEET_ID,
-        range="'Inventory Summary'!B:E",
+        range="'Inventory Summary'!A:E",
     ).execute()
 
     rows = result.get("values", [])
-    lookup = {}
-    for row in rows[1:]:   # skip header
-        if len(row) < 4:
-            continue
-        item_name = str(row[0]).strip()
-        sku       = str(row[3]).strip() if len(row) > 3 else ""
-        if item_name and sku:
-            lookup[item_name.lower()] = sku
+    all_lookup = {}
+    by_category = {}
 
-    log.info(f"SKU lookup loaded: {len(lookup)} entries from Inventory Summary")
-    return lookup
+    for row in rows[1:]:   # skip header
+        if len(row) < 5:
+            continue
+        category  = str(row[0]).strip()
+        item_name = str(row[1]).strip()
+        sku       = str(row[4]).strip() if len(row) > 4 else ""
+        if not item_name or not sku:
+            continue
+        key = item_name.lower()
+        all_lookup[key] = sku
+        if category:
+            by_category.setdefault(category, {})[key] = sku
+
+    log.info(f"SKU lookup loaded: {len(all_lookup)} entries across "
+             f"{len(by_category)} categories from Inventory Summary")
+    return {"all": all_lookup, "by_category": by_category}
 
 
 def find_sku(item_name: str, lookup: dict) -> str:
     """
-    Try to find a matching SKU from the lookup table.
-    Tries exact match first, then partial substring match.
-    Falls back to hardcoded overrides for items not in Inventory Summary.
-    Returns empty string if no match found.
+    Find the correct SKU for an item name.
+
+    Strategy:
+    1. Detect product type from keywords in item_name (sticker/magnet/tote/etc.)
+    2. Search ONLY within the matching Inventory Summary category first
+    3. Fall back to broader search across all categories
+    4. Fall back to hardcoded overrides for items missing from Inventory Summary
     """
     key = item_name.strip().lower()
+    all_lookup = lookup.get("all", lookup) if isinstance(lookup, dict) else lookup
+    by_category = lookup.get("by_category", {}) if isinstance(lookup, dict) else {}
 
-    # Exact match against Inventory Summary
-    if key in lookup:
-        return lookup[key]
+    def _match(d: dict, k: str) -> str:
+        """Exact then partial match within a given sub-dict."""
+        if k in d:
+            return d[k]
+        for lookup_name, sku in d.items():
+            if k in lookup_name or lookup_name in k:
+                return sku
+        return ""
 
-    # Partial match — item name contains or is contained in a lookup key
-    for lookup_name, sku in lookup.items():
-        if key in lookup_name or lookup_name in key:
-            return sku
+    # 1. Category-filtered search — only look in the right product type
+    for keyword, categories in CATEGORY_HINTS.items():
+        if keyword in key:
+            cat_pool = {}
+            for cat in categories:
+                cat_pool.update(by_category.get(cat, {}))
+            if cat_pool:
+                result = _match(cat_pool, key)
+                if result:
+                    return result
+            break   # keyword matched — don't try other keywords
+
+    # 2. Broad search across all categories
+    result = _match(all_lookup, key)
+    if result:
+        return result
 
     # Hardcoded overrides: items missing from or mismatched in Inventory Summary
     OVERRIDES = {
@@ -771,13 +821,13 @@ def build_dashboard_json(sheets):
     # ── Load Inventory Summary: SKU → display name ────────────────────────────
     inv_result = sheets.values().get(
         spreadsheetId=SPREADSHEET_ID,
-        range="'Inventory Summary'!B:E",
+        range="'Inventory Summary'!A:E",
     ).execute()
     sku_to_name = {}   # SKU → clean display name
     for row in inv_result.get("values", [])[1:]:
-        if len(row) >= 4:
-            item_name = str(row[0]).strip()
-            sku       = str(row[3]).strip()
+        if len(row) >= 5:
+            item_name = str(row[1]).strip()
+            sku       = str(row[4]).strip()
             if sku and item_name:
                 sku_to_name[sku.upper()] = item_name
 
