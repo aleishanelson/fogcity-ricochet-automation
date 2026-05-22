@@ -1,127 +1,109 @@
 {
-  "updated": "May 20, 2026",
-  "period_label": "5/11 \u2013 5/20, 2026",
-  "total_units": 166,
+  "updated": "May 21, 2026",
+  "period_label": "5/12 \u2013 5/21, 2026",
+  "total_units": 158,
   "revenue": {
-    "yesterday": 242.48,
-    "yesterday_label": "5/20",
-    "weekly": 2615.16,
-    "monthly": 4340.66,
-    "ytd": 85587.42
+    "yesterday": 444.48,
+    "yesterday_label": "5/21",
+    "weekly": 3059.64,
+    "monthly": 4785.14,
+    "ytd": 86031.9
   },
   "top10": [
     {
       "name": "SF Illustrated Landmark",
       "sku": "MAG-SF-LDMKS",
-      "qty": 29
+      "qty": 26
     },
     {
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
-      "qty": 25
-    },
-    {
-      "name": "3 for $11",
-      "sku": "POSTCARDS3FOR11",
-      "qty": 20
+      "qty": 24
     },
     {
       "name": "Golden Gate Travel (new version)",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 17
+      "qty": 22
+    },
+    {
+      "name": "3 for $11",
+      "sku": "POSTCARDS3FOR11",
+      "qty": 16
     },
     {
       "name": "ACRYLIC Golden Gate Bridge",
       "sku": "MAG-AC-SF-GGB",
-      "qty": 15
+      "qty": 14
     },
     {
       "name": "Retro Golden Gate Bridge Poster Magnet",
       "sku": "MAG-SF-RETRO-GGB",
-      "qty": 15
+      "qty": 13
     },
     {
       "name": "Golden Gate Bridge Retro Postcard",
       "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty": 14
+      "qty": 13
+    },
+    {
+      "name": "Retro Ferry Building Poster Magnet",
+      "sku": "MAG-SF-RETRO-FB",
+      "qty": 11
     },
     {
       "name": "Ferry Building",
       "sku": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
-      "qty": 11
+      "qty": 10
     },
     {
-      "name": "Ferry Building Retro Postcard",
-      "sku": "FERRYBUILDING_RETRO_PC",
-      "qty": 11
-    },
-    {
-      "name": "ACRYLIC Ferry Building",
-      "sku": "MAG-AC-SF-FERRYB",
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "MAG-SF-RETRO-PL",
       "qty": 10
     }
   ],
   "hot": [
     {
+      "name": "STICKERS_3FOR11",
+      "qty_recent": 5,
+      "qty_prev": 1,
+      "pct": 1555
+    },
+    {
       "name": "UC Berkeley 8x10",
       "qty_recent": 3,
       "qty_prev": 1,
-      "pct": 380
+      "pct": 318
     },
     {
       "name": "Ferry Building Travel Poster 11x14",
       "qty_recent": 3,
       "qty_prev": 3,
-      "pct": 164
+      "pct": 168
     },
     {
-      "name": "SF Fog Dad Hat - Light Blue",
-      "qty_recent": 2,
-      "qty_prev": 2,
-      "pct": 153
-    },
-    {
-      "name": "Illustrated Golden Gate Bridge Landmark",
-      "qty_recent": 7,
+      "name": "Illustrated Ferry Building Landmark",
+      "qty_recent": 4,
       "qty_prev": 0,
       "pct": 150
     },
     {
-      "name": "SF Map",
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
       "qty_recent": 3,
       "qty_prev": 0,
       "pct": 150
     },
     {
-      "name": "CALIFONIA STICKER",
-      "qty_recent": 2,
+      "name": "Illustrated Golden Gate Bridge Landmark",
+      "qty_recent": 9,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "Ferry Building",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "SFCITYBYTHEBAY_WHITECIRCLE_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
       "name": "Golden Gate Icon Keychain",
       "qty_recent": 0,
       "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "3FOR11STICKERS",
-      "qty_recent": 0,
-      "qty_prev": 49,
       "pct": -100
     },
     {
@@ -133,8 +115,26 @@
     {
       "name": "3FOR10POSTCARDS",
       "qty_recent": 0,
-      "qty_prev": 32,
+      "qty_prev": 30,
       "pct": -100
+    },
+    {
+      "name": "3FOR11STICKERS",
+      "qty_recent": 0,
+      "qty_prev": 46,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet Home",
+      "qty_recent": 0,
+      "qty_prev": 10,
+      "pct": -93
+    },
+    {
+      "name": "Painted Lady Keychain- Blue",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -87
     }
   ]
 }
