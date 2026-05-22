@@ -336,6 +336,29 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "ferry building acrylic die cut magnet":         "MAG-AC-SF-FERRYB",
         "california map tea towel":                      "STATEOFCALIFORNIA_MAP_TEATOWEL",
         "california tea towel":                          "STATEOFCALIFORNIA_MAP_TEATOWEL",
+        # Stickers
+        "california state sticker (black and white)":    "CALIFORNIASTATE_BLOCKFONT_BW",
+        "california state sticker black and white":      "CALIFORNIASTATE_BLOCKFONT_BW",
+        "ca state sticker black and white":              "CALIFORNIASTATE_BLOCKFONT_BW",
+        # Magnets — discontinued/renamed products
+        "city by the bay local notion magnet":           "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",  # discontinued → Pink
+        "city by the bay magnet":                        "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
+        "local notion magnet":                           "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
+        "sf magnet set":                                 "SANFRANCISCOICONS_MAGNETSET",
+        "san francisco magnet set":                      "SANFRANCISCOICONS_MAGNETSET",
+        "magnet set san francisco":                      "SANFRANCISCOICONS_MAGNETSET",
+        # Keychains
+        "painted lady keychain - pink":                  "KC-PAINTEDLADY-PINK",
+        "painted lady keychain pink":                    "KC-PAINTEDLADY-PINK",
+        "painted lady keychain - blue":                  "KC-PAINTEDLADY-BLUE",
+        "painted lady keychain blue":                    "KC-PAINTEDLADY-BLUE",
+        "painted lady keychain - green":                 "KC-PAINTEDLADY-GREEN",
+        "painted lady keychain green":                   "KC-PAINTEDLADY-GREEN",
+        # Retro Ferry Building Sticker — NOT a magnet
+        "retro ferry building sticker":                  "RETROSFFERRYBUILDING_STICKER",
+        "retro sf ferry building sticker":               "RETROSFFERRYBUILDING_STICKER",
+        "retro ferry building poster sticker":           "RETROSFFERRYBUILDING_STICKER",
+        "retro ferry building poster sticker":           "RETROSFFERRYBUILDING_STICKER",  # normalized form
         # Bay Area prints — "bay area map" partial match hits sticker before print
         "bay area map print 8x10":                       "BAYAREA_BW_8x10",
         "bay area map print 9x12":                       "BAYAREA_BW_9x12",
@@ -540,13 +563,13 @@ def normalize(name: str) -> str:
     if re.search(r'(gg|golden.?gate).{0,10}travel.{0,10}(poster.{0,5})?sticker', nl):
         return 'Golden Gate Travel Poster Sticker'
 
-    # Ferry Building magnets / sticker — travel poster check must come before retro check
+    # Ferry Building magnets / sticker — sticker and travel poster checks before retro magnet
+    if re.search(r'(retro.{0,10})?ferry building.{0,20}(poster.{0,5})?sticker', nl):
+        return 'Retro Ferry Building Poster Sticker'
     if re.search(r'ferry building.{0,20}travel.{0,10}(poster.{0,5})?magnet', nl):
         return 'Ferry Building Travel Poster Magnet'
     if re.search(r'(retro.{0,8})?ferry building.{0,20}(poster|retro).{0,10}magnet', nl):
         return 'Retro Ferry Building Poster Magnet'
-    if re.search(r'(retro.{0,8})?ferry building.{0,20}(poster|retro).{0,10}sticker', nl):
-        return 'Illustrated Ferry Building Landmark Sticker'
 
     # Retro Painted Ladies magnet
     if re.search(r'retro.{0,10}painted lad.{0,20}(poster.{0,5})?magnet', nl):
