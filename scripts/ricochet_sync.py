@@ -875,6 +875,42 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
 
 # ── Dashboard JSON export ─────────────────────────────────────────────────────
 
+def _build_category_trends(cat_recent: dict, cat_prev: dict) -> list:
+    """
+    Compare category sales last 10 days vs prior 20 days (normalised to daily rate).
+    Return up to 3 categories with the most drastic change (up or down),
+    minimum threshold to filter noise.
+    """
+    from collections import defaultdict as _dd2
+    all_cats = set(list(cat_recent.keys()) + list(cat_prev.keys()))
+    results = []
+    for cat in all_cats:
+        r = cat_recent.get(cat, 0)
+        p = cat_prev.get(cat, 0)
+        # Normalise to daily rate
+        r_daily = r / 10
+        p_daily = p / 20
+        # Require at least some minimum activity to avoid noise
+        if r < 3 and p < 3:
+            continue
+        if p_daily > 0.01:
+            pct = (r_daily - p_daily) / p_daily * 100
+        elif r_daily > 0:
+            pct = 150  # new activity
+        else:
+            pct = -100  # dropped to zero
+        results.append({
+            "category":   cat,
+            "qty_recent": round(r),
+            "qty_prev":   round(p),
+            "pct":        round(pct),
+        })
+
+    # Sort by absolute % change, pick top 3 most dramatic
+    results.sort(key=lambda x: -abs(x["pct"]))
+    return results[:3]
+
+
 def build_dashboard_json(sheets):
     """
     Read the last 30 days of Fog City Sales data from the sheet,
@@ -884,18 +920,52 @@ def build_dashboard_json(sheets):
     """
     log.info("Building dashboard JSON…")
 
-    # ── Load Inventory Summary: SKU → display name ────────────────────────────
+    # Display-friendly category groupings (Inventory Summary category → display label)
+    CATEGORY_GROUPS = {
+        # Stickers — all sticker types in one bucket
+        "Stickers":     "Stickers",
+        "Sticker":      "Stickers",
+        "Sticker Sheet":"Stickers",
+        "Sticker Book": "Stickers",
+        "Sticker deal": "Stickers",
+        # Magnets
+        "Magnets":      "Magnets",
+        # Postcards — all postcard types in one bucket
+        "Postcards":    "Postcards",
+        "Postcard deal":"Postcards",
+        # Cards — greeting cards and card packs together
+        "Greeting Card":"Cards",
+        "Card Pack":    "Cards",
+        # Map Prints — city maps and campus maps together
+        "City Print":   "Map Prints",
+        "School Prints":"Map Prints",
+        # Other prints kept separate
+        "Film Print":   "Film Prints",
+        "Landmark":     "Landmark Prints",
+        # Other
+        "Totes":        "Totes",
+        "Tea Towel":    "Tea Towels",
+        "Pencil Pouch": "Pencil Pouches",
+        "Keychains":    "Keychains",
+        "Keychain":     "Keychains",
+    }
+
+    # ── Load Inventory Summary: SKU → display name + category ─────────────────
     inv_result = sheets.values().get(
         spreadsheetId=SPREADSHEET_ID,
         range="'Inventory Summary'!A:E",
     ).execute()
-    sku_to_name = {}   # SKU → clean display name
+    sku_to_name = {}      # SKU → clean display name
+    sku_to_category = {}  # SKU → display category label
     for row in inv_result.get("values", [])[1:]:
         if len(row) >= 5:
+            raw_cat   = str(row[0]).strip()
             item_name = str(row[1]).strip()
             sku       = str(row[4]).strip()
             if sku and item_name:
                 sku_to_name[sku.upper()] = item_name
+            if sku and raw_cat in CATEGORY_GROUPS:
+                sku_to_category[sku.upper()] = CATEGORY_GROUPS[raw_cat]
 
     # ── Load Fog City Sales ───────────────────────────────────────────────────
     result = sheets.values().get(
@@ -985,6 +1055,8 @@ def build_dashboard_json(sheets):
     rev_month  = _dd(float)   # revenue current month
     rev_ytd    = _dd(float)   # revenue year to date
     rev_yesterday = _dd(float)   # revenue for the most recent day (ref_date)
+    cat_recent = _dd(float)   # category label → qty last 10 days
+    cat_prev   = _dd(float)   # category label → qty prior 20 days
 
     for _, g in valid:
         s, e = g['start'], g['end']
@@ -1014,6 +1086,26 @@ def build_dashboard_json(sheets):
                 ratio = ((ol_e - ol_s).days + 1) / span
                 for sku, qty in g['skus'].items():
                     prev_20[sku] += qty * ratio
+
+        # Category aggregation (last 10 days vs prior 20 days)
+        if e >= window_10_start and s <= ref_date:
+            ol_s = max(s, window_10_start)
+            ol_e = min(e, ref_date)
+            ratio = ((ol_e - ol_s).days + 1) / span
+            for sku, qty in g['skus'].items():
+                cat = sku_to_category.get(sku.upper())
+                if cat:
+                    cat_recent[cat] += qty * ratio
+
+        if e >= prev_start and s < window_10_start:
+            ol_s = max(s, prev_start)
+            ol_e = min(e, window_10_start - timedelta(days=1))
+            if ol_e >= ol_s:
+                ratio = ((ol_e - ol_s).days + 1) / span
+                for sku, qty in g['skus'].items():
+                    cat = sku_to_category.get(sku.upper())
+                    if cat:
+                        cat_prev[cat] += qty * ratio
 
     def daily(d, days):
         return {k: v / days for k, v in d.items()}
@@ -1089,6 +1181,7 @@ def build_dashboard_json(sheets):
             }
             for sku, v in cold
         ],
+        "category_trends": _build_category_trends(cat_recent, cat_prev),
     }
 
     with open("data.json", "w") as f:
