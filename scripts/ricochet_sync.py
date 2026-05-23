@@ -358,7 +358,22 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "retro ferry building sticker":                  "RETROSFFERRYBUILDING_STICKER",
         "retro sf ferry building sticker":               "RETROSFFERRYBUILDING_STICKER",
         "retro ferry building poster sticker":           "RETROSFFERRYBUILDING_STICKER",
-        "retro ferry building poster sticker":           "RETROSFFERRYBUILDING_STICKER",  # normalized form
+        # Stickers — override Ricochet numeric SKUs
+        "california state sticker (blue)":               "CALIFORNIASTATE_BLOCKFONT_BLUE",
+        "california state sticker blue":                 "CALIFORNIASTATE_BLOCKFONT_BLUE",
+        "ca state sticker blue":                         "CALIFORNIASTATE_BLOCKFONT_BLUE",
+        "golden gate sticker pink":                      "GGBRIDGE_PINK_STICKER",
+        "golden gate bridge sticker pink":               "GGBRIDGE_PINK_STICKER",
+        "golden gate bridge sticker (pink)":             "GGBRIDGE_PINK_STICKER",
+        "illustrated fisherman's wharf landmark sticker": "FW_ILLUSTRATED_STICKER",
+        "illustrated fishermans wharf landmark sticker": "FW_ILLUSTRATED_STICKER",
+        # Totes — do NOT use SF_HP_* for totes
+        "home sweet san francisco tote":                 "TOTE_HOMESWEETSF",
+        "home sweet sf tote":                            "TOTE_HOMESWEETSF",
+        "home sweet home tote":                          "TOTE_HOMESWEETSF",
+        # Keychains
+        "painted lady keychain - yellow":                "KC-PAINTEDLADY-YELLOW",
+        "painted lady keychain yellow":                  "KC-PAINTEDLADY-YELLOW",
         # Bay Area prints — "bay area map" partial match hits sticker before print
         "bay area map print 8x10":                       "BAYAREA_BW_8x10",
         "bay area map print 9x12":                       "BAYAREA_BW_9x12",
