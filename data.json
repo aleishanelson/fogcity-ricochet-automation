@@ -1,44 +1,44 @@
 {
-  "updated": "May 21, 2026",
-  "period_label": "5/12 \u2013 5/21, 2026",
-  "total_units": 158,
+  "updated": "May 22, 2026",
+  "period_label": "5/13 \u2013 5/22, 2026",
+  "total_units": 162,
   "revenue": {
-    "yesterday": 444.48,
-    "yesterday_label": "5/21",
-    "weekly": 3059.64,
-    "monthly": 4785.14,
-    "ytd": 86031.9
+    "yesterday": 523.0,
+    "yesterday_label": "5/22",
+    "weekly": 3582.64,
+    "monthly": 5308.14,
+    "ytd": 86554.9
   },
   "top10": [
     {
       "name": "SF Illustrated Landmark",
       "sku": "MAG-SF-LDMKS",
-      "qty": 26
-    },
-    {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
-      "qty": 24
+      "qty": 27
     },
     {
       "name": "Golden Gate Travel (new version)",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 22
+      "qty": 24
     },
     {
       "name": "3 for $11",
-      "sku": "POSTCARDS3FOR11",
-      "qty": 16
+      "sku": "STICKERS3FOR11",
+      "qty": 21
     },
     {
       "name": "ACRYLIC Golden Gate Bridge",
       "sku": "MAG-AC-SF-GGB",
+      "qty": 15
+    },
+    {
+      "name": "STICKERS_3FOR11",
+      "sku": "STICKERS_3FOR11",
       "qty": 14
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "MAG-SF-RETRO-GGB",
-      "qty": 13
+      "name": "3 for $11",
+      "sku": "POSTCARDS3FOR11",
+      "qty": 14
     },
     {
       "name": "Golden Gate Bridge Retro Postcard",
@@ -46,45 +46,39 @@
       "qty": 13
     },
     {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "MAG-SF-RETRO-FB",
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "MAG-SF-RETRO-GGB",
+      "qty": 13
+    },
+    {
+      "name": "Retro SF Ferry Building Poster Sticker",
+      "sku": "RETROSFFERRYBUILDING_STICKER",
       "qty": 11
     },
     {
-      "name": "Ferry Building",
-      "sku": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
-      "qty": 10
-    },
-    {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "MAG-SF-RETRO-PL",
+      "name": "Retro Ferry Building Poster Magnet",
+      "sku": "MAG-SF-RETRO-FB",
       "qty": 10
     }
   ],
   "hot": [
     {
       "name": "STICKERS_3FOR11",
-      "qty_recent": 5,
+      "qty_recent": 14,
       "qty_prev": 1,
-      "pct": 1555
+      "pct": 3950
     },
     {
       "name": "UC Berkeley 8x10",
       "qty_recent": 3,
       "qty_prev": 1,
-      "pct": 318
+      "pct": 267
     },
     {
       "name": "Ferry Building Travel Poster 11x14",
       "qty_recent": 3,
-      "qty_prev": 3,
-      "pct": 168
-    },
-    {
-      "name": "Illustrated Ferry Building Landmark",
-      "qty_recent": 4,
-      "qty_prev": 0,
-      "pct": 150
+      "qty_prev": 2,
+      "pct": 172
     },
     {
       "name": "Illustrated Fisherman\u2018s Wharf Landmark",
@@ -97,13 +91,25 @@
       "qty_recent": 9,
       "qty_prev": 0,
       "pct": 150
+    },
+    {
+      "name": "Illustrated Ferry Building Landmark",
+      "qty_recent": 4,
+      "qty_prev": 0,
+      "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "Golden Gate Icon Keychain",
+      "name": "3FOR10POSTCARDS",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 27,
+      "pct": -100
+    },
+    {
+      "name": "3FOR11STICKERS",
+      "qty_recent": 0,
+      "qty_prev": 42,
       "pct": -100
     },
     {
@@ -113,28 +119,22 @@
       "pct": -100
     },
     {
-      "name": "3FOR10POSTCARDS",
+      "name": "Golden Gate Icon Keychain",
       "qty_recent": 0,
-      "qty_prev": 30,
-      "pct": -100
-    },
-    {
-      "name": "3FOR11STICKERS",
-      "qty_recent": 0,
-      "qty_prev": 46,
+      "qty_prev": 5,
       "pct": -100
     },
     {
       "name": "Home Sweet Home",
       "qty_recent": 0,
-      "qty_prev": 10,
+      "qty_prev": 9,
       "pct": -93
     },
     {
       "name": "Painted Lady Keychain- Blue",
       "qty_recent": 0,
       "qty_prev": 5,
-      "pct": -87
+      "pct": -89
     }
   ]
 }
