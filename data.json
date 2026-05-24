@@ -1,115 +1,109 @@
 {
-  "updated": "May 22, 2026",
-  "period_label": "5/13 \u2013 5/22, 2026",
-  "total_units": 162,
+  "updated": "May 23, 2026",
+  "period_label": "5/14 \u2013 5/23, 2026",
+  "total_units": 208,
   "revenue": {
-    "yesterday": 523.0,
-    "yesterday_label": "5/22",
-    "weekly": 3582.64,
-    "monthly": 5308.14,
-    "ytd": 86554.9
+    "yesterday": 1363.93,
+    "yesterday_label": "5/23",
+    "weekly": 4946.57,
+    "monthly": 6672.07,
+    "ytd": 87918.83
   },
   "top10": [
     {
+      "name": "STICKERS_3FOR11",
+      "sku": "STICKERS_3FOR11",
+      "qty": 33
+    },
+    {
       "name": "SF Illustrated Landmark",
       "sku": "MAG-SF-LDMKS",
-      "qty": 27
+      "qty": 32
     },
     {
       "name": "Golden Gate Travel (new version)",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 24
-    },
-    {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
-      "qty": 21
-    },
-    {
-      "name": "ACRYLIC Golden Gate Bridge",
-      "sku": "MAG-AC-SF-GGB",
-      "qty": 15
-    },
-    {
-      "name": "STICKERS_3FOR11",
-      "sku": "STICKERS_3FOR11",
-      "qty": 14
-    },
-    {
-      "name": "3 for $11",
-      "sku": "POSTCARDS3FOR11",
-      "qty": 14
+      "qty": 25
     },
     {
       "name": "Golden Gate Bridge Retro Postcard",
       "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty": 13
+      "qty": 22
+    },
+    {
+      "name": "ACRYLIC Golden Gate Bridge",
+      "sku": "MAG-AC-SF-GGB",
+      "qty": 21
+    },
+    {
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
+      "qty": 18
     },
     {
       "name": "Retro Golden Gate Bridge Poster Magnet",
       "sku": "MAG-SF-RETRO-GGB",
+      "qty": 17
+    },
+    {
+      "name": "3 for $11",
+      "sku": "POSTCARDS3FOR11",
+      "qty": 15
+    },
+    {
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
       "qty": 13
     },
     {
       "name": "Retro SF Ferry Building Poster Sticker",
       "sku": "RETROSFFERRYBUILDING_STICKER",
       "qty": 11
-    },
-    {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "MAG-SF-RETRO-FB",
-      "qty": 10
     }
   ],
   "hot": [
     {
       "name": "STICKERS_3FOR11",
-      "qty_recent": 14,
+      "qty_recent": 33,
       "qty_prev": 1,
-      "pct": 3950
+      "pct": 8592
+    },
+    {
+      "name": "Bay Area 8x10",
+      "qty_recent": 6,
+      "qty_prev": 3,
+      "pct": 258
     },
     {
       "name": "UC Berkeley 8x10",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 267
+      "qty_recent": 2,
+      "qty_prev": 2,
+      "pct": 223
+    },
+    {
+      "name": "SFO Luggage Tag Keychain",
+      "qty_recent": 10,
+      "qty_prev": 6,
+      "pct": 223
+    },
+    {
+      "name": "Golden Gate Travel",
+      "qty_recent": 5,
+      "qty_prev": 4,
+      "pct": 198
     },
     {
       "name": "Ferry Building Travel Poster 11x14",
       "qty_recent": 3,
       "qty_prev": 2,
-      "pct": 172
-    },
-    {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "qty_recent": 3,
-      "qty_prev": 0,
-      "pct": 150
-    },
-    {
-      "name": "Illustrated Golden Gate Bridge Landmark",
-      "qty_recent": 9,
-      "qty_prev": 0,
-      "pct": 150
-    },
-    {
-      "name": "Illustrated Ferry Building Landmark",
-      "qty_recent": 4,
-      "qty_prev": 0,
-      "pct": 150
+      "pct": 177
     }
   ],
   "cold": [
     {
       "name": "3FOR10POSTCARDS",
       "qty_recent": 0,
-      "qty_prev": 27,
-      "pct": -100
-    },
-    {
-      "name": "3FOR11STICKERS",
-      "qty_recent": 0,
-      "qty_prev": 42,
+      "qty_prev": 25,
       "pct": -100
     },
     {
@@ -125,16 +119,42 @@
       "pct": -100
     },
     {
-      "name": "Home Sweet Home",
+      "name": "3FOR11STICKERS",
       "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -93
+      "qty_prev": 39,
+      "pct": -100
     },
     {
-      "name": "Painted Lady Keychain- Blue",
+      "name": "Home Sweet Home",
       "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -89
+      "qty_prev": 7,
+      "pct": -94
+    },
+    {
+      "name": "Lake Tahoe",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -86
+    }
+  ],
+  "category_trends": [
+    {
+      "category": "Map Prints",
+      "qty_recent": 17,
+      "qty_prev": 24,
+      "pct": 40
+    },
+    {
+      "category": "Pencil Pouches",
+      "qty_recent": 5,
+      "qty_prev": 8,
+      "pct": 27
+    },
+    {
+      "category": "Totes",
+      "qty_recent": 8,
+      "qty_prev": 20,
+      "pct": -22
     }
   ]
 }
