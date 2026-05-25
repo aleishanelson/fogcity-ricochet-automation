@@ -1,34 +1,29 @@
 {
-  "updated": "May 23, 2026",
-  "period_label": "5/14 \u2013 5/23, 2026",
-  "total_units": 208,
+  "updated": "May 24, 2026",
+  "period_label": "5/15 \u2013 5/24, 2026",
+  "total_units": 221,
   "revenue": {
-    "yesterday": 1363.93,
-    "yesterday_label": "5/23",
-    "weekly": 4946.57,
-    "monthly": 6672.07,
-    "ytd": 87918.83
+    "yesterday": 861.44,
+    "yesterday_label": "5/24",
+    "weekly": 5808.01,
+    "monthly": 7533.51,
+    "ytd": 88780.27
   },
   "top10": [
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 33
+      "qty": 45
     },
     {
       "name": "SF Illustrated Landmark",
       "sku": "MAG-SF-LDMKS",
-      "qty": 32
+      "qty": 34
     },
     {
       "name": "Golden Gate Travel (new version)",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 25
-    },
-    {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty": 22
+      "qty": 24
     },
     {
       "name": "ACRYLIC Golden Gate Bridge",
@@ -36,9 +31,14 @@
       "qty": 21
     },
     {
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
+      "qty": 20
+    },
+    {
       "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
-      "qty": 18
+      "sku": "POSTCARDS3FOR11",
+      "qty": 19
     },
     {
       "name": "Retro Golden Gate Bridge Poster Magnet",
@@ -47,7 +47,7 @@
     },
     {
       "name": "3 for $11",
-      "sku": "POSTCARDS3FOR11",
+      "sku": "STICKERS3FOR11",
       "qty": 15
     },
     {
@@ -56,54 +56,60 @@
       "qty": 13
     },
     {
-      "name": "Retro SF Ferry Building Poster Sticker",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty": 11
+      "name": "Home Sweet Home",
+      "sku": "MAGNET_HOMESWEETSF",
+      "qty": 12
     }
   ],
   "hot": [
     {
       "name": "STICKERS_3FOR11",
-      "qty_recent": 33,
+      "qty_recent": 45,
       "qty_prev": 1,
-      "pct": 8592
+      "pct": 10871
+    },
+    {
+      "name": "Icons",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 367
+    },
+    {
+      "name": "Golden Gate Travel",
+      "qty_recent": 7,
+      "qty_prev": 4,
+      "pct": 320
+    },
+    {
+      "name": "Painted Lady Keychain- Yellow",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     },
     {
       "name": "Bay Area 8x10",
       "qty_recent": 6,
       "qty_prev": 3,
-      "pct": 258
+      "pct": 297
     },
     {
-      "name": "UC Berkeley 8x10",
-      "qty_recent": 2,
-      "qty_prev": 2,
-      "pct": 223
-    },
-    {
-      "name": "SFO Luggage Tag Keychain",
-      "qty_recent": 10,
-      "qty_prev": 6,
-      "pct": 223
-    },
-    {
-      "name": "Golden Gate Travel",
-      "qty_recent": 5,
-      "qty_prev": 4,
-      "pct": 198
-    },
-    {
-      "name": "Ferry Building Travel Poster 11x14",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 177
+      "name": "Cable Car Magnet",
+      "qty_recent": 9,
+      "qty_prev": 5,
+      "pct": 294
     }
   ],
   "cold": [
     {
       "name": "3FOR10POSTCARDS",
       "qty_recent": 0,
-      "qty_prev": 25,
+      "qty_prev": 22,
+      "pct": -100
+    },
+    {
+      "name": "3FOR11STICKERS",
+      "qty_recent": 0,
+      "qty_prev": 36,
       "pct": -100
     },
     {
@@ -115,46 +121,40 @@
     {
       "name": "Golden Gate Icon Keychain",
       "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "3FOR11STICKERS",
-      "qty_recent": 0,
-      "qty_prev": 39,
+      "qty_prev": 4,
       "pct": -100
     },
     {
       "name": "Home Sweet Home",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 6,
       "pct": -94
     },
     {
       "name": "Lake Tahoe",
       "qty_recent": 0,
       "qty_prev": 3,
-      "pct": -86
+      "pct": -89
     }
   ],
   "category_trends": [
     {
+      "category": "Keychains",
+      "qty_recent": 25,
+      "qty_prev": 35,
+      "pct": 43
+    },
+    {
       "category": "Map Prints",
-      "qty_recent": 17,
-      "qty_prev": 24,
+      "qty_recent": 16,
+      "qty_prev": 23,
       "pct": 40
     },
     {
       "category": "Pencil Pouches",
       "qty_recent": 5,
       "qty_prev": 8,
-      "pct": 27
-    },
-    {
-      "category": "Totes",
-      "qty_recent": 8,
-      "qty_prev": 20,
-      "pct": -22
+      "pct": 24
     }
   ]
 }
