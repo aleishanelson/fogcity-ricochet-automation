@@ -374,16 +374,58 @@ def find_sku(item_name: str, lookup: dict) -> str:
         # Keychains
         "painted lady keychain - yellow":                "KC-PAINTEDLADY-YELLOW",
         "painted lady keychain yellow":                  "KC-PAINTEDLADY-YELLOW",
-        # Bay Area prints — "bay area map" partial match hits sticker before print
+        # Bay Area prints
         "bay area map print 8x10":                       "BAYAREA_BW_8x10",
         "bay area map print 9x12":                       "BAYAREA_BW_9x12",
         "bay area map print 11x14":                      "BAYAREA_BW_11x14",
         "bay area map print 12x16":                      "BAYAREA_BW_12x16",
-        # SF Map Print — "san francisco map" partial match hits SFMAP_STICKER otherwise
+        # SF Map Prints — prevent partial match to SFMAP_STICKER
         "san francisco map print 8x10":                  "SF_BW_8x10",
         "san francisco map print 9x12":                  "SF_BW_9x12",
         "san francisco map print 11x14":                 "SF_BW_11x14",
         "san francisco map print 12x16":                 "SF_BW_12x16",
+        # Chicago Map Print — NOT CHICAGO_HP_* (HP = hand painted, different product)
+        "chicago map print 8x10":                        "CHICAGO_BW_8x10",
+        "chicago map print 9x12":                        "CHICAGO_BW_9x12",
+        "chicago map print 11x14":                       "CHICAGO_BW_11x14",
+        # USA Map Print
+        "usa map print 8x10":                            "USA_BW_8x10",
+        "usa map print 9x12":                            "USA_BW_9x12",
+        # UC Campus Map Prints — TT-CAMPUS-* are TEA TOWELS, not prints
+        "uc berkeley campus map print 8x10":             "UCBERKELEY_CAMPUS_BW_8x10",
+        "uc berkeley campus map print":                  "UCBERKELEY_CAMPUS_BW_8x10",
+        "uc santa barbara campus map print 8x10":        "UCSANTABARBARA_BW_8x10",
+        "uc santa barbara campus map print":             "UCSANTABARBARA_BW_8x10",
+        # Ferry Building PRINT (size in name = print, NOT the travel poster magnet)
+        "ferry building print 8x10":                     "FERRYBUILDING_TRAVELPOSTER_8x10",
+        "ferry building print 11x14":                    "FERRYBUILDING_TRAVELPOSTER_11x14",
+        "8x10 ferry building print":                     "FERRYBUILDING_TRAVELPOSTER_8x10",
+        "ferry building travel poster print 8x10":       "FERRYBUILDING_TRAVELPOSTER_8x10",
+        "ferry building travel poster print 11x14":      "FERRYBUILDING_TRAVELPOSTER_11x14",
+        "ferry building travel poster print":            "FERRYBUILDING_TRAVELPOSTER_8x10",  # normalized form
+        # Stickers — prevent HP SKU misassignment (HP = hand painted print)
+        "red san francisco pill sticker":                "PILL_SF_RED_STICKER",
+        "red sf pill sticker":                           "PILL_SF_RED_STICKER",
+        "travel poster golden gate sticker":             "GOLDENGATETRAVELPOSTER_STICKER",
+        "golden gate bridge sticker":                    "GGBRIDGE_PINK_STICKER",
+        # Tea Towels — prevent HP SKU misassignment
+        "san francisco tea towel":                       "SANFRANCISCO_MAP_DISHTOWEL",
+        "sf tea towel":                                  "SANFRANCISCO_MAP_DISHTOWEL",
+        # Pencil Pouches — prevent numeric Ricochet SKU misassignment
+        "pencil case natural":                           "pp-sf-cn-02",
+        "sf icons pencil pouch natural":                 "pp-sf-cn-02",
+        "sf blue pouch":                                 "PP-SF-CB-01",
+        "sf icons pencil pouch blue":                    "PP-SF-CB-01",
+        "pencil case blue":                              "PP-SF-CB-01",
+        # Totes
+        "block print tote":                              "SF_BLOCKFONT_TOTE",
+        "sf block print tote":                           "SF_BLOCKFONT_TOTE",
+        # Magnets
+        "magnets set":                                   "SANFRANCISCOICONS_MAGNETSET",
+        "magnet set":                                    "SANFRANCISCOICONS_MAGNETSET",
+        # Cards
+        "wishing you a sweet birthday cake card":        "SWEETBDAYCAKE_A2_GCARD",
+        "sweet birthday cake card":                      "SWEETBDAYCAKE_A2_GCARD",
     }
     # Exact override match
     if key in OVERRIDES:
@@ -579,6 +621,9 @@ def normalize(name: str) -> str:
         return 'Golden Gate Travel Poster Sticker'
 
     # Ferry Building magnets / sticker — sticker and travel poster checks before retro magnet
+    # Size in name (8x10 etc.) = it's a print, not a magnet
+    if re.search(r'ferry building.{0,30}(8x10|9x12|11x14|12x16)', nl):
+        return 'Ferry Building Travel Poster Print'
     if re.search(r'(retro.{0,10})?ferry building.{0,20}(poster.{0,5})?sticker', nl):
         return 'Retro Ferry Building Poster Sticker'
     if re.search(r'ferry building.{0,20}travel.{0,10}(poster.{0,5})?magnet', nl):
