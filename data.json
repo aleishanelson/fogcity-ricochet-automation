@@ -64,36 +64,42 @@
   "hot": [
     {
       "name": "STICKERS_3FOR11",
+      "sku": "STICKERS_3FOR11",
       "qty_recent": 58,
       "qty_prev": 1,
       "pct": 12238
     },
     {
       "name": "Icons",
+      "sku": "SFICONS_BLUE_GREETINGCARD_A2",
       "qty_recent": 2,
       "qty_prev": 0,
       "pct": 1300
     },
     {
       "name": "Cable Car Magnet",
+      "sku": "MAG-SF-CABLECAR",
       "qty_recent": 13,
       "qty_prev": 3,
       "pct": 810
     },
     {
       "name": "Golden Gate Travel",
+      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
       "qty_recent": 10,
       "qty_prev": 3,
       "pct": 539
     },
     {
       "name": "Bay Area 8x10",
+      "sku": "BAYAREA_BW_8X10",
       "qty_recent": 7,
       "qty_prev": 2,
       "pct": 496
     },
     {
       "name": "San Francisco Map Tea Towel",
+      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
       "qty_recent": 5,
       "qty_prev": 2,
       "pct": 444
@@ -102,36 +108,42 @@
   "cold": [
     {
       "name": "3FOR10POSTCARDS",
+      "sku": "3FOR10POSTCARDS",
       "qty_recent": 0,
       "qty_prev": 17,
       "pct": -100
     },
     {
       "name": "3FOR11STICKERS",
+      "sku": "3FOR11STICKERS",
       "qty_recent": 0,
       "qty_prev": 29,
       "pct": -100
     },
     {
       "name": "Golden Gate Icon Keychain",
+      "sku": "KC-SF-01",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
       "name": "Blue Victorian House Icon Keychain",
+      "sku": "KC-SF-02",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
       "name": "Home Sweet Home",
+      "sku": "HOMESWEETSANFRANCISCO_STICKER",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -97
     },
     {
       "name": "Lake Tahoe",
+      "sku": "TT-LAKETAHOE",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -96
