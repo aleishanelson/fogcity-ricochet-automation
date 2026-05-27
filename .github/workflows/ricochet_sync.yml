@@ -2,7 +2,8 @@ name: Ricochet Daily Sales Sync
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # 11pm PDT (UTC-7) = 06:00 UTC
+    - cron: '0 6 * * *'    # 11pm PDT (UTC-7) = 06:00 UTC — nightly sync
+    - cron: '0 19 * * *'   # 12pm PDT (UTC-7) = 19:00 UTC — midday refresh
   workflow_dispatch:        # Allow manual run from GitHub Actions tab
 
 jobs:
