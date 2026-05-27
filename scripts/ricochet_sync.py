@@ -408,6 +408,11 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "red sf pill sticker":                           "PILL_SF_RED_STICKER",
         "travel poster golden gate sticker":             "GOLDENGATETRAVELPOSTER_STICKER",
         "golden gate bridge sticker":                    "GGBRIDGE_PINK_STICKER",
+        # City by the Bay stickers — white/black version is STICKER-2
+        "white sf city by the bay circle sticker":       "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+        "city by the bay black/white sticker":           "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+        "city by the bay black and white sticker":       "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+        "the city by the bay black/white":               "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
         # Tea Towels — prevent HP SKU misassignment
         "san francisco tea towel":                       "SANFRANCISCO_MAP_DISHTOWEL",
         "sf tea towel":                                  "SANFRANCISCO_MAP_DISHTOWEL",
