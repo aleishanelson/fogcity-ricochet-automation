@@ -1216,6 +1216,7 @@ def build_dashboard_json(sheets):
         "hot": [
             {
                 "name":       display_name(sku),
+                "sku":        sku,
                 "qty_recent": round(v['qty_r']),
                 "qty_prev":   round(v['qty_p']),
                 "pct":        round(v['pct']),
@@ -1225,6 +1226,7 @@ def build_dashboard_json(sheets):
         "cold": [
             {
                 "name":       display_name(sku),
+                "sku":        sku,
                 "qty_recent": round(v['qty_r']),
                 "qty_prev":   round(v['qty_p']),
                 "pct":        round(v['pct']),
