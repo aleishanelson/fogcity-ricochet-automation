@@ -1,39 +1,44 @@
 {
-  "updated": "May 26, 2026",
-  "period_label": "5/17 \u2013 5/26, 2026",
-  "total_units": 246,
+  "updated": "May 27, 2026",
+  "period_label": "5/18 \u2013 5/27, 2026",
+  "total_units": 261,
   "revenue": {
-    "yesterday": 374.48,
-    "yesterday_label": "5/26",
-    "weekly": 6761.48,
-    "monthly": 8486.98,
-    "ytd": 89733.74
+    "yesterday": 516.0,
+    "yesterday_label": "5/27",
+    "weekly": 7035.0,
+    "monthly": 9002.98,
+    "ytd": 90249.74
   },
   "top10": [
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 58
+      "qty": 64
     },
     {
       "name": "SF Illustrated Landmark",
       "sku": "MAG-SF-LDMKS",
-      "qty": 35
+      "qty": 33
     },
     {
       "name": "Golden Gate Bridge Retro Postcard",
       "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty": 27
+      "qty": 29
     },
     {
       "name": "Golden Gate Travel (new version)",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 24
+      "qty": 28
     },
     {
       "name": "ACRYLIC Golden Gate Bridge",
       "sku": "MAG-AC-SF-GGB",
-      "qty": 22
+      "qty": 21
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "MAG-SF-RETRO-GGB",
+      "qty": 18
     },
     {
       "name": "3 for $11",
@@ -41,68 +46,63 @@
       "qty": 18
     },
     {
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
+      "qty": 17
+    },
+    {
       "name": "Pink Icons Postcard",
       "sku": "SFICONS_POSTCARD_PINK",
       "qty": 17
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "MAG-SF-RETRO-GGB",
-      "qty": 16
-    },
-    {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
-      "qty": 15
-    },
-    {
-      "name": "Home Sweet Home",
+      "name": "Home Sweet SF Square",
       "sku": "MAGNET_HOMESWEETSF",
-      "qty": 14
+      "qty": 16
     }
   ],
   "hot": [
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty_recent": 58,
+      "qty_recent": 64,
       "qty_prev": 1,
-      "pct": 12238
-    },
-    {
-      "name": "Icons",
-      "sku": "SFICONS_BLUE_GREETINGCARD_A2",
-      "qty_recent": 2,
-      "qty_prev": 0,
-      "pct": 1300
+      "pct": 12700
     },
     {
       "name": "Cable Car Magnet",
       "sku": "MAG-SF-CABLECAR",
       "qty_recent": 13,
-      "qty_prev": 3,
-      "pct": 810
+      "qty_prev": 2,
+      "pct": 1200
     },
     {
       "name": "Golden Gate Travel",
       "sku": "GOLDENGATETRAVELPOSTER_STICKER",
-      "qty_recent": 10,
+      "qty_recent": 15,
       "qty_prev": 3,
-      "pct": 539
+      "pct": 900
     },
     {
       "name": "Bay Area 8x10",
       "sku": "BAYAREA_BW_8X10",
       "qty_recent": 7,
       "qty_prev": 2,
-      "pct": 496
+      "pct": 600
     },
     {
       "name": "San Francisco Map Tea Towel",
       "sku": "SANFRANCISCO_MAP_DISHTOWEL",
       "qty_recent": 5,
       "qty_prev": 2,
-      "pct": 444
+      "pct": 400
+    },
+    {
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
+      "qty_recent": 17,
+      "qty_prev": 8,
+      "pct": 325
     }
   ],
   "cold": [
@@ -110,21 +110,7 @@
       "name": "3FOR10POSTCARDS",
       "sku": "3FOR10POSTCARDS",
       "qty_recent": 0,
-      "qty_prev": 17,
-      "pct": -100
-    },
-    {
-      "name": "3FOR11STICKERS",
-      "sku": "3FOR11STICKERS",
-      "qty_recent": 0,
-      "qty_prev": 29,
-      "pct": -100
-    },
-    {
-      "name": "Golden Gate Icon Keychain",
-      "sku": "KC-SF-01",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 15,
       "pct": -100
     },
     {
@@ -135,18 +121,32 @@
       "pct": -100
     },
     {
-      "name": "Home Sweet Home",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "name": "SFICONS_POSTCARD_BLUE",
+      "sku": "SFICONS_POSTCARD_BLUE",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -97
+      "qty_prev": 16,
+      "pct": -100
     },
     {
-      "name": "Lake Tahoe",
-      "sku": "TT-LAKETAHOE",
+      "name": "MAG-AC-SF-PLADIES-CL",
+      "sku": "MAG-AC-SF-PLADIES-CL",
       "qty_recent": 0,
       "qty_prev": 3,
-      "pct": -96
+      "pct": -100
+    },
+    {
+      "name": "3FOR11STICKERS",
+      "sku": "3FOR11STICKERS",
+      "qty_recent": 0,
+      "qty_prev": 26,
+      "pct": -100
+    },
+    {
+      "name": "UC Berkeley",
+      "sku": "TT-CAMPUS-BERKELEY",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
     }
   ],
   "category_trends": [
@@ -158,15 +158,15 @@
     },
     {
       "category": "Map Prints",
-      "qty_recent": 21,
-      "qty_prev": 21,
-      "pct": 97
+      "qty_recent": 20,
+      "qty_prev": 20,
+      "pct": 100
     },
     {
       "category": "Keychains",
-      "qty_recent": 29,
+      "qty_recent": 30,
       "qty_prev": 35,
-      "pct": 66
+      "pct": 71
     }
   ]
 }
