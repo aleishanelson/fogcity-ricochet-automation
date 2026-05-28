@@ -107,6 +107,13 @@
   ],
   "cold": [
     {
+      "name": "SANFRANCISCO_MAP_TEATOWEL",
+      "sku": "SANFRANCISCO_MAP_TEATOWEL",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
       "name": "3FOR10POSTCARDS",
       "sku": "3FOR10POSTCARDS",
       "qty_recent": 0,
@@ -114,17 +121,17 @@
       "pct": -100
     },
     {
-      "name": "Blue Victorian House Icon Keychain",
-      "sku": "KC-SF-02",
+      "name": "Lake Tahoe",
+      "sku": "TT-LAKETAHOE",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "SFICONS_POSTCARD_BLUE",
-      "sku": "SFICONS_POSTCARD_BLUE",
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
       "qty_recent": 0,
-      "qty_prev": 16,
+      "qty_prev": 10,
       "pct": -100
     },
     {
@@ -135,17 +142,10 @@
       "pct": -100
     },
     {
-      "name": "3FOR11STICKERS",
-      "sku": "3FOR11STICKERS",
+      "name": "Vintage SFO Luggage Tag",
+      "sku": "SFO_LUGGAGETAG_MAGNET",
       "qty_recent": 0,
-      "qty_prev": 26,
-      "pct": -100
-    },
-    {
-      "name": "UC Berkeley",
-      "sku": "TT-CAMPUS-BERKELEY",
-      "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 12,
       "pct": -100
     }
   ],
