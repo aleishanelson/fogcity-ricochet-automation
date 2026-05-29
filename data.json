@@ -77,17 +77,17 @@
       "pct": 647
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
-    {
       "name": "San Francisco Map Tea Towel",
       "sku": "SANFRANCISCO_MAP_DISHTOWEL",
       "qty_recent": 6,
       "qty_prev": 2,
+      "pct": 500
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty_recent": 3,
+      "qty_prev": 1,
       "pct": 500
     },
     {
@@ -107,17 +107,10 @@
   ],
   "cold": [
     {
-      "name": "Vintage SFO Luggage Tag",
-      "sku": "SFO_LUGGAGETAG_MAGNET",
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
       "qty_recent": 0,
-      "qty_prev": 12,
-      "pct": -100
-    },
-    {
-      "name": "UC Berkeley",
-      "sku": "TT-CAMPUS-BERKELEY",
-      "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 10,
       "pct": -100
     },
     {
@@ -128,24 +121,31 @@
       "pct": -100
     },
     {
-      "name": "Pennant",
-      "sku": "SFPENNANT_STICKER",
+      "name": "UC Berkeley",
+      "sku": "TT-CAMPUS-BERKELEY",
       "qty_recent": 0,
-      "qty_prev": 10,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "Blue Victorian House Icon Keychain",
-      "sku": "KC-SF-02",
+      "name": "Golden Gate Icon Keychain",
+      "sku": "KC-SF-01",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Bon Voyage",
-      "sku": "BONVOYAGE_STICKER",
+      "name": "GGBRIDGE_LANDMARK_STICKER",
+      "sku": "GGBRIDGE_LANDMARK_STICKER",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "3FOR10POSTCARDS",
+      "sku": "3FOR10POSTCARDS",
+      "qty_recent": 0,
+      "qty_prev": 14,
       "pct": -100
     }
   ],
