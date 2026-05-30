@@ -84,17 +84,17 @@
       "pct": 529
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
-    {
       "name": "San Francisco Map Tea Towel",
       "sku": "SANFRANCISCO_MAP_DISHTOWEL",
       "qty_recent": 6,
       "qty_prev": 2,
+      "pct": 500
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty_recent": 3,
+      "qty_prev": 1,
       "pct": 500
     },
     {
@@ -107,10 +107,17 @@
   ],
   "cold": [
     {
-      "name": "3FOR10POSTCARDS",
-      "sku": "3FOR10POSTCARDS",
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
       "qty_recent": 0,
-      "qty_prev": 12,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "GGBRIDGE_LANDMARK_STICKER",
+      "sku": "GGBRIDGE_LANDMARK_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 7,
       "pct": -100
     },
     {
@@ -121,13 +128,6 @@
       "pct": -100
     },
     {
-      "name": "Bon Voyage",
-      "sku": "BONVOYAGE_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
       "name": "3FOR11STICKERS",
       "sku": "3FOR11STICKERS",
       "qty_recent": 0,
@@ -135,17 +135,17 @@
       "pct": -100
     },
     {
-      "name": "UC Berkeley",
-      "sku": "TT-CAMPUS-BERKELEY",
+      "name": "MAG-AC-SF-PLADIES-CL",
+      "sku": "MAG-AC-SF-PLADIES-CL",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Vintage SFO Luggage Tag",
-      "sku": "SFO_LUGGAGETAG_MAGNET",
+      "name": "SANFRANCISCO_MAP_TEATOWEL",
+      "sku": "SANFRANCISCO_MAP_TEATOWEL",
       "qty_recent": 0,
-      "qty_prev": 12,
+      "qty_prev": 7,
       "pct": -100
     }
   ],
