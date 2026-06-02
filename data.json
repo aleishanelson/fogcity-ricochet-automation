@@ -1,7 +1,7 @@
 {
   "updated": "June 1, 2026",
   "period_label": "5/23 \u2013 6/1, 2026",
-  "total_units": 276,
+  "total_units": 277,
   "revenue": {
     "yesterday": 26.5,
     "yesterday_label": "6/1",
@@ -23,7 +23,7 @@
     {
       "name": "SF Illustrated Landmark",
       "sku": "MAG-SF-LDMKS",
-      "qty": 29
+      "qty": 30
     },
     {
       "name": "Golden Gate Travel (new version)",
@@ -91,14 +91,14 @@
       "pct": 500
     },
     {
-      "name": "Golden Gate Travel",
-      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
-      "qty_recent": 14,
-      "qty_prev": 6,
-      "pct": 376
+      "name": "Ferry Building",
+      "sku": "FERRYBLDGTRAVELPOSTER_GCARD",
+      "qty_recent": 4,
+      "qty_prev": 2,
+      "pct": 380
     },
     {
-      "name": "Home Sweet Home",
+      "name": "Home Sweet SF",
       "sku": "HOMESWEETSANFRANCISCO_STICKER",
       "qty_recent": 4,
       "qty_prev": 2,
@@ -121,10 +121,10 @@
       "pct": -100
     },
     {
-      "name": "3FOR10POSTCARDS",
-      "sku": "3FOR10POSTCARDS",
+      "name": "CA State Blue",
+      "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
       "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -135,17 +135,17 @@
       "pct": -100
     },
     {
-      "name": "3FOR11STICKERS",
-      "sku": "3FOR11STICKERS",
+      "name": "CA State White and Black",
+      "sku": "CALIFORNIASTATE_BLOCKFONT_BW",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "Illustrated Golden Gate Bridge Landmark",
-      "sku": "GGB_ILLUSTRATED_STICKER",
+      "name": "3FOR10POSTCARDS",
+      "sku": "3FOR10POSTCARDS",
       "qty_recent": 0,
-      "qty_prev": 9,
+      "qty_prev": 8,
       "pct": -100
     }
   ],
@@ -163,10 +163,10 @@
       "pct": 86
     },
     {
-      "category": "Postcards",
-      "qty_recent": 113,
-      "qty_prev": 180,
-      "pct": 26
+      "category": "Cards",
+      "qty_recent": 52,
+      "qty_prev": 81,
+      "pct": 29
     }
   ]
 }
