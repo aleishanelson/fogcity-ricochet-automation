@@ -107,38 +107,10 @@
   ],
   "cold": [
     {
-      "name": "Illustrated Golden Gate Bridge Landmark",
-      "sku": "GGB_ILLUSTRATED_STICKER",
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
       "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "3FOR10POSTCARDS",
-      "sku": "3FOR10POSTCARDS",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "UC Berkeley",
-      "sku": "TT-CAMPUS-BERKELEY",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "MAGNET_SFCITYBYTHEBAY_PINK",
-      "sku": "MAGNET_SFCITYBYTHEBAY_PINK",
-      "qty_recent": 0,
-      "qty_prev": 12,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -146,6 +118,34 @@
       "sku": "GGBRIDGE_LANDMARK_STICKER",
       "qty_recent": 0,
       "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "SF City By The Bay Dad Hat - Cream",
+      "sku": "DH-002-CR",
+      "qty_recent": 0,
+      "qty_prev": 9,
+      "pct": -100
+    },
+    {
+      "name": "SFICONS_POSTCARD_BLUE",
+      "sku": "SFICONS_POSTCARD_BLUE",
+      "qty_recent": 0,
+      "qty_prev": 12,
+      "pct": -100
+    },
+    {
+      "name": "SANFRANCISCO_MAP_TEATOWEL",
+      "sku": "SANFRANCISCO_MAP_TEATOWEL",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "CA State Blue",
+      "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
