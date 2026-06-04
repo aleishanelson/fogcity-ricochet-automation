@@ -91,26 +91,47 @@
       "pct": 162
     },
     {
-      "name": "San Francisco Map",
-      "sku": "SFMAP_A2CARD",
-      "qty_recent": 3,
+      "name": "ACRYLIC Painted Ladies",
+      "sku": "MAG-SF-PLADIES-CL",
+      "qty_recent": 2,
       "qty_prev": 0,
       "pct": 150
     },
     {
-      "name": "SF Map",
-      "sku": "SF_MAP_TOTE",
-      "qty_recent": 2,
+      "name": "San Francisco Map",
+      "sku": "SFMAP_A2CARD",
+      "qty_recent": 3,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "UC Berkeley",
-      "sku": "TT-CAMPUS-BERKELEY",
+      "name": "SF City By The Bay Dad Hat - Cream",
+      "sku": "DH-002-CR",
+      "qty_recent": 0,
+      "qty_prev": 9,
+      "pct": -100
+    },
+    {
+      "name": "MAGNET_SFCITYBYTHEBAY_PINK",
+      "sku": "MAGNET_SFCITYBYTHEBAY_PINK",
+      "qty_recent": 0,
+      "qty_prev": 12,
+      "pct": -100
+    },
+    {
+      "name": "3FOR11STICKERS",
+      "sku": "3FOR11STICKERS",
       "qty_recent": 0,
       "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Painted Lady Keychain- Blue",
+      "sku": "KC-PAINTEDLADY-BLUE",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -121,31 +142,10 @@
       "pct": -100
     },
     {
-      "name": "CA State Blue",
-      "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
+      "name": "SANFRANCISCO_MAP_TEATOWEL",
+      "sku": "SANFRANCISCO_MAP_TEATOWEL",
       "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
-      "qty_recent": 0,
-      "qty_prev": 47,
-      "pct": -100
-    },
-    {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 6,
       "pct": -100
     }
   ],
