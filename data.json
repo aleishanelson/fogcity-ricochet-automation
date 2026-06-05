@@ -1,59 +1,59 @@
 {
-  "updated": "June 3, 2026",
-  "period_label": "5/25 \u2013 6/3, 2026",
-  "total_units": 219,
+  "updated": "June 4, 2026",
+  "period_label": "5/26 \u2013 6/4, 2026",
+  "total_units": 209,
   "revenue": {
-    "yesterday": 338.48,
-    "yesterday_label": "6/3",
-    "weekly": 5216.07,
-    "monthly": 4917.15,
-    "ytd": 93093.13
+    "yesterday": 354.48,
+    "yesterday_label": "6/4",
+    "weekly": 5304.56,
+    "monthly": 5271.63,
+    "ytd": 93447.61
   },
   "top10": [
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 60
+      "qty": 55
     },
     {
       "name": "Golden Gate Travel (new version)",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 27
-    },
-    {
-      "name": "SF Illustrated Landmark",
-      "sku": "MAG-SF-LDMKS",
-      "qty": 21
+      "qty": 30
     },
     {
       "name": "3 for $11",
       "sku": "POSTCARDS3FOR11",
-      "qty": 20
-    },
-    {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
-      "qty": 20
-    },
-    {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty": 19
     },
     {
       "name": "Retro Golden Gate Bridge Poster Magnet",
       "sku": "MAG-SF-RETRO-GGB",
+      "qty": 18
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "MAG-SF-LDMKS",
+      "qty": 18
+    },
+    {
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
       "qty": 17
+    },
+    {
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
+      "qty": 15
+    },
+    {
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
+      "qty": 13
     },
     {
       "name": "Ferry Building Retro Postcard",
       "sku": "FERRYBUILDING_RETRO_PC",
       "qty": 13
-    },
-    {
-      "name": "Pink Icons Postcard",
-      "sku": "SFICONS_POSTCARD_PINK",
-      "qty": 11
     },
     {
       "name": "Retro Ferry Building Poster Magnet",
@@ -67,28 +67,35 @@
       "sku": "FERRYBLDGTRAVELPOSTER_GCARD",
       "qty_recent": 4,
       "qty_prev": 1,
-      "pct": 700
+      "pct": 1100
     },
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSANFRANCISCO_STICKER",
-      "qty_recent": 4,
+      "qty_recent": 5,
       "qty_prev": 1,
-      "pct": 504
+      "pct": 811
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
       "qty_recent": 4,
       "qty_prev": 2,
-      "pct": 339
+      "pct": 353
     },
     {
-      "name": "STICKERS_3FOR11",
-      "sku": "STICKERS_3FOR11",
-      "qty_recent": 60,
-      "qty_prev": 46,
-      "pct": 162
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
+      "qty_recent": 13,
+      "qty_prev": 10,
+      "pct": 173
+    },
+    {
+      "name": "SF Map",
+      "sku": "SF_MAP_TOTE",
+      "qty_recent": 2,
+      "qty_prev": 0,
+      "pct": 150
     },
     {
       "name": "ACRYLIC Painted Ladies",
@@ -96,56 +103,49 @@
       "qty_recent": 2,
       "qty_prev": 0,
       "pct": 150
-    },
-    {
-      "name": "San Francisco Map",
-      "sku": "SFMAP_A2CARD",
-      "qty_recent": 3,
-      "qty_prev": 0,
-      "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "SF City By The Bay Dad Hat - Cream",
-      "sku": "DH-002-CR",
+      "name": "SFICONS_POSTCARD_BLUE",
+      "sku": "SFICONS_POSTCARD_BLUE",
       "qty_recent": 0,
       "qty_prev": 9,
       "pct": -100
     },
     {
-      "name": "MAGNET_SFCITYBYTHEBAY_PINK",
-      "sku": "MAGNET_SFCITYBYTHEBAY_PINK",
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
       "qty_recent": 0,
-      "qty_prev": 12,
-      "pct": -100
-    },
-    {
-      "name": "3FOR11STICKERS",
-      "sku": "3FOR11STICKERS",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Painted Lady Keychain- Blue",
-      "sku": "KC-PAINTEDLADY-BLUE",
-      "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 44,
       "pct": -100
     },
     {
       "name": "3FOR10POSTCARDS",
       "sku": "3FOR10POSTCARDS",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "SANFRANCISCO_MAP_TEATOWEL",
-      "sku": "SANFRANCISCO_MAP_TEATOWEL",
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Proud Tourist",
+      "sku": "PROUDTOURIST_STICKER",
       "qty_recent": 0,
       "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TRAVELPOSTER_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
@@ -154,19 +154,19 @@
       "category": "Map Prints",
       "qty_recent": 5,
       "qty_prev": 30,
-      "pct": -67
+      "pct": -66
+    },
+    {
+      "category": "Landmark Prints",
+      "qty_recent": 5,
+      "qty_prev": 23,
+      "pct": -57
     },
     {
       "category": "Tea Towels",
-      "qty_recent": 5,
+      "qty_recent": 6,
       "qty_prev": 23,
-      "pct": -56
-    },
-    {
-      "category": "Stickers",
-      "qty_recent": 63,
-      "qty_prev": 222,
-      "pct": -43
+      "pct": -47
     }
   ]
 }
