@@ -91,9 +91,9 @@
       "pct": 173
     },
     {
-      "name": "SF Map",
-      "sku": "SF_MAP_TOTE",
-      "qty_recent": 2,
+      "name": "San Francisco Map",
+      "sku": "SFMAP_A2CARD",
+      "qty_recent": 3,
       "qty_prev": 0,
       "pct": 150
     },
@@ -106,13 +106,6 @@
     }
   ],
   "cold": [
-    {
-      "name": "SFICONS_POSTCARD_BLUE",
-      "sku": "SFICONS_POSTCARD_BLUE",
-      "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
     {
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
@@ -128,10 +121,24 @@
       "pct": -100
     },
     {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
+      "name": "Vintage SFO Luggage Tag",
+      "sku": "SFO_LUGGAGETAG_MAGNET",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 8,
+      "pct": -100
+    },
+    {
+      "name": "Bay Area Map Tea Towel",
+      "sku": "BAYAREA_MAP_TEATOWEL",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "GGBRIDGE_LANDMARK_STICKER",
+      "sku": "GGBRIDGE_LANDMARK_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -139,13 +146,6 @@
       "sku": "PROUDTOURIST_STICKER",
       "qty_recent": 0,
       "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TRAVELPOSTER_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
       "pct": -100
     }
   ],
