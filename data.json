@@ -56,8 +56,8 @@
       "qty": 15
     },
     {
-      "name": "SF Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
+      "name": "ACRYLIC Home Sweet SF",
+      "sku": "MAG-AC-SF-HOUSES",
       "qty": 13
     }
   ],
@@ -77,22 +77,22 @@
       "pct": 300
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty_recent": 6,
-      "qty_prev": 4,
-      "pct": 234
-    },
-    {
       "name": "Painted Lady Keychain- Blue",
       "sku": "KC-PAINTEDLADY-BLUE",
-      "qty_recent": 6,
+      "qty_recent": 7,
       "qty_prev": 4,
-      "pct": 234
+      "pct": 290
     },
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "qty_recent": 6,
+      "qty_prev": 4,
+      "pct": 234
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
       "qty_recent": 6,
       "qty_prev": 4,
       "pct": 234
@@ -107,38 +107,31 @@
   ],
   "cold": [
     {
-      "name": "Wishing You A Sweet Birthday Card",
-      "sku": "SWEETBDAYCAKE_A2_GCARD",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "SF Icons Pencil Pouch - Natural",
-      "sku": "PP-SF-CN-02",
+      "name": "GGBRIDGE_LANDMARK_STICKER",
+      "sku": "GGBRIDGE_LANDMARK_STICKER",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
+      "name": "Bay Area Map",
+      "sku": "BAYAREAMAP_A2CARD",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "Vintage SFO Luggage Tag",
-      "sku": "SFO_LUGGAGETAG_MAGNET",
+      "name": "Illustrated Golden Gate Bridge Landmark",
+      "sku": "GGB_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 9,
+      "pct": -100
+    },
+    {
+      "name": "SFICONS_POSTCARD_BLUE",
+      "sku": "SFICONS_POSTCARD_BLUE",
       "qty_recent": 0,
       "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TRAVELPOSTER_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -147,20 +140,27 @@
       "qty_recent": 0,
       "qty_prev": 35,
       "pct": -100
+    },
+    {
+      "name": "Vintage SFO Luggage Tag",
+      "sku": "SFO_LUGGAGETAG_MAGNET",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
     }
   ],
   "category_trends": [
+    {
+      "category": "Keychains",
+      "qty_recent": 33,
+      "qty_prev": 40,
+      "pct": 63
+    },
     {
       "category": "Map Prints",
       "qty_recent": 5,
       "qty_prev": 26,
       "pct": -62
-    },
-    {
-      "category": "Keychains",
-      "qty_recent": 32,
-      "qty_prev": 40,
-      "pct": 58
     },
     {
       "category": "Tea Towels",
