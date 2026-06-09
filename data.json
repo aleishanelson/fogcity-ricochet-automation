@@ -107,24 +107,17 @@
   ],
   "cold": [
     {
-      "name": "SFICONS_POSTCARD_BLUE",
-      "sku": "SFICONS_POSTCARD_BLUE",
+      "name": "SF Fuzzy Patch Trucker Hat - Navy",
+      "sku": "TH-001-NB",
       "qty_recent": 0,
       "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "Bay Area Map Tea Towel",
-      "sku": "BAYAREA_MAP_TEATOWEL",
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
       "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TRAVELPOSTER_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 32,
       "pct": -100
     },
     {
@@ -135,6 +128,13 @@
       "pct": -100
     },
     {
+      "name": "Bay Area Map Tea Towel",
+      "sku": "BAYAREA_MAP_TEATOWEL",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
       "name": "GGBRIDGE_LANDMARK_STICKER",
       "sku": "GGBRIDGE_LANDMARK_STICKER",
       "qty_recent": 0,
@@ -142,10 +142,10 @@
       "pct": -100
     },
     {
-      "name": "MAGNET_SFCITYBYTHEBAY_PINK",
-      "sku": "MAGNET_SFCITYBYTHEBAY_PINK",
+      "name": "Wishing You A Sweet Birthday Card",
+      "sku": "SWEETBDAYCAKE_A2_GCARD",
       "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 6,
       "pct": -100
     }
   ],
@@ -158,9 +158,9 @@
     },
     {
       "category": "Map Prints",
-      "qty_recent": 5,
+      "qty_recent": 6,
       "qty_prev": 26,
-      "pct": -61
+      "pct": -54
     },
     {
       "category": "Pencil Pouches",
