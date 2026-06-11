@@ -107,8 +107,29 @@
   ],
   "cold": [
     {
-      "name": "Bay Area Map",
-      "sku": "BAYAREAMAP_A2CARD",
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
+      "sku": "FW_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Ferry Building Travel Poster 11x14",
+      "sku": "FERRYBUILDING_TRAVELPOSTER_11X14",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Vintage SFO Luggage Tag",
+      "sku": "SFO_LUGGAGETAG_MAGNET",
       "qty_recent": 0,
       "qty_prev": 5,
       "pct": -100
@@ -121,31 +142,10 @@
       "pct": -100
     },
     {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
       "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "SFICONS_POSTCARD_BLUE",
-      "sku": "SFICONS_POSTCARD_BLUE",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "MAGNET_SFCITYBYTHEBAY_PINK",
-      "sku": "MAGNET_SFCITYBYTHEBAY_PINK",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "Vintage SFO Luggage Tag",
-      "sku": "SFO_LUGGAGETAG_MAGNET",
-      "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
