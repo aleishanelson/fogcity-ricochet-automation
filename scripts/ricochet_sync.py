@@ -425,6 +425,15 @@ def find_sku(item_name: str, lookup: dict) -> str:
         # Totes
         "block print tote":                              "SF_BLOCKFONT_TOTE",
         "sf block print tote":                           "SF_BLOCKFONT_TOTE",
+      # SF City Name Tote — NOT SF_HP_11x15 (HP = hand painted print)
+        "san francisco city tote":                       "SF_BLOCKFONT_TOTE",
+        "sf city tote":                                  "SF_BLOCKFONT_TOTE",
+        "san francisco city name tote":                  "SF_BLOCKFONT_TOTE",
+        # Hats
+        "sf fog dad hat - light blue":                   "DH-004-LB",
+        "sf fog dad hat light blue":                     "DH-004-LB",
+        "fog dad hat light blue":                        "DH-004-LB",
+        "fog dad hat - light blue":                      "DH-004-LB",
         # Magnets
         "magnets set":                                   "SANFRANCISCOICONS_MAGNETSET",
         "magnet set":                                    "SANFRANCISCOICONS_MAGNETSET",
