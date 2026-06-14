@@ -107,6 +107,13 @@
   ],
   "cold": [
     {
+      "name": "Illustrated Golden Gate Bridge Landmark",
+      "sku": "GGB_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 9,
+      "pct": -100
+    },
+    {
       "name": "Illustrated Ferry Building Landmark",
       "sku": "FB_ILLUSTRATED_STICKER",
       "qty_recent": 0,
@@ -114,22 +121,8 @@
       "pct": -100
     },
     {
-      "name": "UC Berkeley 8x10",
-      "sku": "UCBERKELEY_CAMPUS_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
-      "qty_recent": 0,
-      "qty_prev": 18,
-      "pct": -100
-    },
-    {
-      "name": "Bay Area Map",
-      "sku": "BAYAREAMAP_A2CARD",
+      "name": "Ferry Building Travel Poster 11x14",
+      "sku": "FERRYBUILDING_TRAVELPOSTER_11X14",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
@@ -142,10 +135,17 @@
       "pct": -100
     },
     {
-      "name": "Ferry Building Travel Poster 11x14",
-      "sku": "FERRYBUILDING_TRAVELPOSTER_11X14",
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TRAVELPOSTER_8X10",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
+      "qty_recent": 0,
+      "qty_prev": 18,
       "pct": -100
     }
   ],
