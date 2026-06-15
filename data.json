@@ -56,8 +56,8 @@
       "qty": 19
     },
     {
-      "name": "Ferry Building",
-      "sku": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "MAG-SF-RETRO-PL",
       "qty": 14
     }
   ],
@@ -114,17 +114,17 @@
       "pct": -100
     },
     {
-      "name": "UC Berkeley 8x10",
-      "sku": "UCBERKELEY_CAMPUS_BW_8X10",
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
+      "name": "MAGNET_SFCITYBYTHEBAY_PINK",
+      "sku": "MAGNET_SFCITYBYTHEBAY_PINK",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -135,32 +135,32 @@
       "pct": -100
     },
     {
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TRAVELPOSTER_8X10",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
       "name": "Illustrated Golden Gate Bridge Landmark",
       "sku": "GGB_ILLUSTRATED_STICKER",
       "qty_recent": 0,
       "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster 11x14",
-      "sku": "FERRYBUILDING_TRAVELPOSTER_11X14",
-      "qty_recent": 0,
-      "qty_prev": 4,
       "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Map Prints",
-      "qty_recent": 5,
+      "qty_recent": 7,
       "qty_prev": 27,
-      "pct": -63
+      "pct": -48
     },
     {
       "category": "Magnets",
-      "qty_recent": 259,
+      "qty_recent": 257,
       "qty_prev": 389,
-      "pct": 33
+      "pct": 32
     },
     {
       "category": "Keychains",
