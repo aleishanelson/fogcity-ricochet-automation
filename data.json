@@ -107,24 +107,10 @@
   ],
   "cold": [
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "The City by the Bay Black/White",
+      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
       "qty_recent": 0,
-      "qty_prev": 22,
-      "pct": -100
-    },
-    {
-      "name": "Bay Area Map",
-      "sku": "BAYAREAMAP_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster 11x14",
-      "sku": "FERRYBUILDING_TRAVELPOSTER_11X14",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -146,6 +132,20 @@
       "sku": "KC-PAINTEDLADY-YELLOW",
       "qty_recent": 0,
       "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "Illustrated Golden Gate Bridge Landmark",
+      "sku": "GGB_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 9,
+      "pct": -100
+    },
+    {
+      "name": "Bay Area Map",
+      "sku": "BAYAREAMAP_A2CARD",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
