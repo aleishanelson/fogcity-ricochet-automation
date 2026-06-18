@@ -107,31 +107,10 @@
   ],
   "cold": [
     {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TRAVELPOSTER_8X10",
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "The City by the Bay Black/White",
-      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Illustrated Golden Gate Bridge Landmark",
-      "sku": "GGB_ILLUSTRATED_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
-      "qty_recent": 0,
-      "qty_prev": 21,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -139,6 +118,27 @@
       "sku": "UCBERKELEY_CAMPUS_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Bay Area Map",
+      "sku": "BAYAREAMAP_A2CARD",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "Illustrated Golden Gate Bridge Landmark",
+      "sku": "GGB_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 9,
       "pct": -100
     },
     {
