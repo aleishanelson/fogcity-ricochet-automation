@@ -63,17 +63,17 @@
   ],
   "hot": [
     {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
-      "qty_recent": 4,
-      "qty_prev": 2,
-      "pct": 300
-    },
-    {
       "name": "Pennant",
       "sku": "SFPENNANT_STICKER",
       "qty_recent": 2,
       "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
+      "qty_recent": 4,
+      "qty_prev": 2,
       "pct": 300
     },
     {
@@ -91,15 +91,15 @@
       "pct": 167
     },
     {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
-      "qty_recent": 4,
+      "name": "00302X",
+      "sku": "00302X",
+      "qty_recent": 3,
       "qty_prev": 0,
       "pct": 150
     },
     {
-      "name": "00302X",
-      "sku": "00302X",
+      "name": "00303O",
+      "sku": "00303O",
       "qty_recent": 3,
       "qty_prev": 0,
       "pct": 150
@@ -107,17 +107,24 @@
   ],
   "cold": [
     {
-      "name": "Ferry Building Travel Poster 11x14",
-      "sku": "FERRYBUILDING_TRAVELPOSTER_11X14",
+      "name": "Bay Area Map",
+      "sku": "BAYAREAMAP_A2CARD",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "The City by the Bay Black/White",
+      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -128,24 +135,17 @@
       "pct": -100
     },
     {
-      "name": "Bay Area Map",
-      "sku": "BAYAREAMAP_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
+      "name": "State of California Tea Towel",
+      "sku": "STATEOFCALIFORNIA_MAP_TEATOWEL",
       "qty_recent": 0,
       "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
+      "qty_recent": 0,
+      "qty_prev": 7,
       "pct": -100
     }
   ],
