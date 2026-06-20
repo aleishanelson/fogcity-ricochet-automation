@@ -1,11 +1,11 @@
 {
-  "updated": "June 18, 2026",
-  "period_label": "6/9 \u2013 6/18, 2026",
-  "total_units": 234,
+  "updated": "June 19, 2026",
+  "period_label": "6/10 \u2013 6/19, 2026",
+  "total_units": 225,
   "revenue": {
     "yesterday": 0.0,
-    "yesterday_label": "6/18",
-    "weekly": 5545.15,
+    "yesterday_label": "6/19",
+    "weekly": 5063.16,
     "monthly": 12517.54,
     "ytd": 100693.52
   },
@@ -13,17 +13,17 @@
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 46
-    },
-    {
-      "name": "SF Illustrated Landmark",
-      "sku": "MAG-SF-LDMKS",
-      "qty": 38
+      "qty": 39
     },
     {
       "name": "Golden Gate Travel (new version)",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 35
+      "qty": 34
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "MAG-SF-LDMKS",
+      "qty": 34
     },
     {
       "name": "Golden Gate Bridge Retro Postcard",
@@ -33,7 +33,12 @@
     {
       "name": "3 for $11",
       "sku": "POSTCARDS3FOR11",
-      "qty": 22
+      "qty": 19
+    },
+    {
+      "name": "00304L",
+      "sku": "00304L",
+      "qty": 18
     },
     {
       "name": "Painted Ladies Retro Postcard",
@@ -46,19 +51,14 @@
       "qty": 14
     },
     {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
-      "qty": 13
-    },
-    {
       "name": "Retro Ferry Building Poster Magnet",
       "sku": "MAG-SF-RETRO-FB",
       "qty": 13
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
-      "qty": 12
+      "name": "00302L",
+      "sku": "00302L",
+      "qty": 13
     }
   ],
   "hot": [
@@ -77,6 +77,13 @@
       "pct": 300
     },
     {
+      "name": "Wishing You A Sweet Birthday Card",
+      "sku": "SWEETBDAYCAKE_A2_GCARD",
+      "qty_recent": 6,
+      "qty_prev": 4,
+      "pct": 200
+    },
+    {
       "name": "ACRYLIC SFO Luggage tag",
       "sku": "MAG-AC-SF-SFO",
       "qty_recent": 10,
@@ -84,35 +91,21 @@
       "pct": 186
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
-      "qty_recent": 12,
-      "qty_prev": 9,
-      "pct": 167
-    },
-    {
-      "name": "00302X",
-      "sku": "00302X",
+      "name": "00303T",
+      "sku": "00303T",
       "qty_recent": 3,
       "qty_prev": 0,
       "pct": 150
     },
     {
-      "name": "00303O",
-      "sku": "00303O",
-      "qty_recent": 3,
+      "name": "ACRYLIC Painted Ladies",
+      "sku": "MAG-SF-PLADIES-CL",
+      "qty_recent": 6,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
-    {
-      "name": "Bay Area Map",
-      "sku": "BAYAREAMAP_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
     {
       "name": "Painted Lady Keychain- Yellow",
       "sku": "KC-PAINTEDLADY-YELLOW",
@@ -121,17 +114,17 @@
       "pct": -100
     },
     {
-      "name": "The City by the Bay Black/White",
-      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "name": "Bay Area Map",
+      "sku": "BAYAREAMAP_A2CARD",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TRAVELPOSTER_8X10",
+      "name": "Home Sweet SF Square",
+      "sku": "MAGNET_HOMESWEETSF",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 21,
       "pct": -100
     },
     {
@@ -142,31 +135,38 @@
       "pct": -100
     },
     {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 20,
+      "pct": -100
+    },
+    {
+      "name": "SAN FRANCISCO. PENCIL CASE",
+      "sku": "SAN FRANCISCO. PENCIL CASE",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
   "category_trends": [
     {
+      "category": "Keychains",
+      "qty_recent": 16,
+      "qty_prev": 69,
+      "pct": -54
+    },
+    {
       "category": "Landmark Prints",
       "qty_recent": 5,
-      "qty_prev": 23,
-      "pct": -57
+      "qty_prev": 18,
+      "pct": -44
     },
     {
-      "category": "Pencil Pouches",
-      "qty_recent": 4,
-      "qty_prev": 14,
-      "pct": -43
-    },
-    {
-      "category": "Keychains",
-      "qty_recent": 19,
-      "qty_prev": 66,
-      "pct": -42
+      "category": "Map Prints",
+      "qty_recent": 11,
+      "qty_prev": 17,
+      "pct": 29
     }
   ]
 }
