@@ -63,17 +63,17 @@
   ],
   "hot": [
     {
-      "name": "Pennant",
-      "sku": "SFPENNANT_STICKER",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
       "name": "Fog City Embroidered Dad Hat - Light Blue",
       "sku": "DH-004-LB",
       "qty_recent": 4,
       "qty_prev": 2,
+      "pct": 300
+    },
+    {
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
+      "qty_recent": 2,
+      "qty_prev": 1,
       "pct": 300
     },
     {
@@ -91,9 +91,9 @@
       "pct": 186
     },
     {
-      "name": "00303T",
-      "sku": "00303T",
-      "qty_recent": 3,
+      "name": "0030LE",
+      "sku": "0030LE",
+      "qty_recent": 11,
       "qty_prev": 0,
       "pct": 150
     },
@@ -107,10 +107,10 @@
   ],
   "cold": [
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
+      "name": "Home Sweet SF Square",
+      "sku": "MAGNET_HOMESWEETSF",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 21,
       "pct": -100
     },
     {
@@ -118,13 +118,6 @@
       "sku": "BAYAREAMAP_A2CARD",
       "qty_recent": 0,
       "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet SF Square",
-      "sku": "MAGNET_HOMESWEETSF",
-      "qty_recent": 0,
-      "qty_prev": 21,
       "pct": -100
     },
     {
@@ -142,8 +135,15 @@
       "pct": -100
     },
     {
-      "name": "SAN FRANCISCO. PENCIL CASE",
-      "sku": "SAN FRANCISCO. PENCIL CASE",
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "The City by the Bay Black/White",
+      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
