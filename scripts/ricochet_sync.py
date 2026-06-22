@@ -440,6 +440,40 @@ def find_sku(item_name: str, lookup: dict) -> str:
         # Cards
         "wishing you a sweet birthday cake card":        "SWEETBDAYCAKE_A2_GCARD",
         "sweet birthday cake card":                      "SWEETBDAYCAKE_A2_GCARD",
+        # ── 6/18/2026 fix: items that fell back to raw Ricochet numeric SKUs ──
+        # These were correctly named but find_sku() missed them; adding explicit
+        # lowercase keys ensures they always resolve to the right inventory SKU.
+        "acrylic keychain":                                  "KC-SF-01",
+        "sf acrylic keychain":                               "KC-SF-01",
+        "golden gate icon keychain (icon series)":           "KC-SF-01",
+        "acrylic painted ladies magnet":                     "MAG-SF-PLADIES-CL",
+        "acrylic painted ladies magnet (acrylic)":           "MAG-SF-PLADIES-CL",
+        "bay area map print 8x10":                           "BAYAREA_BW_8x10",
+        "bay area map print 9x12":                           "BAYAREA_BW_9x12",
+        "bay area map print 11x14":                          "BAYAREA_BW_11x14",
+        "bay area map print 12x16":                          "BAYAREA_BW_12x16",
+        "california state sticker (black and white)":        "CALIFORNIASTATE_BLOCKFONT_BW",
+        "california state sticker black and white":          "CALIFORNIASTATE_BLOCKFONT_BW",
+        "chicago map print 8x10":                            "CHICAGO_BW_8x10",
+        "chicago map print 9x12":                            "CHICAGO_BW_9x12",
+        "chicago map print 11x14":                           "CHICAGO_BW_11x14",
+        "ferry building acrylic die cut magnet":             "MAG-AC-SF-FERRYB",
+        "ferry building retro postcard":                     "FERRYBUILDING_RETRO_PC",
+        "golden gate acrylic die cut magnet":                "MAG-AC-SF-GGB",
+        "golden gate bridge sticker (pink)":                 "GGBRIDGE_PINK_STICKER",
+        "golden gate travel poster magnet":                  "MAGNET_GOLDENGATETRAVELPOSTER",
+        "home sweet home sticker":                           "HOMESWEETSANFRANCISCO_STICKER",
+        "magnet set san francisco":                          "SANFRANCISCOICONS_MAGNETSET",
+        "postcards 3 for $11":                               "postcards3for11",
+        "retro ferry building poster magnet":                "MAG-SF-RETRO-FB",
+        "retro golden gate bridge poster sticker":           "RETRO_GGB_STICKER",
+        "retro painted ladies poster magnet":                "MAG-SF-RETRO-PL",
+        "san francisco golden gate bridge retro postcard":   "SFGGBRIDGE_RETRO_PCARD",
+        "santa clara university campus map print 8x10":      "SCU_BW_8x10_CURSIVE",
+        "santa clara university campus map print":           "SCU_BW_8x10_CURSIVE",
+        "sf city by the bay dad hat - cream":                "DH-CITYBYTHEBAY-CREAM",
+        "sf city by the bay dad hat":                        "DH-CITYBYTHEBAY-CREAM",
+        "sf city name with golden gate sticker":             "SFCITYNAME_STICKER",
     }
     # Exact override match
     if key in OVERRIDES:
@@ -1029,7 +1063,7 @@ def build_dashboard_json(sheets):
     # ── Load Fog City Sales ───────────────────────────────────────────────────
     result = sheets.values().get(
         spreadsheetId=SPREADSHEET_ID,
-        range=f"'{FOG_CITY_TAB}'!A1:G25000",   # now includes col G = revenue
+        range=f"'{FOG_CITY_TAB}'!A:G",            # open-ended so sheet growth never cuts off data
     ).execute()
     all_rows = result.get("values", [])
 
