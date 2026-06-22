@@ -1,0 +1,40 @@
+name: Fix Jun 19 SKUs (one-off)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright requests google-auth google-auth-httplib2 google-api-python-client
+          playwright install chromium --with-deps
+
+      - name: Run fix script
+        env:
+          RICOCHET_EMAIL: ${{ secrets.RICOCHET_EMAIL }}
+          RICOCHET_PASSWORD: ${{ secrets.RICOCHET_PASSWORD }}
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+        run: python scripts/fix_jun19.py
+
+      - name: Upload log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fix-jun19-log
+          path: "*.log"
