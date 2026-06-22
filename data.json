@@ -1,64 +1,64 @@
 {
-  "updated": "June 20, 2026",
-  "period_label": "6/11 \u2013 6/20, 2026",
-  "total_units": 236,
+  "updated": "June 21, 2026",
+  "period_label": "6/12 \u2013 6/21, 2026",
+  "total_units": 220,
   "revenue": {
     "yesterday": 0.0,
-    "yesterday_label": "6/20",
-    "weekly": 4095.18,
+    "yesterday_label": "6/21",
+    "weekly": 3557.68,
     "monthly": 12517.54,
     "ytd": 100693.52
   },
   "top10": [
     {
+      "name": "00302L",
+      "sku": "00302L",
+      "qty": 38
+    },
+    {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 37
+      "qty": 31
     },
     {
       "name": "Golden Gate Travel (new version)",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 30
-    },
-    {
-      "name": "SF Illustrated Landmark",
-      "sku": "MAG-SF-LDMKS",
-      "qty": 30
-    },
-    {
-      "name": "00302L",
-      "sku": "00302L",
       "qty": 27
-    },
-    {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty": 24
     },
     {
       "name": "00304L",
       "sku": "00304L",
-      "qty": 23
+      "qty": 24
     },
     {
       "name": "0030LE",
       "sku": "0030LE",
+      "qty": 23
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "MAG-SF-LDMKS",
       "qty": 20
+    },
+    {
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
+      "qty": 18
     },
     {
       "name": "3 for $11",
       "sku": "POSTCARDS3FOR11",
-      "qty": 16
+      "qty": 15
     },
     {
       "name": "Painted Ladies Retro Postcard",
       "sku": "PAINTEDLADIES_RETRO_PC",
-      "qty": 15
+      "qty": 13
     },
     {
       "name": "Retro Golden Gate Bridge Poster Magnet",
       "sku": "MAG-SF-RETRO-GGB",
-      "qty": 14
+      "qty": 11
     }
   ],
   "hot": [
@@ -77,23 +77,16 @@
       "pct": 300
     },
     {
-      "name": "00303C",
-      "sku": "00303C",
+      "name": "ACRYLIC SFO Luggage tag",
+      "sku": "MAG-AC-SF-SFO",
       "qty_recent": 9,
-      "qty_prev": 0,
-      "pct": 150
+      "qty_prev": 7,
+      "pct": 157
     },
     {
-      "name": "0030VY",
-      "sku": "0030VY",
-      "qty_recent": 5,
-      "qty_prev": 0,
-      "pct": 150
-    },
-    {
-      "name": "00303T",
-      "sku": "00303T",
-      "qty_recent": 4,
+      "name": "00302X",
+      "sku": "00302X",
+      "qty_recent": 10,
       "qty_prev": 0,
       "pct": 150
     },
@@ -103,14 +96,35 @@
       "qty_recent": 2,
       "qty_prev": 0,
       "pct": 150
+    },
+    {
+      "name": "0030LE",
+      "sku": "0030LE",
+      "qty_recent": 23,
+      "qty_prev": 0,
+      "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "SAN FRANCISCO. PENCIL CASE",
-      "sku": "SAN FRANCISCO. PENCIL CASE",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 17,
+      "pct": -100
+    },
+    {
+      "name": "CA State Blue",
+      "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "State of California Tea Towel",
+      "sku": "STATEOFCALIFORNIA_MAP_TEATOWEL",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -121,52 +135,38 @@
       "pct": -100
     },
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
+      "sku": "FW_ILLUSTRATED_STICKER",
       "qty_recent": 0,
       "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
-      "qty_recent": 0,
-      "qty_prev": 8,
       "pct": -100
     },
     {
       "name": "Home Sweet SF Square",
       "sku": "MAGNET_HOMESWEETSF",
       "qty_recent": 0,
-      "qty_prev": 21,
-      "pct": -100
-    },
-    {
-      "name": "Bay Area Map",
-      "sku": "BAYAREAMAP_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 20,
       "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Keychains",
-      "qty_recent": 11,
-      "qty_prev": 73,
-      "pct": -70
+      "qty_recent": 10,
+      "qty_prev": 75,
+      "pct": -73
+    },
+    {
+      "category": "Tea Towels",
+      "qty_recent": 3,
+      "qty_prev": 21,
+      "pct": -71
     },
     {
       "category": "Landmark Prints",
-      "qty_recent": 4,
-      "qty_prev": 19,
-      "pct": -58
-    },
-    {
-      "category": "Pencil Pouches",
       "qty_recent": 3,
-      "qty_prev": 11,
-      "pct": -45
+      "qty_prev": 20,
+      "pct": -70
     }
   ]
 }
