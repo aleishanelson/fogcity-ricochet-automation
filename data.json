@@ -1,34 +1,34 @@
 {
-  "updated": "June 21, 2026",
-  "period_label": "6/12 \u2013 6/21, 2026",
-  "total_units": 292,
+  "updated": "June 22, 2026",
+  "period_label": "6/13 \u2013 6/22, 2026",
+  "total_units": 272,
   "revenue": {
-    "yesterday": 404.18,
-    "yesterday_label": "6/21",
-    "weekly": 6111.8,
-    "monthly": 15071.66,
-    "ytd": 103247.64
+    "yesterday": 0.0,
+    "yesterday_label": "6/22",
+    "weekly": 5520.8,
+    "monthly": 15091.66,
+    "ytd": 103267.64
   },
   "top10": [
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 69
+      "qty": 60
     },
     {
       "name": "Golden Gate Travel (new version)",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 50
+      "qty": 48
     },
     {
       "name": "SF Illustrated Landmark",
       "sku": "MAG-SF-LDMKS",
-      "qty": 43
+      "qty": 38
     },
     {
       "name": "Golden Gate Bridge Retro Postcard",
       "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty": 25
+      "qty": 23
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
@@ -38,7 +38,7 @@
     {
       "name": "ACRYLIC SFO Luggage tag",
       "sku": "MAG-AC-SF-SFO",
-      "qty": 18
+      "qty": 19
     },
     {
       "name": "SF Magnet Set",
@@ -53,12 +53,12 @@
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSANFRANCISCO_STICKER",
-      "qty": 16
+      "qty": 14
     },
     {
-      "name": "POSTCARDS3FOR11",
-      "sku": "POSTCARDS3FOR11",
-      "qty": 15
+      "name": "Retro Ferry Building Poster Magnet",
+      "sku": "MAG-SF-RETRO-FB",
+      "qty": 14
     }
   ],
   "hot": [
@@ -72,9 +72,16 @@
     {
       "name": "ACRYLIC SFO Luggage tag",
       "sku": "MAG-AC-SF-SFO",
-      "qty_recent": 18,
-      "qty_prev": 7,
-      "pct": 414
+      "qty_recent": 19,
+      "qty_prev": 8,
+      "pct": 375
+    },
+    {
+      "name": "West Coast Best Coast",
+      "sku": "MAG_WESTBESTCOAST_CIR",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     },
     {
       "name": "Bay Area Map Tea Towel",
@@ -84,8 +91,8 @@
       "pct": 300
     },
     {
-      "name": "West Coast Best Coast",
-      "sku": "MAG_WESTBESTCOAST_CIR",
+      "name": "SF Fuzzy Patch Trucker Hat - Navy",
+      "sku": "TH-001-NB",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -96,35 +103,28 @@
       "qty_recent": 20,
       "qty_prev": 12,
       "pct": 233
-    },
-    {
-      "name": "CA State White and Black",
-      "sku": "CALIFORNIASTATE_BLOCKFONT_BW",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 200
     }
   ],
   "cold": [
+    {
+      "name": "San Francisco Map Tea Towel",
+      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
+      "qty_recent": 0,
+      "qty_prev": 11,
+      "pct": -100
+    },
+    {
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
     {
       "name": "State of California Tea Towel",
       "sku": "STATEOFCALIFORNIA_MAP_TEATOWEL",
       "qty_recent": 0,
       "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "sku": "FW_ILLUSTRATED_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "The City by the Bay Black/White",
-      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
-      "qty_recent": 0,
-      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -135,15 +135,15 @@
       "pct": -100
     },
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "SAN FRANCISCO. PENCIL CASE",
+      "sku": "SAN FRANCISCO. PENCIL CASE",
       "qty_recent": 0,
-      "qty_prev": 17,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "SAN FRANCISCO. PENCIL CASE",
-      "sku": "SAN FRANCISCO. PENCIL CASE",
+      "name": "The City by the Bay Black/White",
+      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -151,16 +151,16 @@
   ],
   "category_trends": [
     {
-      "category": "Map Prints",
-      "qty_recent": 14,
-      "qty_prev": 16,
-      "pct": 75
+      "category": "Tea Towels",
+      "qty_recent": 2,
+      "qty_prev": 22,
+      "pct": -82
     },
     {
-      "category": "Tea Towels",
-      "qty_recent": 3,
-      "qty_prev": 21,
-      "pct": -71
+      "category": "Map Prints",
+      "qty_recent": 15,
+      "qty_prev": 17,
+      "pct": 76
     },
     {
       "category": "Landmark Prints",
