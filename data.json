@@ -98,40 +98,26 @@
       "pct": 157
     },
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
-      "qty_recent": 3,
+      "name": "00302L",
+      "sku": "00302L",
+      "qty_recent": 19,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 12,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco Map",
-      "sku": "SFMAP_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
       "name": "San Francisco Map Tea Towel",
       "sku": "SANFRANCISCO_MAP_DISHTOWEL",
       "qty_recent": 0,
       "qty_prev": 10,
+      "pct": -100
+    },
+    {
+      "name": "The City by the Bay Black/White",
+      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -142,10 +128,24 @@
       "pct": -100
     },
     {
-      "name": "Bay Area Map Tea Towel",
-      "sku": "BAYAREA_MAP_TEATOWEL",
+      "name": "SAN FRANCISCO. PENCIL CASE",
+      "sku": "SAN FRANCISCO. PENCIL CASE",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_A2CARD",
+      "qty_recent": 0,
+      "qty_prev": 12,
+      "pct": -100
+    },
+    {
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
+      "sku": "FW_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
