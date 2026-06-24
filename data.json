@@ -1,11 +1,11 @@
 {
-  "updated": "June 22, 2026",
-  "period_label": "6/13 \u2013 6/22, 2026",
-  "total_units": 272,
+  "updated": "June 23, 2026",
+  "period_label": "6/14 \u2013 6/23, 2026",
+  "total_units": 238,
   "revenue": {
     "yesterday": 0.0,
-    "yesterday_label": "6/22",
-    "weekly": 5520.8,
+    "yesterday_label": "6/23",
+    "weekly": 5224.3,
     "monthly": 15091.66,
     "ytd": 103267.64
   },
@@ -13,68 +13,61 @@
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 60
+      "qty": 52
     },
     {
       "name": "Golden Gate Travel (new version)",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 48
+      "qty": 39
     },
     {
       "name": "SF Illustrated Landmark",
       "sku": "MAG-SF-LDMKS",
-      "qty": 38
+      "qty": 35
     },
     {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty": 23
+      "name": "00302L",
+      "sku": "00302L",
+      "qty": 19
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 20
+      "qty": 18
     },
     {
       "name": "ACRYLIC SFO Luggage tag",
       "sku": "MAG-AC-SF-SFO",
-      "qty": 19
+      "qty": 17
     },
     {
       "name": "SF Magnet Set",
       "sku": "SANFRANCISCOICONS_MAGNETSET",
-      "qty": 18
+      "qty": 16
     },
     {
       "name": "Painted Ladies Retro Postcard",
       "sku": "PAINTEDLADIES_RETRO_PC",
-      "qty": 18
+      "qty": 15
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty": 14
     },
     {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "MAG-SF-RETRO-FB",
-      "qty": 14
+      "name": "Golden Gate Travel",
+      "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
+      "qty": 13
     }
   ],
   "hot": [
     {
-      "name": "Pennant",
-      "sku": "SFPENNANT_STICKER",
-      "qty_recent": 4,
+      "name": "ACRYLIC Painted Ladies",
+      "sku": "MAG-SF-PLADIES-CL",
+      "qty_recent": 6,
       "qty_prev": 1,
-      "pct": 700
-    },
-    {
-      "name": "ACRYLIC SFO Luggage tag",
-      "sku": "MAG-AC-SF-SFO",
-      "qty_recent": 19,
-      "qty_prev": 8,
-      "pct": 375
+      "pct": 1100
     },
     {
       "name": "West Coast Best Coast",
@@ -84,54 +77,61 @@
       "pct": 300
     },
     {
-      "name": "Bay Area Map Tea Towel",
-      "sku": "BAYAREA_MAP_TEATOWEL",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
+      "name": "ACRYLIC SFO Luggage tag",
+      "sku": "MAG-AC-SF-SFO",
+      "qty_recent": 17,
+      "qty_prev": 10,
+      "pct": 240
     },
     {
-      "name": "SF Fuzzy Patch Trucker Hat - Navy",
-      "sku": "TH-001-NB",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty_recent": 20,
-      "qty_prev": 12,
-      "pct": 233
+      "qty_recent": 18,
+      "qty_prev": 14,
+      "pct": 157
+    },
+    {
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
+      "qty_recent": 3,
+      "qty_prev": 0,
+      "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "San Francisco Map Tea Towel",
-      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_A2CARD",
       "qty_recent": 0,
-      "qty_prev": 11,
+      "qty_prev": 12,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco Map",
+      "sku": "SFMAP_A2CARD",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     },
     {
       "name": "Alcatraz Island Retro Postcard",
       "sku": "ALCATRAZ_RETRO_PC",
       "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "SAN FRANCISCO. PENCIL CASE",
-      "sku": "SAN FRANCISCO. PENCIL CASE",
+      "name": "San Francisco Map Tea Towel",
+      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "The City by the Bay Black/White",
-      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
-      "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 10,
       "pct": -100
     },
     {
@@ -142,31 +142,31 @@
       "pct": -100
     },
     {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "sku": "FW_ILLUSTRATED_STICKER",
+      "name": "Bay Area Map Tea Towel",
+      "sku": "BAYAREA_MAP_TEATOWEL",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Tea Towels",
-      "qty_recent": 2,
-      "qty_prev": 22,
-      "pct": -82
+      "qty_recent": 0,
+      "qty_prev": 23,
+      "pct": -100
     },
     {
       "category": "Map Prints",
-      "qty_recent": 15,
-      "qty_prev": 17,
-      "pct": 76
+      "qty_recent": 11,
+      "qty_prev": 13,
+      "pct": 69
     },
     {
-      "category": "Landmark Prints",
-      "qty_recent": 5,
-      "qty_prev": 20,
-      "pct": -50
+      "category": "Pencil Pouches",
+      "qty_recent": 2,
+      "qty_prev": 11,
+      "pct": -64
     }
   ]
 }
