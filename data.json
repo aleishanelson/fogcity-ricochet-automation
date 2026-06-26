@@ -91,28 +91,21 @@
       "pct": 192
     },
     {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
-      "qty_recent": 19,
+      "name": "00303Y",
+      "sku": "00303Y",
+      "qty_recent": 3,
       "qty_prev": 0,
       "pct": 150
     },
     {
-      "name": "00302T",
-      "sku": "00302T",
-      "qty_recent": 2,
+      "name": "00304E",
+      "sku": "00304E",
+      "qty_recent": 3,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
-    {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 33,
-      "pct": -100
-    },
     {
       "name": "San Francisco Map",
       "sku": "SFMAP_A2CARD",
@@ -121,10 +114,10 @@
       "pct": -100
     },
     {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
+      "name": "Painted Lady Keychain- Pink",
+      "sku": "KC-PAINTEDLADY-PINK",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 12,
       "pct": -100
     },
     {
@@ -135,17 +128,24 @@
       "pct": -100
     },
     {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
+      "name": "SAN FRANCISCO. PENCIL CASE",
+      "sku": "SAN FRANCISCO. PENCIL CASE",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "The City by the Bay Black/White",
-      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 33,
+      "pct": -100
+    },
+    {
+      "name": "State of California Tea Towel",
+      "sku": "STATEOFCALIFORNIA_MAP_TEATOWEL",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
