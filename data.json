@@ -98,14 +98,35 @@
       "pct": 167
     },
     {
-      "name": "3041",
-      "sku": "3041",
-      "qty_recent": 2,
+      "name": "00303Y",
+      "sku": "00303Y",
+      "qty_recent": 3,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
+    {
+      "name": "Alcatraz Island Retro Postcard",
+      "sku": "ALCATRAZ_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 31,
+      "pct": -100
+    },
+    {
+      "name": "State of California Tea Towel",
+      "sku": "STATEOFCALIFORNIA_MAP_TEATOWEL",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
     {
       "name": "San Francisco Map Tea Towel",
       "sku": "SANFRANCISCO_MAP_DISHTOWEL",
@@ -121,29 +142,8 @@
       "pct": -100
     },
     {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "MAG-SF-RETRO-GGB",
-      "qty_recent": 0,
-      "qty_prev": 38,
-      "pct": -100
-    },
-    {
-      "name": "State of California Tea Towel",
-      "sku": "STATEOFCALIFORNIA_MAP_TEATOWEL",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "SF Fuzzy Patch Trucker Hat - Navy",
-      "sku": "TH-001-NB",
+      "name": "San Francisco Map",
+      "sku": "SFMAP_A2CARD",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
