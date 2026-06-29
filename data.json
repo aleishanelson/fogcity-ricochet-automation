@@ -98,10 +98,10 @@
       "pct": 367
     },
     {
-      "name": "Bay Area 9x12",
-      "sku": "BAYAREA_BW_9X12",
-      "qty_recent": 2,
-      "qty_prev": 1,
+      "name": "I'd Escape Alcatraz",
+      "sku": "IDESCAPEALCATRAZFORYOU_A2CARD",
+      "qty_recent": 4,
+      "qty_prev": 2,
       "pct": 300
     }
   ],
@@ -114,10 +114,17 @@
       "pct": -100
     },
     {
-      "name": "San Francisco Map Tea Towel",
-      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
+      "name": "State of California Tea Towel",
+      "sku": "STATEOFCALIFORNIA_MAP_TEATOWEL",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco City Name",
+      "sku": "SF_BLOCKFONT_TOTE",
+      "qty_recent": 0,
+      "qty_prev": 10,
       "pct": -100
     },
     {
@@ -128,24 +135,17 @@
       "pct": -100
     },
     {
-      "name": "ACRYLIC Painted Ladies",
-      "sku": "MAG-SF-PLADIES-CL",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "CA State White and Black",
-      "sku": "CALIFORNIASTATE_BLOCKFONT_BW",
+      "name": "San Francisco Map Tea Towel",
+      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
       "qty_recent": 0,
       "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "State of California Tea Towel",
-      "sku": "STATEOFCALIFORNIA_MAP_TEATOWEL",
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
