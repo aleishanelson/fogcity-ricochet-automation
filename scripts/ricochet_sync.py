@@ -474,6 +474,68 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "sf city by the bay dad hat - cream":                "DH-CITYBYTHEBAY-CREAM",
         "sf city by the bay dad hat":                        "DH-CITYBYTHEBAY-CREAM",
         "sf city name with golden gate sticker":             "SFCITYNAME_STICKER",
+        # ── 6/28/2026 fix: new Ricochet item name variants ────────────────────────
+        # Revenue fix applied above: changed aged_price → agreed (Agreed = actual sale price).
+        # These entries cover new/changed item names in the Ricochet export format.
+        "packaged keychains 3 for $25":           "KC-SFO-LUGGAGETAG",
+        "blue pencil pouches":                    "PP-SF-CB-01",
+        "natural pencil pouches":                 "pp-sf-cn-02",
+        "home sweet magnet":                      "MAGNET_HOMESWEETSF",
+        "golden gate retro postcard":             "SFGGBRIDGE_RETRO_PCARD",
+        "retro golden gate postcard":             "SFGGBRIDGE_RETRO_PCARD",
+        "vntage sfo luggage tag sticker":         "LUGGAGETAG_SFO_STICKER",
+        "california icon keychain":               "KC-SF-01",
+        "california keychain":                    "KC-SF-01",
+        "twists and turns card":                  "TWISTSANDTURNS_GCARD",
+        "home sweet san francisco card":          "HOMESWEETSF_A2CARD",
+        "fog city dad hat - light blue":          "DH-004-LB",
+        "fog city dad hat":                       "DH-004-LB",
+        "retro painted ladies travel poster":     "MAG-SF-RETRO-PL",
+        "san francisco pill sticker":             "PILL_SF_RED_STICKER",
+        "san francisco. pencil case":             "pp-sf-cn-02",
+        "sweetest birthday greeting card":        "SWEETBDAYCAKE_A2_GCARD",
+        "retrogg bridge travel poster magent":    "MAG-SF-RETRO-GGB",
+        "retro gg bridge travel poster magent":   "MAG-SF-RETRO-GGB",
+        "sf icons magnet set":                    "SANFRANCISCOICONS_MAGNETSET",
+        "sf city name tote":                      "SF_BLOCKFONT_TOTE",
+        "blue ca sticker":                        "CALIFORNIASTATE_BLOCKFONT_BLUE",
+        "i'd climb any hill card":                "IDCLIMBANYHILL_A2CARD",
+        "i'd climb greeting card":                "IDCLIMBANYHILL_A2CARD",
+        "blue painted lady":                      "KC-PAINTEDLADY-BLUE",
+        "blue painted lady keychain":             "KC-PAINTEDLADY-BLUE",
+        "pink painted lady keychain":             "KC-PAINTEDLADY-PINK",
+        "painted lady blue keychain":             "KC-PAINTEDLADY-BLUE",
+        "luggage tag keychain":                   "KC-SFO-LUGGAGETAG",
+        "sfo luggage tag":                        "SFO_LUGGAGETAG_MAGNET",
+        "window seat greeting card":              "WINDOWSEAT_A2_GREETINGCARD",
+        "pencil case blue sf":                    "PP-SF-CB-01",
+        "sf felt lettered dad hat":               "DH-003-NB",
+        "sf bridge dad hat - navy":               "DH-001-NB",
+        "sf icons greeting card":                 "SFICONS_GREETINGCARD",
+        "sf blue icons postcard":                 "SFBLUEICONS_POSTCARD",
+        "illustrated ferry building landmark sticker": "FB_ILLUSTRATED_STICKER",
+        "8x10 bay area map":                      "BAYAREA_BW_8x10",
+        "8x10 golden gate travel print":          "GOLDENGATE_TRAVELPOSTER_8x10",
+        "8x10 sf map print":                      "SF_BW_8x10",
+        "blue victorian house keychain (icon series)": "KC-SF-01",
+        "blue icons postcard":                    "SFBLUEICONS_POSTCARD",
+        "cape cod map print 8x10":                "CAPECOD_BW_8x10",
+        "austin map print 8x10":                  "AUSTIN_BW_8x10",
+        "ohio state university campus map print 8x10": "OHIOSTATE_BW_8x10",
+        "purdue university campus map print 8x10": "PURDUE_BW_8x10",
+        "jersey city map print 8x10":             "JERSEYCITY_BW_8x10",
+        "los angeles map print 8x10":             "LA_BW_8x10",
+        "napa valley map print 8x10":             "NAPAVALLEY_BW_8x10",
+        "minneapolis map print 8x10":             "MPLS_BW_8x10",
+        "pittsburgh map print 8x10":              "PITTSBURGH_BW_8x10",
+        "paris map print 8x10":                   "PARIS_BW_8x10",
+        "stanford campus map print 8x10":         "STANFORD_BW_8x10",
+        "uc berkeley campus map print 8x10":      "UCBERKELEY_CAMPUS_BW_8x10",
+        "ucla campus map print 8x10":             "UCLA_BW_8x10",
+        "retro golden gate bridge poster magnet":  "MAG-SF-RETRO-GGB",
+        "home sweet san francisco art print 11x11": "HOMESWEETSF_11x15",
+        "sf tote block letters":                  "SF_BLOCKFONT_TOTE",
+        "postcards 3 for $10":                    "postcards3for11",
     }
     # Exact override match
     if key in OVERRIDES:
@@ -844,7 +906,7 @@ def merge_rows(records: list[dict]) -> list[dict]:
             g["sku"] = r.get("sku", "").strip()
         # Sum aged price (revenue)
         try:
-            price_str = r.get("aged_price", "0").replace("$", "").replace(",", "").strip()
+            price_str = r.get("agreed", "0").replace("$", "").replace(",", "").strip()
             g["revenue"] += float(price_str) if price_str else 0.0
         except (ValueError, AttributeError):
             pass
