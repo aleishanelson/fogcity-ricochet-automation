@@ -477,7 +477,6 @@ def find_sku(item_name: str, lookup: dict) -> str:
         # ── 6/28/2026 fix: new Ricochet item name variants ────────────────────────
         # Revenue fix applied above: changed aged_price → agreed (Agreed = actual sale price).
         # These entries cover new/changed item names in the Ricochet export format.
-        "packaged keychains 3 for $25":           "KC-SFO-LUGGAGETAG",
         "blue pencil pouches":                    "PP-SF-CB-01",
         "natural pencil pouches":                 "pp-sf-cn-02",
         "home sweet magnet":                      "MAGNET_HOMESWEETSF",
