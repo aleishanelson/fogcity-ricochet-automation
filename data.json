@@ -1,63 +1,63 @@
 {
-  "updated": "June 27, 2026",
-  "period_label": "6/18 \u2013 6/27, 2026",
-  "total_units": 234,
+  "updated": "June 28, 2026",
+  "period_label": "6/19 \u2013 6/28, 2026",
+  "total_units": 259,
   "revenue": {
     "yesterday": 0.0,
-    "yesterday_label": "6/27",
-    "weekly": 3236.86,
-    "monthly": 15551.66,
-    "ytd": 103727.64
+    "yesterday_label": "6/28",
+    "weekly": 4887.18,
+    "monthly": 17606.16,
+    "ytd": 105782.14
   },
   "top10": [
     {
-      "name": "STICKERS_3FOR11",
-      "sku": "STICKERS_3FOR11",
-      "qty": 42
-    },
-    {
-      "name": "SF Illustrated Landmark",
-      "sku": "MAG-SF-LDMKS",
-      "qty": 30
-    },
-    {
       "name": "Golden Gate Travel",
       "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
-      "qty": 25
+      "qty": 43
     },
     {
-      "name": "ACRYLIC SFO Luggage tag",
-      "sku": "MAG-AC-SF-SFO",
-      "qty": 24
-    },
-    {
-      "name": "Golden Gate Travel (new version)",
-      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 23
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
-      "qty": 20
+      "name": "STICKERS_3FOR11",
+      "sku": "STICKERS_3FOR11",
+      "qty": 37
     },
     {
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
-      "qty": 19
+      "qty": 31
     },
     {
-      "name": "0030VY",
-      "sku": "0030VY",
-      "qty": 18
+      "name": "ACRYLIC SFO Luggage tag",
+      "sku": "MAG-AC-SF-SFO",
+      "qty": 29
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty": 17
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "qty": 26
+    },
+    {
+      "name": "Golden Gate Travel (new version)",
+      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "qty": 22
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "MAG-SF-LDMKS",
+      "qty": 20
     },
     {
       "name": "SF Magnet Set",
       "sku": "SANFRANCISCOICONS_MAGNETSET",
+      "qty": 18
+    },
+    {
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 17
+    },
+    {
+      "name": "Home Sweet SF Square",
+      "sku": "MAGNET_HOMESWEETSF",
       "qty": 16
     }
   ],
@@ -65,52 +65,80 @@
     {
       "name": "West Coast Best Coast",
       "sku": "MAG_WESTBESTCOAST_CIR",
-      "qty_recent": 7,
+      "qty_recent": 8,
       "qty_prev": 1,
-      "pct": 1300
-    },
-    {
-      "name": "Golden Gate Travel",
-      "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
-      "qty_recent": 25,
-      "qty_prev": 11,
-      "pct": 355
-    },
-    {
-      "name": "ACRYLIC SFO Luggage tag",
-      "sku": "MAG-AC-SF-SFO",
-      "qty_recent": 24,
-      "qty_prev": 16,
-      "pct": 200
-    },
-    {
-      "name": "Pennant",
-      "sku": "SFPENNANT_STICKER",
-      "qty_recent": 4,
-      "qty_prev": 3,
-      "pct": 167
-    },
-    {
-      "name": "Home Sweet SF Square",
-      "sku": "MAGNET_HOMESWEETSF",
-      "qty_recent": 9,
-      "qty_prev": 7,
-      "pct": 157
+      "pct": 1500
     },
     {
       "name": "3 for $10",
       "sku": "POSTCARDS3FOR10",
-      "qty_recent": 14,
-      "qty_prev": 0,
-      "pct": 150
+      "qty_recent": 12,
+      "qty_prev": 2,
+      "pct": 1100
+    },
+    {
+      "name": "Golden Gate Travel",
+      "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
+      "qty_recent": 43,
+      "qty_prev": 11,
+      "pct": 682
+    },
+    {
+      "name": "Home Sweet SF Square",
+      "sku": "MAGNET_HOMESWEETSF",
+      "qty_recent": 16,
+      "qty_prev": 6,
+      "pct": 433
+    },
+    {
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
+      "qty_recent": 7,
+      "qty_prev": 3,
+      "pct": 367
+    },
+    {
+      "name": "Bay Area 9x12",
+      "sku": "BAYAREA_BW_9X12",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     }
   ],
   "cold": [
     {
-      "name": "SAN FRANCISCO. PENCIL CASE",
-      "sku": "SAN FRANCISCO. PENCIL CASE",
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
+      "sku": "FW_ILLUSTRATED_STICKER",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco Map Tea Towel",
+      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "MAG-SF-RETRO-GGB",
+      "qty_recent": 0,
+      "qty_prev": 32,
+      "pct": -100
+    },
+    {
+      "name": "ACRYLIC Painted Ladies",
+      "sku": "MAG-SF-PLADIES-CL",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "CA State White and Black",
+      "sku": "CALIFORNIASTATE_BLOCKFONT_BW",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -119,54 +147,26 @@
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "MAG-SF-RETRO-GGB",
-      "qty_recent": 0,
-      "qty_prev": 34,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco 8x10",
-      "sku": "SF_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "sku": "FW_ILLUSTRATED_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Tea Towels",
       "qty_recent": 0,
-      "qty_prev": 17,
+      "qty_prev": 16,
       "pct": -100
+    },
+    {
+      "category": "Cards",
+      "qty_recent": 69,
+      "qty_prev": 79,
+      "pct": 75
     },
     {
       "category": "Totes",
       "qty_recent": 3,
-      "qty_prev": 22,
-      "pct": -73
-    },
-    {
-      "category": "Landmark Prints",
-      "qty_recent": 4,
-      "qty_prev": 15,
-      "pct": -47
+      "qty_prev": 23,
+      "pct": -74
     }
   ]
 }
