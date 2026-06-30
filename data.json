@@ -1,39 +1,44 @@
 {
   "updated": "June 29, 2026",
   "period_label": "6/20 \u2013 6/29, 2026",
-  "total_units": 224,
+  "total_units": 251,
   "revenue": {
     "yesterday": 0.0,
     "yesterday_label": "6/29",
-    "weekly": 4477.18,
-    "monthly": 17606.16,
-    "ytd": 105782.14
+    "weekly": 4523.68,
+    "monthly": 17656.66,
+    "ytd": 105832.64
   },
   "top10": [
     {
-      "name": "Golden Gate Travel",
-      "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
-      "qty": 38
-    },
-    {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 31
+      "qty": 62
     },
     {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
-      "qty": 31
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
-      "qty": 25
+      "name": "Golden Gate Travel",
+      "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
+      "qty": 41
     },
     {
       "name": "ACRYLIC SFO Luggage tag",
       "sku": "MAG-AC-SF-SFO",
-      "qty": 24
+      "qty": 25
+    },
+    {
+      "name": "Home Sweet SF Square",
+      "sku": "MAGNET_HOMESWEETSF",
+      "qty": 23
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "qty": 22
+    },
+    {
+      "name": "POSTCARDS3FOR11",
+      "sku": "POSTCARDS3FOR11",
+      "qty": 18
     },
     {
       "name": "Golden Gate Bridge Pink Sticker",
@@ -41,14 +46,9 @@
       "qty": 17
     },
     {
-      "name": "Home Sweet SF Square",
-      "sku": "MAGNET_HOMESWEETSF",
-      "qty": 16
-    },
-    {
       "name": "SF Magnet Set",
       "sku": "SANFRANCISCOICONS_MAGNETSET",
-      "qty": 16
+      "qty": 17
     },
     {
       "name": "00302L",
@@ -65,30 +65,23 @@
     {
       "name": "West Coast Best Coast",
       "sku": "MAG_WESTBESTCOAST_CIR",
-      "qty_recent": 8,
+      "qty_recent": 9,
       "qty_prev": 1,
-      "pct": 1500
+      "pct": 1700
     },
     {
       "name": "Home Sweet SF Square",
       "sku": "MAGNET_HOMESWEETSF",
-      "qty_recent": 16,
+      "qty_recent": 23,
       "qty_prev": 6,
-      "pct": 433
+      "pct": 667
     },
     {
       "name": "Golden Gate Travel",
       "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
-      "qty_recent": 38,
+      "qty_recent": 41,
       "qty_prev": 15,
-      "pct": 407
-    },
-    {
-      "name": "Bay Area 9x12",
-      "sku": "BAYAREA_BW_9X12",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
+      "pct": 447
     },
     {
       "name": "Santa Clara University 8x10",
@@ -103,9 +96,37 @@
       "qty_recent": 6,
       "qty_prev": 4,
       "pct": 200
+    },
+    {
+      "name": "Blue Icons Postcard",
+      "sku": "SFICONS_BLUE_4X6",
+      "qty_recent": 9,
+      "qty_prev": 7,
+      "pct": 157
     }
   ],
   "cold": [
+    {
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
+      "sku": "FW_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GOLDENGATETRAVELPOSTER_STICKER",
@@ -114,38 +135,17 @@
       "pct": -100
     },
     {
-      "name": "San Francisco Map Tea Towel",
-      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
+      "name": "ACRYLIC Ferry Building",
+      "sku": "MAG-AC-SF-FERRYB",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 20,
       "pct": -100
     },
     {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "MAG-SF-RETRO-GGB",
       "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco Map",
-      "sku": "SFMAP_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco 8x10",
-      "sku": "SF_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 31,
       "pct": -100
     }
   ],
@@ -164,9 +164,9 @@
     },
     {
       "category": "Landmark Prints",
-      "qty_recent": 3,
+      "qty_recent": 4,
       "qty_prev": 15,
-      "pct": -60
+      "pct": -47
     }
   ]
 }
