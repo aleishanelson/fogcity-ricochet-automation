@@ -1,0 +1,32 @@
+name: Fix Jun 28-30 SKUs and Revenue (one-off)
+
+on:
+  workflow_dispatch: # run manually from the Actions tab
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install playwright requests google-auth google-auth-httplib2 google-api-python-client && playwright install chromium --with-deps
+
+      - name: Run backfill fix script
+        env:
+          RICOCHET_EMAIL: ${{ secrets.RICOCHET_EMAIL }}
+          RICOCHET_PASSWORD: ${{ secrets.RICOCHET_PASSWORD }}
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+        run: python scripts/fix_jun28_30.py
+
+      - name: Upload log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fix-log
+          path: sync.log
