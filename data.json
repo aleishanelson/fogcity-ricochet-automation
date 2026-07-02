@@ -1,29 +1,29 @@
 {
-  "updated": "June 30, 2026",
-  "period_label": "6/21 \u2013 6/30, 2026",
-  "total_units": 259,
+  "updated": "July 1, 2026",
+  "period_label": "6/22 \u2013 7/1, 2026",
+  "total_units": 237,
   "revenue": {
-    "yesterday": 224.0,
-    "yesterday_label": "6/30",
-    "weekly": 5167.18,
-    "monthly": 18779.66,
+    "yesterday": 0.0,
+    "yesterday_label": "7/1",
+    "weekly": 4858.18,
+    "monthly": 4098.18,
     "ytd": 106955.64
   },
   "top10": [
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 65
+      "qty": 54
     },
     {
       "name": "Golden Gate Travel",
       "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
-      "qty": 39
+      "qty": 37
     },
     {
       "name": "ACRYLIC SFO Luggage tag",
       "sku": "MAG-AC-SF-SFO",
-      "qty": 30
+      "qty": 28
     },
     {
       "name": "Home Sweet SF Square",
@@ -31,28 +31,28 @@
       "qty": 24
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
-      "qty": 23
-    },
-    {
       "name": "POSTCARDS3FOR11",
       "sku": "POSTCARDS3FOR11",
       "qty": 21
     },
     {
-      "name": "Painted Ladies Retro Postcard",
-      "sku": "PAINTEDLADIES_RETRO_PC",
-      "qty": 16
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "qty": 19
     },
     {
-      "name": "SF Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
       "qty": 15
     },
     {
       "name": "Golden Gate Bridge Pink Sticker",
       "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 13
+    },
+    {
+      "name": "SF Magnet Set",
+      "sku": "SANFRANCISCOICONS_MAGNETSET",
       "qty": 13
     },
     {
@@ -63,18 +63,18 @@
   ],
   "hot": [
     {
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
+      "qty_recent": 9,
+      "qty_prev": 2,
+      "pct": 800
+    },
+    {
       "name": "Home Sweet SF Square",
       "sku": "MAGNET_HOMESWEETSF",
       "qty_recent": 24,
       "qty_prev": 7,
       "pct": 586
-    },
-    {
-      "name": "West Coast Best Coast",
-      "sku": "MAG_WESTBESTCOAST_CIR",
-      "qty_recent": 9,
-      "qty_prev": 3,
-      "pct": 500
     },
     {
       "name": "Bay Area Map",
@@ -84,11 +84,11 @@
       "pct": 500
     },
     {
-      "name": "Golden Gate Travel",
-      "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
-      "qty_recent": 39,
-      "qty_prev": 17,
-      "pct": 359
+      "name": "West Coast Best Coast",
+      "sku": "MAG_WESTBESTCOAST_CIR",
+      "qty_recent": 9,
+      "qty_prev": 3,
+      "pct": 500
     },
     {
       "name": "Pennant",
@@ -98,8 +98,8 @@
       "pct": 350
     },
     {
-      "name": "Santa Clara University 8x10",
-      "sku": "SCU_BW_8X10_CURSIVE",
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,31 +107,24 @@
   ],
   "cold": [
     {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "MAG-SF-RETRO-GGB",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 27,
       "pct": -100
     },
     {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 25,
-      "pct": -100
-    },
-    {
-      "name": "State of California Tea Towel",
-      "sku": "STATEOFCALIFORNIA_MAP_TEATOWEL",
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
+      "name": "Icons",
+      "sku": "SFICONS_BLUE_GREETINGCARD_A2",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -142,10 +135,17 @@
       "pct": -100
     },
     {
-      "name": "San Francisco Map Tea Towel",
-      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
       "qty_recent": 0,
       "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
@@ -158,15 +158,15 @@
     },
     {
       "category": "Totes",
-      "qty_recent": 2,
-      "qty_prev": 19,
-      "pct": -79
+      "qty_recent": 1,
+      "qty_prev": 20,
+      "pct": -90
     },
     {
-      "category": "Cards",
-      "qty_recent": 60,
-      "qty_prev": 80,
-      "pct": 50
+      "category": "Map Prints",
+      "qty_recent": 4,
+      "qty_prev": 21,
+      "pct": -62
     }
   ]
 }
