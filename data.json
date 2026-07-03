@@ -70,17 +70,17 @@
       "pct": 800
     },
     {
-      "name": "West Coast Best Coast",
-      "sku": "MAG_WESTBESTCOAST_CIR",
-      "qty_recent": 9,
-      "qty_prev": 3,
-      "pct": 500
-    },
-    {
       "name": "Bay Area Map",
       "sku": "BAYAREAMAP_A2CARD",
       "qty_recent": 3,
       "qty_prev": 1,
+      "pct": 500
+    },
+    {
+      "name": "West Coast Best Coast",
+      "sku": "MAG_WESTBESTCOAST_CIR",
+      "qty_recent": 9,
+      "qty_prev": 3,
       "pct": 500
     },
     {
@@ -107,24 +107,10 @@
   ],
   "cold": [
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "Red SF Pill",
+      "sku": "PILL_SF_RED_STICKER",
       "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "SF Icons Pencil Pouch - Natural",
-      "sku": "PP-SF-CN-02",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "State of California",
-      "sku": "STATEOFCALIFORNIA_MAP_TEATOWEL",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 7,
       "pct": -100
     },
     {
@@ -135,17 +121,31 @@
       "pct": -100
     },
     {
+      "name": "Painted Lady Keychain- Pink",
+      "sku": "KC-PAINTEDLADY-PINK",
+      "qty_recent": 0,
+      "qty_prev": 11,
+      "pct": -100
+    },
+    {
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
       "name": "CA State Blue",
       "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
       "qty_recent": 0,
       "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "SF Felt Lettered Dad Hat - Navy",
-      "sku": "DH-003-NB",
-      "qty_recent": 0,
-      "qty_prev": 10,
       "pct": -100
     }
   ],
