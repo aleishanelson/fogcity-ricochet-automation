@@ -1,11 +1,11 @@
 {
-  "updated": "July 1, 2026",
-  "period_label": "6/22 \u2013 7/1, 2026",
-  "total_units": 237,
+  "updated": "July 2, 2026",
+  "period_label": "6/23 \u2013 7/2, 2026",
+  "total_units": 210,
   "revenue": {
     "yesterday": 0.0,
-    "yesterday_label": "7/1",
-    "weekly": 4858.18,
+    "yesterday_label": "7/2",
+    "weekly": 4588.18,
     "monthly": 4098.18,
     "ytd": 106955.64
   },
@@ -13,12 +13,12 @@
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 54
+      "qty": 45
     },
     {
       "name": "Golden Gate Travel",
       "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
-      "qty": 37
+      "qty": 33
     },
     {
       "name": "ACRYLIC SFO Luggage tag",
@@ -28,37 +28,37 @@
     {
       "name": "Home Sweet SF Square",
       "sku": "MAGNET_HOMESWEETSF",
-      "qty": 24
+      "qty": 21
     },
     {
       "name": "POSTCARDS3FOR11",
       "sku": "POSTCARDS3FOR11",
-      "qty": 21
+      "qty": 19
     },
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSANFRANCISCO_STICKER",
-      "qty": 19
-    },
-    {
-      "name": "Painted Ladies Retro Postcard",
-      "sku": "PAINTEDLADIES_RETRO_PC",
-      "qty": 15
-    },
-    {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
-      "qty": 13
-    },
-    {
-      "name": "SF Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
-      "qty": 13
+      "qty": 17
     },
     {
       "name": "SF City Name",
       "sku": "SFCITYNAME_STICKER",
       "qty": 13
+    },
+    {
+      "name": "Ferry Building Retro Postcard",
+      "sku": "FERRYBUILDING_RETRO_PC",
+      "qty": 12
+    },
+    {
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 11
+    },
+    {
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
+      "qty": 11
     }
   ],
   "hot": [
@@ -70,11 +70,11 @@
       "pct": 800
     },
     {
-      "name": "Home Sweet SF Square",
-      "sku": "MAGNET_HOMESWEETSF",
-      "qty_recent": 24,
-      "qty_prev": 7,
-      "pct": 586
+      "name": "West Coast Best Coast",
+      "sku": "MAG_WESTBESTCOAST_CIR",
+      "qty_recent": 9,
+      "qty_prev": 3,
+      "pct": 500
     },
     {
       "name": "Bay Area Map",
@@ -84,18 +84,18 @@
       "pct": 500
     },
     {
-      "name": "West Coast Best Coast",
-      "sku": "MAG_WESTBESTCOAST_CIR",
-      "qty_recent": 9,
-      "qty_prev": 3,
-      "pct": 500
-    },
-    {
       "name": "Pennant",
       "sku": "SFPENNANT_STICKER",
       "qty_recent": 9,
       "qty_prev": 4,
       "pct": 350
+    },
+    {
+      "name": "Home Sweet SF Square",
+      "sku": "MAGNET_HOMESWEETSF",
+      "qty_recent": 21,
+      "qty_prev": 10,
+      "pct": 320
     },
     {
       "name": "Bon Voyage",
@@ -107,8 +107,15 @@
   ],
   "cold": [
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "SF Icons Pencil Pouch - Natural",
+      "sku": "PP-SF-CN-02",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -121,31 +128,24 @@
       "pct": -100
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "MAG-SF-RETRO-GGB",
+      "name": "Golden Gate Travel (new version)",
+      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
       "qty_recent": 0,
-      "qty_prev": 27,
+      "qty_prev": 73,
       "pct": -100
     },
     {
-      "name": "ACRYLIC Ferry Building",
-      "sku": "MAG-AC-SF-FERRYB",
-      "qty_recent": 0,
-      "qty_prev": 18,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
+      "name": "CA State Blue",
+      "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "San Francisco City Name",
-      "sku": "SF_BLOCKFONT_TOTE",
+      "name": "SF Felt Lettered Dad Hat - Navy",
+      "sku": "DH-003-NB",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 10,
       "pct": -100
     }
   ],
