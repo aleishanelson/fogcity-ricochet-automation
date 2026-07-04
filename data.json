@@ -77,17 +77,17 @@
       "pct": 500
     },
     {
-      "name": "DH-CITYBYTHEBAY-CREAM",
-      "sku": "DH-CITYBYTHEBAY-CREAM",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
       "name": "West Coast Best Coast",
       "sku": "MAG_WESTBESTCOAST_CIR",
       "qty_recent": 8,
       "qty_prev": 4,
+      "pct": 300
+    },
+    {
+      "name": "DH-CITYBYTHEBAY-CREAM",
+      "sku": "DH-CITYBYTHEBAY-CREAM",
+      "qty_recent": 2,
+      "qty_prev": 1,
       "pct": 300
     },
     {
@@ -107,45 +107,45 @@
   ],
   "cold": [
     {
-      "name": "West Coast Best Coast",
-      "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+      "name": "SF Bridge Dad Hat - Navy",
+      "sku": "DH-001-NB",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Icons",
-      "sku": "SFICONS_BLUE_GREETINGCARD_A2",
+      "name": "Ferry Building",
+      "sku": "FERRYBLDGTRAVELPOSTER_GCARD",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
       "qty_recent": 0,
       "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "MAG-SF-LDMKS",
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
       "qty_recent": 0,
-      "qty_prev": 85,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Red SF Pill",
-      "sku": "PILL_SF_RED_STICKER",
+      "name": "San Francisco 8x10",
+      "sku": "SF_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "SF Pink Icons Magnet",
-      "sku": "MAG-SF-PINKICONS",
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty_recent": 0,
-      "qty_prev": 24,
-      "pct": -100
-    },
-    {
-      "name": "ACRYLIC Ferry Building",
-      "sku": "MAG-AC-SF-FERRYB",
-      "qty_recent": 0,
-      "qty_prev": 18,
+      "qty_prev": 35,
       "pct": -100
     }
   ],
