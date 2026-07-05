@@ -70,6 +70,13 @@
       "pct": 500
     },
     {
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
       "name": "DH-CITYBYTHEBAY-CREAM",
       "sku": "DH-CITYBYTHEBAY-CREAM",
       "qty_recent": 2,
@@ -84,13 +91,6 @@
       "pct": 300
     },
     {
-      "name": "Bon Voyage",
-      "sku": "BONVOYAGE_STICKER",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
       "name": "Illustrated Ferry Building Landmark",
       "sku": "FB_ILLUSTRATED_STICKER",
       "qty_recent": 7,
@@ -98,26 +98,33 @@
       "pct": 250
     },
     {
-      "name": "3037",
-      "sku": "3037",
-      "qty_recent": 5,
+      "name": "00302V",
+      "sku": "00302V",
+      "qty_recent": 2,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "Painted Lady Keychain- Pink",
-      "sku": "KC-PAINTEDLADY-PINK",
+      "name": "SF Felt Lettered Dad Hat - Navy",
+      "sku": "DH-003-NB",
       "qty_recent": 0,
-      "qty_prev": 10,
+      "qty_prev": 8,
       "pct": -100
     },
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "MAG-SF-LDMKS",
+      "name": "San Francisco 8x10",
+      "sku": "SF_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 83,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 24,
       "pct": -100
     },
     {
@@ -128,24 +135,17 @@
       "pct": -100
     },
     {
-      "name": "SF Pink Icons Magnet",
-      "sku": "MAG-SF-PINKICONS",
-      "qty_recent": 0,
-      "qty_prev": 23,
-      "pct": -100
-    },
-    {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty_recent": 0,
-      "qty_prev": 35,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco City Name",
-      "sku": "SF_BLOCKFONT_TOTE",
+      "name": "I come with baggage",
+      "sku": "ICOMEWITHBAGGAGE_STICKER",
       "qty_recent": 0,
       "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Santa Clara University 8x10",
+      "sku": "SCU_BW_8X10_CURSIVE",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
