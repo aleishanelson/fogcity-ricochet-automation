@@ -443,9 +443,6 @@ def find_sku(item_name: str, lookup: dict) -> str:
         # ── 6/18/2026 fix: items that fell back to raw Ricochet numeric SKUs ──
         # These were correctly named but find_sku() missed them; adding explicit
         # lowercase keys ensures they always resolve to the right inventory SKU.
-        "acrylic keychain":                                  "KC-SF-01",
-        "sf acrylic keychain":                               "KC-SF-01",
-        "golden gate icon keychain (icon series)":           "KC-SF-01",
         "acrylic painted ladies magnet":                     "MAG-SF-PLADIES-CL",
         "acrylic painted ladies magnet (acrylic)":           "MAG-SF-PLADIES-CL",
         "bay area map print 8x10":                           "BAYAREA_BW_8x10",
@@ -483,8 +480,6 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "golden gate retro postcard":             "SFGGBRIDGE_RETRO_PCARD",
         "retro golden gate postcard":             "SFGGBRIDGE_RETRO_PCARD",
         "vntage sfo luggage tag sticker":         "LUGGAGETAG_SFO_STICKER",
-        "california icon keychain":               "KC-SF-01",
-        "california keychain":                    "KC-SF-01",
         "twists and turns card":                  "TWISTSANDTURNS_GCARD",
         "home sweet san francisco card":          "HOMESWEETSF_A2CARD",
         "fog city dad hat - light blue":          "DH-004-LB",
@@ -516,7 +511,6 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "8x10 bay area map":                      "BAYAREA_BW_8x10",
         "8x10 golden gate travel print":          "GOLDENGATE_TRAVELPOSTER_8x10",
         "8x10 sf map print":                      "SF_BW_8x10",
-        "blue victorian house keychain (icon series)": "KC-SF-01",
         "blue icons postcard":                    "SFBLUEICONS_POSTCARD",
         "cape cod map print 8x10":                "CAPECOD_BW_8x10",
         "austin map print 8x10":                  "AUSTIN_BW_8x10",
