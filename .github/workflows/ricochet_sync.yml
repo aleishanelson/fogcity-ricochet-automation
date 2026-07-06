@@ -12,6 +12,7 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write       # needed to push data.json back to the repo
+    issues: write     # needed to open an issue if the sync fails, so a missed run doesn't go unnoticed
 
     steps:
       - name: Checkout repo
@@ -48,3 +49,15 @@ jobs:
         with:
           name: sync-log
           path: sync.log
+      - name: Open issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Ricochet sync failed on ${new Date().toISOString().slice(0,10)}`,
+              body: `The Ricochet daily sales sync workflow failed.\n\nWorkflow run: ${runUrl}\n\nCheck the "sync-log" artifact attached to this run for details. Note: because the date window is computed from the last entry in column F, a missed run is normally backfilled automatically the next time the sync succeeds -- but please verify Fog City Sales doesn't have a gap.`
+            });
