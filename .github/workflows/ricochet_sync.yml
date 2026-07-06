@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write       # needed to push data.json back to the repo
-    issues: write     # needed to open an issue if the sync fails, so a missed run doesn't go unnoticed
+      issues: write     # needed to open an issue if the sync fails, so a missed run doesn't go unnoticed
 
     steps:
       - name: Checkout repo
