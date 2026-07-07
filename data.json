@@ -91,65 +91,71 @@
       "pct": 220
     },
     {
-      "name": "SF Fuzzy Patch Trucker Hat - Navy",
-      "sku": "TH-001-NB",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 200
-    },
-    {
       "name": "I'd Escape Alcatraz",
       "sku": "IDESCAPEALCATRAZFORYOU_A2CARD",
       "qty_recent": 6,
       "qty_prev": 4,
       "pct": 200
+    },
+    {
+      "name": "SF Fuzzy Patch Trucker Hat - Navy",
+      "sku": "TH-001-NB",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty_recent": 0,
-      "qty_prev": 35,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_A2CARD",
+      "name": "Proud Tourist",
+      "sku": "PROUDTOURIST_STICKER",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "San Francisco City Name",
-      "sku": "SF_BLOCKFONT_TOTE",
+      "name": "CA State Blue",
+      "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
+      "name": "Santa Clara University 8x10",
+      "sku": "SCU_BW_8X10_CURSIVE",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
+      "name": "ACRYLIC Home Sweet SF",
+      "sku": "MAG-AC-SF-HOUSES",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 18,
       "pct": -100
     },
     {
-      "name": "SF Pink Icons Magnet",
-      "sku": "MAG-SF-PINKICONS",
+      "name": "ACRYLIC Ferry Building",
+      "sku": "MAG-AC-SF-FERRYB",
       "qty_recent": 0,
-      "qty_prev": 23,
+      "qty_prev": 16,
+      "pct": -100
+    },
+    {
+      "name": "Painted Lady Keychain- Pink",
+      "sku": "KC-PAINTEDLADY-PINK",
+      "qty_recent": 0,
+      "qty_prev": 9,
       "pct": -100
     }
   ],
   "category_trends": [
+    {
+      "category": "Landmark Prints",
+      "qty_recent": 8,
+      "qty_prev": 5,
+      "pct": 220
+    },
     {
       "category": "Tea Towels",
       "qty_recent": 0,
@@ -161,12 +167,6 @@
       "qty_recent": 1,
       "qty_prev": 17,
       "pct": -88
-    },
-    {
-      "category": "Landmark Prints",
-      "qty_recent": 11,
-      "qty_prev": 12,
-      "pct": 83
     }
   ]
 }
