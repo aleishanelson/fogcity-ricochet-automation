@@ -1,19 +1,19 @@
 {
-  "updated": "July 5, 2026",
-  "period_label": "6/26 \u2013 7/5, 2026",
-  "total_units": 203,
+  "updated": "July 6, 2026",
+  "period_label": "6/27 \u2013 7/6, 2026",
+  "total_units": 187,
   "revenue": {
-    "yesterday": 0.0,
-    "yesterday_label": "7/5",
-    "weekly": 3090.18,
-    "monthly": 4098.18,
-    "ytd": 106955.64
+    "yesterday": 102.5,
+    "yesterday_label": "7/6",
+    "weekly": 4250.68,
+    "monthly": 5752.18,
+    "ytd": 108609.64
   },
   "top10": [
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty": 32
+      "qty": 31
     },
     {
       "name": "3 for $11",
@@ -28,27 +28,17 @@
     {
       "name": "Home Sweet SF Square",
       "sku": "MAGNET_HOMESWEETSF",
-      "qty": 25
+      "qty": 21
     },
     {
       "name": "Golden Gate Travel",
       "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
-      "qty": 21
+      "qty": 16
     },
     {
-      "name": "ACRYLIC SFO Luggage tag",
-      "sku": "MAG-AC-SF-SFO",
-      "qty": 18
-    },
-    {
-      "name": "Painted Ladies Retro Postcard",
-      "sku": "PAINTEDLADIES_RETRO_PC",
-      "qty": 14
-    },
-    {
-      "name": "Ferry Building Retro Postcard",
-      "sku": "FERRYBUILDING_RETRO_PC",
-      "qty": 13
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
+      "qty": 16
     },
     {
       "name": "SF City Name",
@@ -56,8 +46,18 @@
       "qty": 13
     },
     {
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
+      "qty": 12
+    },
+    {
       "name": "Illustrated Ferry Building Landmark",
       "sku": "FB_ILLUSTRATED_STICKER",
+      "qty": 11
+    },
+    {
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
       "qty": 11
     }
   ],
@@ -77,13 +77,6 @@
       "pct": 340
     },
     {
-      "name": "DH-CITYBYTHEBAY-CREAM",
-      "sku": "DH-CITYBYTHEBAY-CREAM",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
       "name": "Bay Area Map",
       "sku": "BAYAREAMAP_A2CARD",
       "qty_recent": 4,
@@ -91,11 +84,11 @@
       "pct": 300
     },
     {
-      "name": "West Coast Best Coast",
-      "sku": "MAG_WESTBESTCOAST_CIR",
-      "qty_recent": 9,
+      "name": "Home Sweet Home 8x8",
+      "sku": "HOMESWEETSF_8X8",
+      "qty_recent": 8,
       "qty_prev": 5,
-      "pct": 260
+      "pct": 220
     },
     {
       "name": "SF Fuzzy Patch Trucker Hat - Navy",
@@ -103,14 +96,49 @@
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
+    },
+    {
+      "name": "I'd Escape Alcatraz",
+      "sku": "IDESCAPEALCATRAZFORYOU_A2CARD",
+      "qty_recent": 6,
+      "qty_prev": 4,
+      "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "MAG-SF-RETRO-GGB",
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty_recent": 0,
-      "qty_prev": 22,
+      "qty_prev": 35,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_A2CARD",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco City Name",
+      "sku": "SF_BLOCKFONT_TOTE",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -118,34 +146,6 @@
       "sku": "MAG-SF-PINKICONS",
       "qty_recent": 0,
       "qty_prev": 23,
-      "pct": -100
-    },
-    {
-      "name": "Golden Gate Travel (new version)",
-      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty_recent": 0,
-      "qty_prev": 64,
-      "pct": -100
-    },
-    {
-      "name": "ACRYLIC Home Sweet SF",
-      "sku": "MAG-AC-SF-HOUSES",
-      "qty_recent": 0,
-      "qty_prev": 19,
-      "pct": -100
-    },
-    {
-      "name": "Pink Icons Postcard",
-      "sku": "SFICONS_POSTCARD_PINK",
-      "qty_recent": 0,
-      "qty_prev": 13,
-      "pct": -100
-    },
-    {
-      "name": "Santa Clara University 8x10",
-      "sku": "SCU_BW_8X10_CURSIVE",
-      "qty_recent": 0,
-      "qty_prev": 3,
       "pct": -100
     }
   ],
@@ -165,8 +165,8 @@
     {
       "category": "Landmark Prints",
       "qty_recent": 11,
-      "qty_prev": 14,
-      "pct": 57
+      "qty_prev": 12,
+      "pct": 83
     }
   ]
 }
