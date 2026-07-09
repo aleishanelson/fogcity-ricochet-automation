@@ -77,15 +77,15 @@
       "pct": 500
     },
     {
-      "name": "Bon Voyage",
-      "sku": "BONVOYAGE_STICKER",
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
     },
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,24 +107,17 @@
   ],
   "cold": [
     {
-      "name": "San Francisco City Name",
-      "sku": "SF_BLOCKFONT_TOTE",
+      "name": "Golden Gate Icon Keychain",
+      "sku": "KC-SF-01",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "ACRYLIC Painted Ladies",
-      "sku": "MAG-SF-PLADIES-CL",
+      "name": "SF Icons Pencil Pouch - Natural",
+      "sku": "PP-SF-CN-02",
       "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "SF Pink Icons Magnet",
-      "sku": "MAG-SF-PINKICONS",
-      "qty_recent": 0,
-      "qty_prev": 20,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -142,10 +135,17 @@
       "pct": -100
     },
     {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 31,
+      "pct": -100
+    },
+    {
+      "name": "DH-CITYBYTHEBAY-CREAM",
+      "sku": "DH-CITYBYTHEBAY-CREAM",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
