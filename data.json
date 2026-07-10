@@ -1,7 +1,7 @@
 {
   "updated": "July 9, 2026",
   "period_label": "6/30 \u2013 7/9, 2026",
-  "total_units": 147,
+  "total_units": 160,
   "revenue": {
     "yesterday": 457.48,
     "yesterday_label": "7/9",
@@ -13,17 +13,12 @@
     {
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
-      "qty": 30
+      "qty": 50
     },
     {
       "name": "POSTCARDS3FOR11",
       "sku": "POSTCARDS3FOR11",
       "qty": 21
-    },
-    {
-      "name": "STICKERS_3FOR11",
-      "sku": "STICKERS_3FOR11",
-      "qty": 19
     },
     {
       "name": "Home Sweet SF Square",
@@ -36,13 +31,23 @@
       "qty": 14
     },
     {
+      "name": "ACRYLIC Fishermans Wharf",
+      "sku": "MAG-AC-SF-FW",
+      "qty": 11
+    },
+    {
       "name": "LOVEYOUMORETHANSUNNYSF_A2CARD",
       "sku": "LOVEYOUMORETHANSUNNYSF_A2CARD",
       "qty": 10
     },
     {
-      "name": "ACRYLIC Fishermans Wharf",
-      "sku": "MAG-AC-SF-FW",
+      "name": "Ferry Building Retro Postcard",
+      "sku": "FERRYBUILDING_RETRO_PC",
+      "qty": 10
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "MAG-SF-LDMKS",
       "qty": 10
     },
     {
@@ -53,11 +58,6 @@
     {
       "name": "SF City Name",
       "sku": "SFCITYNAME_STICKER",
-      "qty": 9
-    },
-    {
-      "name": "Vintage SFO Luggage Tag",
-      "sku": "SFO_LUGGAGETAG_MAGNET",
       "qty": 9
     }
   ],
@@ -70,13 +70,6 @@
       "pct": 1700
     },
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
-    {
       "name": "San Francisco Landmark Sticker Sheet",
       "sku": "SS-SF-LDMKS",
       "qty_recent": 3,
@@ -84,42 +77,35 @@
       "pct": 500
     },
     {
-      "name": "00302L",
-      "sku": "00302L",
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
       "qty_recent": 3,
-      "qty_prev": 0,
-      "pct": 150
+      "qty_prev": 1,
+      "pct": 500
     },
     {
-      "name": "Illustrated Golden Gate Bridge Landmark",
-      "sku": "GGB_ILLUSTRATED_STICKER",
-      "qty_recent": 3,
-      "qty_prev": 0,
-      "pct": 150
+      "name": "ACRYLIC Fishermans Wharf",
+      "sku": "MAG-AC-SF-FW",
+      "qty_recent": 11,
+      "qty_prev": 8,
+      "pct": 175
     },
     {
-      "name": "Vintage SFO Luggage Tag",
-      "sku": "SFO_LUGGAGETAG_MAGNET",
-      "qty_recent": 9,
+      "name": "Home Sweet Home 8x8",
+      "sku": "HOMESWEETSF_8X8",
+      "qty_recent": 8,
+      "qty_prev": 6,
+      "pct": 167
+    },
+    {
+      "name": "STICKERS_3FOR11",
+      "sku": "STICKERS_3FOR11",
+      "qty_recent": 2,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
-    {
-      "name": "HOMESWEETSF_A2CARD",
-      "sku": "HOMESWEETSF_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
     {
       "name": "Fog City Embroidered Dad Hat - Light Blue",
       "sku": "DH-004-LB",
@@ -128,45 +114,59 @@
       "pct": -100
     },
     {
-      "name": "Proud Tourist",
-      "sku": "PROUDTOURIST_STICKER",
+      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "DH-CITYBYTHEBAY-CREAM",
+      "sku": "DH-CITYBYTHEBAY-CREAM",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "SF City By The Bay Dad Hat - Cream",
-      "sku": "DH-002-CR",
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 31,
       "pct": -100
     },
     {
-      "name": "Painted Lady Keychain- Pink",
-      "sku": "KC-PAINTEDLADY-PINK",
+      "name": "3 for $10",
+      "sku": "POSTCARDS3FOR10",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 8,
+      "pct": -100
+    },
+    {
+      "name": "SCU_BW_8X10_CURSIVE",
+      "sku": "SCU_BW_8X10_CURSIVE",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Landmark Prints",
-      "qty_recent": 7,
+      "qty_recent": 11,
       "qty_prev": 6,
-      "pct": 133
+      "pct": 267
+    },
+    {
+      "category": "Cards",
+      "qty_recent": 3,
+      "qty_prev": 0,
+      "pct": 150
     },
     {
       "category": "Totes",
       "qty_recent": 1,
       "qty_prev": 16,
       "pct": -88
-    },
-    {
-      "category": "Magnets",
-      "qty_recent": 107,
-      "qty_prev": 423,
-      "pct": -49
     }
   ]
 }
