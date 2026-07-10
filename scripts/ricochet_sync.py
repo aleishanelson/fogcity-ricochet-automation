@@ -123,9 +123,9 @@ def find_sku(item_name: str, lookup: dict) -> str:
     Find the correct SKU for an item name.
 
     Strategy:
-    1. Check hardcoded overrides first (most specific, highest confidence)
-    2. Category-filtered search (only look in the right product type)
-    3. Broad search across all categories
+    1. Category-filtered search against the live Inventory Summary tab
+    2. Broad search across all categories in Inventory Summary
+    3. Hardcoded overrides (fallback only, if not found above)
     """
     key = item_name.strip().lower()
     all_lookup = lookup.get("all", lookup) if isinstance(lookup, dict) else lookup
@@ -140,8 +140,10 @@ def find_sku(item_name: str, lookup: dict) -> str:
                 return sku
         return ""
 
-    # 1. Hardcoded overrides — checked first, highest confidence
-    #    (these cover items missing from Inventory Summary or with ambiguous names)
+    # Hardcoded overrides - checked only as a fallback, AFTER the live
+    # Inventory Summary tab lookup (Inventory Summary is the
+    # source of truth for SKUs; overrides only apply if the item
+    # isn't found there).
 
     OVERRIDES = {
         # Postcards
@@ -530,15 +532,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "sf tote block letters":                  "SF_BLOCKFONT_TOTE",
         "postcards 3 for $10":                    "postcards3for11",
     }
-    # Exact override match
-    if key in OVERRIDES:
-        return OVERRIDES[key]
-    # Partial override match
-    for override_name, sku in OVERRIDES.items():
-        if key in override_name or override_name in key:
-            return sku
-
-    # 2. Category-filtered search — only look in the right product type
+    # 1. Category-filtered search - only look in the right product type
     for keyword, categories in CATEGORY_HINTS.items():
         if keyword in key:
             cat_pool = {}
@@ -548,13 +542,19 @@ def find_sku(item_name: str, lookup: dict) -> str:
                 result = _match(cat_pool, key)
                 if result:
                     return result
-            break   # keyword matched — don't try other keywords
+            break   # keyword matched - don't try other keywords
 
-    # 3. Broad search across all categories
+    # 2. Broad search across all categories
     result = _match(all_lookup, key)
     if result:
         return result
 
+    # 3. Hardcoded overrides - fallback only, checked last
+    if key in OVERRIDES:
+        return OVERRIDES[key]
+    for override_name, sku in OVERRIDES.items():
+        if key in override_name or override_name in key:
+            return sku
     return ""
 
 
