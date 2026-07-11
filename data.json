@@ -1,29 +1,24 @@
 {
-  "updated": "July 9, 2026",
-  "period_label": "6/30 \u2013 7/9, 2026",
-  "total_units": 160,
+  "updated": "July 10, 2026",
+  "period_label": "7/1 \u2013 7/10, 2026",
+  "total_units": 162,
   "revenue": {
-    "yesterday": 457.48,
-    "yesterday_label": "7/9",
-    "weekly": 4459.61,
-    "monthly": 6899.61,
-    "ytd": 109757.07
+    "yesterday": 780.95,
+    "yesterday_label": "7/10",
+    "weekly": 4836.06,
+    "monthly": 7680.56,
+    "ytd": 110538.02
   },
   "top10": [
     {
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
-      "qty": 50
+      "qty": 54
     },
     {
       "name": "POSTCARDS3FOR11",
       "sku": "POSTCARDS3FOR11",
-      "qty": 21
-    },
-    {
-      "name": "Home Sweet SF Square",
-      "sku": "MAGNET_HOMESWEETSF",
-      "qty": 16
+      "qty": 20
     },
     {
       "name": "SFO Luggage Tag Keychain",
@@ -31,43 +26,48 @@
       "qty": 14
     },
     {
-      "name": "ACRYLIC Fishermans Wharf",
+      "name": "MAGNET_HOMESWEETSF",
+      "sku": "MAGNET_HOMESWEETSF",
+      "qty": 14
+    },
+    {
+      "name": "MAG-AC-SF-FW",
       "sku": "MAG-AC-SF-FW",
       "qty": 11
     },
     {
-      "name": "LOVEYOUMORETHANSUNNYSF_A2CARD",
-      "sku": "LOVEYOUMORETHANSUNNYSF_A2CARD",
-      "qty": 10
-    },
-    {
       "name": "Ferry Building Retro Postcard",
       "sku": "FERRYBUILDING_RETRO_PC",
-      "qty": 10
+      "qty": 11
     },
     {
-      "name": "SF Illustrated Landmark",
+      "name": "MAG-SF-LDMKS",
       "sku": "MAG-SF-LDMKS",
       "qty": 10
     },
     {
-      "name": "SFBLUEICONS_POSTCARD",
-      "sku": "SFBLUEICONS_POSTCARD",
+      "name": "MAG-AC-SF-GGB",
+      "sku": "MAG-AC-SF-GGB",
+      "qty": 10
+    },
+    {
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
       "qty": 9
     },
     {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
+      "name": "SFO_LUGGAGETAG_MAGNET",
+      "sku": "SFO_LUGGAGETAG_MAGNET",
       "qty": 9
     }
   ],
   "hot": [
     {
-      "name": "SFBLUEICONS_POSTCARD",
-      "sku": "SFBLUEICONS_POSTCARD",
-      "qty_recent": 9,
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
+      "qty_recent": 4,
       "qty_prev": 1,
-      "pct": 1700
+      "pct": 700
     },
     {
       "name": "San Francisco Landmark Sticker Sheet",
@@ -77,61 +77,54 @@
       "pct": 500
     },
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
+      "name": "SFBLUEICONS_POSTCARD",
+      "sku": "SFBLUEICONS_POSTCARD",
+      "qty_recent": 7,
+      "qty_prev": 3,
+      "pct": 367
     },
     {
-      "name": "ACRYLIC Fishermans Wharf",
+      "name": "SF Map (original)",
+      "sku": "SF_MAP_TOTE",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "San Francisco",
+      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "MAG-AC-SF-FW",
       "sku": "MAG-AC-SF-FW",
       "qty_recent": 11,
-      "qty_prev": 8,
-      "pct": 175
-    },
-    {
-      "name": "Home Sweet Home 8x8",
-      "sku": "HOMESWEETSF_8X8",
-      "qty_recent": 8,
-      "qty_prev": 6,
-      "pct": 167
-    },
-    {
-      "name": "STICKERS_3FOR11",
-      "sku": "STICKERS_3FOR11",
-      "qty_recent": 2,
-      "qty_prev": 0,
-      "pct": 150
+      "qty_prev": 7,
+      "pct": 214
     }
   ],
   "cold": [
     {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
-      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "name": "Golden Gate Icon Keychain",
+      "sku": "KC-SF-01",
       "qty_recent": 0,
       "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "DH-CITYBYTHEBAY-CREAM",
-      "sku": "DH-CITYBYTHEBAY-CREAM",
+      "name": "SF_BLOCKFONT_TOTE",
+      "sku": "SF_BLOCKFONT_TOTE",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 6,
       "pct": -100
     },
     {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
+      "name": "MAG-SF-PLADIES-CL",
+      "sku": "MAG-SF-PLADIES-CL",
       "qty_recent": 0,
-      "qty_prev": 31,
+      "qty_prev": 9,
       "pct": -100
     },
     {
@@ -142,31 +135,38 @@
       "pct": -100
     },
     {
-      "name": "SCU_BW_8X10_CURSIVE",
-      "sku": "SCU_BW_8X10_CURSIVE",
+      "name": "Proud Tourist",
+      "sku": "PROUDTOURIST_STICKER",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "HOMESWEETSF_A2CARD",
+      "sku": "HOMESWEETSF_A2CARD",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Landmark Prints",
-      "qty_recent": 11,
-      "qty_prev": 6,
-      "pct": 267
+      "category": "Tea Towels",
+      "qty_recent": 9,
+      "qty_prev": 7,
+      "pct": 157
     },
     {
       "category": "Cards",
-      "qty_recent": 3,
+      "qty_recent": 10,
       "qty_prev": 0,
       "pct": 150
     },
     {
-      "category": "Totes",
-      "qty_recent": 1,
-      "qty_prev": 16,
-      "pct": -88
+      "category": "Landmark Prints",
+      "qty_recent": 10,
+      "qty_prev": 8,
+      "pct": 150
     }
   ]
 }
