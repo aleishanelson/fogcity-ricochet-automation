@@ -84,15 +84,15 @@
       "pct": 367
     },
     {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
+      "name": "San Francisco",
+      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
     },
     {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
+      "name": "SF Map (original)",
+      "sku": "SF_MAP_TOTE",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,38 +107,31 @@
   ],
   "cold": [
     {
-      "name": "Golden Gate Icon Keychain",
-      "sku": "KC-SF-01",
+      "name": "SF Felt Lettered Dad Hat - Navy",
+      "sku": "DH-003-NB",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "SF_BLOCKFONT_TOTE",
-      "sku": "SF_BLOCKFONT_TOTE",
+      "name": "GOLDENGATETRAVELPOSTER_STICKER",
+      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 12,
       "pct": -100
     },
     {
-      "name": "MAG-SF-PLADIES-CL",
-      "sku": "MAG-SF-PLADIES-CL",
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
       "qty_recent": 0,
-      "qty_prev": 9,
+      "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "3 for $10",
-      "sku": "POSTCARDS3FOR10",
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
       "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
-      "name": "Proud Tourist",
-      "sku": "PROUDTOURIST_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -146,6 +139,13 @@
       "sku": "HOMESWEETSF_A2CARD",
       "qty_recent": 0,
       "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-PLADIES-CL",
+      "sku": "MAG-SF-PLADIES-CL",
+      "qty_recent": 0,
+      "qty_prev": 9,
       "pct": -100
     }
   ],
@@ -157,15 +157,15 @@
       "pct": 157
     },
     {
-      "category": "Cards",
-      "qty_recent": 10,
-      "qty_prev": 0,
-      "pct": 150
-    },
-    {
       "category": "Landmark Prints",
       "qty_recent": 10,
       "qty_prev": 8,
+      "pct": 150
+    },
+    {
+      "category": "Cards",
+      "qty_recent": 10,
+      "qty_prev": 0,
       "pct": 150
     }
   ]
