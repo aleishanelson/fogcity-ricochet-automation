@@ -77,15 +77,15 @@
       "pct": 900
     },
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "SF Map (original)",
+      "sku": "SF_MAP_TOTE",
       "qty_recent": 3,
       "qty_prev": 1,
       "pct": 500
     },
     {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
       "qty_recent": 3,
       "qty_prev": 1,
       "pct": 500
@@ -107,38 +107,17 @@
   ],
   "cold": [
     {
-      "name": "MAG-SF-PLADIES-CL",
-      "sku": "MAG-SF-PLADIES-CL",
-      "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "HOMESWEETSF_A2CARD",
-      "sku": "HOMESWEETSF_A2CARD",
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "3 for $10",
-      "sku": "POSTCARDS3FOR10",
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
-      "name": "SCU_BW_8X10_CURSIVE",
-      "sku": "SCU_BW_8X10_CURSIVE",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
-      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
-      "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 31,
       "pct": -100
     },
     {
@@ -146,6 +125,27 @@
       "sku": "KC-SF-01",
       "qty_recent": 0,
       "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-CABLECAR",
+      "sku": "MAG-SF-CABLECAR",
+      "qty_recent": 0,
+      "qty_prev": 11,
+      "pct": -100
+    },
+    {
+      "name": "SF City By The Bay Dad Hat - Cream",
+      "sku": "DH-002-CR",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "SF_BLOCKFONT_TOTE",
+      "sku": "SF_BLOCKFONT_TOTE",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
