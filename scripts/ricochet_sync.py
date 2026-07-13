@@ -267,9 +267,9 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "ucla tea towels":                               "TT-CAMPUS-UCLA",
         "lake tahoe tea towel":                          "TT-LAKETAHOE",
         "cal poly slo tea towel":                        "TT-CAMPUS-CALPOLYSLO",
-        "san francisco map tea towel":                   "SANFRANCISCO_MAP_DISHTOWEL",
-        "bay area tea towel":                            "BAYAREA_MAP_TEATOWEL",
-        "state of california tea towel":                 "STATEOFCALIFORNIA_MAP_TEATOWEL",
+        "san francisco map tea towel":                   "SANFRANCISCO_MAP_TT",
+        "bay area tea towel":                            "BAYAREA_MAP_TT",
+        "state of california tea towel":                 "STATEOFCALIFORNIA_MAP_TT",
         "santa clara university tea towel":              "TT-CAMPUS-SANTACLARA",
         # Prints (common mismatches seen in Fog City Sales)
         "home sweet san francisco art print 8x8":        "HOMESWEETSF_8x8",
@@ -323,8 +323,8 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
         "stanford campus map print 8x10":               "STANFORD_BW_8x10",
         # California products (partial match misses "State of California" prefix)
-        "california tea towel":                          "STATEOFCALIFORNIA_MAP_TEATOWEL",
-        "califonia tea towel":                           "STATEOFCALIFORNIA_MAP_TEATOWEL",  # typo variant
+        "california tea towel":                          "STATEOFCALIFORNIA_MAP_TT",
+        "califonia tea towel":                           "STATEOFCALIFORNIA_MAP_TT",  # typo variant
         "califonia sticker":                             "SFCITYNAME_STICKER",             # typo variant
         # Cards that need exact routing
         "i'd escape alcatraz card":                      "IDESCAPEALCATRAZFORYOU_A2CARD",
@@ -336,8 +336,8 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "golden gate travel poster magnet":              "MAGNET_GOLDENGATETRAVELPOSTER",
         "city by the bay local notion magnet":           "MAGNET_SFCITYBYTHEBAY_LOCALNOTION",
         "ferry building acrylic die cut magnet":         "MAG-AC-SF-FERRYB",
-        "california map tea towel":                      "STATEOFCALIFORNIA_MAP_TEATOWEL",
-        "california tea towel":                          "STATEOFCALIFORNIA_MAP_TEATOWEL",
+        "california map tea towel":                      "STATEOFCALIFORNIA_MAP_TT",
+        "california tea towel":                          "STATEOFCALIFORNIA_MAP_TT",
         # Stickers
         "california state sticker (black and white)":    "CALIFORNIASTATE_BLOCKFONT_BW",
         "california state sticker black and white":      "CALIFORNIASTATE_BLOCKFONT_BW",
@@ -416,8 +416,8 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "city by the bay black and white sticker":       "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
         "the city by the bay black/white":               "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
         # Tea Towels — prevent HP SKU misassignment
-        "san francisco tea towel":                       "SANFRANCISCO_MAP_DISHTOWEL",
-        "sf tea towel":                                  "SANFRANCISCO_MAP_DISHTOWEL",
+        "san francisco tea towel":                       "SANFRANCISCO_MAP_TT",
+        "sf tea towel":                                  "SANFRANCISCO_MAP_TT",
         # Pencil Pouches — prevent numeric Ricochet SKU misassignment
         "pencil case natural":                           "pp-sf-cn-02",
         "sf icons pencil pouch natural":                 "pp-sf-cn-02",
