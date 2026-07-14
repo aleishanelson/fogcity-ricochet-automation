@@ -1,11 +1,11 @@
 {
-  "updated": "July 12, 2026",
-  "period_label": "7/3 \u2013 7/12, 2026",
-  "total_units": 213,
+  "updated": "July 13, 2026",
+  "period_label": "7/4 \u2013 7/13, 2026",
+  "total_units": 197,
   "revenue": {
-    "yesterday": 961.92,
-    "yesterday_label": "7/12",
-    "weekly": 6320.05,
+    "yesterday": 0.0,
+    "yesterday_label": "7/13",
+    "weekly": 6217.55,
     "monthly": 9597.05,
     "ytd": 112454.51
   },
@@ -13,7 +13,7 @@
     {
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
-      "qty": 71
+      "qty": 62
     },
     {
       "name": "SF Illustrated Landmark",
@@ -31,11 +31,6 @@
       "qty": 20
     },
     {
-      "name": "POSTCARDS3FOR11",
-      "sku": "POSTCARDS3FOR11",
-      "qty": 16
-    },
-    {
       "name": "Illustrated Golden Gate Bridge Landmark",
       "sku": "GGB_ILLUSTRATED_STICKER",
       "qty": 16
@@ -46,18 +41,23 @@
       "qty": 14
     },
     {
-      "name": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
-      "sku": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
-      "qty": 11
-    },
-    {
-      "name": "Fisherman's Wharf Retro Postcard",
-      "sku": "FISHERMANSWHARF_RETRO_PC",
+      "name": "Ferry Building Retro Postcard",
+      "sku": "FERRYBUILDING_RETRO_PC",
       "qty": 10
     },
     {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
+      "name": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
+      "sku": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
+      "qty": 10
+    },
+    {
+      "name": "POSTCARDS3FOR11",
+      "sku": "POSTCARDS3FOR11",
+      "qty": 10
+    },
+    {
+      "name": "MAG-SF-LDMKS",
+      "sku": "MAG-SF-LDMKS",
       "qty": 10
     }
   ],
@@ -77,11 +77,11 @@
       "pct": 700
     },
     {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_DISHTOWEL",
-      "qty_recent": 4,
-      "qty_prev": 1,
-      "pct": 700
+      "name": "MAG-AC-SF-GGB",
+      "sku": "MAG-AC-SF-GGB",
+      "qty_recent": 21,
+      "qty_prev": 9,
+      "pct": 367
     },
     {
       "name": "SFBLUEICONS_POSTCARD",
@@ -91,26 +91,40 @@
       "pct": 367
     },
     {
-      "name": "MAG-AC-SF-GGB",
-      "sku": "MAG-AC-SF-GGB",
-      "qty_recent": 21,
-      "qty_prev": 10,
-      "pct": 320
+      "name": "RETROSFFERRYBUILDING_STICKER",
+      "sku": "RETROSFFERRYBUILDING_STICKER",
+      "qty_recent": 10,
+      "qty_prev": 5,
+      "pct": 300
     },
     {
-      "name": "SFO_LUGGAGETAG_MAGNET",
-      "sku": "SFO_LUGGAGETAG_MAGNET",
-      "qty_recent": 6,
-      "qty_prev": 3,
-      "pct": 300
+      "name": "MAG-SF-RETRO-GGB",
+      "sku": "MAG-SF-RETRO-GGB",
+      "qty_recent": 10,
+      "qty_prev": 7,
+      "pct": 186
     }
   ],
   "cold": [
     {
-      "name": "SF Felt Lettered Dad Hat - Navy",
-      "sku": "DH-003-NB",
+      "name": "Golden Gate Icon Keychain",
+      "sku": "KC-SF-01",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-CABLECAR",
+      "sku": "MAG-SF-CABLECAR",
+      "qty_recent": 0,
+      "qty_prev": 10,
+      "pct": -100
+    },
+    {
+      "name": "SCU_BW_8X10_CURSIVE",
+      "sku": "SCU_BW_8X10_CURSIVE",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -124,7 +138,7 @@
       "name": "SFGGBRIDGE_RETRO_PCARD",
       "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty_recent": 0,
-      "qty_prev": 25,
+      "qty_prev": 23,
       "pct": -100
     },
     {
@@ -133,40 +147,26 @@
       "qty_recent": 0,
       "qty_prev": 29,
       "pct": -100
-    },
-    {
-      "name": "Proud Tourist",
-      "sku": "PROUDTOURIST_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "SF_BLOCKFONT_TOTE",
-      "sku": "SF_BLOCKFONT_TOTE",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
     }
   ],
   "category_trends": [
     {
+      "category": "Magnets",
+      "qty_recent": 63,
+      "qty_prev": 31,
+      "pct": 306
+    },
+    {
       "category": "Tea Towels",
       "qty_recent": 10,
-      "qty_prev": 1,
-      "pct": 1900
+      "qty_prev": 0,
+      "pct": 150
     },
     {
-      "category": "Magnets",
-      "qty_recent": 61,
-      "qty_prev": 31,
-      "pct": 294
-    },
-    {
-      "category": "Landmark Prints",
-      "qty_recent": 10,
-      "qty_prev": 7,
-      "pct": 186
+      "category": "Cards",
+      "qty_recent": 43,
+      "qty_prev": 0,
+      "pct": 150
     }
   ]
 }
