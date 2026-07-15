@@ -107,24 +107,31 @@
   ],
   "cold": [
     {
+      "name": "IDESCAPEALCATRAZFORYOU_A2CARD",
+      "sku": "IDESCAPEALCATRAZFORYOU_A2CARD",
+      "qty_recent": 0,
+      "qty_prev": 9,
+      "pct": -100
+    },
+    {
+      "name": "GOLDENGATETRAVELPOSTER_STICKER",
+      "sku": "GOLDENGATETRAVELPOSTER_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "DH-CITYBYTHEBAY-CREAM",
+      "sku": "DH-CITYBYTHEBAY-CREAM",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
       "name": "SFGGBRIDGE_RETRO_PCARD",
       "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty_recent": 0,
       "qty_prev": 14,
-      "pct": -100
-    },
-    {
-      "name": "Golden Gate Icon Keychain",
-      "sku": "KC-SF-01",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "SFO_LUGGAGETAG_MAGNET",
-      "sku": "SFO_LUGGAGETAG_MAGNET",
-      "qty_recent": 0,
-      "qty_prev": 9,
       "pct": -100
     },
     {
@@ -135,15 +142,8 @@
       "pct": -100
     },
     {
-      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
-      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "DH-CITYBYTHEBAY-CREAM",
-      "sku": "DH-CITYBYTHEBAY-CREAM",
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -151,14 +151,14 @@
   ],
   "category_trends": [
     {
-      "category": "Cards",
-      "qty_recent": 45,
+      "category": "Tea Towels",
+      "qty_recent": 10,
       "qty_prev": 0,
       "pct": 150
     },
     {
-      "category": "Tea Towels",
-      "qty_recent": 10,
+      "category": "Cards",
+      "qty_recent": 45,
       "qty_prev": 0,
       "pct": 150
     },
