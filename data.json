@@ -1,19 +1,19 @@
 {
-  "updated": "July 13, 2026",
-  "period_label": "7/4 \u2013 7/13, 2026",
-  "total_units": 197,
+  "updated": "July 14, 2026",
+  "period_label": "7/5 \u2013 7/14, 2026",
+  "total_units": 194,
   "revenue": {
-    "yesterday": 0.0,
-    "yesterday_label": "7/13",
-    "weekly": 6217.55,
-    "monthly": 9597.05,
-    "ytd": 112454.51
+    "yesterday": 270.0,
+    "yesterday_label": "7/14",
+    "weekly": 6199.07,
+    "monthly": 9867.05,
+    "ytd": 112724.51
   },
   "top10": [
     {
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
-      "qty": 62
+      "qty": 54
     },
     {
       "name": "SF Illustrated Landmark",
@@ -28,32 +28,32 @@
     {
       "name": "Golden Gate Travel",
       "sku": "GOLDENGATETRAVELPOSTER_GC",
-      "qty": 20
+      "qty": 21
     },
     {
       "name": "Illustrated Golden Gate Bridge Landmark",
       "sku": "GGB_ILLUSTRATED_STICKER",
-      "qty": 16
+      "qty": 19
+    },
+    {
+      "name": "RETROSFFERRYBUILDING_STICKER",
+      "sku": "RETROSFFERRYBUILDING_STICKER",
+      "qty": 12
+    },
+    {
+      "name": "MAG-AC-SF-HOUSES",
+      "sku": "MAG-AC-SF-HOUSES",
+      "qty": 11
     },
     {
       "name": "SFO Luggage Tag Keychain",
       "sku": "KC-SFO-LUGGAGETAG",
-      "qty": 14
+      "qty": 11
     },
     {
-      "name": "Ferry Building Retro Postcard",
-      "sku": "FERRYBUILDING_RETRO_PC",
-      "qty": 10
-    },
-    {
-      "name": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
-      "sku": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
-      "qty": 10
-    },
-    {
-      "name": "POSTCARDS3FOR11",
-      "sku": "POSTCARDS3FOR11",
-      "qty": 10
+      "name": "Retro Ferry Building Poster Magnet",
+      "sku": "SF_RETRO_FB_MAG",
+      "qty": 11
     },
     {
       "name": "MAG-SF-LDMKS",
@@ -80,8 +80,15 @@
       "name": "MAG-AC-SF-GGB",
       "sku": "MAG-AC-SF-GGB",
       "qty_recent": 21,
-      "qty_prev": 9,
-      "pct": 367
+      "qty_prev": 8,
+      "pct": 425
+    },
+    {
+      "name": "RETROSFFERRYBUILDING_STICKER",
+      "sku": "RETROSFFERRYBUILDING_STICKER",
+      "qty_recent": 12,
+      "qty_prev": 5,
+      "pct": 380
     },
     {
       "name": "SFBLUEICONS_POSTCARD",
@@ -91,21 +98,21 @@
       "pct": 367
     },
     {
-      "name": "RETROSFFERRYBUILDING_STICKER",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty_recent": 10,
+      "name": "MAG-AC-SF-FERRYB",
+      "sku": "MAG-AC-SF-FERRYB",
+      "qty_recent": 8,
       "qty_prev": 5,
-      "pct": 300
-    },
-    {
-      "name": "MAG-SF-RETRO-GGB",
-      "sku": "MAG-SF-RETRO-GGB",
-      "qty_recent": 10,
-      "qty_prev": 7,
-      "pct": 186
+      "pct": 220
     }
   ],
   "cold": [
+    {
+      "name": "SFGGBRIDGE_RETRO_PCARD",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
+      "qty_recent": 0,
+      "qty_prev": 14,
+      "pct": -100
+    },
     {
       "name": "Golden Gate Icon Keychain",
       "sku": "KC-SF-01",
@@ -114,17 +121,17 @@
       "pct": -100
     },
     {
-      "name": "MAG-SF-CABLECAR",
-      "sku": "MAG-SF-CABLECAR",
+      "name": "SFO_LUGGAGETAG_MAGNET",
+      "sku": "SFO_LUGGAGETAG_MAGNET",
       "qty_recent": 0,
-      "qty_prev": 10,
+      "qty_prev": 9,
       "pct": -100
     },
     {
-      "name": "SCU_BW_8X10_CURSIVE",
-      "sku": "SCU_BW_8X10_CURSIVE",
+      "name": "IDCLIMBANYHILL_A2CARD",
+      "sku": "IDCLIMBANYHILL_A2CARD",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -135,26 +142,19 @@
       "pct": -100
     },
     {
-      "name": "SFGGBRIDGE_RETRO_PCARD",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
+      "name": "DH-CITYBYTHEBAY-CREAM",
+      "sku": "DH-CITYBYTHEBAY-CREAM",
       "qty_recent": 0,
-      "qty_prev": 23,
-      "pct": -100
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 29,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Magnets",
-      "qty_recent": 63,
-      "qty_prev": 31,
-      "pct": 306
+      "category": "Cards",
+      "qty_recent": 45,
+      "qty_prev": 0,
+      "pct": 150
     },
     {
       "category": "Tea Towels",
@@ -163,8 +163,8 @@
       "pct": 150
     },
     {
-      "category": "Cards",
-      "qty_recent": 43,
+      "category": "Magnets",
+      "qty_recent": 65,
       "qty_prev": 0,
       "pct": 150
     }
