@@ -84,15 +84,15 @@
       "pct": 1000
     },
     {
-      "name": "Sunny and 75 in SF Card",
-      "sku": "SUNNYAND75SF_GC",
+      "name": "SF Map (original)",
+      "sku": "SF_MAP_TOTE",
       "qty_recent": 4,
       "qty_prev": 1,
       "pct": 700
     },
     {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
+      "name": "Sunny and 75 in SF Card",
+      "sku": "SUNNYAND75SF_GC",
       "qty_recent": 4,
       "qty_prev": 1,
       "pct": 700
@@ -107,31 +107,17 @@
   ],
   "cold": [
     {
-      "name": "MAG-SF-PLADIES-CL",
-      "sku": "MAG-SF-PLADIES-CL",
+      "name": "SF City By The Bay Dad Hat - Cream",
+      "sku": "DH-002-CR",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 16,
-      "pct": -100
-    },
-    {
-      "name": "MAG-SF-CABLECAR",
-      "sku": "MAG-SF-CABLECAR",
+      "name": "IDESCAPEALCATRAZFORYOU_A2CARD",
+      "sku": "IDESCAPEALCATRAZFORYOU_A2CARD",
       "qty_recent": 0,
       "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "IDCLIMBANYHILL_A2CARD",
-      "sku": "IDCLIMBANYHILL_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -142,10 +128,24 @@
       "pct": -100
     },
     {
-      "name": "Golden Gate Icon Keychain",
-      "sku": "KC-SF-01",
+      "name": "MAG-SF-PLADIES-CL",
+      "sku": "MAG-SF-PLADIES-CL",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "SCU_BW_8X10_CURSIVE",
+      "sku": "SCU_BW_8X10_CURSIVE",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
@@ -163,9 +163,9 @@
       "pct": 150
     },
     {
-      "category": "Totes",
-      "qty_recent": 5,
-      "qty_prev": 4,
+      "category": "Tea Towels",
+      "qty_recent": 13,
+      "qty_prev": 0,
       "pct": 150
     }
   ]
