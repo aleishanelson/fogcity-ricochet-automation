@@ -1,19 +1,24 @@
 {
-  "updated": "July 15, 2026",
-  "period_label": "7/6 \u2013 7/15, 2026",
-  "total_units": 202,
+  "updated": "July 16, 2026",
+  "period_label": "7/7 \u2013 7/16, 2026",
+  "total_units": 234,
   "revenue": {
-    "yesterday": 269.49,
-    "yesterday_label": "7/15",
-    "weekly": 6067.09,
-    "monthly": 10136.54,
-    "ytd": 112994.0
+    "yesterday": 666.99,
+    "yesterday_label": "7/16",
+    "weekly": 6276.6,
+    "monthly": 10803.53,
+    "ytd": 113660.99
   },
   "top10": [
     {
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
-      "qty": 55
+      "qty": 66
+    },
+    {
+      "name": "Golden Gate Travel",
+      "sku": "GOLDENGATETRAVELPOSTER_GC",
+      "qty": 26
     },
     {
       "name": "SF Illustrated Landmark",
@@ -21,14 +26,14 @@
       "qty": 24
     },
     {
-      "name": "Golden Gate Travel",
-      "sku": "GOLDENGATETRAVELPOSTER_GC",
-      "qty": 23
-    },
-    {
       "name": "MAG-AC-SF-GGB",
       "sku": "MAG-AC-SF-GGB",
       "qty": 22
+    },
+    {
+      "name": "San Francisco",
+      "sku": "SF_HP_11X15",
+      "qty": 20
     },
     {
       "name": "Illustrated Golden Gate Bridge Landmark",
@@ -38,27 +43,22 @@
     {
       "name": "RETROSFFERRYBUILDING_STICKER",
       "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty": 15
-    },
-    {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
-      "qty": 11
-    },
-    {
-      "name": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
-      "sku": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
-      "qty": 11
-    },
-    {
-      "name": "MAG-AC-SF-HOUSES",
-      "sku": "MAG-AC-SF-HOUSES",
-      "qty": 11
+      "qty": 18
     },
     {
       "name": "SFO Luggage Tag Keychain",
       "sku": "KC-SFO-LUGGAGETAG",
-      "qty": 11
+      "qty": 14
+    },
+    {
+      "name": "Alcatraz Island Retro Postcard",
+      "sku": "ALCATRAZ_RETRO_PC",
+      "qty": 13
+    },
+    {
+      "name": "Retro Ferry Building Poster Magnet",
+      "sku": "SF_RETRO_FB_MAG",
+      "qty": 12
     }
   ],
   "hot": [
@@ -70,11 +70,25 @@
       "pct": 1300
     },
     {
+      "name": "RETROSFFERRYBUILDING_STICKER",
+      "sku": "RETROSFFERRYBUILDING_STICKER",
+      "qty_recent": 18,
+      "qty_prev": 3,
+      "pct": 1100
+    },
+    {
       "name": "MAG-AC-SF-GGB",
       "sku": "MAG-AC-SF-GGB",
       "qty_recent": 22,
       "qty_prev": 4,
       "pct": 1000
+    },
+    {
+      "name": "Sunny and 75 in SF Card",
+      "sku": "SUNNYAND75SF_GC",
+      "qty_recent": 4,
+      "qty_prev": 1,
+      "pct": 700
     },
     {
       "name": "SF Map (original)",
@@ -84,25 +98,11 @@
       "pct": 700
     },
     {
-      "name": "RETROSFFERRYBUILDING_STICKER",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty_recent": 15,
-      "qty_prev": 4,
-      "pct": 650
-    },
-    {
-      "name": "Sunny and 75 in SF Card",
-      "sku": "SUNNYAND75SF_GC",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
-    {
-      "name": "SFBLUEICONS_POSTCARD",
-      "sku": "SFBLUEICONS_POSTCARD",
-      "qty_recent": 7,
+      "name": "MAG-AC-SF-FERRYB",
+      "sku": "MAG-AC-SF-FERRYB",
+      "qty_recent": 10,
       "qty_prev": 3,
-      "pct": 367
+      "pct": 567
     }
   ],
   "cold": [
@@ -114,24 +114,17 @@
       "pct": -100
     },
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 16,
       "pct": -100
     },
     {
-      "name": "Golden Gate Icon Keychain",
-      "sku": "KC-SF-01",
+      "name": "MAG-SF-CABLECAR",
+      "sku": "MAG-SF-CABLECAR",
       "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
-      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
-      "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 9,
       "pct": -100
     },
     {
@@ -142,30 +135,37 @@
       "pct": -100
     },
     {
-      "name": "SCU_BW_8X10_CURSIVE",
-      "sku": "SCU_BW_8X10_CURSIVE",
+      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "Golden Gate Icon Keychain",
+      "sku": "KC-SF-01",
+      "qty_recent": 0,
+      "qty_prev": 7,
       "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Cards",
-      "qty_recent": 49,
-      "qty_prev": 1,
-      "pct": 9700
+      "qty_recent": 55,
+      "qty_prev": 2,
+      "pct": 5400
     },
     {
       "category": "Magnets",
-      "qty_recent": 73,
+      "qty_recent": 79,
       "qty_prev": 0,
       "pct": 150
     },
     {
-      "category": "Tea Towels",
-      "qty_recent": 11,
-      "qty_prev": 0,
+      "category": "Totes",
+      "qty_recent": 5,
+      "qty_prev": 4,
       "pct": 150
     }
   ]
