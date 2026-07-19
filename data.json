@@ -77,17 +77,17 @@
       "pct": 1800
     },
     {
-      "name": "Illustrated Golden Gate Bridge Landmark",
-      "sku": "GGB_ILLUSTRATED_STICKER",
-      "qty_recent": 18,
-      "qty_prev": 2,
-      "pct": 1700
-    },
-    {
       "name": "Ferry Building Travel Poster Card",
       "sku": "FERRYBLDGTRAVELPOSTER_GC",
       "qty_recent": 9,
       "qty_prev": 1,
+      "pct": 1700
+    },
+    {
+      "name": "Illustrated Golden Gate Bridge Landmark",
+      "sku": "GGB_ILLUSTRATED_STICKER",
+      "qty_recent": 18,
+      "qty_prev": 2,
       "pct": 1700
     },
     {
@@ -98,26 +98,26 @@
       "pct": 900
     },
     {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
-      "qty_recent": 4,
-      "qty_prev": 1,
+      "name": "MAG-SF-RETRO-GGB",
+      "sku": "MAG-SF-RETRO-GGB",
+      "qty_recent": 8,
+      "qty_prev": 2,
       "pct": 700
     }
   ],
   "cold": [
     {
-      "name": "SFO_LUGGAGETAG_MAGNET",
-      "sku": "SFO_LUGGAGETAG_MAGNET",
-      "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
-    {
       "name": "LOVEYOUMORETHANSUNNYSF_A2CARD",
       "sku": "LOVEYOUMORETHANSUNNYSF_A2CARD",
       "qty_recent": 0,
       "qty_prev": 16,
+      "pct": -100
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 19,
       "pct": -100
     },
     {
@@ -128,24 +128,24 @@
       "pct": -100
     },
     {
-      "name": "SFGGBRIDGE_RETRO_PCARD",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
+      "name": "3 for $10",
+      "sku": "POSTCARDS3FOR10",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 8,
       "pct": -100
     },
     {
-      "name": "MAG_WESTBESTCOAST_CIR",
-      "sku": "MAG_WESTBESTCOAST_CIR",
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
       "qty_recent": 0,
-      "qty_prev": 13,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "FERRYBLDGTRAVELPOSTER_GCARD",
-      "sku": "FERRYBLDGTRAVELPOSTER_GCARD",
+      "name": "SFO_LUGGAGETAG_MAGNET",
+      "sku": "SFO_LUGGAGETAG_MAGNET",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 9,
       "pct": -100
     }
   ],
