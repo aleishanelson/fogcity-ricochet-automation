@@ -532,6 +532,10 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "sf tote block letters":                  "SF_BLOCKFONT_TOTE",
         "postcards 3 for $10":                    "postcards3for11",
     }
+    # 0. Exact-match override - curated fixes always take priority over fuzzy matching
+    if key in OVERRIDES:
+        return OVERRIDES[key]
+
     # 1. Category-filtered search - only look in the right product type
     for keyword, categories in CATEGORY_HINTS.items():
         if keyword in key:
@@ -549,9 +553,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
     if result:
         return result
 
-    # 3. Hardcoded overrides - fallback only, checked last
-    if key in OVERRIDES:
-        return OVERRIDES[key]
+    # 3. Hardcoded overrides - fallback only, checked last (substring match)
     for override_name, sku in OVERRIDES.items():
         if key in override_name or override_name in key:
             return sku
@@ -1395,3 +1397,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+Stop Claude
