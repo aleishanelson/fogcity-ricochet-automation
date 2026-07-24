@@ -107,45 +107,45 @@
   ],
   "cold": [
     {
-      "name": "POSTCARDS3FOR11",
-      "sku": "POSTCARDS3FOR11",
+      "name": "IDCLIMBANYHILL_A2CARD",
+      "sku": "IDCLIMBANYHILL_A2CARD",
       "qty_recent": 0,
-      "qty_prev": 39,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
-      "sku": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 15,
-      "pct": -100
-    },
-    {
-      "name": "SFICONS_BLUE_4X6",
-      "sku": "SFICONS_BLUE_4X6",
-      "qty_recent": 0,
-      "qty_prev": 17,
-      "pct": -100
-    },
-    {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
+      "name": "West Coast Best Coast",
+      "sku": "WESTBESTCOAST_MAG",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "MAG_WESTBESTCOAST_CIR",
-      "sku": "MAG_WESTBESTCOAST_CIR",
+      "name": "Home Sweet SF Square",
+      "sku": "HOMESWEETSF_MAG",
       "qty_recent": 0,
-      "qty_prev": 11,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-RETRO-PL",
+      "sku": "MAG-SF-RETRO-PL",
+      "qty_recent": 0,
+      "qty_prev": 10,
+      "pct": -100
+    },
+    {
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 17,
+      "pct": -100
+    },
+    {
+      "name": "SFO_LUGGAGETAG_MAGNET",
+      "sku": "SFO_LUGGAGETAG_MAGNET",
+      "qty_recent": 0,
+      "qty_prev": 9,
       "pct": -100
     }
   ],
