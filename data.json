@@ -70,15 +70,15 @@
       "pct": 2300
     },
     {
-      "name": "MAG-SF-PINKICONS",
-      "sku": "MAG-SF-PINKICONS",
+      "name": "MAG-SF-CABLECAR",
+      "sku": "MAG-SF-CABLECAR",
       "qty_recent": 10,
       "qty_prev": 1,
       "pct": 1900
     },
     {
-      "name": "MAG-SF-CABLECAR",
-      "sku": "MAG-SF-CABLECAR",
+      "name": "MAG-SF-PINKICONS",
+      "sku": "MAG-SF-PINKICONS",
       "qty_recent": 10,
       "qty_prev": 1,
       "pct": 1900
@@ -107,31 +107,10 @@
   ],
   "cold": [
     {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 17,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_GC",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "name": "IDCLIMBANYHILL_A2CARD",
+      "sku": "IDCLIMBANYHILL_A2CARD",
       "qty_recent": 0,
       "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -142,10 +121,31 @@
       "pct": -100
     },
     {
-      "name": "Cable Car Magnet",
-      "sku": "SF_CABLECAR_MAG",
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
       "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 12,
+      "pct": -100
+    },
+    {
+      "name": "HOMESWEETSANFRANCISCO_STICKER",
+      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 17,
+      "pct": -100
+    },
+    {
+      "name": "MAG-AC-SF-HOUSES",
+      "sku": "MAG-AC-SF-HOUSES",
+      "qty_recent": 0,
+      "qty_prev": 11,
+      "pct": -100
+    },
+    {
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 7,
       "pct": -100
     }
   ],
