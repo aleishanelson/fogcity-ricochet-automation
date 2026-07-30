@@ -1,13 +1,13 @@
 {
-  "updated": "July 28, 2026",
-  "period_label": "7/19 \u2013 7/28, 2026",
-  "total_units": 230,
+  "updated": "July 29, 2026",
+  "period_label": "7/20 \u2013 7/29, 2026",
+  "total_units": 238,
   "revenue": {
-    "yesterday": 485.47,
-    "yesterday_label": "7/28",
-    "weekly": 6171.55,
-    "monthly": 16124.83,
-    "ytd": 118982.29
+    "yesterday": 322.99,
+    "yesterday_label": "7/29",
+    "weekly": 6494.54,
+    "monthly": 16447.82,
+    "ytd": 119305.28
   },
   "top10": [
     {
@@ -26,19 +26,14 @@
       "qty": 31
     },
     {
+      "name": "STICKERS_3FOR11",
+      "sku": "STICKERS_3FOR11",
+      "qty": 31
+    },
+    {
       "name": "MAG-SF-RETRO-GGB",
       "sku": "MAG-SF-RETRO-GGB",
       "qty": 27
-    },
-    {
-      "name": "STICKERS_3FOR11",
-      "sku": "STICKERS_3FOR11",
-      "qty": 24
-    },
-    {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
-      "qty": 23
     },
     {
       "name": "Ferry Building Retro Postcard",
@@ -46,28 +41,40 @@
       "qty": 22
     },
     {
-      "name": "San Francisco Map",
-      "sku": "SFMAP_STICKER",
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
+      "qty": 22
+    },
+    {
+      "name": "Fisherman's Wharf Retro Postcard",
+      "sku": "FISHERMANSWHARF_RETRO_PC",
       "qty": 15
     },
     {
-      "name": "San Francisco Icons Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
-      "qty": 13
+      "name": "San Francisco Map",
+      "sku": "SFMAP_STICKER",
+      "qty": 14
     },
     {
       "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
       "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
-      "qty": 13
+      "qty": 14
     }
   ],
   "hot": [
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty_recent": 24,
+      "qty_recent": 31,
       "qty_prev": 2,
-      "pct": 2300
+      "pct": 3000
+    },
+    {
+      "name": "MAG-SF-PINKICONS",
+      "sku": "MAG-SF-PINKICONS",
+      "qty_recent": 11,
+      "qty_prev": 1,
+      "pct": 2100
     },
     {
       "name": "MAG-SF-CABLECAR",
@@ -77,18 +84,11 @@
       "pct": 1900
     },
     {
-      "name": "MAG-SF-PINKICONS",
-      "sku": "MAG-SF-PINKICONS",
-      "qty_recent": 10,
-      "qty_prev": 1,
-      "pct": 1900
-    },
-    {
       "name": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
       "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
-      "qty_recent": 8,
+      "qty_recent": 9,
       "qty_prev": 1,
-      "pct": 1500
+      "pct": 1700
     },
     {
       "name": "MAGNET_GOLDENGATETRAVELPOSTER",
@@ -98,54 +98,54 @@
       "pct": 1140
     },
     {
-      "name": "SFICONS_BLUE_GREETINGCARD_A2",
-      "sku": "SFICONS_BLUE_GREETINGCARD_A2",
-      "qty_recent": 5,
-      "qty_prev": 1,
-      "pct": 900
+      "name": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
+      "sku": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
+      "qty_recent": 14,
+      "qty_prev": 4,
+      "pct": 600
     }
   ],
   "cold": [
     {
-      "name": "IDCLIMBANYHILL_A2CARD",
-      "sku": "IDCLIMBANYHILL_A2CARD",
+      "name": "TWISTSANDTURNS_GCARD",
+      "sku": "TWISTSANDTURNS_GCARD",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet SF Square",
-      "sku": "HOMESWEETSF_MAG",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 12,
+      "qty_prev": 8,
       "pct": -100
     },
     {
       "name": "HOMESWEETSANFRANCISCO_STICKER",
       "sku": "HOMESWEETSANFRANCISCO_STICKER",
       "qty_recent": 0,
-      "qty_prev": 17,
+      "qty_prev": 16,
       "pct": -100
     },
     {
-      "name": "MAG-AC-SF-HOUSES",
-      "sku": "MAG-AC-SF-HOUSES",
+      "name": "SF Map (original)",
+      "sku": "SF_MAP_TOTE",
       "qty_recent": 0,
-      "qty_prev": 11,
+      "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "West Coast Best Coast",
-      "sku": "WESTCOASTBESTCOAST_STICKER",
+      "name": "RETROSFFERRYBUILDING_STICKER",
+      "sku": "RETROSFFERRYBUILDING_STICKER",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 20,
+      "pct": -100
+    },
+    {
+      "name": "Illustrated Golden Gate Bridge Landmark",
+      "sku": "GGB_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 20,
+      "pct": -100
+    },
+    {
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 8,
       "pct": -100
     }
   ],
@@ -158,15 +158,15 @@
     },
     {
       "category": "Magnets",
-      "qty_recent": 2,
+      "qty_recent": 4,
       "qty_prev": 121,
-      "pct": -97
+      "pct": -93
     },
     {
       "category": "Landmark Prints",
-      "qty_recent": 2,
-      "qty_prev": 19,
-      "pct": -79
+      "qty_recent": 1,
+      "qty_prev": 20,
+      "pct": -90
     }
   ]
 }
