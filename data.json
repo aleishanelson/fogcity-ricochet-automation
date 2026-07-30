@@ -107,45 +107,45 @@
   ],
   "cold": [
     {
-      "name": "TWISTSANDTURNS_GCARD",
-      "sku": "TWISTSANDTURNS_GCARD",
+      "name": "BAYAREAMAP_A2CARD",
+      "sku": "BAYAREAMAP_A2CARD",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "The City by the Bay Pink",
+      "sku": "SFCITYBYTHEBAY_PINK_MAG",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "MAG_WESTBESTCOAST_CIR",
+      "sku": "MAG_WESTBESTCOAST_CIR",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Golden Gate Travel (new version)",
+      "sku": "GOLDENGATETP_MAG",
       "qty_recent": 0,
       "qty_prev": 8,
       "pct": -100
     },
     {
-      "name": "HOMESWEETSANFRANCISCO_STICKER",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "name": "City By The Bay Local Notion",
+      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
       "qty_recent": 0,
-      "qty_prev": 16,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
+      "name": "SFBLUEICONS_POSTCARD",
+      "sku": "SFBLUEICONS_POSTCARD",
       "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "RETROSFFERRYBUILDING_STICKER",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 20,
-      "pct": -100
-    },
-    {
-      "name": "Illustrated Golden Gate Bridge Landmark",
-      "sku": "GGB_ILLUSTRATED_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 20,
-      "pct": -100
-    },
-    {
-      "name": "Painted Ladies Retro Postcard",
-      "sku": "PAINTEDLADIES_RETRO_PC",
-      "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 10,
       "pct": -100
     }
   ],
