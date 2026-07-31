@@ -1,19 +1,24 @@
 {
-  "updated": "July 29, 2026",
-  "period_label": "7/20 \u2013 7/29, 2026",
-  "total_units": 238,
+  "updated": "July 30, 2026",
+  "period_label": "7/21 \u2013 7/30, 2026",
+  "total_units": 239,
   "revenue": {
-    "yesterday": 322.99,
-    "yesterday_label": "7/29",
-    "weekly": 6494.54,
-    "monthly": 16447.82,
-    "ytd": 119305.28
+    "yesterday": 164.5,
+    "yesterday_label": "7/30",
+    "weekly": 6336.04,
+    "monthly": 16612.32,
+    "ytd": 119469.78
   },
   "top10": [
     {
       "name": "MAG-AC-SF-GGB",
       "sku": "MAG-AC-SF-GGB",
-      "qty": 31
+      "qty": 32
+    },
+    {
+      "name": "STICKERS_3FOR11",
+      "sku": "STICKERS_3FOR11",
+      "qty": 32
     },
     {
       "name": "MAGNET_GOLDENGATETRAVELPOSTER",
@@ -26,19 +31,9 @@
       "qty": 31
     },
     {
-      "name": "STICKERS_3FOR11",
-      "sku": "STICKERS_3FOR11",
-      "qty": 31
-    },
-    {
       "name": "MAG-SF-RETRO-GGB",
       "sku": "MAG-SF-RETRO-GGB",
       "qty": 27
-    },
-    {
-      "name": "Ferry Building Retro Postcard",
-      "sku": "FERRYBUILDING_RETRO_PC",
-      "qty": 22
     },
     {
       "name": "SFO Luggage Tag Keychain",
@@ -46,18 +41,23 @@
       "qty": 22
     },
     {
+      "name": "Ferry Building Retro Postcard",
+      "sku": "FERRYBUILDING_RETRO_PC",
+      "qty": 21
+    },
+    {
       "name": "Fisherman's Wharf Retro Postcard",
       "sku": "FISHERMANSWHARF_RETRO_PC",
       "qty": 15
     },
     {
-      "name": "San Francisco Map",
-      "sku": "SFMAP_STICKER",
+      "name": "GOLDENGATETRAVELPOSTER_A2CARD",
+      "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
       "qty": 14
     },
     {
-      "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
-      "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
+      "name": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
+      "sku": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
       "qty": 14
     }
   ],
@@ -65,30 +65,23 @@
     {
       "name": "STICKERS_3FOR11",
       "sku": "STICKERS_3FOR11",
-      "qty_recent": 31,
+      "qty_recent": 32,
       "qty_prev": 2,
-      "pct": 3000
+      "pct": 3100
     },
     {
       "name": "MAG-SF-PINKICONS",
       "sku": "MAG-SF-PINKICONS",
-      "qty_recent": 11,
+      "qty_recent": 12,
       "qty_prev": 1,
-      "pct": 2100
-    },
-    {
-      "name": "MAG-SF-CABLECAR",
-      "sku": "MAG-SF-CABLECAR",
-      "qty_recent": 10,
-      "qty_prev": 1,
-      "pct": 1900
+      "pct": 2300
     },
     {
       "name": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
       "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
-      "qty_recent": 9,
+      "qty_recent": 10,
       "qty_prev": 1,
-      "pct": 1700
+      "pct": 1900
     },
     {
       "name": "MAGNET_GOLDENGATETRAVELPOSTER",
@@ -96,6 +89,13 @@
       "qty_recent": 31,
       "qty_prev": 5,
       "pct": 1140
+    },
+    {
+      "name": "MAG-SF-CABLECAR",
+      "sku": "MAG-SF-CABLECAR",
+      "qty_recent": 10,
+      "qty_prev": 2,
+      "pct": 900
     },
     {
       "name": "FERRYBUILDINGTRAVELPOSTER_MAGNET",
@@ -107,24 +107,17 @@
   ],
   "cold": [
     {
-      "name": "BAYAREAMAP_A2CARD",
-      "sku": "BAYAREAMAP_A2CARD",
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 6,
       "pct": -100
     },
     {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_MAG",
+      "name": "MAG-AC-SF-HOUSES",
+      "sku": "MAG-AC-SF-HOUSES",
       "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "MAG_WESTBESTCOAST_CIR",
-      "sku": "MAG_WESTBESTCOAST_CIR",
-      "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 11,
       "pct": -100
     },
     {
@@ -135,21 +128,34 @@
       "pct": -100
     },
     {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "name": "MAG_WESTBESTCOAST_CIR",
+      "sku": "MAG_WESTBESTCOAST_CIR",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "SFBLUEICONS_POSTCARD",
-      "sku": "SFBLUEICONS_POSTCARD",
+      "name": "BAYAREAMAP_A2CARD",
+      "sku": "BAYAREAMAP_A2CARD",
       "qty_recent": 0,
-      "qty_prev": 10,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet Home 8x8",
+      "sku": "HOMESWEETSF_8X8",
+      "qty_recent": 0,
+      "qty_prev": 17,
       "pct": -100
     }
   ],
   "category_trends": [
+    {
+      "category": "Landmark Prints",
+      "qty_recent": 0,
+      "qty_prev": 21,
+      "pct": -100
+    },
     {
       "category": "Totes",
       "qty_recent": 0,
@@ -158,15 +164,9 @@
     },
     {
       "category": "Magnets",
-      "qty_recent": 4,
+      "qty_recent": 5,
       "qty_prev": 121,
-      "pct": -93
-    },
-    {
-      "category": "Landmark Prints",
-      "qty_recent": 1,
-      "qty_prev": 20,
-      "pct": -90
+      "pct": -92
     }
   ]
 }
