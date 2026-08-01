@@ -107,10 +107,24 @@
   ],
   "cold": [
     {
-      "name": "I'd Escape Alcatraz",
-      "sku": "IDESCAPEALCATRAZFORYOU_GC",
+      "name": "Home Sweet Home 8x8",
+      "sku": "HOMESWEETSF_8X8",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 15,
+      "pct": -100
+    },
+    {
+      "name": "TWISTSANDTURNS_GCARD",
+      "sku": "TWISTSANDTURNS_GCARD",
+      "qty_recent": 0,
+      "qty_prev": 8,
+      "pct": -100
+    },
+    {
+      "name": "SFBLUEICONS_POSTCARD",
+      "sku": "SFBLUEICONS_POSTCARD",
+      "qty_recent": 0,
+      "qty_prev": 7,
       "pct": -100
     },
     {
@@ -121,31 +135,17 @@
       "pct": -100
     },
     {
-      "name": "MAG-AC-SF-HOUSES",
-      "sku": "MAG-AC-SF-HOUSES",
+      "name": "I'd Escape Alcatraz",
+      "sku": "IDESCAPEALCATRAZFORYOU_GC",
       "qty_recent": 0,
-      "qty_prev": 11,
+      "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "name": "Cable Car Magnet",
+      "sku": "SF_CABLECAR_MAG",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "SF_RETRO_FB_MAG",
-      "qty_recent": 0,
-      "qty_prev": 15,
-      "pct": -100
-    },
-    {
-      "name": "Painted Ladies Retro Postcard",
-      "sku": "PAINTEDLADIES_RETRO_PC",
-      "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 8,
       "pct": -100
     }
   ],
