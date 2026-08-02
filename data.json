@@ -107,45 +107,45 @@
   ],
   "cold": [
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty_recent": 0,
-      "qty_prev": 25,
-      "pct": -100
-    },
-    {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
       "qty_recent": 0,
       "qty_prev": 8,
       "pct": -100
     },
     {
-      "name": "Illustrated Golden Gate Bridge Landmark",
-      "sku": "GGB_ILLUSTRATED_STICKER",
+      "name": "SFO_LUGGAGETAG_MAGNET",
+      "sku": "SFO_LUGGAGETAG_MAGNET",
       "qty_recent": 0,
-      "qty_prev": 20,
+      "qty_prev": 8,
       "pct": -100
     },
     {
-      "name": "Icons",
-      "sku": "SFICONS_BLUE_GC",
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 13,
       "pct": -100
     },
     {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
+      "name": "Bay Area Map",
+      "sku": "BAYAREA_MAP_TT",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "0030YF",
-      "sku": "0030YF",
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "SFICONS_BLUE_4X6",
+      "sku": "SFICONS_BLUE_4X6",
+      "qty_recent": 0,
+      "qty_prev": 11,
       "pct": -100
     }
   ],
