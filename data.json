@@ -84,17 +84,17 @@
       "pct": 967
     },
     {
-      "name": "San Francisco 8x10",
-      "sku": "SF_BW_8X10",
-      "qty_recent": 4,
-      "qty_prev": 1,
-      "pct": 700
-    },
-    {
       "name": "Bay Area 8x10",
       "sku": "BAYAREA_BW_8X10",
       "qty_recent": 8,
       "qty_prev": 2,
+      "pct": 700
+    },
+    {
+      "name": "San Francisco 8x10",
+      "sku": "SF_BW_8X10",
+      "qty_recent": 4,
+      "qty_prev": 1,
       "pct": 700
     },
     {
@@ -107,24 +107,31 @@
   ],
   "cold": [
     {
-      "name": "SFICONS_BLUE_GREETINGCARD_A2",
-      "sku": "SFICONS_BLUE_GREETINGCARD_A2",
+      "name": "The City by the Bay Pink",
+      "sku": "SFCITYBYTHEBAY_PINK_MAG",
       "qty_recent": 0,
       "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "MAG-AC-SF-HOUSES",
-      "sku": "MAG-AC-SF-HOUSES",
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_STICKER",
       "qty_recent": 0,
-      "qty_prev": 11,
+      "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "SF_RETRO_FB_MAG",
+      "name": "SFICONS_BLUE_4X6",
+      "sku": "SFICONS_BLUE_4X6",
       "qty_recent": 0,
-      "qty_prev": 15,
+      "qty_prev": 9,
+      "pct": -100
+    },
+    {
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
+      "qty_recent": 0,
+      "qty_prev": 13,
       "pct": -100
     },
     {
@@ -135,17 +142,10 @@
       "pct": -100
     },
     {
-      "name": "Pink Icons Postcard",
-      "sku": "SFICONS_PINK_PC",
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
       "qty_recent": 0,
-      "qty_prev": 15,
-      "pct": -100
-    },
-    {
-      "name": "Icons",
-      "sku": "SFICONS_BLUE_GC",
-      "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
