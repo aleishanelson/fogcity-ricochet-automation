@@ -91,10 +91,10 @@
       "pct": 567
     },
     {
-      "name": "MAG-SF-RETRO-FB",
-      "sku": "MAG-SF-RETRO-FB",
-      "qty_recent": 6,
-      "qty_prev": 2,
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
+      "qty_recent": 3,
+      "qty_prev": 1,
       "pct": 500
     },
     {
@@ -107,45 +107,45 @@
   ],
   "cold": [
     {
-      "name": "SFICONS_BLUE_4X6",
-      "sku": "SFICONS_BLUE_4X6",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
-      "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_MAG",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "0030YF",
-      "sku": "0030YF",
+      "name": "City By The Bay Local Notion",
+      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Golden Gate Travel",
-      "sku": "GOLDENGATETRAVELPOSTER_GC",
+      "name": "Painted Lady Keychain- Blue",
+      "sku": "KC-PAINTEDLADY-BLUE",
       "qty_recent": 0,
-      "qty_prev": 27,
+      "qty_prev": 9,
       "pct": -100
     },
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
+      "name": "Pink Icons Postcard",
+      "sku": "SFICONS_PINK_PC",
       "qty_recent": 0,
-      "qty_prev": 25,
+      "qty_prev": 15,
+      "pct": -100
+    },
+    {
+      "name": "Icons",
+      "sku": "SFICONS_BLUE_GC",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "SFICONS_BLUE_GREETINGCARD_A2",
+      "sku": "SFICONS_BLUE_GREETINGCARD_A2",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
