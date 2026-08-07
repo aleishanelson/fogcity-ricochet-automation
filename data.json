@@ -98,54 +98,54 @@
       "pct": 250
     },
     {
-      "name": "IDESCAPEALCATRAZFORYOU_A2CARD",
-      "sku": "IDESCAPEALCATRAZFORYOU_A2CARD",
-      "qty_recent": 6,
-      "qty_prev": 4,
+      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "qty_recent": 3,
+      "qty_prev": 2,
       "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "I'd Escape Alcatraz",
-      "sku": "IDESCAPEALCATRAZFORYOU_GC",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "West Coast Best Coast",
-      "sku": "WESTCOASTBESTCOAST_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "name": "Home Sweet SF Square",
+      "sku": "HOMESWEETSF_MAG",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Bay Area Map",
-      "sku": "BAYAREA_MAP_TT",
+      "name": "Sunny and 75 in SF Card",
+      "sku": "SUNNYAND75SF_GC",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 10,
       "pct": -100
     },
     {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_MAG",
+      "name": "Icons",
+      "sku": "SFICONS_BLUE_GC",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "SF Pink Icons Magnet",
-      "sku": "SF_PINKICONS_MAG",
+      "name": "0030YF",
+      "sku": "0030YF",
       "qty_recent": 0,
-      "qty_prev": 15,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "I come with baggage",
+      "sku": "ICOMEWITHBAGGAGE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
+      "qty_recent": 0,
+      "qty_prev": 6,
       "pct": -100
     }
   ],
