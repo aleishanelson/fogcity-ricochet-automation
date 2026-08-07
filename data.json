@@ -77,17 +77,10 @@
       "pct": 700
     },
     {
-      "name": "UCBERKELEY_CAMPUS_BW_8X10",
-      "sku": "UCBERKELEY_CAMPUS_BW_8X10",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
-    {
-      "name": "Bay Area Map",
-      "sku": "BAYAREA_MAP_STICKER",
-      "qty_recent": 3,
-      "qty_prev": 1,
+      "name": "MAG-SF-RETRO-FB",
+      "sku": "MAG-SF-RETRO-FB",
+      "qty_recent": 6,
+      "qty_prev": 2,
       "pct": 500
     },
     {
@@ -98,33 +91,26 @@
       "pct": 500
     },
     {
-      "name": "MAG-SF-RETRO-FB",
-      "sku": "MAG-SF-RETRO-FB",
-      "qty_recent": 6,
-      "qty_prev": 2,
+      "name": "Bay Area Map",
+      "sku": "BAYAREA_MAP_STICKER",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 500
+    },
+    {
+      "name": "UCBERKELEY_CAMPUS_BW_8X10",
+      "sku": "UCBERKELEY_CAMPUS_BW_8X10",
+      "qty_recent": 3,
+      "qty_prev": 1,
       "pct": 500
     }
   ],
   "cold": [
     {
-      "name": "Ferry Building Travel Poster Magnet",
-      "sku": "FERRYBUILDINGTP_MAG",
+      "name": "SFICONS_BLUE_4X6",
+      "sku": "SFICONS_BLUE_4X6",
       "qty_recent": 0,
-      "qty_prev": 10,
-      "pct": -100
-    },
-    {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Illustrated Golden Gate Bridge Landmark",
-      "sku": "GGB_ILLUSTRATED_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 20,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -135,10 +121,24 @@
       "pct": -100
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_GC",
+      "name": "Sunny and 75 in SF Card",
+      "sku": "SUNNYAND75SF_GC",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 10,
+      "pct": -100
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
+      "qty_recent": 0,
+      "qty_prev": 25,
+      "pct": -100
+    },
+    {
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
+      "qty_recent": 0,
+      "qty_prev": 6,
       "pct": -100
     },
     {
