@@ -1,49 +1,39 @@
 {
-  "updated": "August 6, 2026",
-  "period_label": "7/28 \u2013 8/6, 2026",
-  "total_units": 128,
+  "updated": "August 7, 2026",
+  "period_label": "7/29 \u2013 8/7, 2026",
+  "total_units": 121,
   "revenue": {
-    "yesterday": 291.98,
-    "yesterday_label": "8/6",
-    "weekly": 5096.57,
-    "monthly": 6400.07,
-    "ytd": 122193.67
+    "yesterday": 407.43,
+    "yesterday_label": "8/7",
+    "weekly": 5082.0,
+    "monthly": 6807.5,
+    "ytd": 122601.1
   },
   "top10": [
     {
       "name": "MAG-SF-LDMKS",
       "sku": "MAG-SF-LDMKS",
-      "qty": 28
-    },
-    {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "sku": "FW_ILLUSTRATED_STICKER",
-      "qty": 14
-    },
-    {
-      "name": "RETROSFFERRYBUILDING_STICKER",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty": 12
+      "qty": 18
     },
     {
       "name": "SFGGBRIDGE_RETRO_PCARD",
       "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty": 12
-    },
-    {
-      "name": "MAG-SF-RETRO-GGB",
-      "sku": "MAG-SF-RETRO-GGB",
-      "qty": 11
-    },
-    {
-      "name": "STICKERS_3FOR11",
-      "sku": "STICKERS_3FOR11",
-      "qty": 11
+      "qty": 16
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 11
+      "qty": 13
+    },
+    {
+      "name": "RETROSFFERRYBUILDING_STICKER",
+      "sku": "RETROSFFERRYBUILDING_STICKER",
+      "qty": 13
+    },
+    {
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
+      "sku": "FW_ILLUSTRATED_STICKER",
+      "qty": 12
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
@@ -51,13 +41,23 @@
       "qty": 11
     },
     {
-      "name": "Fisherman's Wharf Retro Postcard",
-      "sku": "FISHERMANSWHARF_RETRO_PC",
+      "name": "STICKERS_3FOR11",
+      "sku": "STICKERS_3FOR11",
+      "qty": 10
+    },
+    {
+      "name": "HOMESWEETSANFRANCISCO_STICKER",
+      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "qty": 10
+    },
+    {
+      "name": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+      "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
       "qty": 9
     },
     {
-      "name": "Red SF Pill",
-      "sku": "PILL_SF_RED_STICKER",
+      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
       "qty": 9
     }
   ],
@@ -70,13 +70,6 @@
       "pct": 2100
     },
     {
-      "name": "Painted Ladies Retro Postcard",
-      "sku": "PAINTEDLADIES_RETRO_PC",
-      "qty_recent": 5,
-      "qty_prev": 1,
-      "pct": 900
-    },
-    {
       "name": "UCBERKELEY_CAMPUS_BW_8X10",
       "sku": "UCBERKELEY_CAMPUS_BW_8X10",
       "qty_recent": 5,
@@ -84,22 +77,29 @@
       "pct": 900
     },
     {
-      "name": "Bay Area",
-      "sku": "BAYAREA_HP_11X15",
-      "qty_recent": 5,
+      "name": "SF Map (original)",
+      "sku": "SF_MAP_TOTE",
+      "qty_recent": 9,
+      "qty_prev": 4,
+      "pct": 350
+    },
+    {
+      "name": "Bay Area Map",
+      "sku": "BAYAREA_MAP_STICKER",
+      "qty_recent": 4,
       "qty_prev": 2,
-      "pct": 400
+      "pct": 300
     },
     {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "sku": "FW_ILLUSTRATED_STICKER",
-      "qty_recent": 14,
-      "qty_prev": 8,
-      "pct": 250
+      "name": "Bay Area 8x10",
+      "sku": "BAYAREA_BW_8X10",
+      "qty_recent": 8,
+      "qty_prev": 4,
+      "pct": 300
     },
     {
-      "name": "San Francisco 8x10",
-      "sku": "SF_BW_8X10",
+      "name": "SF City Name",
+      "sku": "SFCITYNAME_STICKER",
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
@@ -107,38 +107,10 @@
   ],
   "cold": [
     {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
+      "name": "Ferry Building Travel Poster Card",
+      "sku": "FERRYBLDGTRAVELPOSTER_GC",
       "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "West Coast Best Coast",
-      "sku": "WESTCOASTBESTCOAST_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "SFICONS_POSTCARD_PINK",
-      "sku": "SFICONS_POSTCARD_PINK",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "BAYAREA_MAP_TEATOWEL",
-      "sku": "BAYAREA_MAP_TEATOWEL",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Pink Icons Postcard",
-      "sku": "SFICONS_PINK_PC",
-      "qty_recent": 0,
-      "qty_prev": 15,
+      "qty_prev": 10,
       "pct": -100
     },
     {
@@ -147,26 +119,54 @@
       "qty_recent": 0,
       "qty_prev": 5,
       "pct": -100
+    },
+    {
+      "name": "0030YF",
+      "sku": "0030YF",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "SFBLUEICONS_POSTCARD",
+      "sku": "SFBLUEICONS_POSTCARD",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Take the scenic route",
+      "sku": "SCENICROUTE_49MILE_MAG",
+      "qty_recent": 0,
+      "qty_prev": 9,
+      "pct": -100
+    },
+    {
+      "name": "Golden Gate Travel",
+      "sku": "GOLDENGATETRAVELPOSTER_GC",
+      "qty_recent": 0,
+      "qty_prev": 27,
+      "pct": -100
     }
   ],
   "category_trends": [
     {
+      "category": "Totes",
+      "qty_recent": 9,
+      "qty_prev": 6,
+      "pct": 200
+    },
+    {
       "category": "Map Prints",
       "qty_recent": 16,
-      "qty_prev": 13,
-      "pct": 146
+      "qty_prev": 12,
+      "pct": 167
     },
     {
       "category": "Magnets",
       "qty_recent": 5,
       "qty_prev": 123,
       "pct": -92
-    },
-    {
-      "category": "Keychains",
-      "qty_recent": 6,
-      "qty_prev": 70,
-      "pct": -83
     }
   ]
 }
