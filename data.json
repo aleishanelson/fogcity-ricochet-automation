@@ -98,8 +98,8 @@
       "pct": 300
     },
     {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
+      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
@@ -107,45 +107,45 @@
   ],
   "cold": [
     {
-      "name": "Ferry Building Travel Poster Card",
-      "sku": "FERRYBLDGTRAVELPOSTER_GC",
+      "name": "MAG-AC-SF-HOUSES",
+      "sku": "MAG-AC-SF-HOUSES",
       "qty_recent": 0,
       "qty_prev": 10,
       "pct": -100
     },
     {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_MAG",
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 8,
       "pct": -100
     },
     {
-      "name": "0030YF",
-      "sku": "0030YF",
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_STICKER",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "SFBLUEICONS_POSTCARD",
-      "sku": "SFBLUEICONS_POSTCARD",
+      "name": "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
+      "sku": "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 12,
       "pct": -100
     },
     {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
+      "name": "Retro Ferry Building Poster Magnet",
+      "sku": "SF_RETRO_FB_MAG",
       "qty_recent": 0,
-      "qty_prev": 9,
+      "qty_prev": 15,
       "pct": -100
     },
     {
-      "name": "Golden Gate Travel",
-      "sku": "GOLDENGATETRAVELPOSTER_GC",
+      "name": "Cable Car Magnet",
+      "sku": "SF_CABLECAR_MAG",
       "qty_recent": 0,
-      "qty_prev": 27,
+      "qty_prev": 8,
       "pct": -100
     }
   ],
