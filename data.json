@@ -1,11 +1,11 @@
 {
-  "updated": "August 7, 2026",
-  "period_label": "7/29 \u2013 8/7, 2026",
-  "total_units": 121,
+  "updated": "August 8, 2026",
+  "period_label": "7/30 \u2013 8/8, 2026",
+  "total_units": 116,
   "revenue": {
-    "yesterday": 407.43,
-    "yesterday_label": "8/7",
-    "weekly": 5082.0,
+    "yesterday": 0.0,
+    "yesterday_label": "8/8",
+    "weekly": 4277.56,
     "monthly": 6807.5,
     "ytd": 122601.1
   },
@@ -31,19 +31,9 @@
       "qty": 13
     },
     {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "sku": "FW_ILLUSTRATED_STICKER",
-      "qty": 12
-    },
-    {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
       "qty": 11
-    },
-    {
-      "name": "STICKERS_3FOR11",
-      "sku": "STICKERS_3FOR11",
-      "qty": 10
     },
     {
       "name": "HOMESWEETSANFRANCISCO_STICKER",
@@ -51,14 +41,24 @@
       "qty": 10
     },
     {
-      "name": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
-      "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
-      "qty": 9
-    },
-    {
       "name": "MAGNET_GOLDENGATETRAVELPOSTER",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
       "qty": 9
+    },
+    {
+      "name": "MAG-SF-RETRO-GGB",
+      "sku": "MAG-SF-RETRO-GGB",
+      "qty": 9
+    },
+    {
+      "name": "SF Map (original)",
+      "sku": "SF_MAP_TOTE",
+      "qty": 9
+    },
+    {
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
+      "sku": "FW_ILLUSTRATED_STICKER",
+      "qty": 8
     }
   ],
   "hot": [
@@ -84,13 +84,6 @@
       "pct": 350
     },
     {
-      "name": "Bay Area Map",
-      "sku": "BAYAREA_MAP_STICKER",
-      "qty_recent": 4,
-      "qty_prev": 2,
-      "pct": 300
-    },
-    {
       "name": "Bay Area 8x10",
       "sku": "BAYAREA_BW_8X10",
       "qty_recent": 8,
@@ -98,8 +91,15 @@
       "pct": 300
     },
     {
-      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
-      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "name": "Bay Area Map",
+      "sku": "BAYAREA_MAP_STICKER",
+      "qty_recent": 4,
+      "qty_prev": 2,
+      "pct": 300
+    },
+    {
+      "name": "San Francisco 8x10",
+      "sku": "SF_BW_8X10",
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
@@ -107,43 +107,43 @@
   ],
   "cold": [
     {
-      "name": "MAG-AC-SF-HOUSES",
-      "sku": "MAG-AC-SF-HOUSES",
+      "name": "San Francisco Map",
+      "sku": "SFMAP_STICKER",
       "qty_recent": 0,
-      "qty_prev": 10,
+      "qty_prev": 28,
       "pct": -100
     },
     {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
+      "name": "SFICONS_BLUE_GREETINGCARD_A2",
+      "sku": "SFICONS_BLUE_GREETINGCARD_A2",
       "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "West Coast Best Coast",
-      "sku": "WESTCOASTBESTCOAST_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
-      "sku": "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
-      "qty_recent": 0,
-      "qty_prev": 12,
-      "pct": -100
-    },
-    {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "SF_RETRO_FB_MAG",
+      "name": "Pink Icons Postcard",
+      "sku": "SFICONS_PINK_PC",
       "qty_recent": 0,
       "qty_prev": 15,
       "pct": -100
     },
     {
+      "name": "Icons",
+      "sku": "SFICONS_BLUE_GC",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
       "name": "Cable Car Magnet",
       "sku": "SF_CABLECAR_MAG",
+      "qty_recent": 0,
+      "qty_prev": 8,
+      "pct": -100
+    },
+    {
+      "name": "Bay Area Map",
+      "sku": "BAYAREAMAP_GC",
       "qty_recent": 0,
       "qty_prev": 8,
       "pct": -100
@@ -153,8 +153,8 @@
     {
       "category": "Totes",
       "qty_recent": 9,
-      "qty_prev": 6,
-      "pct": 200
+      "qty_prev": 5,
+      "pct": 260
     },
     {
       "category": "Map Prints",
@@ -164,9 +164,9 @@
     },
     {
       "category": "Magnets",
-      "qty_recent": 5,
-      "qty_prev": 123,
-      "pct": -92
+      "qty_recent": 3,
+      "qty_prev": 125,
+      "pct": -95
     }
   ]
 }
