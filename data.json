@@ -1,19 +1,19 @@
 {
-  "updated": "August 8, 2026",
-  "period_label": "7/30 \u2013 8/8, 2026",
-  "total_units": 116,
+  "updated": "August 9, 2026",
+  "period_label": "7/31 \u2013 8/9, 2026",
+  "total_units": 128,
   "revenue": {
-    "yesterday": 0.0,
-    "yesterday_label": "8/8",
-    "weekly": 4277.56,
-    "monthly": 6807.5,
-    "ytd": 122601.1
+    "yesterday": 207.47,
+    "yesterday_label": "8/9",
+    "weekly": 3937.03,
+    "monthly": 7014.97,
+    "ytd": 122808.57
   },
   "top10": [
     {
       "name": "MAG-SF-LDMKS",
       "sku": "MAG-SF-LDMKS",
-      "qty": 18
+      "qty": 20
     },
     {
       "name": "SFGGBRIDGE_RETRO_PCARD",
@@ -21,18 +21,28 @@
       "qty": 16
     },
     {
+      "name": "RETROSFFERRYBUILDING_STICKER",
+      "sku": "RETROSFFERRYBUILDING_STICKER",
+      "qty": 14
+    },
+    {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
       "qty": 13
     },
     {
-      "name": "RETROSFFERRYBUILDING_STICKER",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
       "qty": 13
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
+      "name": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+      "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+      "qty": 13
+    },
+    {
+      "name": "MAG-SF-RETRO-GGB",
+      "sku": "MAG-SF-RETRO-GGB",
       "qty": 11
     },
     {
@@ -46,28 +56,18 @@
       "qty": 9
     },
     {
-      "name": "MAG-SF-RETRO-GGB",
-      "sku": "MAG-SF-RETRO-GGB",
-      "qty": 9
-    },
-    {
       "name": "SF Map (original)",
       "sku": "SF_MAP_TOTE",
       "qty": 9
-    },
-    {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "sku": "FW_ILLUSTRATED_STICKER",
-      "qty": 8
     }
   ],
   "hot": [
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty_recent": 11,
+      "qty_recent": 13,
       "qty_prev": 1,
-      "pct": 2100
+      "pct": 2500
     },
     {
       "name": "UCBERKELEY_CAMPUS_BW_8X10",
@@ -77,6 +77,20 @@
       "pct": 900
     },
     {
+      "name": "MAG-AC-SF-SFO",
+      "sku": "MAG-AC-SF-SFO",
+      "qty_recent": 8,
+      "qty_prev": 3,
+      "pct": 433
+    },
+    {
+      "name": "SF City Name",
+      "sku": "SFCITYNAME_STICKER",
+      "qty_recent": 5,
+      "qty_prev": 2,
+      "pct": 400
+    },
+    {
       "name": "SF Map (original)",
       "sku": "SF_MAP_TOTE",
       "qty_recent": 9,
@@ -84,47 +98,40 @@
       "pct": 350
     },
     {
-      "name": "Bay Area 8x10",
-      "sku": "BAYAREA_BW_8X10",
-      "qty_recent": 8,
-      "qty_prev": 4,
-      "pct": 300
-    },
-    {
       "name": "Bay Area Map",
       "sku": "BAYAREA_MAP_STICKER",
       "qty_recent": 4,
       "qty_prev": 2,
       "pct": 300
-    },
-    {
-      "name": "San Francisco 8x10",
-      "sku": "SF_BW_8X10",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "San Francisco Map",
-      "sku": "SFMAP_STICKER",
+      "name": "MAG-AC-SF-HOUSES",
+      "sku": "MAG-AC-SF-HOUSES",
       "qty_recent": 0,
-      "qty_prev": 28,
+      "qty_prev": 6,
       "pct": -100
     },
     {
-      "name": "SFICONS_BLUE_GREETINGCARD_A2",
-      "sku": "SFICONS_BLUE_GREETINGCARD_A2",
+      "name": "Painted Lady Keychain- Blue",
+      "sku": "KC-PAINTEDLADY-BLUE",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 9,
       "pct": -100
     },
     {
-      "name": "Pink Icons Postcard",
-      "sku": "SFICONS_PINK_PC",
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
       "qty_recent": 0,
-      "qty_prev": 15,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
+      "qty_recent": 0,
+      "qty_prev": 25,
       "pct": -100
     },
     {
@@ -135,17 +142,10 @@
       "pct": -100
     },
     {
-      "name": "Cable Car Magnet",
-      "sku": "SF_CABLECAR_MAG",
+      "name": "I come with baggage",
+      "sku": "ICOMEWITHBAGGAGE_STICKER",
       "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
-      "name": "Bay Area Map",
-      "sku": "BAYAREAMAP_GC",
-      "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 7,
       "pct": -100
     }
   ],
@@ -159,14 +159,14 @@
     {
       "category": "Map Prints",
       "qty_recent": 16,
-      "qty_prev": 12,
-      "pct": 167
+      "qty_prev": 11,
+      "pct": 191
     },
     {
       "category": "Magnets",
-      "qty_recent": 3,
-      "qty_prev": 125,
-      "pct": -95
+      "qty_recent": 2,
+      "qty_prev": 126,
+      "pct": -97
     }
   ]
 }
