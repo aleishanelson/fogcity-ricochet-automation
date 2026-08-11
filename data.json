@@ -1,172 +1,172 @@
 {
-  "updated": "August 9, 2026",
-  "period_label": "7/31 \u2013 8/9, 2026",
-  "total_units": 128,
+  "updated": "August 10, 2026",
+  "period_label": "8/1 \u2013 8/10, 2026",
+  "total_units": 155,
   "revenue": {
-    "yesterday": 207.47,
-    "yesterday_label": "8/9",
-    "weekly": 3937.03,
-    "monthly": 7014.97,
-    "ytd": 122808.57
+    "yesterday": 357.48,
+    "yesterday_label": "8/10",
+    "weekly": 5196.0,
+    "monthly": 8526.93,
+    "ytd": 125383.49
   },
   "top10": [
     {
-      "name": "MAG-SF-LDMKS",
-      "sku": "MAG-SF-LDMKS",
-      "qty": 20
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
+      "qty": 27
     },
     {
-      "name": "SFGGBRIDGE_RETRO_PCARD",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_STICKER",
+      "qty": 17
+    },
+    {
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
+      "qty": 17
+    },
+    {
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PC",
       "qty": 16
-    },
-    {
-      "name": "RETROSFFERRYBUILDING_STICKER",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty": 14
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 13
+      "qty": 15
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
+      "qty": 15
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
       "qty": 13
     },
     {
-      "name": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
-      "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+      "name": "Retro SF Ferry Building Poster Sticker",
+      "sku": "RETRO_SF_FB_STICKER",
       "qty": 13
     },
     {
-      "name": "MAG-SF-RETRO-GGB",
-      "sku": "MAG-SF-RETRO-GGB",
-      "qty": 11
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "SF_RETRO_GGB_MAG",
+      "qty": 12
     },
     {
-      "name": "HOMESWEETSANFRANCISCO_STICKER",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "name": "Red SF Pill",
+      "sku": "PILL_SF_RED_STICKER",
       "qty": 10
-    },
-    {
-      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 9
-    },
-    {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
-      "qty": 9
     }
   ],
   "hot": [
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty_recent": 13,
+      "name": "SF City Name",
+      "sku": "SFCITYNAME_STICKER",
+      "qty_recent": 8,
       "qty_prev": 1,
-      "pct": 2500
+      "pct": 1500
     },
     {
-      "name": "UCBERKELEY_CAMPUS_BW_8X10",
-      "sku": "UCBERKELEY_CAMPUS_BW_8X10",
-      "qty_recent": 5,
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty_recent": 15,
+      "qty_prev": 2,
+      "pct": 1400
+    },
+    {
+      "name": "CA State Blue",
+      "sku": "CA_BLOCKFONT_BLUE_STICKER",
+      "qty_recent": 6,
       "qty_prev": 1,
+      "pct": 1100
+    },
+    {
+      "name": "UC Berkeley 8x10",
+      "sku": "BERKELEY_CAMPUS_BW_8X10",
+      "qty_recent": 6,
+      "qty_prev": 1,
+      "pct": 1100
+    },
+    {
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GGTRAVELPOSTER_STICKER",
+      "qty_recent": 15,
+      "qty_prev": 3,
       "pct": 900
     },
     {
-      "name": "MAG-AC-SF-SFO",
-      "sku": "MAG-AC-SF-SFO",
-      "qty_recent": 8,
-      "qty_prev": 3,
-      "pct": 433
-    },
-    {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
+      "name": "SF Bridge Dad Hat - Navy",
+      "sku": "DH-001-NB",
       "qty_recent": 5,
-      "qty_prev": 2,
-      "pct": 400
-    },
-    {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
-      "qty_recent": 9,
-      "qty_prev": 4,
-      "pct": 350
-    },
-    {
-      "name": "Bay Area 8x10",
-      "sku": "BAYAREA_BW_8X10",
-      "qty_recent": 8,
-      "qty_prev": 4,
-      "pct": 300
+      "qty_prev": 1,
+      "pct": 900
     }
   ],
   "cold": [
     {
-      "name": "Bon Voyage",
-      "sku": "BONVOYAGE_STICKER",
+      "name": "Illustrated Golden Gate Bridge Landmark",
+      "sku": "GGB_ILLUSTRATED_STICKER",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 14,
       "pct": -100
     },
     {
-      "name": "Painted Lady Keychain- Blue",
-      "sku": "KC-PAINTEDLADY-BLUE",
+      "name": "Icons",
+      "sku": "SFICONS_BLUE_GC",
       "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
-      "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster Card",
-      "sku": "FERRYBLDGTRAVELPOSTER_GC",
-      "qty_recent": 0,
-      "qty_prev": 10,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco Map",
-      "sku": "SFMAP_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 27,
+      "qty_prev": 14,
       "pct": -100
     },
     {
       "name": "I come with baggage",
       "sku": "ICOMEWITHBAGGAGE_STICKER",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
+      "sku": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "The City by the Bay Pink",
+      "sku": "SFCITYBYTHEBAY_PINK_MAG",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Totes",
-      "qty_recent": 9,
-      "qty_prev": 5,
-      "pct": 260
-    },
-    {
       "category": "Map Prints",
-      "qty_recent": 16,
-      "qty_prev": 11,
-      "pct": 191
+      "qty_recent": 40,
+      "qty_prev": 14,
+      "pct": 471
     },
     {
-      "category": "Magnets",
-      "qty_recent": 2,
-      "qty_prev": 126,
-      "pct": -97
+      "category": "Totes",
+      "qty_recent": 10,
+      "qty_prev": 4,
+      "pct": 400
+    },
+    {
+      "category": "Keychains",
+      "qty_recent": 6,
+      "qty_prev": 65,
+      "pct": -82
     }
   ]
 }
