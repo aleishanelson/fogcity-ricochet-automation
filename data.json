@@ -1,24 +1,19 @@
 {
-  "updated": "August 11, 2026",
-  "period_label": "8/2 \u2013 8/11, 2026",
-  "total_units": 147,
+  "updated": "August 12, 2026",
+  "period_label": "8/3 \u2013 8/12, 2026",
+  "total_units": 140,
   "revenue": {
-    "yesterday": 240.48,
-    "yesterday_label": "8/11",
-    "weekly": 5200.49,
-    "monthly": 8682.41,
-    "ytd": 125468.97
+    "yesterday": 322.49,
+    "yesterday_label": "8/12",
+    "weekly": 5309.99,
+    "monthly": 9004.9,
+    "ytd": 125791.46
   },
   "top10": [
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 24
-    },
-    {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
-      "qty": 17
+      "qty": 22
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
@@ -26,28 +21,23 @@
       "qty": 16
     },
     {
-      "name": "West Coast Best Coast",
-      "sku": "WESTCOASTBESTCOAST_STICKER",
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
       "qty": 16
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 14
+      "qty": 15
     },
     {
-      "name": "Retro SF Ferry Building Poster Sticker",
-      "sku": "RETRO_SF_FB_STICKER",
-      "qty": 13
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_STICKER",
+      "qty": 15
     },
     {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PC",
-      "qty": 13
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
       "qty": 12
     },
     {
@@ -56,18 +46,35 @@
       "qty": 11
     },
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "SF_RETRO_GGB_MAG",
+      "qty": 11
+    },
+    {
+      "name": "Ferry Building Retro Postcard",
+      "sku": "FERRYBUILDING_RETRO_PC",
+      "qty": 11
+    },
+    {
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PC",
       "qty": 11
     }
   ],
   "hot": [
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty_recent": 14,
-      "qty_prev": 3,
-      "pct": 833
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
+      "qty_recent": 12,
+      "qty_prev": 1,
+      "pct": 2300
+    },
+    {
+      "name": "ACRYLIC Painted Ladies",
+      "sku": "AC_SF_PLADIES_MAG",
+      "qty_recent": 6,
+      "qty_prev": 1,
+      "pct": 1100
     },
     {
       "name": "Illustrated Ferry Building Landmark",
@@ -77,63 +84,28 @@
       "pct": 700
     },
     {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GGTRAVELPOSTER_STICKER",
-      "qty_recent": 16,
-      "qty_prev": 5,
-      "pct": 540
-    },
-    {
-      "name": "UC Davis",
-      "sku": "TT-CAMPUS-UCDAVIS",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
-    {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
       "qty_recent": 6,
       "qty_prev": 2,
       "pct": 500
     },
     {
-      "name": "ACRYLIC SFO Luggage tag",
-      "sku": "AC_SF_SFO_MAG",
-      "qty_recent": 8,
-      "qty_prev": 3,
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty_recent": 15,
+      "qty_prev": 5,
+      "pct": 500
+    },
+    {
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GGTRAVELPOSTER_STICKER",
+      "qty_recent": 16,
+      "qty_prev": 6,
       "pct": 433
     }
   ],
   "cold": [
-    {
-      "name": "MAG-AC-SF-GGB",
-      "sku": "MAG-AC-SF-GGB",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Pink Icons Postcard",
-      "sku": "SFICONS_PINK_PC",
-      "qty_recent": 0,
-      "qty_prev": 15,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet SF Square",
-      "sku": "HOMESWEETSF_MAG",
-      "qty_recent": 0,
-      "qty_prev": 16,
-      "pct": -100
-    },
-    {
-      "name": "Icons",
-      "sku": "SFICONS_BLUE_GC",
-      "qty_recent": 0,
-      "qty_prev": 10,
-      "pct": -100
-    },
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSF_GC",
@@ -142,31 +114,59 @@
       "pct": -100
     },
     {
-      "name": "Ferry Building Travel Poster Magnet",
-      "sku": "FERRYBUILDINGTP_MAG",
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
       "qty_recent": 0,
-      "qty_prev": 23,
+      "qty_prev": 76,
+      "pct": -100
+    },
+    {
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "State of California",
+      "sku": "STATEOFCALIFORNIA_MAP_TT",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Illustrated Golden Gate Bridge Landmark",
+      "sku": "GGB_ILLUSTRATED_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "I'd Give My Window Seat Up For You",
+      "sku": "WINDOWSEAT_GC",
+      "qty_recent": 0,
+      "qty_prev": 10,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Map Prints",
-      "qty_recent": 34,
-      "qty_prev": 20,
-      "pct": 240
+      "category": "Totes",
+      "qty_recent": 7,
+      "qty_prev": 5,
+      "pct": 180
     },
     {
-      "category": "Totes",
-      "qty_recent": 8,
-      "qty_prev": 5,
-      "pct": 220
+      "category": "Map Prints",
+      "qty_recent": 28,
+      "qty_prev": 25,
+      "pct": 124
     },
     {
       "category": "Keychains",
       "qty_recent": 5,
-      "qty_prev": 61,
-      "pct": -84
+      "qty_prev": 57,
+      "pct": -82
     }
   ]
 }
