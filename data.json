@@ -84,17 +84,17 @@
       "pct": 700
     },
     {
-      "name": "Painted Ladies Retro Postcard",
-      "sku": "PAINTEDLADIES_RETRO_PC",
-      "qty_recent": 6,
-      "qty_prev": 2,
-      "pct": 500
-    },
-    {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
       "qty_recent": 15,
       "qty_prev": 5,
+      "pct": 500
+    },
+    {
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
+      "qty_recent": 6,
+      "qty_prev": 2,
       "pct": 500
     },
     {
@@ -107,31 +107,31 @@
   ],
   "cold": [
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_GC",
-      "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
-      "qty_recent": 0,
-      "qty_prev": 76,
-      "pct": -100
-    },
-    {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "State of California",
-      "sku": "STATEOFCALIFORNIA_MAP_TT",
+      "name": "The City by the Bay Pink",
+      "sku": "SFCITYBYTHEBAY_PINK_MAG",
       "qty_recent": 0,
       "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet SF Square",
+      "sku": "HOMESWEETSF_MAG",
+      "qty_recent": 0,
+      "qty_prev": 16,
+      "pct": -100
+    },
+    {
+      "name": "I'd Give My Window Seat Up For You",
+      "sku": "WINDOWSEAT_GC",
+      "qty_recent": 0,
+      "qty_prev": 10,
       "pct": -100
     },
     {
@@ -142,10 +142,10 @@
       "pct": -100
     },
     {
-      "name": "I'd Give My Window Seat Up For You",
-      "sku": "WINDOWSEAT_GC",
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
       "qty_recent": 0,
-      "qty_prev": 10,
+      "qty_prev": 76,
       "pct": -100
     }
   ],
