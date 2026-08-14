@@ -107,6 +107,13 @@
   ],
   "cold": [
     {
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
       "name": "I come with baggage",
       "sku": "ICOMEWITHBAGGAGE_STICKER",
       "qty_recent": 0,
@@ -114,24 +121,10 @@
       "pct": -100
     },
     {
-      "name": "Home Sweet Home 8x8",
-      "sku": "HOMESWEETSF_8X8",
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
       "qty_recent": 0,
       "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster Magnet",
-      "sku": "FERRYBUILDINGTP_MAG",
-      "qty_recent": 0,
-      "qty_prev": 23,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_GC",
-      "qty_recent": 0,
-      "qty_prev": 8,
       "pct": -100
     },
     {
@@ -142,10 +135,17 @@
       "pct": -100
     },
     {
-      "name": "Bon Voyage",
-      "sku": "BONVOYAGE_STICKER",
+      "name": "Ferry Building Travel Poster Magnet",
+      "sku": "FERRYBUILDINGTP_MAG",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 23,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet Home 8x8",
+      "sku": "HOMESWEETSF_8X8",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
