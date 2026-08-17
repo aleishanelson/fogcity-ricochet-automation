@@ -107,10 +107,38 @@
   ],
   "cold": [
     {
-      "name": "I come with baggage",
-      "sku": "ICOMEWITHBAGGAGE_STICKER",
+      "name": "Ferry Building Travel Poster Magnet",
+      "sku": "FERRYBUILDINGTP_MAG",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 19,
+      "pct": -100
+    },
+    {
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
+      "qty_recent": 0,
+      "qty_prev": 64,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_GC",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Pink Icons Postcard",
+      "sku": "SFICONS_PINK_PC",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "State of California",
+      "sku": "STATEOFCALIFORNIA_MAP_TT",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -118,34 +146,6 @@
       "sku": "HOMESWEETSF_MAG",
       "qty_recent": 0,
       "qty_prev": 12,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet Home 8x8",
-      "sku": "HOMESWEETSF_8X8",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Cable Car Magnet",
-      "sku": "SF_CABLECAR_MAG",
-      "qty_recent": 0,
-      "qty_prev": 20,
-      "pct": -100
-    },
-    {
-      "name": "Bon Voyage",
-      "sku": "BONVOYAGE_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 5,
       "pct": -100
     }
   ],
