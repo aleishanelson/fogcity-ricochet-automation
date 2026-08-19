@@ -63,6 +63,13 @@
   ],
   "hot": [
     {
+      "name": "Los Angeles 8x10",
+      "sku": "LA_BW_8X10",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 500
+    },
+    {
       "name": "Golden Gate Bridge Pink Sticker",
       "sku": "GGBRIDGE_PINK_STICKER",
       "qty_recent": 9,
@@ -70,24 +77,17 @@
       "pct": 500
     },
     {
-      "name": "UC Berkeley",
-      "sku": "TT-CAMPUS-BERKELEY",
-      "qty_recent": 4,
-      "qty_prev": 2,
-      "pct": 300
-    },
-    {
-      "name": "Los Angeles 8x10",
-      "sku": "LA_BW_8X10",
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
     },
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
-      "qty_recent": 12,
-      "qty_prev": 6,
+      "name": "State of California 8x10",
+      "sku": "STATEOFCALIFORNIA_BW_8X10",
+      "qty_recent": 2,
+      "qty_prev": 1,
       "pct": 300
     },
     {
@@ -98,19 +98,33 @@
       "pct": 300
     },
     {
-      "name": "SF Bridge Dad Hat - Navy",
-      "sku": "DH-001-NB",
-      "qty_recent": 4,
-      "qty_prev": 3,
-      "pct": 167
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
+      "qty_recent": 12,
+      "qty_prev": 6,
+      "pct": 300
     }
   ],
   "cold": [
     {
-      "name": "Home Sweet SF Square",
-      "sku": "HOMESWEETSF_MAG",
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
       "qty_recent": 0,
-      "qty_prev": 12,
+      "qty_prev": 46,
+      "pct": -100
+    },
+    {
+      "name": "I come with baggage",
+      "sku": "ICOMEWITHBAGGAGE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -128,28 +142,20 @@
       "pct": -100
     },
     {
-      "name": "Proud Tourist",
-      "sku": "PROUDTOURIST_STICKER",
+      "name": "Home Sweet SF Square",
+      "sku": "HOMESWEETSF_MAG",
       "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
-      "qty_recent": 0,
-      "qty_prev": 46,
-      "pct": -100
-    },
-    {
-      "name": "Bon Voyage",
-      "sku": "BONVOYAGE_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 12,
       "pct": -100
     }
   ],
   "category_trends": [
+    {
+      "category": "Map Prints",
+      "qty_recent": 41,
+      "qty_prev": 34,
+      "pct": 141
+    },
     {
       "category": "Landmark Prints",
       "qty_recent": 2,
@@ -161,12 +167,6 @@
       "qty_recent": 6,
       "qty_prev": 7,
       "pct": 71
-    },
-    {
-      "category": "Magnets",
-      "qty_recent": 50,
-      "qty_prev": 330,
-      "pct": -70
     }
   ]
 }
