@@ -70,17 +70,17 @@
       "pct": 400
     },
     {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
       "name": "Golden Gate Bridge Pink Sticker",
       "sku": "GGBRIDGE_PINK_STICKER",
       "qty_recent": 8,
       "qty_prev": 4,
+      "pct": 300
+    },
+    {
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
+      "qty_recent": 2,
+      "qty_prev": 1,
       "pct": 300
     },
     {
@@ -107,20 +107,6 @@
   ],
   "cold": [
     {
-      "name": "I'd Give My Window Seat Up For You",
-      "sku": "WINDOWSEAT_GC",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet Home 8x8",
-      "sku": "HOMESWEETSF_8X8",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
       "qty_recent": 0,
@@ -128,24 +114,38 @@
       "pct": -100
     },
     {
-      "name": "Bon Voyage",
-      "sku": "BONVOYAGE_STICKER",
+      "name": "I come with baggage",
+      "sku": "ICOMEWITHBAGGAGE_STICKER",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "SF_RETRO_PL_MAG",
-      "qty_recent": 0,
-      "qty_prev": 14,
-      "pct": -100
-    },
-    {
-      "name": "ACRYLIC Painted Ladies",
-      "sku": "AC_SF_PLADIES_MAG",
+      "name": "CA State Blue",
+      "sku": "CA_BLOCKFONT_BLUE_STICKER",
       "qty_recent": 0,
       "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "I'd Give My Window Seat Up For You",
+      "sku": "WINDOWSEAT_GC",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet SF Square",
+      "sku": "HOMESWEETSF_MAG",
+      "qty_recent": 0,
+      "qty_prev": 12,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco Map",
+      "sku": "SFMAP_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 17,
       "pct": -100
     }
   ],
