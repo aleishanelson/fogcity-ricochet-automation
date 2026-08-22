@@ -98,54 +98,54 @@
       "pct": 167
     },
     {
-      "name": "UCLA 8x10",
-      "sku": "UCLA_BW_8X10",
-      "qty_recent": 2,
+      "name": "SWEETBDAYCAKE_A2_GCARD",
+      "sku": "SWEETBDAYCAKE_A2_GCARD",
+      "qty_recent": 4,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "Wishing You A Sweet Birthday Card",
-      "sku": "SWEETBDAY_GC",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty_recent": 0,
-      "qty_prev": 60,
-      "pct": -100
-    },
-    {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "SF_RETRO_FB_MAG",
-      "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
-      "qty_recent": 0,
-      "qty_prev": 11,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "SF_RETRO_PL_MAG",
+      "name": "3 for $10",
+      "sku": "POSTCARDS3FOR10",
       "qty_recent": 0,
-      "qty_prev": 14,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "I'd Escape Alcatraz",
+      "sku": "IDESCAPEALCATRAZFORYOU_GC",
+      "qty_recent": 0,
+      "qty_prev": 11,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_GC",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "I come with baggage",
+      "sku": "ICOMEWITHBAGGAGE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "ACRYLIC Painted Ladies",
+      "sku": "AC_SF_PLADIES_MAG",
+      "qty_recent": 0,
+      "qty_prev": 7,
       "pct": -100
     }
   ],
