@@ -84,17 +84,17 @@
       "pct": 1500
     },
     {
-      "name": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
-      "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
-      "qty_recent": 4,
-      "qty_prev": 1,
-      "pct": 700
-    },
-    {
       "name": "RETROSFFERRYBUILDING_STICKER",
       "sku": "RETROSFFERRYBUILDING_STICKER",
       "qty_recent": 20,
       "qty_prev": 5,
+      "pct": 700
+    },
+    {
+      "name": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+      "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+      "qty_recent": 4,
+      "qty_prev": 1,
       "pct": 700
     },
     {
@@ -107,17 +107,24 @@
   ],
   "cold": [
     {
-      "name": "CA State Blue",
-      "sku": "CA_BLOCKFONT_BLUE_STICKER",
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 60,
       "pct": -100
     },
     {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "SF_RETRO_FB_MAG",
+      "name": "Cable Car Magnet",
+      "sku": "SF_CABLECAR_MAG",
       "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 11,
+      "pct": -100
+    },
+    {
+      "name": "Wishing You A Sweet Birthday Card",
+      "sku": "SWEETBDAY_GC",
+      "qty_recent": 0,
+      "qty_prev": 7,
       "pct": -100
     },
     {
@@ -128,24 +135,17 @@
       "pct": -100
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_STICKER",
       "qty_recent": 0,
-      "qty_prev": 43,
+      "qty_prev": 26,
       "pct": -100
     },
     {
-      "name": "ACRYLIC Fishermans Wharf",
-      "sku": "AC_SF_FW_MAG",
+      "name": "Bay Area Map",
+      "sku": "BAYAREAMAP_GC",
       "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 8,
       "pct": -100
     }
   ],
