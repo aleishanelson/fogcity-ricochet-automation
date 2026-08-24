@@ -596,14 +596,17 @@ def resolve_ambiguous_map_print(item_name: str, unit_price: float, lookup: dict)
     size in the name at all (unlike "<City> Map Print 8x10", which resolves
     normally via OVERRIDES/category search). We disambiguate using price:
         $20/unit  -> 8x10
+        $32/unit  -> 9x12
         $38/unit  -> 11x14
     Only fires when:
       - the name matches "... map print" with NO existing size token, and
-      - unit_price is a confident match (within $2) for one of the two
-        known price points.
+      - unit_price is a confident match (within $2) for one of the known
+        price points.
     Returns "" if it can't confidently resolve (falls back to normal flow).
     Added 2026-08-24 after "San Diego Map Print" (no size, $ blank/unclear)
     landed in Fog City Sales with a raw Ricochet code instead of a SKU.
+    $32/9x12 price point added 2026-08-24 after user confirmed a real
+    San Diego Map Print sale at $32 was actually the 9x12 size.
     """
     key = item_name.strip().lower()
     if re.search(r'\b(8x10|9x12|11x14|12x16)\b', key):
@@ -614,6 +617,8 @@ def resolve_ambiguous_map_print(item_name: str, unit_price: float, lookup: dict)
         return ""
     if abs(unit_price - 20) <= 2:
         size = "8x10"
+    elif abs(unit_price - 32) <= 2:
+        size = "9x12"
     elif abs(unit_price - 38) <= 2:
         size = "11x14"
     else:
