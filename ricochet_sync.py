@@ -160,8 +160,8 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "blue icons postcard":                           "SFICONS_BLUE_4x6",
         "golden gate bridge retro postcard":             "SFGGBRIDGE_RETRO_PC",
         "san francisco golden gate bridge retro postcard": "SFGGBRIDGE_RETRO_PC",
-        "postcards 3 for $11":                           "postcards3for11",
-        "postcards- 3 for $11":                          "postcards3for11",
+        "postcards 3 for $11":                           "postcards3for10",
+        "postcards- 3 for $11":                          "postcards3for10",
         # Magnets
         # ACRYLIC die-cut magnets — separate product line from flat magnets
         # canonical names match what normalize() returns
@@ -288,38 +288,38 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "home sweet sf tote":                            "TOTE_HOMESWEETSF",
         "home sweet home tote":                          "TOTE_HOMESWEETSF",
         # GG Travel Poster PRINTS (Landmark category, GOLDENGATE_TRAVELPOSTER_*)
-        "golden gate travel poster 8x10":                "GOLDENGATE_TRAVELPOSTER_8x10",
-        "golden gate travel poster (new version) 8x10":  "GOLDENGATE_TRAVELPOSTER_8x10",
-        "golden gate travel poster - 8x10":              "GOLDENGATE_TRAVELPOSTER_8x10",
-        "golden gate bridge travel poster 8x10":         "GOLDENGATE_TRAVELPOSTER_8x10",
-        "golden gate bridge travel poster - 8x10":       "GOLDENGATE_TRAVELPOSTER_8x10",
-        "8x10 golden gate travel poster":                "GOLDENGATE_TRAVELPOSTER_8x10",
-        "gg travel poster 8x10":                         "GOLDENGATE_TRAVELPOSTER_8x10",
-        "gg travel poster - 8x10":                       "GOLDENGATE_TRAVELPOSTER_8x10",
+        "golden gate travel poster 8x10":                "GOLDENGATE_TP_8x10",
+        "golden gate travel poster (new version) 8x10":  "GOLDENGATE_TP_8x10",
+        "golden gate travel poster - 8x10":              "GOLDENGATE_TP_8x10",
+        "golden gate bridge travel poster 8x10":         "GOLDENGATE_TP_8x10",
+        "golden gate bridge travel poster - 8x10":       "GOLDENGATE_TP_8x10",
+        "8x10 golden gate travel poster":                "GOLDENGATE_TP_8x10",
+        "gg travel poster 8x10":                         "GOLDENGATE_TP_8x10",
+        "gg travel poster - 8x10":                       "GOLDENGATE_TP_8x10",
         "golden gate travel poster 11x14":               "GOLDENGATE_TP_11x14",
         "golden gate travel poster - 11x14":             "GOLDENGATE_TP_11x14",
         "golden gate bridge travel poster 11x14":        "GOLDENGATE_TP_11x14",
         "golden gate bridge travel poster - 11x14":      "GOLDENGATE_TP_11x14",
         "gg travel poster 11x14":                        "GOLDENGATE_TP_11x14",
         "gg travel poster - 11x14":                      "GOLDENGATE_TP_11x14",
-        "golden gate travel poster 12x16":               "GOLDENGATE_TRAVELPOSTER_12x16",
-        "golden gate travel poster - 12x16":             "GOLDENGATE_TRAVELPOSTER_12x16",
+        "golden gate travel poster 12x16":               "GOLDENGATE_TP_12x16",
+        "golden gate travel poster - 12x16":             "GOLDENGATE_TP_12x16",
         # GG Travel Poster MAGNET (separate SKU)
         "golden gate travel poster magnet":              "GOLDENGATETP_MAG",
         "golden gate bridge travel poster magnet":       "GOLDENGATETP_MAG",
         "gg travel poster magnet":                       "GOLDENGATETP_MAG",
         "golden gate travel (new version)":              "GOLDENGATETP_MAG",
         # GG Travel Poster STICKER (separate SKU)
-        "golden gate travel sticker":                    "GOLDENGATETRAVELPOSTER_STICKER",
-        "golden gate bridge travel sticker":             "GOLDENGATETRAVELPOSTER_STICKER",
-        "golden gate travel":                            "GOLDENGATETRAVELPOSTER_STICKER",
-        "gg travel sticker":                             "GOLDENGATETRAVELPOSTER_STICKER",
+        "golden gate travel sticker":                    "GGTRAVELPOSTER_STICKER",
+        "golden gate bridge travel sticker":             "GGTRAVELPOSTER_STICKER",
+        "golden gate travel":                            "GGTRAVELPOSTER_STICKER",
+        "gg travel sticker":                             "GGTRAVELPOSTER_STICKER",
         # GG Travel Poster CARD (separate SKU — flag if not found)
         "golden gate travel poster card":                "GOLDENGATETRAVELPOSTER_GC",
         "golden gate travel card":                       "GOLDENGATETRAVELPOSTER_GC",
         "gg travel poster card":                         "GOLDENGATETRAVELPOSTER_GC",
-        "ferry building travel poster - 8x10":           "FERRYBUILDINGTRAVELPOSTER_8x10",
-        "ferry building travel poster - 11x14":          "FERRYBUILDINGTRAVELPOSTER_11x14",
+        "ferry building travel poster - 8x10":           "FERRYBUILDING_TP_8x10",
+        "ferry building travel poster - 11x14":          "FERRYBUILDING_TP_11x14",
         "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
         "stanford campus map print 8x10":               "STANFORD_BW_8x10",
         # California products (partial match misses "State of California" prefix)
@@ -400,15 +400,15 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "uc santa barbara campus map print":             "UCSANTABARBARA_BW_8x10",
         # Ferry Building PRINT (size in name = print, NOT the travel poster magnet)
         "ferry building print 8x10":                     "FERRYBUILDING_TP_8x10",
-        "ferry building print 11x14":                    "FERRYBUILDING_TRAVELPOSTER_11x14",
+        "ferry building print 11x14":                    "FERRYBUILDING_TP_11x14",
         "8x10 ferry building print":                     "FERRYBUILDING_TP_8x10",
         "ferry building travel poster print 8x10":       "FERRYBUILDING_TP_8x10",
-        "ferry building travel poster print 11x14":      "FERRYBUILDING_TRAVELPOSTER_11x14",
+        "ferry building travel poster print 11x14":      "FERRYBUILDING_TP_11x14",
         "ferry building travel poster print":            "FERRYBUILDING_TP_8x10",  # normalized form
         # Stickers — prevent HP SKU misassignment (HP = hand painted print)
         "red san francisco pill sticker":                "PILL_SF_RED_STICKER",
         "red sf pill sticker":                           "PILL_SF_RED_STICKER",
-        "travel poster golden gate sticker":             "GOLDENGATETRAVELPOSTER_STICKER",
+        "travel poster golden gate sticker":             "GGTRAVELPOSTER_STICKER",
         "golden gate bridge sticker":                    "GGBRIDGE_PINK_STICKER",
         # City by the Bay stickers — white/black version is STICKER-2
         "white sf city by the bay circle sticker":       "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
@@ -463,7 +463,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "golden gate travel poster magnet":                  "GOLDENGATETP_MAG",
         "home sweet home sticker":                           "HOMESWEETSF_STICKER",
         "magnet set san francisco":                          "SANFRANCISCOICONS_MAGNETSET",
-        "postcards 3 for $11":                               "postcards3for11",
+        "postcards 3 for $11":                               "postcards3for10",
         "retro ferry building poster magnet":                "SF_RETRO_FB_MAG",
         "retro golden gate bridge poster sticker":           "RETRO_GGB_STICKER",
         "retro painted ladies poster magnet":                "SF_RETRO_PL_MAG",
@@ -511,7 +511,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "sf blue icons postcard":                 "SFBLUEICONS_POSTCARD",
         "illustrated ferry building landmark sticker": "FB_ILLUSTRATED_STICKER",
         "8x10 bay area map":                      "BAYAREA_BW_8x10",
-        "8x10 golden gate travel print":          "GOLDENGATE_TRAVELPOSTER_8x10",
+        "8x10 golden gate travel print":          "GOLDENGATE_TP_8x10",
         "8x10 sf map print":                      "SF_BW_8x10",
         "blue icons postcard":                    "SFBLUEICONS_POSTCARD",
         "cape cod map print 8x10":                "CAPECOD_BW_8x10",
@@ -530,13 +530,35 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "retro golden gate bridge poster magnet":  "SF_RETRO_GGB_MAG",
         "home sweet san francisco art print 11x11": "HOMESWEETSF_11x15",
         "sf tote block letters":                  "SF_BLOCKFONT_TOTE",
-        "postcards 3 for $10":                    "postcards3for11",
+        "postcards 3 for $10":                    "postcards3for10",
+        # ── 8/24/2026 fix: items resolving to raw Ricochet codes (manual-paste
+        # incident review). Inventory Summary confirmed current as of this date.
+        "stanford tea towel":                     "TT-CAMPUS-STANFORD",
+        "sf magnetic bookmarks":                  "BOOKMARK-MAGNETIC-SET",
+        "san diego map print 8x10":                "SANDIEGO_BW_8x10",
+        "san diego map print 8x10 - aleisha":       "SANDIEGO_BW_8x10",
+        "san diego map print 11x14":                "SANDIEGO_BW_11x14",
+        "san diego map print 9x12":                 "SANDIEGO_BW_9x12",
+        "san diego map print 12x16":                "SANDIEGO_BW_12x16",
     }
     # 0. Exact-match override - curated fixes always take priority over fuzzy matching
     if key in OVERRIDES:
         return OVERRIDES[key]
 
+    # Categories where a category-hint match must NEVER fall through to the
+    # broad, cross-category search in step 2 below. Without this guard, an
+    # item name (e.g. "Stanford Tea Towel") that doesn't exact/partial-match
+    # anything within its own category could still get grabbed by the broad
+    # search against an unrelated "Hand Painted" (HP) print SKU, since HP
+    # print names often share the same city-name substring as the Tea Towel
+    # item (e.g. a "California ... Hand Painted" print vs "California Tea
+    # Towel"). HP is a completely different product line and must never be
+    # assigned to a Tea Towel sale.
+    # Fixed 2026-08-24 after a Tea Towel row was found mis-mapped to an HP SKU.
+    LOCKED_CATEGORIES = {"Tea Towel"}
+
     # 1. Category-filtered search - only look in the right product type
+    skip_broad_search = False
     for keyword, categories in CATEGORY_HINTS.items():
         if keyword in key:
             cat_pool = {}
@@ -546,17 +568,74 @@ def find_sku(item_name: str, lookup: dict) -> str:
                 result = _match(cat_pool, key)
                 if result:
                     return result
+            if categories & LOCKED_CATEGORIES:
+                skip_broad_search = True
             break   # keyword matched - don't try other keywords
 
-    # 2. Broad search across all categories
-    result = _match(all_lookup, key)
-    if result:
-        return result
+    # 2. Broad search across all categories (skipped for locked categories —
+    # see LOCKED_CATEGORIES above)
+    if not skip_broad_search:
+        result = _match(all_lookup, key)
+        if result:
+            return result
 
-    # 3. Hardcoded overrides - fallback only, checked last (substring match)
+    # 3. Hardcoded overrides - fallback only, checked last (substring match).
+    # For locked categories (e.g. Tea Towel), never return a SKU containing
+    # "_HP_"/"HP" (Hand Painted prints) even via this substring fallback.
     for override_name, sku in OVERRIDES.items():
         if key in override_name or override_name in key:
+            if skip_broad_search and "HP" in sku.upper():
+                continue
             return sku
+    return ""
+
+
+def resolve_ambiguous_map_print(item_name: str, unit_price: float, lookup: dict) -> str:
+    """
+    Handle "<City> Map Print" item names that arrive from Ricochet with no
+    size in the name at all (unlike "<City> Map Print 8x10", which resolves
+    normally via OVERRIDES/category search). We disambiguate using price:
+        $20/unit  -> 8x10
+        $38/unit  -> 11x14
+    Only fires when:
+      - the name matches "... map print" with NO existing size token, and
+      - unit_price is a confident match (within $2) for one of the two
+        known price points.
+    Returns "" if it can't confidently resolve (falls back to normal flow).
+    Added 2026-08-24 after "San Diego Map Print" (no size, $ blank/unclear)
+    landed in Fog City Sales with a raw Ricochet code instead of a SKU.
+    """
+    key = item_name.strip().lower()
+    if re.search(r'\b(8x10|9x12|11x14|12x16)\b', key):
+        return ""  # size already present — let the normal path handle it
+    if not re.search(r'\bmap print\b', key):
+        return ""
+    if unit_price is None:
+        return ""
+    if abs(unit_price - 20) <= 2:
+        size = "8x10"
+    elif abs(unit_price - 38) <= 2:
+        size = "11x14"
+    else:
+        return ""
+
+    # Strip trailing "- Aleisha"/"map print" to isolate the city name
+    city_key = re.sub(r'\s*-\s*aleisha\s*$', '', key)
+    city_key = re.sub(r'\s*map print\s*$', '', city_key).strip()
+    if not city_key:
+        return ""
+
+    all_lookup  = lookup.get("all", lookup) if isinstance(lookup, dict) else lookup
+    by_category = lookup.get("by_category", {}) if isinstance(lookup, dict) else {}
+    cat_pool = {}
+    for cat in ("City Print", "School Prints"):
+        cat_pool.update(by_category.get(cat, {}))
+    pool = cat_pool or all_lookup
+
+    candidates = {name: sku for name, sku in pool.items()
+                  if city_key in name and size in name}
+    if len(candidates) == 1:
+        return next(iter(candidates.values()))
     return ""
 
 
@@ -952,18 +1031,26 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
     month_name = YESTERDAY.strftime("%B")
     year       = YESTERDAY.year
 
-    def resolve_sku(item_name: str, ricochet_sku: str) -> tuple[str, bool]:
+    def resolve_sku(item_name: str, ricochet_sku: str, unit_price: float = None) -> tuple[str, bool]:
         """Return (sku, needs_review). needs_review=True means no match found."""
         if sku_lookup:
             sheet_sku = find_sku(item_name, sku_lookup)
             if sheet_sku:
                 return sheet_sku, False
+            # Ambiguous "<City> Map Print" with no size in the name — try
+            # price-based disambiguation ($20 -> 8x10, $38 -> 11x14) before
+            # giving up and flagging for review.
+            price_sku = resolve_ambiguous_map_print(item_name, unit_price, sku_lookup)
+            if price_sku:
+                return price_sku, False
         return ricochet_sku, True  # fell back to Ricochet SKU — flag for review
 
     rows_needing_review = []
     new_values = []
     for i, m in enumerate(merged):
-        sku, needs_review = resolve_sku(m["item"], m["sku"])
+        qty = m.get("qty") or 0
+        unit_price = (m.get("revenue", 0.0) / qty) if qty else None
+        sku, needs_review = resolve_sku(m["item"], m["sku"], unit_price)
         new_values.append([month_name, year, m["item"], sku, m["qty"], date_range_label, round(m.get("revenue", 0.0), 2)])
         if needs_review:
             rows_needing_review.append(i)
