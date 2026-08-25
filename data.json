@@ -1,29 +1,29 @@
 {
-  "updated": "August 23, 2026",
-  "period_label": "8/14 \u2013 8/23, 2026",
+  "updated": "August 24, 2026",
+  "period_label": "8/15 \u2013 8/24, 2026",
   "total_units": 169,
   "revenue": {
-    "yesterday": 648.96,
-    "yesterday_label": "8/23",
-    "weekly": 6050.43,
-    "monthly": 14823.56,
-    "ytd": 131738.12
+    "yesterday": 255.48,
+    "yesterday_label": "8/24",
+    "weekly": 6027.44,
+    "monthly": 15079.04,
+    "ytd": 131993.6
   },
   "top10": [
     {
       "name": "RETROSFFERRYBUILDING_STICKER",
       "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty": 29
+      "qty": 30
     },
     {
       "name": "MAGNET_GOLDENGATETRAVELPOSTER",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 23
+      "qty": 22
     },
     {
       "name": "MAG-SF-LDMKS",
       "sku": "MAG-SF-LDMKS",
-      "qty": 19
+      "qty": 21
     },
     {
       "name": "SFGGBRIDGE_RETRO_PCARD",
@@ -41,54 +41,33 @@
       "qty": 15
     },
     {
-      "name": "Red SF Pill",
-      "sku": "PILL_SF_RED_STICKER",
-      "qty": 13
-    },
-    {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
       "qty": 13
     },
     {
-      "name": "MAG-AC-SF-GGB",
-      "sku": "MAG-AC-SF-GGB",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
+      "qty": 13
+    },
+    {
+      "name": "Red SF Pill",
+      "sku": "PILL_SF_RED_STICKER",
       "qty": 12
     },
     {
-      "name": "HOMESWEETSANFRANCISCO_STICKER",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
-      "qty": 12
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 10
     }
   ],
   "hot": [
     {
-      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty_recent": 23,
-      "qty_prev": 2,
-      "pct": 2200
-    },
-    {
       "name": "MAG-SF-LDMKS",
       "sku": "MAG-SF-LDMKS",
-      "qty_recent": 19,
+      "qty_recent": 21,
       "qty_prev": 2,
-      "pct": 1800
-    },
-    {
-      "name": "MAG-SF-PLADIES-CL",
-      "sku": "MAG-SF-PLADIES-CL",
-      "qty_recent": 9,
-      "qty_prev": 1,
-      "pct": 1700
-    },
-    {
-      "name": "MAG-SF-RETRO-GGB",
-      "sku": "MAG-SF-RETRO-GGB",
-      "qty_recent": 9,
-      "qty_prev": 1,
-      "pct": 1700
+      "pct": 2000
     },
     {
       "name": "MAG-AC-SF-SFO",
@@ -103,58 +82,79 @@
       "qty_recent": 17,
       "qty_prev": 2,
       "pct": 1600
+    },
+    {
+      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "qty_recent": 22,
+      "qty_prev": 4,
+      "pct": 1000
+    },
+    {
+      "name": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
+      "sku": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
+      "qty_recent": 5,
+      "qty_prev": 1,
+      "pct": 900
+    },
+    {
+      "name": "LOVEYOUMORETHANSUNNYSF_A2CARD",
+      "sku": "LOVEYOUMORETHANSUNNYSF_A2CARD",
+      "qty_recent": 5,
+      "qty_prev": 1,
+      "pct": 900
     }
   ],
   "cold": [
     {
-      "name": "ACRYLIC Ferry Building",
-      "sku": "AC_SF_FB_MAG",
+      "name": "The City by the Bay Pink",
+      "sku": "SFCITYBYTHEBAY_PINK_STICKER",
       "qty_recent": 0,
-      "qty_prev": 17,
+      "qty_prev": 15,
       "pct": -100
     },
     {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PC",
-      "qty_recent": 0,
-      "qty_prev": 31,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco Block Font",
-      "sku": "SF_BLOCKFONT_MAG",
+      "name": "Retro SF Ferry Building Poster Sticker",
+      "sku": "RETRO_SF_FB_STICKER",
       "qty_recent": 0,
       "qty_prev": 14,
       "pct": -100
     },
     {
-      "name": "CA State Blue",
-      "sku": "CA_BLOCKFONT_BLUE_STICKER",
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_STICKER",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 24,
       "pct": -100
     },
     {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
+      "name": "ACRYLIC Ferry Building",
+      "sku": "AC_SF_FB_MAG",
       "qty_recent": 0,
-      "qty_prev": 31,
+      "qty_prev": 15,
+      "pct": -100
+    },
+    {
+      "name": "Sunny and 75 in SF Card",
+      "sku": "SUNNYAND75SF_GC",
+      "qty_recent": 0,
+      "qty_prev": 11,
+      "pct": -100
+    },
+    {
+      "name": "Colored Pencil Kit (Blue Cap)",
+      "sku": "COLOREDPENCILKIT_BLUE",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Pencil Pouches",
-      "qty_recent": 8,
+      "qty_recent": 9,
       "qty_prev": 5,
-      "pct": 220
+      "pct": 260
     },
     {
       "category": "Totes",
@@ -164,9 +164,9 @@
     },
     {
       "category": "Magnets",
-      "qty_recent": 23,
-      "qty_prev": 335,
-      "pct": -86
+      "qty_recent": 24,
+      "qty_prev": 285,
+      "pct": -83
     }
   ]
 }
