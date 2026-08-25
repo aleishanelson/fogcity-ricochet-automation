@@ -3,11 +3,11 @@
   "period_label": "8/14 \u2013 8/23, 2026",
   "total_units": 169,
   "revenue": {
-    "yesterday": 0.0,
+    "yesterday": 648.96,
     "yesterday_label": "8/23",
-    "weekly": 5401.47,
-    "monthly": 14096.6,
-    "ytd": 130883.16
+    "weekly": 6050.43,
+    "monthly": 14823.56,
+    "ytd": 131738.12
   },
   "top10": [
     {
@@ -77,15 +77,15 @@
       "pct": 1800
     },
     {
-      "name": "MAG-SF-RETRO-GGB",
-      "sku": "MAG-SF-RETRO-GGB",
+      "name": "MAG-SF-PLADIES-CL",
+      "sku": "MAG-SF-PLADIES-CL",
       "qty_recent": 9,
       "qty_prev": 1,
       "pct": 1700
     },
     {
-      "name": "MAG-SF-PLADIES-CL",
-      "sku": "MAG-SF-PLADIES-CL",
+      "name": "MAG-SF-RETRO-GGB",
+      "sku": "MAG-SF-RETRO-GGB",
       "qty_recent": 9,
       "qty_prev": 1,
       "pct": 1700
@@ -107,17 +107,10 @@
   ],
   "cold": [
     {
-      "name": "State of California 8x10",
-      "sku": "STATEOFCALIFORNIA_BW_8X10",
+      "name": "ACRYLIC Ferry Building",
+      "sku": "AC_SF_FB_MAG",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Bay Area Map",
-      "sku": "BAYAREAMAP_GC",
-      "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 17,
       "pct": -100
     },
     {
@@ -128,8 +121,15 @@
       "pct": -100
     },
     {
-      "name": "Retro SF Ferry Building Poster Sticker",
-      "sku": "RETRO_SF_FB_STICKER",
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 31,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco Block Font",
+      "sku": "SF_BLOCKFONT_MAG",
       "qty_recent": 0,
       "qty_prev": 14,
       "pct": -100
@@ -142,10 +142,10 @@
       "pct": -100
     },
     {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 31,
       "pct": -100
     }
   ],
