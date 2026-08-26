@@ -98,14 +98,21 @@
       "pct": 900
     },
     {
-      "name": "LOVEYOUMORETHANSUNNYSF_A2CARD",
-      "sku": "LOVEYOUMORETHANSUNNYSF_A2CARD",
+      "name": "CALIFORNIASTATE_BLOCKFONT_BLUE",
+      "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
       "qty_recent": 5,
       "qty_prev": 1,
       "pct": 900
     }
   ],
   "cold": [
+    {
+      "name": "UC Berkeley 8x10",
+      "sku": "BERKELEY_CAMPUS_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 8,
+      "pct": -100
+    },
     {
       "name": "The City by the Bay Pink",
       "sku": "SFCITYBYTHEBAY_PINK_STICKER",
@@ -114,17 +121,17 @@
       "pct": -100
     },
     {
-      "name": "Retro SF Ferry Building Poster Sticker",
-      "sku": "RETRO_SF_FB_STICKER",
+      "name": "I'd Give My Window Seat Up For You",
+      "sku": "WINDOWSEAT_GC",
       "qty_recent": 0,
-      "qty_prev": 14,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "West Coast Best Coast",
-      "sku": "WESTCOASTBESTCOAST_STICKER",
+      "name": "Cable Car Magnet",
+      "sku": "SF_CABLECAR_MAG",
       "qty_recent": 0,
-      "qty_prev": 24,
+      "qty_prev": 8,
       "pct": -100
     },
     {
@@ -135,15 +142,8 @@
       "pct": -100
     },
     {
-      "name": "Sunny and 75 in SF Card",
-      "sku": "SUNNYAND75SF_GC",
-      "qty_recent": 0,
-      "qty_prev": 11,
-      "pct": -100
-    },
-    {
-      "name": "Colored Pencil Kit (Blue Cap)",
-      "sku": "COLOREDPENCILKIT_BLUE",
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
