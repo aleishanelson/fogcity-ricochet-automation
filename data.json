@@ -1,24 +1,24 @@
 {
-  "updated": "August 25, 2026",
-  "period_label": "8/16 \u2013 8/25, 2026",
-  "total_units": 161,
+  "updated": "August 26, 2026",
+  "period_label": "8/17 \u2013 8/26, 2026",
+  "total_units": 160,
   "revenue": {
-    "yesterday": 376.5,
-    "yesterday_label": "8/25",
-    "weekly": 5839.48,
-    "monthly": 15455.54,
-    "ytd": 132370.1
+    "yesterday": 381.48,
+    "yesterday_label": "8/26",
+    "weekly": 5848.99,
+    "monthly": 15837.02,
+    "ytd": 132751.58
   },
   "top10": [
     {
       "name": "RETROSFFERRYBUILDING_STICKER",
       "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty": 30
+      "qty": 32
     },
     {
       "name": "MAGNET_GOLDENGATETRAVELPOSTER",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 26
+      "qty": 25
     },
     {
       "name": "MAG-SF-LDMKS",
@@ -31,54 +31,61 @@
       "qty": 16
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty": 15
-    },
-    {
-      "name": "POSTCARDS3FOR11",
-      "sku": "POSTCARDS3FOR11",
-      "qty": 12
+      "name": "MAG-AC-SF-GGB",
+      "sku": "MAG-AC-SF-GGB",
+      "qty": 13
     },
     {
       "name": "SFGGBRIDGE_RETRO_PCARD",
       "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty": 12
+      "qty": 13
     },
     {
-      "name": "MAG-AC-SF-GGB",
-      "sku": "MAG-AC-SF-GGB",
-      "qty": 11
-    },
-    {
-      "name": "Red SF Pill",
-      "sku": "PILL_SF_RED_STICKER",
-      "qty": 10
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty": 13
     },
     {
       "name": "SF Icons Pencil Pouch - Blue",
       "sku": "PP-SF-CB-01",
       "qty": 10
+    },
+    {
+      "name": "POSTCARDS3FOR11",
+      "sku": "POSTCARDS3FOR11",
+      "qty": 10
+    },
+    {
+      "name": "SF City Name",
+      "sku": "SFCITYNAME_STICKER",
+      "qty": 9
     }
   ],
   "hot": [
     {
-      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty_recent": 26,
-      "qty_prev": 5,
-      "pct": 940
-    },
-    {
       "name": "CALIFORNIASTATE_BLOCKFONT_BLUE",
       "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
-      "qty_recent": 5,
+      "qty_recent": 6,
       "qty_prev": 1,
-      "pct": 900
+      "pct": 1100
+    },
+    {
+      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "qty_recent": 25,
+      "qty_prev": 6,
+      "pct": 733
     },
     {
       "name": "MAG-SF-RETRO-FB",
       "sku": "MAG-SF-RETRO-FB",
+      "qty_recent": 4,
+      "qty_prev": 1,
+      "pct": 700
+    },
+    {
+      "name": "HOMESWEETSF_A2CARD",
+      "sku": "HOMESWEETSF_A2CARD",
       "qty_recent": 4,
       "qty_prev": 1,
       "pct": 700
@@ -91,24 +98,17 @@
       "pct": 533
     },
     {
-      "name": "RETROSFFERRYBUILDING_STICKER",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty_recent": 30,
-      "qty_prev": 10,
-      "pct": 500
-    },
-    {
-      "name": "HOMESWEETSF_A2CARD",
-      "sku": "HOMESWEETSF_A2CARD",
-      "qty_recent": 3,
-      "qty_prev": 1,
+      "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
+      "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
+      "qty_recent": 6,
+      "qty_prev": 2,
       "pct": 500
     }
   ],
   "cold": [
     {
-      "name": "State of California 8x10",
-      "sku": "STATEOFCALIFORNIA_BW_8X10",
+      "name": "Life In The City By The Bay Magnetic Bookmarks",
+      "sku": "BOOKMARK-CITYBYTHEBAY-CHRONICLE",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -117,35 +117,35 @@
       "name": "West Coast Best Coast",
       "sku": "WESTCOASTBESTCOAST_STICKER",
       "qty_recent": 0,
-      "qty_prev": 23,
+      "qty_prev": 20,
       "pct": -100
     },
     {
-      "name": "Retro SF Ferry Building Poster Sticker",
-      "sku": "RETRO_SF_FB_STICKER",
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
       "qty_recent": 0,
       "qty_prev": 14,
       "pct": -100
     },
     {
-      "name": "San Francisco Block Font",
-      "sku": "SF_BLOCKFONT_MAG",
+      "name": "Ferry Building Travel Poster Magnet",
+      "sku": "FERRYBUILDINGTP_MAG",
       "qty_recent": 0,
-      "qty_prev": 9,
+      "qty_prev": 6,
       "pct": -100
     },
     {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "name": "The City by the Bay Pink",
+      "sku": "SFCITYBYTHEBAY_PINK_STICKER",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 12,
       "pct": -100
     },
     {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
+      "name": "Chicago (ZOOMED OUT)  8x10",
+      "sku": "CHICAGO_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 11,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
@@ -153,8 +153,8 @@
     {
       "category": "Pencil Pouches",
       "qty_recent": 10,
-      "qty_prev": 4,
-      "pct": 400
+      "qty_prev": 6,
+      "pct": 233
     },
     {
       "category": "Totes",
@@ -165,8 +165,8 @@
     {
       "category": "Magnets",
       "qty_recent": 24,
-      "qty_prev": 232,
-      "pct": -79
+      "qty_prev": 204,
+      "pct": -76
     }
   ]
 }
