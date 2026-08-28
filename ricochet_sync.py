@@ -46,6 +46,7 @@ except Exception:
     SA_JSON = json.loads(_sa_raw)
 SPREADSHEET_ID = os.environ["SPREADSHEET_ID"]
 FOG_CITY_TAB   = "Fog City Sales"
+FOG_CITY_SHEET_ID = 1018380031  # Fog City Sales gid
 SOURCE_LABEL   = "ricochet export"
 
 PDT       = timezone(timedelta(hours=-7))
@@ -1031,6 +1032,46 @@ def find_existing_block(sheets, date_range_label: str):
 
 # ── Step 8: Write to Google Sheet ─────────────────────────────────────────────
 
+def ensure_sheet_has_rows(sheets, sheet_id: int, min_rows: int) -> None:
+    """
+    Make sure the target sheet's grid has at least `min_rows` rows before we
+    try to write to a range that reaches that far. Google Sheets grids have
+    a fixed row count (the "grid limit") separate from how much data is in
+    them — writing to a range beyond that limit fails with a 400 error
+    ("Range ... exceeds grid limits"), even if valueInputOption is set.
+    Added 2026-08-28 after run #204 failed appending rows 12788-12811 into
+    a grid capped at 12787 rows.
+    """
+    meta = sheets.get(
+        spreadsheetId=SPREADSHEET_ID,
+        fields="sheets.properties",
+    ).execute()
+    current_rows = None
+    for s in meta.get("sheets", []):
+        props = s.get("properties", {})
+        if props.get("sheetId") == sheet_id:
+            current_rows = props.get("gridProperties", {}).get("rowCount")
+            break
+    if current_rows is None:
+        log.warning(f"Could not find sheetId {sheet_id} in spreadsheet metadata — "
+                    f"skipping grid-size check.")
+        return
+    if min_rows > current_rows:
+        add_rows = (min_rows - current_rows) + 500  # pad extra so this doesn't recur every run
+        log.info(f"Grid has {current_rows} rows but we need {min_rows} — "
+                 f"growing by {add_rows} rows.")
+        sheets.batchUpdate(
+            spreadsheetId=SPREADSHEET_ID,
+            body={"requests": [{
+                "appendDimension": {
+                    "sheetId": sheet_id,
+                    "dimension": "ROWS",
+                    "length": add_rows,
+                }
+            }]},
+        ).execute()
+
+
 def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
                    first_row, last_row, sku_lookup: dict = None):
     month_name = YESTERDAY.strftime("%B")
@@ -1080,6 +1121,10 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
         range_str  = f"'{FOG_CITY_TAB}'!A{append_row}:G{append_row + len(padded) - 1}"
         log.info(f"Appending {len(new_values)} rows starting at row {append_row}")
 
+    # Grow the sheet's grid first if this write would exceed its current row limit
+    target_last_row = first_row + len(padded) - 1 if first_row is not None else append_row + len(padded) - 1
+    ensure_sheet_has_rows(sheets, FOG_CITY_SHEET_ID, target_last_row)
+
     sheets.values().update(
         spreadsheetId=SPREADSHEET_ID,
         range=range_str,
@@ -1100,7 +1145,7 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
             requests.append({
                 "repeatCell": {
                     "range": {
-                        "sheetId": 1018380031,  # Fog City Sales gid
+                        "sheetId": FOG_CITY_SHEET_ID,
                         "startRowIndex": row_idx,
                         "endRowIndex":   row_idx + 1,
                         "startColumnIndex": 0,
