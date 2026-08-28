@@ -119,6 +119,78 @@ def build_sku_lookup(sheets) -> dict:
     return {"all": all_lookup, "by_category": by_category}
 
 
+def build_recent_sales_sku_lookup(sheets, sku_lookup: dict, days: int = 10) -> dict:
+    """
+    Build a supplementary {item_name_lower: sku} lookup from the last `days`
+    days of Fog City Sales history, to act as a safety net for item names
+    that aren't in OVERRIDES and don't match anything in a live Inventory
+    Summary search (e.g. Ricochet phrases a name slightly differently than
+    the Inventory Summary item name, but the exact same phrasing has sold
+    and resolved correctly before).
+
+    Critically, this does NOT blindly trust history: an entry is only kept
+    if its SKU is CURRENTLY present in Inventory Summary (sku_lookup). This
+    is what prevents "learning" a stale SKU from before an Inventory Summary
+    reorg — the exact failure mode that caused the OVERRIDES dict to drift
+    out of date between roughly 6/18 and 8/23/2026. A recent sale with a SKU
+    that no longer exists in Inventory Summary is simply skipped, not
+    learned.
+
+    Rows are walked oldest-to-newest so the most recent sale of a given item
+    name wins if the SKU for that name changed partway through the window.
+
+    Added 2026-08-28 per user request: "make the automation learn from the
+    last week-ish of sales to get the correct SKUs for items."
+    """
+    valid_skus = {sku.strip() for sku in sku_lookup.get("all", {}).values() if sku} \
+        if isinstance(sku_lookup, dict) else set()
+
+    result = sheets.values().get(
+        spreadsheetId=SPREADSHEET_ID,
+        range=f"'{FOG_CITY_TAB}'!A:G",
+    ).execute()
+    rows = result.get("values", [])
+    if len(rows) <= 1:
+        return {}
+
+    cutoff = YESTERDAY - timedelta(days=days)
+    lookup: dict = {}
+    skipped_stale = 0
+
+    for row in rows[1:]:
+        if len(row) < 6:
+            continue
+        name   = str(row[2]).strip() if len(row) > 2 and row[2] else ""
+        sku    = str(row[3]).strip() if len(row) > 3 and row[3] else ""
+        source = str(row[5]).strip() if len(row) > 5 and row[5] else ""
+        if not name or not sku or not source:
+            continue
+
+        date_tokens = re.findall(r'\b(\d{1,2})/(\d{1,2})\b', source)
+        if not date_tokens:
+            continue
+        try:
+            month, day = int(date_tokens[-1][0]), int(date_tokens[-1][1])
+            row_date = date(YESTERDAY.year, month, day)
+            if row_date > YESTERDAY:
+                row_date = date(YESTERDAY.year - 1, month, day)
+        except ValueError:
+            continue
+        if row_date < cutoff:
+            continue
+
+        if sku not in valid_skus:
+            skipped_stale += 1
+            continue  # never learn a SKU that isn't currently valid
+
+        lookup[name.lower()] = sku  # later (more recent) rows overwrite earlier ones
+
+    log.info(f"Recent-sales SKU lookup: learned {len(lookup)} name(s) from the last "
+             f"{days} days of Fog City Sales (skipped {skipped_stale} row(s) whose "
+             f"SKU is no longer current).")
+    return lookup
+
+
 def find_sku(item_name: str, lookup: dict) -> str:
     """
     Find the correct SKU for an item name.
@@ -126,11 +198,15 @@ def find_sku(item_name: str, lookup: dict) -> str:
     Strategy:
     1. Category-filtered search against the live Inventory Summary tab
     2. Broad search across all categories in Inventory Summary
-    3. Hardcoded overrides (fallback only, if not found above)
+    3. Recent-sales-history lookup (exact name match, last ~10 days of Fog
+       City Sales, validated against the CURRENT Inventory Summary — see
+       build_recent_sales_sku_lookup)
+    4. Hardcoded overrides (fallback only, if not found above)
     """
     key = item_name.strip().lower()
     all_lookup = lookup.get("all", lookup) if isinstance(lookup, dict) else lookup
     by_category = lookup.get("by_category", {}) if isinstance(lookup, dict) else {}
+    recent_lookup = lookup.get("recent", {}) if isinstance(lookup, dict) else {}
 
     def _match(d: dict, k: str) -> str:
         """Exact then partial match within a given sub-dict."""
@@ -580,7 +656,14 @@ def find_sku(item_name: str, lookup: dict) -> str:
         if result:
             return result
 
-    # 3. Hardcoded overrides - fallback only, checked last (substring match).
+    # 3. Recent-sales-history lookup - exact name match only (no fuzzy
+    # substring matching here, unlike step 4 below), and every entry in
+    # recent_lookup was already validated against the CURRENT Inventory
+    # Summary when it was built, so this can't reintroduce a stale SKU.
+    if key in recent_lookup:
+        return recent_lookup[key]
+
+    # 4. Hardcoded overrides - fallback only, checked last (substring match).
     # For locked categories (e.g. Tea Towel), never return a SKU containing
     # "_HP_"/"HP" (Hand Painted prints) even via this substring fallback.
     for override_name, sku in OVERRIDES.items():
@@ -1579,6 +1662,11 @@ def main():
 
     # Load SKU lookup from Inventory Summary tab
     sku_lookup = build_sku_lookup(sheets)
+
+    # Learn from the last ~10 days of Fog City Sales as an extra fallback for
+    # find_sku() — see build_recent_sales_sku_lookup() for why this can't
+    # reintroduce a stale SKU.
+    sku_lookup["recent"] = build_recent_sales_sku_lookup(sheets, sku_lookup)
 
     # Safety net: catch/fix any rows that bypassed this script (e.g. a manual
     # paste of a Ricochet export straight into the sheet) BEFORE deciding
