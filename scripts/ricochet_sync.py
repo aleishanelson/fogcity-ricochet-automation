@@ -46,6 +46,7 @@ except Exception:
     SA_JSON = json.loads(_sa_raw)
 SPREADSHEET_ID = os.environ["SPREADSHEET_ID"]
 FOG_CITY_TAB   = "Fog City Sales"
+FOG_CITY_SHEET_ID = 1018380031  # Fog City Sales gid
 SOURCE_LABEL   = "ricochet export"
 
 PDT       = timezone(timedelta(hours=-7))
@@ -158,60 +159,60 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "art by aleisha postcards - pink":               "SFICONS_POSTCARD_PINK",
         "sf blue icons postcard":                        "SFICONS_BLUE_4x6",
         "blue icons postcard":                           "SFICONS_BLUE_4x6",
-        "golden gate bridge retro postcard":             "SFGGBRIDGE_RETRO_PCARD",
-        "san francisco golden gate bridge retro postcard": "SFGGBRIDGE_RETRO_PCARD",
-        "postcards 3 for $11":                           "postcards3for11",
-        "postcards- 3 for $11":                          "postcards3for11",
+        "golden gate bridge retro postcard":             "SFGGBRIDGE_RETRO_PC",
+        "san francisco golden gate bridge retro postcard": "SFGGBRIDGE_RETRO_PC",
+        "postcards 3 for $11":                           "postcards3for10",
+        "postcards- 3 for $11":                          "postcards3for10",
         # Magnets
         # ACRYLIC die-cut magnets — separate product line from flat magnets
         # canonical names match what normalize() returns
-        "fishermans wharf acrylic die cut magnet":       "MAG-AC-SF-FW",
-        "acrylic fishermans wharf":                      "MAG-AC-SF-FW",
-        "acrylic fisherman's wharf magnet":              "MAG-AC-SF-FW",
-        "acrylic fishermans wharf magnet":               "MAG-AC-SF-FW",
-        "ferry building acrylic die cut magnet":         "MAG-AC-SF-FERRYB",
-        "acrylic ferry building magnet":                 "MAG-AC-SF-FERRYB",
-        "acrylic ferry building":                        "MAG-AC-SF-FERRYB",
-        "golden gate acrylic die cut magnet":            "MAG-AC-SF-GGB",
-        "acrylic golden gate bridge magnet":             "MAG-AC-SF-GGB",
-        "acrylic golden gate magnet":                    "MAG-AC-SF-GGB",
-        "acrylic gg magnet":                             "MAG-AC-SF-GGB",
-        "golden gate bridge acrylic die cut magnet":     "MAG-AC-SF-GGB",
-        "gg acrylic die cut magnet":                     "MAG-AC-SF-GGB",
-        "golden gate bridge acrylic":                    "MAG-AC-SF-GGB",  # NOT a print
-        "acrylic painted ladies magnet":                 "MAG-SF-PLADIES-CL",
-        "acrylic painted ladies":                        "MAG-SF-PLADIES-CL",
+        "fishermans wharf acrylic die cut magnet":       "AC_SF_FW_MAG",
+        "acrylic fishermans wharf":                      "AC_SF_FW_MAG",
+        "acrylic fisherman's wharf magnet":              "AC_SF_FW_MAG",
+        "acrylic fishermans wharf magnet":               "AC_SF_FW_MAG",
+        "ferry building acrylic die cut magnet":         "AC_SF_FB_MAG",
+        "acrylic ferry building magnet":                 "AC_SF_FB_MAG",
+        "acrylic ferry building":                        "AC_SF_FB_MAG",
+        "golden gate acrylic die cut magnet":            "AC_SF_GGB_MAG",
+        "acrylic golden gate bridge magnet":             "AC_SF_GGB_MAG",
+        "acrylic golden gate magnet":                    "AC_SF_GGB_MAG",
+        "acrylic gg magnet":                             "AC_SF_GGB_MAG",
+        "golden gate bridge acrylic die cut magnet":     "AC_SF_GGB_MAG",
+        "gg acrylic die cut magnet":                     "AC_SF_GGB_MAG",
+        "golden gate bridge acrylic":                    "AC_SF_GGB_MAG",  # NOT a print
+        "acrylic painted ladies magnet":                 "AC_SF_PLADIES_MAG",
+        "acrylic painted ladies":                        "AC_SF_PLADIES_MAG",
         "sf houses acrylic die cut magnet":              "MAG-AC-SF-HOUSES",
         "acrylic sf houses magnet":                      "MAG-AC-SF-HOUSES",
         "sf house acrylic magnet":                       "MAG-AC-SF-HOUSES",
-        "sfo luggage tag acrylic magnet":                "MAG-AC-SF-SFO",
-        "acrylic sfo luggage tag":                       "MAG-AC-SF-SFO",
-        "home sweet sf magnet":                          "MAGNET_HOMESWEETSF",
-        "home sweet home magnet":                        "MAGNET_HOMESWEETSF",
-        "retro gg travel poster magnet":                 "MAG-SF-RETRO-GGB",
-        "retrogg bridge travel poster magent":           "MAG-SF-RETRO-GGB",
-        "retro golden gate bridge poster magnet":        "MAG-SF-RETRO-GGB",
-        "retro golden gate poster magnet":               "MAG-SF-RETRO-GGB",
-        "retro ferry building poster magnet":            "MAG-SF-RETRO-FB",
-        "retro painted ladies poster magnet":            "MAG-SF-RETRO-PL",
-        "ferry building travel poster magnet":           "FERRYBUILDINGTRAVELPOSTER_MAGNET",
-        "ferry building":                                "FERRYBUILDINGTRAVELPOSTER_MAGNET",
-        "sf illustrated landmarks magnet":               "MAG-SF-LDMKS",
-        "sf landmark magnet":                            "MAG-SF-LDMKS",
-        "sf illustrated landmark":                       "MAG-SF-LDMKS",
-        "sf pink icons magnet":                          "MAG-SF-PINKICONS",
-        "sf block font magnet":                          "MAG-SF-BLOCKFONT",
-        "cable car magnet":                              "MAG-SF-CABLECAR",
-        "yellow cable car magnet":                       "MAG-SF-CABLECAR",
-        "take the scenic route magnet":                  "TAKETHESCENICROUTE_49MILE_MAGNET",
+        "sfo luggage tag acrylic magnet":                "AC_SF_SFO_MAG",
+        "acrylic sfo luggage tag":                       "AC_SF_SFO_MAG",
+        "home sweet sf magnet":                          "HOMESWEETSF_MAG",
+        "home sweet home magnet":                        "HOMESWEETSF_MAG",
+        "retro gg travel poster magnet":                 "SF_RETRO_GGB_MAG",
+        "retrogg bridge travel poster magent":           "SF_RETRO_GGB_MAG",
+        "retro golden gate bridge poster magnet":        "SF_RETRO_GGB_MAG",
+        "retro golden gate poster magnet":               "SF_RETRO_GGB_MAG",
+        "retro ferry building poster magnet":            "SF_RETRO_FB_MAG",
+        "retro painted ladies poster magnet":            "SF_RETRO_PL_MAG",
+        "ferry building travel poster magnet":           "FERRYBUILDINGTP_MAG",
+        "ferry building":                                "FERRYBUILDINGTP_MAG",
+        "sf illustrated landmarks magnet":               "LDMKS_SF_MAG",
+        "sf landmark magnet":                            "LDMKS_SF_MAG",
+        "sf illustrated landmark":                       "LDMKS_SF_MAG",
+        "sf pink icons magnet":                          "SF_PINKICONS_MAG",
+        "sf block font magnet":                          "SF_BLOCKFONT_MAG",
+        "cable car magnet":                              "SF_CABLECAR_MAG",
+        "yellow cable car magnet":                       "SF_CABLECAR_MAG",
+        "take the scenic route magnet":                  "SCENICROUTE_49MILE_MAG",
         "sfo luggage tag magnet":                        "SFO_LUGGAGETAG_MAGNET",
         "vintage sfo luggage tag magnet":                "SFO_LUGGAGETAG_MAGNET",
         "pink city by the bay circle magnet":            "MAGNET_SFCITYBYTHEBAY_PINK",
         "city by the bay local notion magnet":           "MAGNET_SFCITYBYTHEBAY_LOCALNOTION",
         # Stickers
-        "stickers 3 for $11":                           "STICKERS_3FOR11",
-        "stickers- 3 for $11":                          "STICKERS_3FOR11",
-        "3 for 11":                                     "STICKERS_3FOR11",
+        "stickers 3 for $11":                           "stickers3for11",
+        "stickers- 3 for $11":                          "stickers3for11",
+        "3 for 11":                                     "stickers3for11",
         "golden gate bridge sticker (pink)":             "GGBRIDGE_PINK_STICKER",
         "golden gate sticker (pink)":                    "GGBRIDGE_PINK_STICKER",
         "gg bridge sticker (pink)":                      "GGBRIDGE_PINK_STICKER",
@@ -219,7 +220,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "retro golden gate bridge poster sticker":       "RETRO_GGB_STICKER",
         "retro golden gate poster sticker":              "RETRO_GGB_STICKER",
         "retro gg poster sticker":                       "RETRO_GGB_STICKER",
-        "retro sf ferry building poster sticker":        "RETROSFFERRYBUILDING_STICKER",
+        "retro sf ferry building poster sticker":        "RETRO_SF_FB_STICKER",
         "illustrated fisherman's wharf sticker":         "FW_ILLUSTRATED_STICKER",
         "fisherman's wharf sticker":                     "FW_ILLUSTRATED_STICKER",
         "illustrated golden gate bridge sticker":        "GGB_ILLUSTRATED_STICKER",
@@ -231,12 +232,12 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "sf map sticker":                                "SFMAP_STICKER",
         "sf city name sticker":                          "SFCITYNAME_STICKER",
         "sf pennant sticker":                            "SFPENNANT_STICKER",
-        "home sweet home sticker":                       "HOMESWEETSANFRANCISCO_STICKER",
-        "west coast best coast sticker":                 "WESTCOASTBESTCOAST_CIRCLE_STICKER",
+        "home sweet home sticker":                       "HOMESWEETSF_STICKER",
+        "west coast best coast sticker":                 "WESTCOASTBESTCOAST_STICKER",
         "proud tourist sticker":                         "PROUDTOURIST_STICKER",
         "bon voyage sticker":                            "BONVOYAGE_STICKER",
         "i come with baggage sticker":                   "ICOMEWITHBAGGAGE_STICKER",
-        "pink sf city by the bay circle sticker":        "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
+        "pink sf city by the bay circle sticker":        "SFCITYBYTHEBAY_PINK_STICKER",
         # Totes
         "sf icons tote":                                 "SFICONS_TOTE",
         "sf icon tote":                                  "SFICONS_TOTE",
@@ -248,14 +249,14 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "sfo luggage tag keychain":                      "KC-SFO-LUGGAGETAG",
         "acrylic keychain":                              "KC-SFO-LUGGAGETAG",
         # Cards
-        "sunny and 75 in sf card":                       "LOVEYOUMORETHANSUNNYSF_A2CARD",
-        "sunny and 75 sf card":                          "LOVEYOUMORETHANSUNNYSF_A2CARD",
-        "i love you more than a":                        "LOVEYOUMORETHANSUNNYSF_A2CARD",
+        "sunny and 75 in sf card":                       "SUNNYAND75SF_GC",
+        "sunny and 75 sf card":                          "SUNNYAND75SF_GC",
+        "i love you more than a":                        "SUNNYAND75SF_GC",
         "twist and turn card":                           "TWISTSANDTURNS_GCARD",
         "thru twists and turns card":                    "TWISTSANDTURNS_GCARD",
         "twists and turns greeting card":                "TWISTSANDTURNS_GCARD",
-        "window seat card":                              "WINDOWSEAT_A2_GREETINGCARD",
-        "art by aleisha cards":                          "WINDOWSEAT_A2_GREETINGCARD",  # flag
+        "window seat card":                              "WINDOWSEAT_GC",
+        "art by aleisha cards":                          "WINDOWSEAT_GC",  # flag
         # Pencil Pouches
         "sf icons pencil pouch - natural":               "pp-sf-cn-02",
         "sf icons pencil pouch - blue":                  "PP-SF-CB-01",
@@ -281,45 +282,45 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "home sweet san francisco art print 11x15":      "HOMESWEETSF_11x15",
         "home sweet home 11x15":                         "HOMESWEETSF_11x15",
         "home sweet sf art print 11x15":                 "HOMESWEETSF_11x15",
-        "home sweet sf magnet":                          "MAGNET_HOMESWEETSF",
-        "home sweet home magnet":                        "MAGNET_HOMESWEETSF",
-        "home sweet sf sticker":                         "HOMESWEETSANFRANCISCO_STICKER",
-        "home sweet home sticker":                       "HOMESWEETSANFRANCISCO_STICKER",
+        "home sweet sf magnet":                          "HOMESWEETSF_MAG",
+        "home sweet home magnet":                        "HOMESWEETSF_MAG",
+        "home sweet sf sticker":                         "HOMESWEETSF_STICKER",
+        "home sweet home sticker":                       "HOMESWEETSF_STICKER",
         "home sweet sf tote":                            "TOTE_HOMESWEETSF",
         "home sweet home tote":                          "TOTE_HOMESWEETSF",
         # GG Travel Poster PRINTS (Landmark category, GOLDENGATE_TRAVELPOSTER_*)
-        "golden gate travel poster 8x10":                "GOLDENGATE_TRAVELPOSTER_8x10",
-        "golden gate travel poster (new version) 8x10":  "GOLDENGATE_TRAVELPOSTER_8x10",
-        "golden gate travel poster - 8x10":              "GOLDENGATE_TRAVELPOSTER_8x10",
-        "golden gate bridge travel poster 8x10":         "GOLDENGATE_TRAVELPOSTER_8x10",
-        "golden gate bridge travel poster - 8x10":       "GOLDENGATE_TRAVELPOSTER_8x10",
-        "8x10 golden gate travel poster":                "GOLDENGATE_TRAVELPOSTER_8x10",
-        "gg travel poster 8x10":                         "GOLDENGATE_TRAVELPOSTER_8x10",
-        "gg travel poster - 8x10":                       "GOLDENGATE_TRAVELPOSTER_8x10",
-        "golden gate travel poster 11x14":               "GOLDENGATE_TRAVELPOSTER_11x14",
-        "golden gate travel poster - 11x14":             "GOLDENGATE_TRAVELPOSTER_11x14",
-        "golden gate bridge travel poster 11x14":        "GOLDENGATE_TRAVELPOSTER_11x14",
-        "golden gate bridge travel poster - 11x14":      "GOLDENGATE_TRAVELPOSTER_11x14",
-        "gg travel poster 11x14":                        "GOLDENGATE_TRAVELPOSTER_11x14",
-        "gg travel poster - 11x14":                      "GOLDENGATE_TRAVELPOSTER_11x14",
-        "golden gate travel poster 12x16":               "GOLDENGATE_TRAVELPOSTER_12x16",
-        "golden gate travel poster - 12x16":             "GOLDENGATE_TRAVELPOSTER_12x16",
+        "golden gate travel poster 8x10":                "GOLDENGATE_TP_8x10",
+        "golden gate travel poster (new version) 8x10":  "GOLDENGATE_TP_8x10",
+        "golden gate travel poster - 8x10":              "GOLDENGATE_TP_8x10",
+        "golden gate bridge travel poster 8x10":         "GOLDENGATE_TP_8x10",
+        "golden gate bridge travel poster - 8x10":       "GOLDENGATE_TP_8x10",
+        "8x10 golden gate travel poster":                "GOLDENGATE_TP_8x10",
+        "gg travel poster 8x10":                         "GOLDENGATE_TP_8x10",
+        "gg travel poster - 8x10":                       "GOLDENGATE_TP_8x10",
+        "golden gate travel poster 11x14":               "GOLDENGATE_TP_11x14",
+        "golden gate travel poster - 11x14":             "GOLDENGATE_TP_11x14",
+        "golden gate bridge travel poster 11x14":        "GOLDENGATE_TP_11x14",
+        "golden gate bridge travel poster - 11x14":      "GOLDENGATE_TP_11x14",
+        "gg travel poster 11x14":                        "GOLDENGATE_TP_11x14",
+        "gg travel poster - 11x14":                      "GOLDENGATE_TP_11x14",
+        "golden gate travel poster 12x16":               "GOLDENGATE_TP_12x16",
+        "golden gate travel poster - 12x16":             "GOLDENGATE_TP_12x16",
         # GG Travel Poster MAGNET (separate SKU)
-        "golden gate travel poster magnet":              "MAGNET_GOLDENGATETRAVELPOSTER",
-        "golden gate bridge travel poster magnet":       "MAGNET_GOLDENGATETRAVELPOSTER",
-        "gg travel poster magnet":                       "MAGNET_GOLDENGATETRAVELPOSTER",
-        "golden gate travel (new version)":              "MAGNET_GOLDENGATETRAVELPOSTER",
+        "golden gate travel poster magnet":              "GOLDENGATETP_MAG",
+        "golden gate bridge travel poster magnet":       "GOLDENGATETP_MAG",
+        "gg travel poster magnet":                       "GOLDENGATETP_MAG",
+        "golden gate travel (new version)":              "GOLDENGATETP_MAG",
         # GG Travel Poster STICKER (separate SKU)
-        "golden gate travel sticker":                    "GOLDENGATETRAVELPOSTER_STICKER",
-        "golden gate bridge travel sticker":             "GOLDENGATETRAVELPOSTER_STICKER",
-        "golden gate travel":                            "GOLDENGATETRAVELPOSTER_STICKER",
-        "gg travel sticker":                             "GOLDENGATETRAVELPOSTER_STICKER",
+        "golden gate travel sticker":                    "GGTRAVELPOSTER_STICKER",
+        "golden gate bridge travel sticker":             "GGTRAVELPOSTER_STICKER",
+        "golden gate travel":                            "GGTRAVELPOSTER_STICKER",
+        "gg travel sticker":                             "GGTRAVELPOSTER_STICKER",
         # GG Travel Poster CARD (separate SKU — flag if not found)
-        "golden gate travel poster card":                "GOLDENGATETRAVELPOSTER_A2CARD",
-        "golden gate travel card":                       "GOLDENGATETRAVELPOSTER_A2CARD",
-        "gg travel poster card":                         "GOLDENGATETRAVELPOSTER_A2CARD",
-        "ferry building travel poster - 8x10":           "FERRYBUILDINGTRAVELPOSTER_8x10",
-        "ferry building travel poster - 11x14":          "FERRYBUILDINGTRAVELPOSTER_11x14",
+        "golden gate travel poster card":                "GOLDENGATETRAVELPOSTER_GC",
+        "golden gate travel card":                       "GOLDENGATETRAVELPOSTER_GC",
+        "gg travel poster card":                         "GOLDENGATETRAVELPOSTER_GC",
+        "ferry building travel poster - 8x10":           "FERRYBUILDING_TP_8x10",
+        "ferry building travel poster - 11x14":          "FERRYBUILDING_TP_11x14",
         "santa clara university campus map print 8x10":  "SCU_BW_8x10_CURSIVE",
         "stanford campus map print 8x10":               "STANFORD_BW_8x10",
         # California products (partial match misses "State of California" prefix)
@@ -327,25 +328,25 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "califonia tea towel":                           "STATEOFCALIFORNIA_MAP_TT",  # typo variant
         "califonia sticker":                             "SFCITYNAME_STICKER",             # typo variant
         # Cards that need exact routing
-        "i'd escape alcatraz card":                      "IDESCAPEALCATRAZFORYOU_A2CARD",
-        "id escape alcatraz card":                       "IDESCAPEALCATRAZFORYOU_A2CARD",
-        "home sweet home greeting card":                 "HOMESWEETSF_A2CARD",
-        "home sweet sf greeting card":                   "HOMESWEETSF_A2CARD",
+        "i'd escape alcatraz card":                      "IDESCAPEALCATRAZFORYOU_GC",
+        "id escape alcatraz card":                       "IDESCAPEALCATRAZFORYOU_GC",
+        "home sweet home greeting card":                 "HOMESWEETSF_GC",
+        "home sweet sf greeting card":                   "HOMESWEETSF_GC",
         # Normalized-form overrides — keys match what normalize() returns
-        "golden gate travel poster card":                "GOLDENGATETRAVELPOSTER_A2CARD",
-        "golden gate travel poster magnet":              "MAGNET_GOLDENGATETRAVELPOSTER",
+        "golden gate travel poster card":                "GOLDENGATETRAVELPOSTER_GC",
+        "golden gate travel poster magnet":              "GOLDENGATETP_MAG",
         "city by the bay local notion magnet":           "MAGNET_SFCITYBYTHEBAY_LOCALNOTION",
-        "ferry building acrylic die cut magnet":         "MAG-AC-SF-FERRYB",
+        "ferry building acrylic die cut magnet":         "AC_SF_FB_MAG",
         "california map tea towel":                      "STATEOFCALIFORNIA_MAP_TT",
         "california tea towel":                          "STATEOFCALIFORNIA_MAP_TT",
         # Stickers
-        "california state sticker (black and white)":    "CALIFORNIASTATE_BLOCKFONT_BW",
-        "california state sticker black and white":      "CALIFORNIASTATE_BLOCKFONT_BW",
-        "ca state sticker black and white":              "CALIFORNIASTATE_BLOCKFONT_BW",
+        "california state sticker (black and white)":    "CA_BLOCKFONT_BW_STICKER",
+        "california state sticker black and white":      "CA_BLOCKFONT_BW_STICKER",
+        "ca state sticker black and white":              "CA_BLOCKFONT_BW_STICKER",
         # Magnets — discontinued/renamed products
-        "city by the bay local notion magnet":           "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",  # discontinued → Pink
-        "city by the bay magnet":                        "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
-        "local notion magnet":                           "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
+        "city by the bay local notion magnet":           "MAG-CITYBYTHEBAY-LOCALNOTION",  # discontinued → Pink
+        "city by the bay magnet":                        "MAG-CITYBYTHEBAY-LOCALNOTION",
+        "local notion magnet":                           "MAG-CITYBYTHEBAY-LOCALNOTION",
         "sf magnet set":                                 "SANFRANCISCOICONS_MAGNETSET",
         "san francisco magnet set":                      "SANFRANCISCOICONS_MAGNETSET",
         "magnet set san francisco":                      "SANFRANCISCOICONS_MAGNETSET",
@@ -357,13 +358,13 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "painted lady keychain - green":                 "KC-PAINTEDLADY-GREEN",
         "painted lady keychain green":                   "KC-PAINTEDLADY-GREEN",
         # Retro Ferry Building Sticker — NOT a magnet
-        "retro ferry building sticker":                  "RETROSFFERRYBUILDING_STICKER",
-        "retro sf ferry building sticker":               "RETROSFFERRYBUILDING_STICKER",
-        "retro ferry building poster sticker":           "RETROSFFERRYBUILDING_STICKER",
+        "retro ferry building sticker":                  "RETRO_SF_FB_STICKER",
+        "retro sf ferry building sticker":               "RETRO_SF_FB_STICKER",
+        "retro ferry building poster sticker":           "RETRO_SF_FB_STICKER",
         # Stickers — override Ricochet numeric SKUs
-        "california state sticker (blue)":               "CALIFORNIASTATE_BLOCKFONT_BLUE",
-        "california state sticker blue":                 "CALIFORNIASTATE_BLOCKFONT_BLUE",
-        "ca state sticker blue":                         "CALIFORNIASTATE_BLOCKFONT_BLUE",
+        "california state sticker (blue)":               "CA_BLOCKFONT_BLUE_STICKER",
+        "california state sticker blue":                 "CA_BLOCKFONT_BLUE_STICKER",
+        "ca state sticker blue":                         "CA_BLOCKFONT_BLUE_STICKER",
         "golden gate sticker pink":                      "GGBRIDGE_PINK_STICKER",
         "golden gate bridge sticker pink":               "GGBRIDGE_PINK_STICKER",
         "golden gate bridge sticker (pink)":             "GGBRIDGE_PINK_STICKER",
@@ -394,21 +395,21 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "usa map print 8x10":                            "USA_BW_8x10",
         "usa map print 9x12":                            "USA_BW_9x12",
         # UC Campus Map Prints — TT-CAMPUS-* are TEA TOWELS, not prints
-        "uc berkeley campus map print 8x10":             "UCBERKELEY_CAMPUS_BW_8x10",
-        "uc berkeley campus map print":                  "UCBERKELEY_CAMPUS_BW_8x10",
+        "uc berkeley campus map print 8x10":             "BERKELEY_CAMPUS_BW_8x10",
+        "uc berkeley campus map print":                  "BERKELEY_CAMPUS_BW_8x10",
         "uc santa barbara campus map print 8x10":        "UCSANTABARBARA_BW_8x10",
         "uc santa barbara campus map print":             "UCSANTABARBARA_BW_8x10",
         # Ferry Building PRINT (size in name = print, NOT the travel poster magnet)
-        "ferry building print 8x10":                     "FERRYBUILDING_TRAVELPOSTER_8x10",
-        "ferry building print 11x14":                    "FERRYBUILDING_TRAVELPOSTER_11x14",
-        "8x10 ferry building print":                     "FERRYBUILDING_TRAVELPOSTER_8x10",
-        "ferry building travel poster print 8x10":       "FERRYBUILDING_TRAVELPOSTER_8x10",
-        "ferry building travel poster print 11x14":      "FERRYBUILDING_TRAVELPOSTER_11x14",
-        "ferry building travel poster print":            "FERRYBUILDING_TRAVELPOSTER_8x10",  # normalized form
+        "ferry building print 8x10":                     "FERRYBUILDING_TP_8x10",
+        "ferry building print 11x14":                    "FERRYBUILDING_TP_11x14",
+        "8x10 ferry building print":                     "FERRYBUILDING_TP_8x10",
+        "ferry building travel poster print 8x10":       "FERRYBUILDING_TP_8x10",
+        "ferry building travel poster print 11x14":      "FERRYBUILDING_TP_11x14",
+        "ferry building travel poster print":            "FERRYBUILDING_TP_8x10",  # normalized form
         # Stickers — prevent HP SKU misassignment (HP = hand painted print)
         "red san francisco pill sticker":                "PILL_SF_RED_STICKER",
         "red sf pill sticker":                           "PILL_SF_RED_STICKER",
-        "travel poster golden gate sticker":             "GOLDENGATETRAVELPOSTER_STICKER",
+        "travel poster golden gate sticker":             "GGTRAVELPOSTER_STICKER",
         "golden gate bridge sticker":                    "GGBRIDGE_PINK_STICKER",
         # City by the Bay stickers — white/black version is STICKER-2
         "white sf city by the bay circle sticker":       "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
@@ -440,61 +441,61 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "magnets set":                                   "SANFRANCISCOICONS_MAGNETSET",
         "magnet set":                                    "SANFRANCISCOICONS_MAGNETSET",
         # Cards
-        "wishing you a sweet birthday cake card":        "SWEETBDAYCAKE_A2_GCARD",
-        "sweet birthday cake card":                      "SWEETBDAYCAKE_A2_GCARD",
+        "wishing you a sweet birthday cake card":        "SWEETBDAY_GC",
+        "sweet birthday cake card":                      "SWEETBDAY_GC",
         # ── 6/18/2026 fix: items that fell back to raw Ricochet numeric SKUs ──
         # These were correctly named but find_sku() missed them; adding explicit
         # lowercase keys ensures they always resolve to the right inventory SKU.
-        "acrylic painted ladies magnet":                     "MAG-SF-PLADIES-CL",
-        "acrylic painted ladies magnet (acrylic)":           "MAG-SF-PLADIES-CL",
+        "acrylic painted ladies magnet":                     "AC_SF_PLADIES_MAG",
+        "acrylic painted ladies magnet (acrylic)":           "AC_SF_PLADIES_MAG",
         "bay area map print 8x10":                           "BAYAREA_BW_8x10",
         "bay area map print 9x12":                           "BAYAREA_BW_9x12",
         "bay area map print 11x14":                          "BAYAREA_BW_11x14",
         "bay area map print 12x16":                          "BAYAREA_BW_12x16",
-        "california state sticker (black and white)":        "CALIFORNIASTATE_BLOCKFONT_BW",
-        "california state sticker black and white":          "CALIFORNIASTATE_BLOCKFONT_BW",
+        "california state sticker (black and white)":        "CA_BLOCKFONT_BW_STICKER",
+        "california state sticker black and white":          "CA_BLOCKFONT_BW_STICKER",
         "chicago map print 8x10":                            "CHICAGO_BW_8x10",
         "chicago map print 9x12":                            "CHICAGO_BW_9x12",
         "chicago map print 11x14":                           "CHICAGO_BW_11x14",
-        "ferry building acrylic die cut magnet":             "MAG-AC-SF-FERRYB",
+        "ferry building acrylic die cut magnet":             "AC_SF_FB_MAG",
         "ferry building retro postcard":                     "FERRYBUILDING_RETRO_PC",
-        "golden gate acrylic die cut magnet":                "MAG-AC-SF-GGB",
+        "golden gate acrylic die cut magnet":                "AC_SF_GGB_MAG",
         "golden gate bridge sticker (pink)":                 "GGBRIDGE_PINK_STICKER",
-        "golden gate travel poster magnet":                  "MAGNET_GOLDENGATETRAVELPOSTER",
-        "home sweet home sticker":                           "HOMESWEETSANFRANCISCO_STICKER",
+        "golden gate travel poster magnet":                  "GOLDENGATETP_MAG",
+        "home sweet home sticker":                           "HOMESWEETSF_STICKER",
         "magnet set san francisco":                          "SANFRANCISCOICONS_MAGNETSET",
-        "postcards 3 for $11":                               "postcards3for11",
-        "retro ferry building poster magnet":                "MAG-SF-RETRO-FB",
+        "postcards 3 for $11":                               "postcards3for10",
+        "retro ferry building poster magnet":                "SF_RETRO_FB_MAG",
         "retro golden gate bridge poster sticker":           "RETRO_GGB_STICKER",
-        "retro painted ladies poster magnet":                "MAG-SF-RETRO-PL",
-        "san francisco golden gate bridge retro postcard":   "SFGGBRIDGE_RETRO_PCARD",
+        "retro painted ladies poster magnet":                "SF_RETRO_PL_MAG",
+        "san francisco golden gate bridge retro postcard":   "SFGGBRIDGE_RETRO_PC",
         "santa clara university campus map print 8x10":      "SCU_BW_8x10_CURSIVE",
         "santa clara university campus map print":           "SCU_BW_8x10_CURSIVE",
-        "sf city by the bay dad hat - cream":                "DH-CITYBYTHEBAY-CREAM",
-        "sf city by the bay dad hat":                        "DH-CITYBYTHEBAY-CREAM",
+        "sf city by the bay dad hat - cream":                "DH-002-CR",
+        "sf city by the bay dad hat":                        "DH-002-CR",
         "sf city name with golden gate sticker":             "SFCITYNAME_STICKER",
         # ── 6/28/2026 fix: new Ricochet item name variants ────────────────────────
         # Revenue fix applied above: changed aged_price → agreed (Agreed = actual sale price).
         # These entries cover new/changed item names in the Ricochet export format.
         "blue pencil pouches":                    "PP-SF-CB-01",
         "natural pencil pouches":                 "pp-sf-cn-02",
-        "home sweet magnet":                      "MAGNET_HOMESWEETSF",
-        "golden gate retro postcard":             "SFGGBRIDGE_RETRO_PCARD",
-        "retro golden gate postcard":             "SFGGBRIDGE_RETRO_PCARD",
+        "home sweet magnet":                      "HOMESWEETSF_MAG",
+        "golden gate retro postcard":             "SFGGBRIDGE_RETRO_PC",
+        "retro golden gate postcard":             "SFGGBRIDGE_RETRO_PC",
         "vntage sfo luggage tag sticker":         "LUGGAGETAG_SFO_STICKER",
         "twists and turns card":                  "TWISTSANDTURNS_GCARD",
-        "home sweet san francisco card":          "HOMESWEETSF_A2CARD",
+        "home sweet san francisco card":          "HOMESWEETSF_GC",
         "fog city dad hat - light blue":          "DH-004-LB",
         "fog city dad hat":                       "DH-004-LB",
-        "retro painted ladies travel poster":     "MAG-SF-RETRO-PL",
+        "retro painted ladies travel poster":     "SF_RETRO_PL_MAG",
         "san francisco pill sticker":             "PILL_SF_RED_STICKER",
         "san francisco. pencil case":             "pp-sf-cn-02",
-        "sweetest birthday greeting card":        "SWEETBDAYCAKE_A2_GCARD",
-        "retrogg bridge travel poster magent":    "MAG-SF-RETRO-GGB",
-        "retro gg bridge travel poster magent":   "MAG-SF-RETRO-GGB",
+        "sweetest birthday greeting card":        "SWEETBDAY_GC",
+        "retrogg bridge travel poster magent":    "SF_RETRO_GGB_MAG",
+        "retro gg bridge travel poster magent":   "SF_RETRO_GGB_MAG",
         "sf icons magnet set":                    "SANFRANCISCOICONS_MAGNETSET",
         "sf city name tote":                      "SF_BLOCKFONT_TOTE",
-        "blue ca sticker":                        "CALIFORNIASTATE_BLOCKFONT_BLUE",
+        "blue ca sticker":                        "CA_BLOCKFONT_BLUE_STICKER",
         "i'd climb any hill card":                "IDCLIMBANYHILL_A2CARD",
         "i'd climb greeting card":                "IDCLIMBANYHILL_A2CARD",
         "blue painted lady":                      "KC-PAINTEDLADY-BLUE",
@@ -503,15 +504,15 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "painted lady blue keychain":             "KC-PAINTEDLADY-BLUE",
         "luggage tag keychain":                   "KC-SFO-LUGGAGETAG",
         "sfo luggage tag":                        "SFO_LUGGAGETAG_MAGNET",
-        "window seat greeting card":              "WINDOWSEAT_A2_GREETINGCARD",
+        "window seat greeting card":              "WINDOWSEAT_GC",
         "pencil case blue sf":                    "PP-SF-CB-01",
         "sf felt lettered dad hat":               "DH-003-NB",
         "sf bridge dad hat - navy":               "DH-001-NB",
-        "sf icons greeting card":                 "SFICONS_GREETINGCARD",
+        "sf icons greeting card":                 "SFICONS_BLUE_GC",
         "sf blue icons postcard":                 "SFBLUEICONS_POSTCARD",
         "illustrated ferry building landmark sticker": "FB_ILLUSTRATED_STICKER",
         "8x10 bay area map":                      "BAYAREA_BW_8x10",
-        "8x10 golden gate travel print":          "GOLDENGATE_TRAVELPOSTER_8x10",
+        "8x10 golden gate travel print":          "GOLDENGATE_TP_8x10",
         "8x10 sf map print":                      "SF_BW_8x10",
         "blue icons postcard":                    "SFBLUEICONS_POSTCARD",
         "cape cod map print 8x10":                "CAPECOD_BW_8x10",
@@ -525,18 +526,40 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "pittsburgh map print 8x10":              "PITTSBURGH_BW_8x10",
         "paris map print 8x10":                   "PARIS_BW_8x10",
         "stanford campus map print 8x10":         "STANFORD_BW_8x10",
-        "uc berkeley campus map print 8x10":      "UCBERKELEY_CAMPUS_BW_8x10",
+        "uc berkeley campus map print 8x10":      "BERKELEY_CAMPUS_BW_8x10",
         "ucla campus map print 8x10":             "UCLA_BW_8x10",
-        "retro golden gate bridge poster magnet":  "MAG-SF-RETRO-GGB",
+        "retro golden gate bridge poster magnet":  "SF_RETRO_GGB_MAG",
         "home sweet san francisco art print 11x11": "HOMESWEETSF_11x15",
         "sf tote block letters":                  "SF_BLOCKFONT_TOTE",
-        "postcards 3 for $10":                    "postcards3for11",
+        "postcards 3 for $10":                    "postcards3for10",
+        # ── 8/24/2026 fix: items resolving to raw Ricochet codes (manual-paste
+        # incident review). Inventory Summary confirmed current as of this date.
+        "stanford tea towel":                     "TT-CAMPUS-STANFORD",
+        "sf magnetic bookmarks":                  "BOOKMARK-MAGNETIC-SET",
+        "san diego map print 8x10":                "SANDIEGO_BW_8x10",
+        "san diego map print 8x10 - aleisha":       "SANDIEGO_BW_8x10",
+        "san diego map print 11x14":                "SANDIEGO_BW_11x14",
+        "san diego map print 9x12":                 "SANDIEGO_BW_9x12",
+        "san diego map print 12x16":                "SANDIEGO_BW_12x16",
     }
     # 0. Exact-match override - curated fixes always take priority over fuzzy matching
     if key in OVERRIDES:
         return OVERRIDES[key]
 
+    # Categories where a category-hint match must NEVER fall through to the
+    # broad, cross-category search in step 2 below. Without this guard, an
+    # item name (e.g. "Stanford Tea Towel") that doesn't exact/partial-match
+    # anything within its own category could still get grabbed by the broad
+    # search against an unrelated "Hand Painted" (HP) print SKU, since HP
+    # print names often share the same city-name substring as the Tea Towel
+    # item (e.g. a "California ... Hand Painted" print vs "California Tea
+    # Towel"). HP is a completely different product line and must never be
+    # assigned to a Tea Towel sale.
+    # Fixed 2026-08-24 after a Tea Towel row was found mis-mapped to an HP SKU.
+    LOCKED_CATEGORIES = {"Tea Towel"}
+
     # 1. Category-filtered search - only look in the right product type
+    skip_broad_search = False
     for keyword, categories in CATEGORY_HINTS.items():
         if keyword in key:
             cat_pool = {}
@@ -546,17 +569,79 @@ def find_sku(item_name: str, lookup: dict) -> str:
                 result = _match(cat_pool, key)
                 if result:
                     return result
+            if categories & LOCKED_CATEGORIES:
+                skip_broad_search = True
             break   # keyword matched - don't try other keywords
 
-    # 2. Broad search across all categories
-    result = _match(all_lookup, key)
-    if result:
-        return result
+    # 2. Broad search across all categories (skipped for locked categories —
+    # see LOCKED_CATEGORIES above)
+    if not skip_broad_search:
+        result = _match(all_lookup, key)
+        if result:
+            return result
 
-    # 3. Hardcoded overrides - fallback only, checked last (substring match)
+    # 3. Hardcoded overrides - fallback only, checked last (substring match).
+    # For locked categories (e.g. Tea Towel), never return a SKU containing
+    # "_HP_"/"HP" (Hand Painted prints) even via this substring fallback.
     for override_name, sku in OVERRIDES.items():
         if key in override_name or override_name in key:
+            if skip_broad_search and "HP" in sku.upper():
+                continue
             return sku
+    return ""
+
+
+def resolve_ambiguous_map_print(item_name: str, unit_price: float, lookup: dict) -> str:
+    """
+    Handle "<City> Map Print" item names that arrive from Ricochet with no
+    size in the name at all (unlike "<City> Map Print 8x10", which resolves
+    normally via OVERRIDES/category search). We disambiguate using price:
+        $20/unit  -> 8x10
+        $32/unit  -> 9x12
+        $38/unit  -> 11x14
+    Only fires when:
+      - the name matches "... map print" with NO existing size token, and
+      - unit_price is a confident match (within $2) for one of the known
+        price points.
+    Returns "" if it can't confidently resolve (falls back to normal flow).
+    Added 2026-08-24 after "San Diego Map Print" (no size, $ blank/unclear)
+    landed in Fog City Sales with a raw Ricochet code instead of a SKU.
+    $32/9x12 price point added 2026-08-24 after user confirmed a real
+    San Diego Map Print sale at $32 was actually the 9x12 size.
+    """
+    key = item_name.strip().lower()
+    if re.search(r'\b(8x10|9x12|11x14|12x16)\b', key):
+        return ""  # size already present — let the normal path handle it
+    if not re.search(r'\bmap print\b', key):
+        return ""
+    if unit_price is None:
+        return ""
+    if abs(unit_price - 20) <= 2:
+        size = "8x10"
+    elif abs(unit_price - 32) <= 2:
+        size = "9x12"
+    elif abs(unit_price - 38) <= 2:
+        size = "11x14"
+    else:
+        return ""
+
+    # Strip trailing "- Aleisha"/"map print" to isolate the city name
+    city_key = re.sub(r'\s*-\s*aleisha\s*$', '', key)
+    city_key = re.sub(r'\s*map print\s*$', '', city_key).strip()
+    if not city_key:
+        return ""
+
+    all_lookup  = lookup.get("all", lookup) if isinstance(lookup, dict) else lookup
+    by_category = lookup.get("by_category", {}) if isinstance(lookup, dict) else {}
+    cat_pool = {}
+    for cat in ("City Print", "School Prints"):
+        cat_pool.update(by_category.get(cat, {}))
+    pool = cat_pool or all_lookup
+
+    candidates = {name: sku for name, sku in pool.items()
+                  if city_key in name and size in name}
+    if len(candidates) == 1:
+        return next(iter(candidates.values()))
     return ""
 
 
@@ -729,6 +814,12 @@ def normalize(name: str) -> str:
     # Size in name (8x10 etc.) = it's a print, not a magnet
     if re.search(r'ferry building.{0,30}(8x10|9x12|11x14|12x16)', nl):
         return 'Ferry Building Travel Poster Print'
+    # Illustrated landmark sticker is a DISTINCT product from the retro poster sticker --
+    # must be checked before the broader retro/poster regex below. Fixed 2026-08-11
+    # (previously misclassified into 'Retro Ferry Building Poster Sticker', which then
+    # resolved to the wrong/stale SKU via OVERRIDES).
+    if re.search(r'illustrated.{0,20}ferry building.{0,20}(landmark.{0,5})?sticker', nl):
+        return 'Illustrated Ferry Building Landmark Sticker'
     if re.search(r'(retro.{0,10})?ferry building.{0,20}(poster.{0,5})?sticker', nl):
         return 'Retro Ferry Building Poster Sticker'
     if re.search(r'ferry building.{0,20}travel.{0,10}(poster.{0,5})?magnet', nl):
@@ -941,23 +1032,71 @@ def find_existing_block(sheets, date_range_label: str):
 
 # ── Step 8: Write to Google Sheet ─────────────────────────────────────────────
 
+def ensure_sheet_has_rows(sheets, sheet_id: int, min_rows: int) -> None:
+    """
+    Make sure the target sheet's grid has at least `min_rows` rows before we
+    try to write to a range that reaches that far. Google Sheets grids have
+    a fixed row count (the "grid limit") separate from how much data is in
+    them — writing to a range beyond that limit fails with a 400 error
+    ("Range ... exceeds grid limits"), even if valueInputOption is set.
+    Added 2026-08-28 after run #204 failed appending rows 12788-12811 into
+    a grid capped at 12787 rows.
+    """
+    meta = sheets.get(
+        spreadsheetId=SPREADSHEET_ID,
+        fields="sheets.properties",
+    ).execute()
+    current_rows = None
+    for s in meta.get("sheets", []):
+        props = s.get("properties", {})
+        if props.get("sheetId") == sheet_id:
+            current_rows = props.get("gridProperties", {}).get("rowCount")
+            break
+    if current_rows is None:
+        log.warning(f"Could not find sheetId {sheet_id} in spreadsheet metadata — "
+                    f"skipping grid-size check.")
+        return
+    if min_rows > current_rows:
+        add_rows = (min_rows - current_rows) + 500  # pad extra so this doesn't recur every run
+        log.info(f"Grid has {current_rows} rows but we need {min_rows} — "
+                 f"growing by {add_rows} rows.")
+        sheets.batchUpdate(
+            spreadsheetId=SPREADSHEET_ID,
+            body={"requests": [{
+                "appendDimension": {
+                    "sheetId": sheet_id,
+                    "dimension": "ROWS",
+                    "length": add_rows,
+                }
+            }]},
+        ).execute()
+
+
 def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
                    first_row, last_row, sku_lookup: dict = None):
     month_name = YESTERDAY.strftime("%B")
     year       = YESTERDAY.year
 
-    def resolve_sku(item_name: str, ricochet_sku: str) -> tuple[str, bool]:
+    def resolve_sku(item_name: str, ricochet_sku: str, unit_price: float = None) -> tuple[str, bool]:
         """Return (sku, needs_review). needs_review=True means no match found."""
         if sku_lookup:
             sheet_sku = find_sku(item_name, sku_lookup)
             if sheet_sku:
                 return sheet_sku, False
+            # Ambiguous "<City> Map Print" with no size in the name — try
+            # price-based disambiguation ($20 -> 8x10, $38 -> 11x14) before
+            # giving up and flagging for review.
+            price_sku = resolve_ambiguous_map_print(item_name, unit_price, sku_lookup)
+            if price_sku:
+                return price_sku, False
         return ricochet_sku, True  # fell back to Ricochet SKU — flag for review
 
     rows_needing_review = []
     new_values = []
     for i, m in enumerate(merged):
-        sku, needs_review = resolve_sku(m["item"], m["sku"])
+        qty = m.get("qty") or 0
+        unit_price = (m.get("revenue", 0.0) / qty) if qty else None
+        sku, needs_review = resolve_sku(m["item"], m["sku"], unit_price)
         new_values.append([month_name, year, m["item"], sku, m["qty"], date_range_label, round(m.get("revenue", 0.0), 2)])
         if needs_review:
             rows_needing_review.append(i)
@@ -982,6 +1121,10 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
         range_str  = f"'{FOG_CITY_TAB}'!A{append_row}:G{append_row + len(padded) - 1}"
         log.info(f"Appending {len(new_values)} rows starting at row {append_row}")
 
+    # Grow the sheet's grid first if this write would exceed its current row limit
+    target_last_row = first_row + len(padded) - 1 if first_row is not None else append_row + len(padded) - 1
+    ensure_sheet_has_rows(sheets, FOG_CITY_SHEET_ID, target_last_row)
+
     sheets.values().update(
         spreadsheetId=SPREADSHEET_ID,
         range=range_str,
@@ -1002,7 +1145,7 @@ def write_to_sheet(sheets, merged: list[dict], date_range_label: str,
             requests.append({
                 "repeatCell": {
                     "range": {
-                        "sheetId": 1018380031,  # Fog City Sales gid
+                        "sheetId": FOG_CITY_SHEET_ID,
                         "startRowIndex": row_idx,
                         "endRowIndex":   row_idx + 1,
                         "startColumnIndex": 0,
@@ -1343,6 +1486,90 @@ def build_dashboard_json(sheets):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+def reconcile_unresolved_rows(sheets, sku_lookup, lookback_rows: int = 200) -> None:
+    """
+    Safety net against rows that bypassed this script entirely -- e.g. a sales
+    report pasted straight into the sheet by hand, per the manual fallback
+    described in the Instructions tab ("When we receive sales reports, paste
+    the data into the Sales sheet"). Those rows carry Ricochet's raw internal
+    SKU/product code instead of one of our Inventory Summary SKUs, and have
+    no Revenue value.
+
+    On every run, scan the last `lookback_rows` rows of Fog City Sales and
+    re-resolve the SKU for any row where:
+      - the SKU cell doesn't match any known Inventory Summary SKU, and
+      - the Revenue cell is blank (a strong signal the row never went
+        through resolve_sku()/merge_rows() in this script).
+
+    This runs unconditionally, even on days where get_window_start() finds
+    nothing new to pull, so a manually-pasted block can't silently sit
+    unresolved indefinitely. (This is what happened to rows 12277-12303 on
+    8/10/2026 -- the script correctly had "nothing to do" both nights after,
+    since the date label already looked current, so the bad rows were never
+    revisited. Added 2026-08-11.)
+
+    Note: this only re-runs the EXISTING find_sku() logic (unchanged) against
+    rows that clearly never went through it -- it deliberately does not touch
+    rows that already have a value in Revenue, since those may already have
+    been hand-corrected. It also cannot backfill Revenue itself; this script
+    has no access to real sale prices for rows it didn't scrape itself.
+    """
+    result = sheets.values().get(
+        spreadsheetId=SPREADSHEET_ID,
+        range=f"'{FOG_CITY_TAB}'!A:G",
+    ).execute()
+    rows = result.get("values", [])
+    if len(rows) <= 1:
+        return
+
+    known_skus = {sku.strip().lower() for sku in sku_lookup.get("all", {}).values() if sku}
+    start_idx = max(1, len(rows) - lookback_rows)  # skip header row 0
+
+    fixes = []              # (sheet_row_1indexed, new_sku)
+    still_unresolved = []   # (sheet_row_1indexed, item_name, raw_sku)
+
+    for i in range(start_idx, len(rows)):
+        row = rows[i]
+        sheet_row = i + 1  # 1-indexed row number in the sheet
+        item_name = row[2].strip() if len(row) > 2 and row[2] else ""
+        raw_sku   = row[3].strip() if len(row) > 3 and row[3] else ""
+        revenue   = row[6].strip() if len(row) > 6 and row[6] else ""
+
+        if not item_name or not raw_sku:
+            continue
+        if raw_sku.lower() in known_skus:
+            continue   # already a real Inventory Summary SKU -- nothing to fix
+        if revenue:
+            continue   # has revenue -- was likely already hand-reviewed/fixed
+
+        resolved = find_sku(normalize(item_name), sku_lookup)
+        if resolved:
+            fixes.append((sheet_row, resolved))
+        else:
+            still_unresolved.append((sheet_row, item_name, raw_sku))
+
+    if fixes:
+        data = [
+            {"range": f"'{FOG_CITY_TAB}'!D{r}", "values": [[sku]]}
+            for r, sku in fixes
+        ]
+        sheets.values().batchUpdate(
+            spreadsheetId=SPREADSHEET_ID,
+            body={"valueInputOption": "USER_ENTERED", "data": data},
+        ).execute()
+        log.warning(
+            f"Reconciliation: auto-corrected {len(fixes)} SKU(s) that bypassed the "
+            f"normal pipeline (likely a manual paste): rows {[r for r, _ in fixes]}. "
+            f"Revenue for these rows is still blank and needs manual entry."
+        )
+
+    if still_unresolved:
+        log.warning(
+            f"Reconciliation: {len(still_unresolved)} row(s) still unresolved after "
+            f"re-check -- needs manual review: {still_unresolved}"
+        )
+
+
 def main():
     log.info("=== Ricochet daily sync starting ===")
     log.info(f"Today (PDT): {TODAY}  |  Yesterday: {YESTERDAY}")
@@ -1352,6 +1579,11 @@ def main():
 
     # Load SKU lookup from Inventory Summary tab
     sku_lookup = build_sku_lookup(sheets)
+
+    # Safety net: catch/fix any rows that bypassed this script (e.g. a manual
+    # paste of a Ricochet export straight into the sheet) BEFORE deciding
+    # whether there's "nothing to do" for today -- see reconcile_unresolved_rows().
+    reconcile_unresolved_rows(sheets, sku_lookup)
 
     # Determine window: day after last upload → yesterday
     window_start = get_window_start(sheets)
