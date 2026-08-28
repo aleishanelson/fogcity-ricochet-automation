@@ -98,21 +98,14 @@
       "pct": 533
     },
     {
-      "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
-      "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
-      "qty_recent": 6,
-      "qty_prev": 2,
+      "name": "MAG-SF-CABLECAR",
+      "sku": "MAG-SF-CABLECAR",
+      "qty_recent": 3,
+      "qty_prev": 1,
       "pct": 500
     }
   ],
   "cold": [
-    {
-      "name": "Life In The City By The Bay Magnetic Bookmarks",
-      "sku": "BOOKMARK-CITYBYTHEBAY-CHRONICLE",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
     {
       "name": "West Coast Best Coast",
       "sku": "WESTCOASTBESTCOAST_STICKER",
@@ -121,31 +114,38 @@
       "pct": -100
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
+      "name": "CA State Blue",
+      "sku": "CA_BLOCKFONT_BLUE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Retro SF Ferry Building Poster Sticker",
+      "sku": "RETRO_SF_FB_STICKER",
       "qty_recent": 0,
       "qty_prev": 14,
       "pct": -100
     },
     {
-      "name": "Ferry Building Travel Poster Magnet",
-      "sku": "FERRYBUILDINGTP_MAG",
+      "name": "I'd Give My Window Seat Up For You",
+      "sku": "WINDOWSEAT_GC",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 12,
-      "pct": -100
-    },
-    {
-      "name": "Chicago (ZOOMED OUT)  8x10",
-      "sku": "CHICAGO_BW_8X10",
+      "name": "State of California 8x10",
+      "sku": "STATEOFCALIFORNIA_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 18,
       "pct": -100
     }
   ],
