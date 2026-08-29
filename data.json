@@ -1,24 +1,24 @@
 {
-  "updated": "August 27, 2026",
-  "period_label": "8/18 \u2013 8/27, 2026",
-  "total_units": 159,
+  "updated": "August 28, 2026",
+  "period_label": "8/19 \u2013 8/28, 2026",
+  "total_units": 157,
   "revenue": {
-    "yesterday": 341.49,
-    "yesterday_label": "8/27",
-    "weekly": 5929.48,
-    "monthly": 16178.51,
-    "ytd": 133093.07
+    "yesterday": 498.99,
+    "yesterday_label": "8/28",
+    "weekly": 5778.5,
+    "monthly": 16677.5,
+    "ytd": 133592.06
   },
   "top10": [
     {
       "name": "RETROSFFERRYBUILDING_STICKER",
       "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty": 32
+      "qty": 27
     },
     {
       "name": "MAGNET_GOLDENGATETRAVELPOSTER",
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty": 24
+      "qty": 22
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
@@ -36,29 +36,29 @@
       "qty": 16
     },
     {
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
+      "qty": 13
+    },
+    {
       "name": "SFGGBRIDGE_RETRO_PCARD",
       "sku": "SFGGBRIDGE_RETRO_PCARD",
       "qty": 12
     },
     {
-      "name": "MAG-AC-SF-GGB",
-      "sku": "MAG-AC-SF-GGB",
-      "qty": 11
-    },
-    {
       "name": "Red SF Pill",
       "sku": "PILL_SF_RED_STICKER",
-      "qty": 11
-    },
-    {
-      "name": "POSTCARDS3FOR11",
-      "sku": "POSTCARDS3FOR11",
-      "qty": 10
+      "qty": 12
     },
     {
       "name": "SF Icons Pencil Pouch - Blue",
       "sku": "PP-SF-CB-01",
-      "qty": 9
+      "qty": 11
+    },
+    {
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 10
     }
   ],
   "hot": [
@@ -84,13 +84,6 @@
       "pct": 700
     },
     {
-      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty_recent": 24,
-      "qty_prev": 7,
-      "pct": 586
-    },
-    {
       "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
       "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
       "qty_recent": 6,
@@ -103,28 +96,35 @@
       "qty_recent": 3,
       "qty_prev": 1,
       "pct": 500
+    },
+    {
+      "name": "LOVEYOUMORETHANSUNNYSF_A2CARD",
+      "sku": "LOVEYOUMORETHANSUNNYSF_A2CARD",
+      "qty_recent": 5,
+      "qty_prev": 2,
+      "pct": 400
     }
   ],
   "cold": [
     {
-      "name": "Life In The City By The Bay Magnetic Bookmarks",
-      "sku": "BOOKMARK-CITYBYTHEBAY-CHRONICLE",
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 14,
       "pct": -100
     },
     {
-      "name": "Cable Car Magnet",
-      "sku": "SF_CABLECAR_MAG",
+      "name": "CA State White and Black",
+      "sku": "CA_BLOCKFONT_BW_STICKER",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "Golden Gate Travel",
-      "sku": "GOLDENGATETRAVELPOSTER_GC",
+      "name": "Chicago (ZOOMED OUT)  8x10",
+      "sku": "CHICAGO_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 9,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -135,26 +135,26 @@
       "pct": -100
     },
     {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_STICKER",
+      "name": "State of California 8x10",
+      "sku": "STATEOFCALIFORNIA_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 11,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Sunny and 75 in SF Card",
-      "sku": "SUNNYAND75SF_GC",
+      "name": "SF Bridge Dad Hat - Navy",
+      "sku": "DH-001-NB",
       "qty_recent": 0,
-      "qty_prev": 10,
+      "qty_prev": 8,
       "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Pencil Pouches",
-      "qty_recent": 9,
+      "qty_recent": 11,
       "qty_prev": 8,
-      "pct": 125
+      "pct": 175
     },
     {
       "category": "Totes",
@@ -163,10 +163,10 @@
       "pct": -100
     },
     {
-      "category": "Magnets",
-      "qty_recent": 34,
-      "qty_prev": 166,
-      "pct": -59
+      "category": "Cards",
+      "qty_recent": 15,
+      "qty_prev": 49,
+      "pct": -39
     }
   ]
 }
