@@ -91,26 +91,33 @@
       "pct": 500
     },
     {
-      "name": "Home Sweet SF Square",
-      "sku": "HOMESWEETSF_MAG",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
-    {
       "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
       "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
       "qty_recent": 6,
       "qty_prev": 2,
       "pct": 500
+    },
+    {
+      "name": "Home Sweet SF Square",
+      "sku": "HOMESWEETSF_MAG",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 500
     }
   ],
   "cold": [
     {
-      "name": "State of California 8x10",
-      "sku": "STATEOFCALIFORNIA_BW_8X10",
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "UC Berkeley 8x10",
+      "sku": "BERKELEY_CAMPUS_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 7,
       "pct": -100
     },
     {
@@ -121,10 +128,10 @@
       "pct": -100
     },
     {
-      "name": "Chicago (ZOOMED OUT)  8x10",
-      "sku": "CHICAGO_BW_8X10",
+      "name": "CA State White and Black",
+      "sku": "CA_BLOCKFONT_BW_STICKER",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -135,17 +142,10 @@
       "pct": -100
     },
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
+      "name": "SF Map (original)",
+      "sku": "SF_MAP_TOTE",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "CA State White and Black",
-      "sku": "CA_BLOCKFONT_BW_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 11,
       "pct": -100
     }
   ],
