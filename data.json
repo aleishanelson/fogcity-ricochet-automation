@@ -107,34 +107,6 @@
   ],
   "cold": [
     {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "CA State White and Black",
-      "sku": "CA_BLOCKFONT_BW_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "SF Map (original)",
-      "sku": "SF_MAP_TOTE",
-      "qty_recent": 0,
-      "qty_prev": 11,
-      "pct": -100
-    },
-    {
-      "name": "HOMESWEETSANFRANCISCO_STICKER",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 14,
-      "pct": -100
-    },
-    {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSF_STICKER",
       "qty_recent": 0,
@@ -144,6 +116,34 @@
     {
       "name": "Painted Lady Keychain- Yellow",
       "sku": "KC-PAINTEDLADY-YELLOW",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Life In The City By The Bay Magnetic Bookmarks",
+      "sku": "BOOKMARK-CITYBYTHEBAY-CHRONICLE",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Chicago (ZOOMED OUT)  8x10",
+      "sku": "CHICAGO_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "State of California 8x10",
+      "sku": "STATEOFCALIFORNIA_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
