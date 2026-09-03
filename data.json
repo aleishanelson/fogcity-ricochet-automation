@@ -63,10 +63,10 @@
   ],
   "hot": [
     {
-      "name": "3 for $10",
-      "sku": "POSTCARDS3FOR10",
-      "qty_recent": 21,
-      "qty_prev": 7,
+      "name": "Santa Clara University",
+      "sku": "TT-CAMPUS-SANTACLARA",
+      "qty_recent": 3,
+      "qty_prev": 1,
       "pct": 500
     },
     {
@@ -77,10 +77,10 @@
       "pct": 500
     },
     {
-      "name": "Santa Clara University",
-      "sku": "TT-CAMPUS-SANTACLARA",
-      "qty_recent": 3,
-      "qty_prev": 1,
+      "name": "3 for $10",
+      "sku": "POSTCARDS3FOR10",
+      "qty_recent": 21,
+      "qty_prev": 7,
       "pct": 500
     },
     {
@@ -91,33 +91,40 @@
       "pct": 250
     },
     {
+      "name": "ACRYLIC Ferry Building",
+      "sku": "AC_SF_FB_MAG",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
+    },
+    {
       "name": "Sunny and 75 in SF Card",
       "sku": "SUNNYAND75SF_GC",
       "qty_recent": 6,
       "qty_prev": 4,
       "pct": 200
-    },
-    {
-      "name": "Wishing You A Sweet Birthday Card",
-      "sku": "SWEETBDAY_GC",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "MAG-SF-RETRO-FB",
-      "sku": "MAG-SF-RETRO-FB",
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "UC Berkeley 8x10",
-      "sku": "BERKELEY_CAMPUS_BW_8X10",
+      "name": "San Francisco State University 8x10",
+      "sku": "SFSU_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "SF Magnetic Bookmarks (Set of 6)",
+      "sku": "BOOKMARK-MAGNETIC-SET",
+      "qty_recent": 0,
+      "qty_prev": 7,
       "pct": -100
     },
     {
@@ -128,39 +135,32 @@
       "pct": -100
     },
     {
-      "name": "MAG-SF-BLOCKFONT",
-      "sku": "MAG-SF-BLOCKFONT",
+      "name": "MAG-SF-PLADIES-CL",
+      "sku": "MAG-SF-PLADIES-CL",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 10,
       "pct": -100
     },
     {
-      "name": "HOMESWEETSANFRANCISCO_STICKER",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "name": "UC Berkeley 8x10",
+      "sku": "BERKELEY_CAMPUS_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 14,
-      "pct": -100
-    },
-    {
-      "name": "Painted Lady Keychain- Green",
-      "sku": "KC-PAINTEDLADY-GREEN",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Totes",
-      "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
       "category": "Pencil Pouches",
       "qty_recent": 11,
       "qty_prev": 11,
       "pct": 100
+    },
+    {
+      "category": "Totes",
+      "qty_recent": 0,
+      "qty_prev": 8,
+      "pct": -100
     },
     {
       "category": "Keychains",
