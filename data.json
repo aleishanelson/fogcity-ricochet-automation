@@ -63,13 +63,6 @@
   ],
   "hot": [
     {
-      "name": "3 for $10",
-      "sku": "POSTCARDS3FOR10",
-      "qty_recent": 21,
-      "qty_prev": 7,
-      "pct": 500
-    },
-    {
       "name": "Home Sweet SF Square",
       "sku": "HOMESWEETSF_MAG",
       "qty_recent": 3,
@@ -84,11 +77,11 @@
       "pct": 500
     },
     {
-      "name": "ACRYLIC Ferry Building",
-      "sku": "AC_SF_FB_MAG",
-      "qty_recent": 4,
-      "qty_prev": 2,
-      "pct": 300
+      "name": "3 for $10",
+      "sku": "POSTCARDS3FOR10",
+      "qty_recent": 21,
+      "qty_prev": 7,
+      "pct": 500
     },
     {
       "name": "Ferry Building Travel Poster 8x10",
@@ -103,21 +96,28 @@
       "qty_recent": 16,
       "qty_prev": 8,
       "pct": 300
+    },
+    {
+      "name": "ACRYLIC Ferry Building",
+      "sku": "AC_SF_FB_MAG",
+      "qty_recent": 4,
+      "qty_prev": 2,
+      "pct": 300
     }
   ],
   "cold": [
     {
-      "name": "UC Berkeley 8x10",
-      "sku": "BERKELEY_CAMPUS_BW_8X10",
+      "name": "HOMESWEETSANFRANCISCO_STICKER",
+      "sku": "HOMESWEETSANFRANCISCO_STICKER",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 14,
       "pct": -100
     },
     {
-      "name": "Los Angeles 8x10",
-      "sku": "LA_BW_8X10",
+      "name": "San Francisco",
+      "sku": "SANFRANCISCO_MAP_TT",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 9,
       "pct": -100
     },
     {
@@ -128,22 +128,22 @@
       "pct": -100
     },
     {
-      "name": "San Diego 8x10",
-      "sku": "SANDIEGO_BW_8X10",
+      "name": "State of California 8x10",
+      "sku": "STATEOFCALIFORNIA_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
+      "name": "Paris 8x10",
+      "sku": "PARIS_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "San Francisco State University 8x10",
-      "sku": "SFSU_BW_8X10",
+      "name": "Bay Area 9x12",
+      "sku": "BAYAREA_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
