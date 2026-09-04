@@ -1,13 +1,13 @@
 {
-  "updated": "September 2, 2026",
-  "period_label": "8/24 \u2013 9/2, 2026",
-  "total_units": 128,
+  "updated": "September 3, 2026",
+  "period_label": "8/25 \u2013 9/3, 2026",
+  "total_units": 132,
   "revenue": {
-    "yesterday": 74.49,
-    "yesterday_label": "9/2",
-    "weekly": 5037.02,
-    "monthly": 4426.14,
-    "ytd": 135415.92
+    "yesterday": 415.49,
+    "yesterday_label": "9/3",
+    "weekly": 5111.02,
+    "monthly": 4841.63,
+    "ytd": 135831.41
   },
   "top10": [
     {
@@ -21,24 +21,24 @@
       "qty": 16
     },
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 15
-    },
-    {
       "name": "ACRYLIC Golden Gate Bridge",
       "sku": "AC_SF_GGB_MAG",
-      "qty": 14
+      "qty": 16
     },
     {
-      "name": "SF Icons Pencil Pouch - Blue",
-      "sku": "PP-SF-CB-01",
-      "qty": 11
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
+      "qty": 16
     },
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
-      "qty": 11
+      "qty": 12
+    },
+    {
+      "name": "San Francisco Icons Magnet Set",
+      "sku": "SANFRANCISCOICONS_MAGNETSET",
+      "qty": 12
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
@@ -46,27 +46,27 @@
       "qty": 10
     },
     {
-      "name": "Red SF Pill",
-      "sku": "PILL_SF_RED_STICKER",
-      "qty": 10
-    },
-    {
-      "name": "San Francisco Icons Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
+      "name": "SF Icons Pencil Pouch - Blue",
+      "sku": "PP-SF-CB-01",
       "qty": 10
     },
     {
       "name": "Golden Gate Bridge Retro Postcard",
       "sku": "SFGGBRIDGE_RETRO_PC",
       "qty": 10
+    },
+    {
+      "name": "Red SF Pill",
+      "sku": "PILL_SF_RED_STICKER",
+      "qty": 9
     }
   ],
   "hot": [
     {
-      "name": "Santa Clara University",
-      "sku": "TT-CAMPUS-SANTACLARA",
-      "qty_recent": 3,
-      "qty_prev": 1,
+      "name": "3 for $10",
+      "sku": "POSTCARDS3FOR10",
+      "qty_recent": 21,
+      "qty_prev": 7,
       "pct": 500
     },
     {
@@ -77,40 +77,68 @@
       "pct": 500
     },
     {
-      "name": "3 for $10",
-      "sku": "POSTCARDS3FOR10",
-      "qty_recent": 21,
-      "qty_prev": 7,
+      "name": "Santa Clara University",
+      "sku": "TT-CAMPUS-SANTACLARA",
+      "qty_recent": 3,
+      "qty_prev": 1,
       "pct": 500
-    },
-    {
-      "name": "ACRYLIC Golden Gate Bridge",
-      "sku": "AC_SF_GGB_MAG",
-      "qty_recent": 14,
-      "qty_prev": 8,
-      "pct": 250
     },
     {
       "name": "ACRYLIC Ferry Building",
       "sku": "AC_SF_FB_MAG",
-      "qty_recent": 3,
+      "qty_recent": 4,
       "qty_prev": 2,
-      "pct": 200
+      "pct": 300
     },
     {
-      "name": "Sunny and 75 in SF Card",
-      "sku": "SUNNYAND75SF_GC",
-      "qty_recent": 6,
-      "qty_prev": 4,
-      "pct": 200
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "ACRYLIC Golden Gate Bridge",
+      "sku": "AC_SF_GGB_MAG",
+      "qty_recent": 16,
+      "qty_prev": 8,
+      "pct": 300
     }
   ],
   "cold": [
     {
-      "name": "Painted Lady Keychain- Green",
-      "sku": "KC-PAINTEDLADY-GREEN",
+      "name": "UC Berkeley 8x10",
+      "sku": "BERKELEY_CAMPUS_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "Los Angeles 8x10",
+      "sku": "LA_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-RETRO-PL",
+      "sku": "MAG-SF-RETRO-PL",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "San Diego 8x10",
+      "sku": "SANDIEGO_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 8,
       "pct": -100
     },
     {
@@ -119,42 +147,14 @@
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
-    },
-    {
-      "name": "SF Magnetic Bookmarks (Set of 6)",
-      "sku": "BOOKMARK-MAGNETIC-SET",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 11,
-      "pct": -100
-    },
-    {
-      "name": "MAG-SF-PLADIES-CL",
-      "sku": "MAG-SF-PLADIES-CL",
-      "qty_recent": 0,
-      "qty_prev": 10,
-      "pct": -100
-    },
-    {
-      "name": "UC Berkeley 8x10",
-      "sku": "BERKELEY_CAMPUS_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Pencil Pouches",
-      "qty_recent": 11,
-      "qty_prev": 11,
-      "pct": 100
+      "category": "Landmark Prints",
+      "qty_recent": 10,
+      "qty_prev": 7,
+      "pct": 186
     },
     {
       "category": "Totes",
@@ -163,10 +163,10 @@
       "pct": -100
     },
     {
-      "category": "Keychains",
-      "qty_recent": 2,
-      "qty_prev": 22,
-      "pct": -82
+      "category": "Magnets",
+      "qty_recent": 94,
+      "qty_prev": 97,
+      "pct": 94
     }
   ]
 }
