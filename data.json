@@ -70,17 +70,17 @@
       "pct": 900
     },
     {
-      "name": "3 for $10",
-      "sku": "POSTCARDS3FOR10",
-      "qty_recent": 28,
-      "qty_prev": 7,
-      "pct": 700
-    },
-    {
       "name": "Home Sweet SF Square",
       "sku": "HOMESWEETSF_MAG",
       "qty_recent": 4,
       "qty_prev": 1,
+      "pct": 700
+    },
+    {
+      "name": "3 for $10",
+      "sku": "POSTCARDS3FOR10",
+      "qty_recent": 28,
+      "qty_prev": 7,
       "pct": 700
     },
     {
@@ -107,45 +107,45 @@
   ],
   "cold": [
     {
-      "name": "Paris 8x10",
-      "sku": "PARIS_BW_8X10",
+      "name": "HOMESWEETSANFRANCISCO_STICKER",
+      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 14,
+      "pct": -100
+    },
+    {
+      "name": "Bay Area 9x12",
+      "sku": "BAYAREA_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "MAG-AC-SF-FERRYB",
-      "sku": "MAG-AC-SF-FERRYB",
+      "name": "MAG-SF-BLOCKFONT",
+      "sku": "MAG-SF-BLOCKFONT",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
+      "sku": "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "MAG-AC-SF-GGB",
-      "sku": "MAG-AC-SF-GGB",
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
       "qty_recent": 0,
-      "qty_prev": 21,
+      "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "FERRYBUILDING_TRAVELPOSTER_8X10",
-      "sku": "FERRYBUILDING_TRAVELPOSTER_8X10",
+      "name": "HOMESWEETSF_A2CARD",
+      "sku": "HOMESWEETSF_A2CARD",
       "qty_recent": 0,
       "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "MAG-SF-LDMKS",
-      "sku": "MAG-SF-LDMKS",
-      "qty_recent": 0,
-      "qty_prev": 25,
-      "pct": -100
-    },
-    {
-      "name": "MAG-SF-RETRO-PL",
-      "sku": "MAG-SF-RETRO-PL",
-      "qty_recent": 0,
-      "qty_prev": 6,
       "pct": -100
     }
   ],
