@@ -77,10 +77,10 @@
       "pct": 700
     },
     {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
-      "qty_recent": 6,
-      "qty_prev": 2,
+      "name": "Santa Clara University",
+      "sku": "TT-CAMPUS-SANTACLARA",
+      "qty_recent": 3,
+      "qty_prev": 1,
       "pct": 500
     },
     {
@@ -91,10 +91,10 @@
       "pct": 500
     },
     {
-      "name": "Santa Clara University",
-      "sku": "TT-CAMPUS-SANTACLARA",
-      "qty_recent": 3,
-      "qty_prev": 1,
+      "name": "Take the scenic route",
+      "sku": "SCENICROUTE_49MILE_MAG",
+      "qty_recent": 6,
+      "qty_prev": 2,
       "pct": 500
     },
     {
@@ -107,6 +107,27 @@
   ],
   "cold": [
     {
+      "name": "MAG-SF-RETRO-FB",
+      "sku": "MAG-SF-RETRO-FB",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "MAG-AC-SF-FW",
+      "sku": "MAG-AC-SF-FW",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
       "name": "Bay Area 11x14",
       "sku": "BAYAREA_BW_11X14",
       "qty_recent": 0,
@@ -114,36 +135,15 @@
       "pct": -100
     },
     {
-      "name": "Painted Lady Keychain- Green",
-      "sku": "KC-PAINTEDLADY-GREEN",
+      "name": "MAG-SF-LDMKS",
+      "sku": "MAG-SF-LDMKS",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 25,
       "pct": -100
     },
     {
-      "name": "Paris 8x10",
-      "sku": "PARIS_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Bay Area 9x12",
-      "sku": "BAYAREA_BW_9X12",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "MAG-AC-SF-FERRYB",
-      "sku": "MAG-AC-SF-FERRYB",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "MAGNET_HOMESWEETSF",
-      "sku": "MAGNET_HOMESWEETSF",
+      "name": "SF Bridge Dad Hat - Navy",
+      "sku": "DH-001-NB",
       "qty_recent": 0,
       "qty_prev": 5,
       "pct": -100
