@@ -119,6 +119,124 @@ def build_sku_lookup(sheets) -> dict:
     return {"all": all_lookup, "by_category": by_category}
 
 
+def build_recent_sales_sku_lookup(sheets, sku_lookup: dict, days: int = 10) -> dict:
+    """
+    Build a supplementary {item_name_lower: sku} lookup from the last `days`
+    days of Fog City Sales history, to act as a safety net for item names
+    that aren't in OVERRIDES and don't match anything in a live Inventory
+    Summary search (e.g. Ricochet phrases a name slightly differently than
+    the Inventory Summary item name, but the exact same phrasing has sold
+    and resolved correctly before).
+
+    Critically, this does NOT blindly trust history: an entry is only kept
+    if its SKU is CURRENTLY present in Inventory Summary (sku_lookup). This
+    is what prevents "learning" a stale SKU from before an Inventory Summary
+    reorg — the exact failure mode that caused the OVERRIDES dict to drift
+    out of date between roughly 6/18 and 8/23/2026. A recent sale with a SKU
+    that no longer exists in Inventory Summary is simply skipped, not
+    learned.
+
+    Rows are walked oldest-to-newest so the most recent sale of a given item
+    name wins if the SKU for that name changed partway through the window.
+
+    Added 2026-08-28 per user request: "make the automation learn from the
+    last week-ish of sales to get the correct SKUs for items."
+    """
+    valid_skus = {sku.strip() for sku in sku_lookup.get("all", {}).values() if sku} \
+        if isinstance(sku_lookup, dict) else set()
+
+    result = sheets.values().get(
+        spreadsheetId=SPREADSHEET_ID,
+        range=f"'{FOG_CITY_TAB}'!A:G",
+    ).execute()
+    rows = result.get("values", [])
+    if len(rows) <= 1:
+        return {}
+
+    cutoff = YESTERDAY - timedelta(days=days)
+    lookup: dict = {}
+    skipped_stale = 0
+
+    for row in rows[1:]:
+        if len(row) < 6:
+            continue
+        name   = str(row[2]).strip() if len(row) > 2 and row[2] else ""
+        sku    = str(row[3]).strip() if len(row) > 3 and row[3] else ""
+        source = str(row[5]).strip() if len(row) > 5 and row[5] else ""
+        if not name or not sku or not source:
+            continue
+
+        date_tokens = re.findall(r'\b(\d{1,2})/(\d{1,2})\b', source)
+        if not date_tokens:
+            continue
+        try:
+            month, day = int(date_tokens[-1][0]), int(date_tokens[-1][1])
+            row_date = date(YESTERDAY.year, month, day)
+            if row_date > YESTERDAY:
+                row_date = date(YESTERDAY.year - 1, month, day)
+        except ValueError:
+            continue
+        if row_date < cutoff:
+            continue
+
+        if sku not in valid_skus:
+            skipped_stale += 1
+            continue  # never learn a SKU that isn't currently valid
+
+        lookup[name.lower()] = sku  # later (more recent) rows overwrite earlier ones
+
+    log.info(f"Recent-sales SKU lookup: learned {len(lookup)} name(s) from the last "
+             f"{days} days of Fog City Sales (skipped {skipped_stale} row(s) whose "
+             f"SKU is no longer current).")
+    return lookup
+
+
+_SIZE_TOKEN_RE = re.compile(r'\b(8x8|8x10|10x10|9x12|11x14|12x16)\b')
+
+
+def _sku_is_valid_for_item(item_name: str, sku: str) -> bool:
+    """
+    Guard against a systematic misassignment pattern seen repeatedly in
+    Fog City Sales: a school/city/state/landmark map PRINT resolving to a
+    Tea Towel SKU, a Hand-Painted ("HP") SKU, or the wrong size.
+
+    Rule 1: if the item name contains an explicit size token (8x8, 8x10,
+    10x10, 9x12, 11x14, 12x16), the resolved SKU must contain that SAME
+    size token, and must never be a Tea Towel SKU. Items with a size in
+    the title are always prints (school, city, state, landmark, or film
+    prints) and will NEVER have a "TT" (Tea Towel) SKU - their SKU size
+    must always match the size in the item name.
+
+    Rule 2: a plain "<City> Map Print" with NO size token must never
+    resolve to a Hand-Painted ("HP") SKU (a different, pricier product
+    line) unless the item name itself says "hand painted" - unsized map
+    prints are disambiguated by price instead (see
+    resolve_ambiguous_map_print), never by a leaked HP substring match.
+
+    Added 2026-09-08 after repeated Cal Poly SLO / Berkeley / Santa
+    Barbara / Chicago / Boston / Lake Tahoe map prints landed on stale
+    Tea Towel or Hand-Painted SKUs instead of the correct sized print SKU.
+    """
+    if not sku:
+        return True
+    name_lower = item_name.lower()
+    sku_upper = sku.upper()
+
+    m = _SIZE_TOKEN_RE.search(name_lower)
+    if m:
+        size = m.group(1).upper()
+        if size not in sku_upper:
+            return False
+        if re.search(r'(^|[_-])TT([_-]|$)', sku_upper):
+            return False
+
+    if "map print" in name_lower and "hand painted" not in name_lower:
+        if re.search(r'(^|[_-])HP([_-]|$)', sku_upper):
+            return False
+
+    return True
+
+
 def find_sku(item_name: str, lookup: dict) -> str:
     """
     Find the correct SKU for an item name.
@@ -126,11 +244,21 @@ def find_sku(item_name: str, lookup: dict) -> str:
     Strategy:
     1. Category-filtered search against the live Inventory Summary tab
     2. Broad search across all categories in Inventory Summary
-    3. Hardcoded overrides (fallback only, if not found above)
+    3. Recent-sales-history lookup (exact name match, last ~10 days of Fog
+       City Sales, validated against the CURRENT Inventory Summary — see
+       build_recent_sales_sku_lookup)
+    4. Hardcoded overrides (fallback only, if not found above)
+
+    Every candidate found in steps 1-4 is checked against
+    _sku_is_valid_for_item() before being returned; a candidate that
+    fails (wrong size, or a Tea Towel/Hand-Painted SKU leaking into a
+    sized/plain map print) is discarded and the search continues to the
+    next step, rather than being returned as-is.
     """
     key = item_name.strip().lower()
     all_lookup = lookup.get("all", lookup) if isinstance(lookup, dict) else lookup
     by_category = lookup.get("by_category", {}) if isinstance(lookup, dict) else {}
+    recent_lookup = lookup.get("recent", {}) if isinstance(lookup, dict) else {}
 
     def _match(d: dict, k: str) -> str:
         """Exact then partial match within a given sub-dict."""
@@ -541,6 +669,41 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "san diego map print 11x14":                "SANDIEGO_BW_11x14",
         "san diego map print 9x12":                 "SANDIEGO_BW_9x12",
         "san diego map print 12x16":                "SANDIEGO_BW_12x16",
+        # 9/8/2026 fix: campus/state/city map PRINTS resolving to the wrong
+        # product (Tea Towel SKU, a Hand-Painted SKU, or a raw Ricochet code)
+        # because the "- Aleisha" suffix (or an unusual size) meant these
+        # never exact-matched and fell through to a bad broad/substring match.
+        "sf landmark mug - aleisha":                 "MUG-SF-LDMKS",
+        "sf landmark mug":                           "MUG-SF-LDMKS",
+        "uc berkeley campus map print 8x10 - aleisha": "BERKELEY_CAMPUS_BW_8x10",
+        "uc santa barbara campus map print 8x10 - aleisha": "UCSANTABARBARA_BW_8x10",
+        "ucla campus map print 11x14 - aleisha":     "UCLA_BW_11x14",
+        "ucla campus map print 11x14":               "UCLA_BW_11x14",
+        "university of washington campus map print 11x14": "UofWASHINGTON_BW_11x14",
+        "california map print 11x14 - aleisha":      "STATEOFCALIFORNIA_BW_11x14",
+        "california map print 11x14":                "STATEOFCALIFORNIA_BW_11x14",
+        "detroit map print 8x10 - aleisha":          "DETROIT_BW_8x10",
+        "detroit map print 8x10":                    "DETROIT_BW_8x10",
+        "lake tahoe map print - aleisha":            "LAKETAHOE_BW_11x14",
+        "lake tahoe map print 8x10 cursive":         "LAKETAHOE_BW_8x10",
+        # 9/8/2026 fix, round 2 - more sized map prints that leaked into a
+        # Tea Towel SKU, a Hand-Painted ("HP") SKU, or a raw Ricochet code.
+        "colored pencil kit - aleisha":              "COLOREDPENCILKIT_BLUE",
+        "colored pencil kit":                        "COLOREDPENCILKIT_BLUE",
+        "cal poly slo campus map print 8x10 - aleisha": "CALPOLYSLO_BW_8x10",
+        "chicago map print 9x12 - aleisha":          "CHICAGO_BW_9x12",
+        "san francisco map print 8x10 - aleisha":    "SF_BW_8x10",
+        "california map print 8x10 - aleisha":       "STATEOFCALIFORNIA_BW_8x10",
+        "boston map print 8x10 - aleisha":           "BOSTON_BW_8x10",
+        "bay area map print 8x10 - aleisha":         "BAYAREA_BW_8x10",
+        "uc santa barbara campus map print 9x12":    "UCSANTABARBARA_BW_9x12",
+        "usc campus map print 11x14":                "USC_BW_11x14",
+        "ohio state university map print 8x10 - aleisha": "OHIOSTATEU_BW_8x10",
+        "uc davis campus map print 8x10 - aleisha":  "UCDAVIS_BW_8x10",
+        # NOTE: a bare, size-less "Boston Map Print" (no "- Aleisha", no
+        # size token) is intentionally NOT hardcoded here - its size varies
+        # by price ($20->8x10, $32->9x12, $38->11x14; see
+        # resolve_ambiguous_map_print). The 9/8 case at $32 is 9x12.
     }
     # 0. Exact-match override - curated fixes always take priority over fuzzy matching
     if key in OVERRIDES:
@@ -567,7 +730,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
                 cat_pool.update(by_category.get(cat, {}))
             if cat_pool:
                 result = _match(cat_pool, key)
-                if result:
+                if result and _sku_is_valid_for_item(item_name, result):
                     return result
             if categories & LOCKED_CATEGORIES:
                 skip_broad_search = True
@@ -577,15 +740,24 @@ def find_sku(item_name: str, lookup: dict) -> str:
     # see LOCKED_CATEGORIES above)
     if not skip_broad_search:
         result = _match(all_lookup, key)
-        if result:
+        if result and _sku_is_valid_for_item(item_name, result):
             return result
 
-    # 3. Hardcoded overrides - fallback only, checked last (substring match).
+    # 3. Recent-sales-history lookup - exact name match only (no fuzzy
+    # substring matching here, unlike step 4 below), and every entry in
+    # recent_lookup was already validated against the CURRENT Inventory
+    # Summary when it was built, so this can't reintroduce a stale SKU.
+    if key in recent_lookup and _sku_is_valid_for_item(item_name, recent_lookup[key]):
+        return recent_lookup[key]
+
+    # 4. Hardcoded overrides - fallback only, checked last (substring match).
     # For locked categories (e.g. Tea Towel), never return a SKU containing
     # "_HP_"/"HP" (Hand Painted prints) even via this substring fallback.
     for override_name, sku in OVERRIDES.items():
         if key in override_name or override_name in key:
             if skip_broad_search and "HP" in sku.upper():
+                continue
+            if not _sku_is_valid_for_item(item_name, sku):
                 continue
             return sku
     return ""
@@ -1579,6 +1751,11 @@ def main():
 
     # Load SKU lookup from Inventory Summary tab
     sku_lookup = build_sku_lookup(sheets)
+
+    # Learn from the last ~10 days of Fog City Sales as an extra fallback for
+    # find_sku() — see build_recent_sales_sku_lookup() for why this can't
+    # reintroduce a stale SKU.
+    sku_lookup["recent"] = build_recent_sales_sku_lookup(sheets, sku_lookup)
 
     # Safety net: catch/fix any rows that bypassed this script (e.g. a manual
     # paste of a Ricochet export straight into the sheet) BEFORE deciding
