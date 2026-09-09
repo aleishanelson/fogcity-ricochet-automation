@@ -107,38 +107,31 @@
   ],
   "cold": [
     {
-      "name": "CALIFORNIASTATE_BLOCKFONT_BLUE",
-      "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
+      "name": "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
+      "sku": "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "LOVEYOUMORETHANSUNNYSF_A2CARD",
+      "sku": "LOVEYOUMORETHANSUNNYSF_A2CARD",
       "qty_recent": 0,
       "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "MAG-SF-RETRO-PL",
-      "sku": "MAG-SF-RETRO-PL",
+      "name": "MAG-SF-PINKICONS",
+      "sku": "MAG-SF-PINKICONS",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 9,
       "pct": -100
     },
     {
-      "name": "Bay Area 9x12",
-      "sku": "BAYAREA_BW_9X12",
+      "name": "MAGNET_HOMESWEETSF",
+      "sku": "MAGNET_HOMESWEETSF",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "qty_recent": 0,
-      "qty_prev": 31,
-      "pct": -100
-    },
-    {
-      "name": "IDESCAPEALCATRAZFORYOU_A2CARD",
-      "sku": "IDESCAPEALCATRAZFORYOU_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -146,6 +139,13 @@
       "sku": "SFSU_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "GOLDENGATETRAVELPOSTER_A2CARD",
+      "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
+      "qty_recent": 0,
+      "qty_prev": 14,
       "pct": -100
     }
   ],
