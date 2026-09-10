@@ -91,15 +91,15 @@
       "pct": 500
     },
     {
-      "name": "San Francisco Map",
-      "sku": "SFMAP_STICKER",
+      "name": "ACRYLIC Fishermans Wharf",
+      "sku": "AC_SF_FW_MAG",
       "qty_recent": 5,
       "qty_prev": 2,
       "pct": 400
     },
     {
-      "name": "SF Pink Icons Magnet",
-      "sku": "SF_PINKICONS_MAG",
+      "name": "San Francisco Map",
+      "sku": "SFMAP_STICKER",
       "qty_recent": 5,
       "qty_prev": 2,
       "pct": 400
@@ -107,17 +107,24 @@
   ],
   "cold": [
     {
-      "name": "San Francisco State University 8x10",
-      "sku": "SFSU_BW_8X10",
+      "name": "MAG-AC-SF-FERRYB",
+      "sku": "MAG-AC-SF-FERRYB",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_TT",
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
       "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-CABLECAR",
+      "sku": "MAG-SF-CABLECAR",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -128,24 +135,17 @@
       "pct": -100
     },
     {
-      "name": "SCRIBBLERS PEN PACKS",
-      "sku": "SCRIBBLERS PEN PACKS",
+      "name": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
+      "sku": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "MAG-SF-LDMKS",
-      "sku": "MAG-SF-LDMKS",
+      "name": "MAG-AC-SF-SFO",
+      "sku": "MAG-AC-SF-SFO",
       "qty_recent": 0,
-      "qty_prev": 25,
-      "pct": -100
-    },
-    {
-      "name": "MAG-AC-SF-FW",
-      "sku": "MAG-AC-SF-FW",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 11,
       "pct": -100
     }
   ],
