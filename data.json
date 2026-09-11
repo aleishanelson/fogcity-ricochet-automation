@@ -1,38 +1,33 @@
 {
-  "updated": "September 9, 2026",
-  "period_label": "8/31 \u2013 9/9, 2026",
-  "total_units": 131,
+  "updated": "September 10, 2026",
+  "period_label": "9/1 \u2013 9/10, 2026",
+  "total_units": 125,
   "revenue": {
-    "yesterday": 373.98,
-    "yesterday_label": "9/9",
-    "weekly": 5523.55,
-    "monthly": 7577.01,
-    "ytd": 138566.79
+    "yesterday": 146.99,
+    "yesterday_label": "9/10",
+    "weekly": 5255.05,
+    "monthly": 7724.0,
+    "ytd": 138713.78
   },
   "top10": [
     {
       "name": "3 for $10",
       "sku": "POSTCARDS3FOR10",
-      "qty": 19
+      "qty": 20
     },
     {
       "name": "ACRYLIC Golden Gate Bridge",
       "sku": "AC_SF_GGB_MAG",
-      "qty": 16
+      "qty": 15
     },
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
-      "qty": 15
+      "qty": 14
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 15
-    },
-    {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
       "qty": 14
     },
     {
@@ -41,9 +36,14 @@
       "qty": 13
     },
     {
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
+      "qty": 13
+    },
+    {
       "name": "San Francisco Icons Magnet Set",
       "sku": "SANFRANCISCOICONS_MAGNETSET",
-      "qty": 13
+      "qty": 10
     },
     {
       "name": "SF Icons Pencil Pouch - Blue",
@@ -56,32 +56,18 @@
       "qty": 9
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PC",
       "qty": 8
     }
   ],
   "hot": [
-    {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
-      "qty_recent": 7,
-      "qty_prev": 1,
-      "pct": 1300
-    },
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSF_GC",
       "qty_recent": 5,
       "qty_prev": 1,
       "pct": 900
-    },
-    {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_STICKER",
-      "qty_recent": 7,
-      "qty_prev": 2,
-      "pct": 600
     },
     {
       "name": "UC Berkeley 8x10",
@@ -91,8 +77,15 @@
       "pct": 500
     },
     {
-      "name": "ACRYLIC Fishermans Wharf",
-      "sku": "AC_SF_FW_MAG",
+      "name": "The City by the Bay Pink",
+      "sku": "SFCITYBYTHEBAY_PINK_STICKER",
+      "qty_recent": 6,
+      "qty_prev": 2,
+      "pct": 500
+    },
+    {
+      "name": "SF Pink Icons Magnet",
+      "sku": "SF_PINKICONS_MAG",
       "qty_recent": 5,
       "qty_prev": 2,
       "pct": 400
@@ -103,70 +96,77 @@
       "qty_recent": 5,
       "qty_prev": 2,
       "pct": 400
+    },
+    {
+      "name": "Cable Car Magnet",
+      "sku": "SF_CABLECAR_MAG",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     }
   ],
   "cold": [
     {
-      "name": "MAG-AC-SF-FERRYB",
-      "sku": "MAG-AC-SF-FERRYB",
+      "name": "SF Magnetic Bookmarks (Set of 6)",
+      "sku": "BOOKMARK-MAGNETIC-SET",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "qty_recent": 0,
+      "qty_prev": 31,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-BLOCKFONT",
+      "sku": "MAG-SF-BLOCKFONT",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "OHIOSTATE_BW_8X10",
+      "sku": "OHIOSTATE_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Painted Lady Keychain- Green",
-      "sku": "KC-PAINTEDLADY-GREEN",
+      "name": "POSTCARDS3FOR11",
+      "sku": "POSTCARDS3FOR11",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 23,
       "pct": -100
     },
     {
-      "name": "MAG-SF-CABLECAR",
-      "sku": "MAG-SF-CABLECAR",
+      "name": "RETROSFFERRYBUILDING_STICKER",
+      "sku": "RETROSFFERRYBUILDING_STICKER",
       "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
-      "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
-      "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
-      "name": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
-      "sku": "SFCITYBYTHEBAY_PINKCIRCLE_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "MAG-AC-SF-SFO",
-      "sku": "MAG-AC-SF-SFO",
-      "qty_recent": 0,
-      "qty_prev": 11,
+      "qty_prev": 43,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Magnets",
-      "qty_recent": 100,
-      "qty_prev": 97,
-      "pct": 106
-    },
-    {
       "category": "Cards",
       "qty_recent": 33,
-      "qty_prev": 35,
-      "pct": 89
+      "qty_prev": 33,
+      "pct": 100
+    },
+    {
+      "category": "Magnets",
+      "qty_recent": 87,
+      "qty_prev": 102,
+      "pct": 71
     },
     {
       "category": "Landmark Prints",
-      "qty_recent": 8,
+      "qty_recent": 7,
       "qty_prev": 9,
-      "pct": 78
+      "pct": 56
     }
   ]
 }
