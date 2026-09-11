@@ -98,14 +98,28 @@
       "pct": 400
     },
     {
-      "name": "Cable Car Magnet",
-      "sku": "SF_CABLECAR_MAG",
-      "qty_recent": 2,
-      "qty_prev": 1,
+      "name": "I'd Climb Any Hill",
+      "sku": "IDCLIMBANYHILL_GC",
+      "qty_recent": 4,
+      "qty_prev": 2,
       "pct": 300
     }
   ],
   "cold": [
+    {
+      "name": "SWEETBDAYCAKE_A2_GCARD",
+      "sku": "SWEETBDAYCAKE_A2_GCARD",
+      "qty_recent": 0,
+      "qty_prev": 8,
+      "pct": -100
+    },
+    {
+      "name": "SFGGBRIDGE_RETRO_PCARD",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
+      "qty_recent": 0,
+      "qty_prev": 21,
+      "pct": -100
+    },
     {
       "name": "SF Magnetic Bookmarks (Set of 6)",
       "sku": "BOOKMARK-MAGNETIC-SET",
@@ -114,10 +128,10 @@
       "pct": -100
     },
     {
-      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
-      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "name": "MAG-SF-PLADIES-CL",
+      "sku": "MAG-SF-PLADIES-CL",
       "qty_recent": 0,
-      "qty_prev": 31,
+      "qty_prev": 10,
       "pct": -100
     },
     {
@@ -128,24 +142,10 @@
       "pct": -100
     },
     {
-      "name": "OHIOSTATE_BW_8X10",
-      "sku": "OHIOSTATE_BW_8X10",
+      "name": "HOMESWEETSF_A2CARD",
+      "sku": "HOMESWEETSF_A2CARD",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "POSTCARDS3FOR11",
-      "sku": "POSTCARDS3FOR11",
-      "qty_recent": 0,
-      "qty_prev": 23,
-      "pct": -100
-    },
-    {
-      "name": "RETROSFFERRYBUILDING_STICKER",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 43,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
