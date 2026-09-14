@@ -77,10 +77,10 @@
       "pct": 500
     },
     {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
-      "qty_recent": 3,
-      "qty_prev": 1,
+      "name": "Ferry Building Travel Poster Card",
+      "sku": "FERRYBLDGTRAVELPOSTER_GC",
+      "qty_recent": 6,
+      "qty_prev": 2,
       "pct": 500
     },
     {
@@ -91,10 +91,10 @@
       "pct": 500
     },
     {
-      "name": "Ferry Building Travel Poster Card",
-      "sku": "FERRYBLDGTRAVELPOSTER_GC",
-      "qty_recent": 6,
-      "qty_prev": 2,
+      "name": "City By The Bay Local Notion",
+      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "qty_recent": 3,
+      "qty_prev": 1,
       "pct": 500
     },
     {
@@ -107,38 +107,17 @@
   ],
   "cold": [
     {
-      "name": "MAG-SF-LDMKS",
-      "sku": "MAG-SF-LDMKS",
-      "qty_recent": 0,
-      "qty_prev": 23,
-      "pct": -100
-    },
-    {
-      "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
-      "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
-      "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
-      "name": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
-      "sku": "WESTCOASTBESTCOAST_CIRCLE_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "IDESCAPEALCATRAZFORYOU_A2CARD",
-      "sku": "IDESCAPEALCATRAZFORYOU_A2CARD",
+      "name": "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
+      "sku": "MAGNET_SFCITYBYTHEBAYCIRCLE_PINK",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "MAG-SF-RETRO-GGB",
-      "sku": "MAG-SF-RETRO-GGB",
+      "name": "SF Fuzzy Patch Trucker Hat - Navy",
+      "sku": "TH-001-NB",
       "qty_recent": 0,
-      "qty_prev": 11,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -146,6 +125,27 @@
       "sku": "SCRIBBLERS PEN PACKS",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-RETRO-PL",
+      "sku": "MAG-SF-RETRO-PL",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Alcatraz Island Retro Postcard",
+      "sku": "ALCATRAZ_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-RETRO-FB",
+      "sku": "MAG-SF-RETRO-FB",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
