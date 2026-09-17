@@ -77,15 +77,15 @@
       "pct": 367
     },
     {
-      "name": "Stanford 8x10",
-      "sku": "STANFORD_BW_8X10",
+      "name": "Lake Tahoe (Cursive)  8x10",
+      "sku": "LAKETAHOE_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
     },
     {
-      "name": "Lake Tahoe (Cursive)  8x10",
-      "sku": "LAKETAHOE_BW_8X10",
+      "name": "Stanford 8x10",
+      "sku": "STANFORD_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,22 +107,22 @@
   ],
   "cold": [
     {
-      "name": "OHIOSTATE_BW_8X10",
-      "sku": "OHIOSTATE_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "SF Magnetic Bookmarks (Set of 6)",
-      "sku": "BOOKMARK-MAGNETIC-SET",
+      "name": "HOMESWEETSF_A2CARD",
+      "sku": "HOMESWEETSF_A2CARD",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "Cable Car Magnet",
-      "sku": "SF_CABLECAR_MAG",
+      "name": "CA State White and Black",
+      "sku": "CA_BLOCKFONT_BW_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "UC Santa Barbara 8x10",
+      "sku": "UCSANTABARBARA_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -135,17 +135,17 @@
       "pct": -100
     },
     {
-      "name": "SF Fuzzy Patch Trucker Hat - Navy",
-      "sku": "TH-001-NB",
+      "name": "Cable Car Magnet",
+      "sku": "SF_CABLECAR_MAG",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
+      "name": "MAG-SF-PINKICONS",
+      "sku": "MAG-SF-PINKICONS",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
