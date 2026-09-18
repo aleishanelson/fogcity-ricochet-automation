@@ -21,7 +21,7 @@
       "qty": 11
     },
     {
-      "name": "ACRYLIC Golden Gate Bridge",
+      "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
       "qty": 9
     },
@@ -70,8 +70,8 @@
       "pct": 433
     },
     {
-      "name": "UC Davis 8x10",
-      "sku": "UCDAVIS_BW_8X10",
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -84,8 +84,8 @@
       "pct": 300
     },
     {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
+      "name": "UC Davis 8x10",
+      "sku": "UCDAVIS_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,45 +107,45 @@
   ],
   "cold": [
     {
-      "name": "SWEETBDAYCAKE_A2_GCARD",
-      "sku": "SWEETBDAYCAKE_A2_GCARD",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "SFGGBRIDGE_RETRO_PCARD",
-      "sku": "SFGGBRIDGE_RETRO_PCARD",
-      "qty_recent": 0,
-      "qty_prev": 12,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet Home 8x8",
-      "sku": "HOMESWEETSF_8X8",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
-      "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
+      "name": "MAG-SF-RETRO-GGB",
+      "sku": "MAG-SF-RETRO-GGB",
       "qty_recent": 0,
       "qty_prev": 6,
       "pct": -100
     },
     {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
+      "name": "LOVEYOUMORETHANSUNNYSF_A2CARD",
+      "sku": "LOVEYOUMORETHANSUNNYSF_A2CARD",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "MAG-SF-CABLECAR",
-      "sku": "MAG-SF-CABLECAR",
+      "name": "Golden Gate Travel Poster 8x10",
+      "sku": "GOLDENGATE_TP_8X10",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
+      "qty_recent": 0,
+      "qty_prev": 24,
+      "pct": -100
+    },
+    {
+      "name": "Santa Clara University",
+      "sku": "TT-CAMPUS-SANTACLARA",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
