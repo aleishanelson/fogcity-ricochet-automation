@@ -70,15 +70,15 @@
       "pct": 500
     },
     {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
+      "name": "UC Davis 8x10",
+      "sku": "UCDAVIS_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
     },
     {
-      "name": "UC Davis 8x10",
-      "sku": "UCDAVIS_BW_8X10",
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,10 +107,38 @@
   ],
   "cold": [
     {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
+      "name": "MAG-SF-LDMKS",
+      "sku": "MAG-SF-LDMKS",
+      "qty_recent": 0,
+      "qty_prev": 17,
+      "pct": -100
+    },
+    {
+      "name": "UC Santa Barbara 8x10",
+      "sku": "UCSANTABARBARA_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-CABLECAR",
+      "sku": "MAG-SF-CABLECAR",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Golden Gate Travel Poster 8x10",
+      "sku": "GOLDENGATE_TP_8X10",
       "qty_recent": 0,
       "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "RUBBER KEYCHAIN",
+      "sku": "RUBBER KEYCHAIN",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -118,34 +146,6 @@
       "sku": "MAGNET_GOLDENGATETRAVELPOSTER",
       "qty_recent": 0,
       "qty_prev": 22,
-      "pct": -100
-    },
-    {
-      "name": "RETROSFFERRYBUILDING_STICKER",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 27,
-      "pct": -100
-    },
-    {
-      "name": "SF Magnetic Bookmarks (Set of 6)",
-      "sku": "BOOKMARK-MAGNETIC-SET",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "CALIFORNIASTATE_BLOCKFONT_BLUE",
-      "sku": "CALIFORNIASTATE_BLOCKFONT_BLUE",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "UC Davis",
-      "sku": "TT-CAMPUS-UCDAVIS",
-      "qty_recent": 0,
-      "qty_prev": 8,
       "pct": -100
     }
   ],
@@ -164,8 +164,8 @@
     },
     {
       "category": "Postcards",
-      "qty_recent": 19,
-      "qty_prev": 101,
+      "qty_recent": 14,
+      "qty_prev": 73,
       "pct": -62
     }
   ]
