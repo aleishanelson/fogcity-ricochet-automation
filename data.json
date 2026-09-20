@@ -91,33 +91,26 @@
       "pct": 300
     },
     {
-      "name": "SFBLUEICONS_POSTCARD",
-      "sku": "SFBLUEICONS_POSTCARD",
+      "name": "University of Pennsylvania 8x10",
+      "sku": "UPENN_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 0,
       "pct": 150
     },
     {
-      "name": "University of Utah  8x10",
-      "sku": "UOFUTAH_BW_8X10",
-      "qty_recent": 2,
+      "name": "State of California",
+      "sku": "STATEOFCALIFORNIA_MAP_TT",
+      "qty_recent": 4,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "Cable Car Magnet",
-      "sku": "SF_CABLECAR_MAG",
+      "name": "UC Santa Barbara 8x10",
+      "sku": "UCSANTABARBARA_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "SF Fuzzy Patch Trucker Hat - Navy",
-      "sku": "TH-001-NB",
-      "qty_recent": 0,
-      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -128,24 +121,31 @@
       "pct": -100
     },
     {
-      "name": "UC Santa Barbara 8x10",
-      "sku": "UCSANTABARBARA_BW_8X10",
+      "name": "MAG-SF-CABLECAR",
+      "sku": "MAG-SF-CABLECAR",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Home Sweet Home 8x8",
-      "sku": "HOMESWEETSF_8X8",
+      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
+      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Santa Clara University",
-      "sku": "TT-CAMPUS-SANTACLARA",
+      "name": "MAG-SF-RETRO-GGB",
+      "sku": "MAG-SF-RETRO-GGB",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "HOMESWEETSANFRANCISCO_STICKER",
+      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
