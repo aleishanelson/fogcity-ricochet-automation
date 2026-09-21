@@ -1,33 +1,38 @@
 {
-  "updated": "September 19, 2026",
-  "period_label": "9/10 \u2013 9/19, 2026",
-  "total_units": 114,
+  "updated": "September 20, 2026",
+  "period_label": "9/11 \u2013 9/20, 2026",
+  "total_units": 122,
   "revenue": {
-    "yesterday": 632.43,
-    "yesterday_label": "9/19",
-    "weekly": 4612.03,
-    "monthly": 10866.79,
-    "ytd": 141856.57
+    "yesterday": 716.98,
+    "yesterday_label": "9/20",
+    "weekly": 5006.04,
+    "monthly": 11583.77,
+    "ytd": 142573.55
   },
   "top10": [
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
-      "qty": 17
+      "qty": 18
     },
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 15
-    },
-    {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 13
+      "qty": 17
     },
     {
       "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
+      "qty": 13
+    },
+    {
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GGTRAVELPOSTER_STICKER",
+      "qty": 12
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
       "qty": 12
     },
     {
@@ -43,42 +48,44 @@
     {
       "name": "SF Landmarks Mug",
       "sku": "MUG-SF-LDMKS",
-      "qty": 10
+      "qty": 11
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "SF_RETRO_GGB_MAG",
       "qty": 9
     },
     {
       "name": "San Francisco",
       "sku": "SANFRANCISCO_MAP_TT",
       "qty": 8
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
-      "qty": 8
     }
   ],
   "hot": [
     {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_TT",
-      "qty_recent": 8,
-      "qty_prev": 2,
-      "pct": 700
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 500
     },
     {
       "name": "SF Landmarks Mug",
       "sku": "MUG-SF-LDMKS",
-      "qty_recent": 10,
+      "qty_recent": 11,
       "qty_prev": 4,
-      "pct": 400
+      "pct": 450
     },
     {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
+      "name": "San Francisco",
+      "sku": "SANFRANCISCO_MAP_TT",
+      "qty_recent": 8,
+      "qty_prev": 3,
+      "pct": 433
+    },
+    {
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -91,82 +98,75 @@
       "pct": 300
     },
     {
-      "name": "University of Pennsylvania 8x10",
-      "sku": "UPENN_BW_8X10",
+      "name": "University of Utah  8x10",
+      "sku": "UOFUTAH_BW_8X10",
       "qty_recent": 2,
-      "qty_prev": 0,
-      "pct": 150
-    },
-    {
-      "name": "State of California",
-      "sku": "STATEOFCALIFORNIA_MAP_TT",
-      "qty_recent": 4,
       "qty_prev": 0,
       "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "UC Santa Barbara 8x10",
-      "sku": "UCSANTABARBARA_BW_8X10",
+      "name": "SF Magnetic Bookmarks (Set of 6)",
+      "sku": "BOOKMARK-MAGNETIC-SET",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "SWEETBDAYCAKE_A2_GCARD",
-      "sku": "SWEETBDAYCAKE_A2_GCARD",
+      "name": "UC Davis",
+      "sku": "TT-CAMPUS-UCDAVIS",
       "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "MAG-SF-CABLECAR",
-      "sku": "MAG-SF-CABLECAR",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "GOLDENGATE_TRAVELPOSTER_8X10",
-      "sku": "GOLDENGATE_TRAVELPOSTER_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 7,
       "pct": -100
     },
     {
       "name": "MAG-SF-RETRO-GGB",
       "sku": "MAG-SF-RETRO-GGB",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "HOMESWEETSANFRANCISCO_STICKER",
-      "sku": "HOMESWEETSANFRANCISCO_STICKER",
+      "name": "LOVEYOUMORETHANSUNNYSF_A2CARD",
+      "sku": "LOVEYOUMORETHANSUNNYSF_A2CARD",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "MAG-SF-RETRO-FB",
+      "sku": "MAG-SF-RETRO-FB",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "SFGGBRIDGE_RETRO_PCARD",
+      "sku": "SFGGBRIDGE_RETRO_PCARD",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Landmark Prints",
-      "qty_recent": 2,
-      "qty_prev": 15,
-      "pct": -73
-    },
-    {
-      "category": "Postcards",
-      "qty_recent": 16,
-      "qty_prev": 69,
-      "pct": -54
-    },
-    {
       "category": "Pencil Pouches",
       "qty_recent": 5,
       "qty_prev": 21,
       "pct": -52
+    },
+    {
+      "category": "Landmark Prints",
+      "qty_recent": 4,
+      "qty_prev": 15,
+      "pct": -47
+    },
+    {
+      "category": "Postcards",
+      "qty_recent": 20,
+      "qty_prev": 65,
+      "pct": -38
     }
   ]
 }
