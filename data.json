@@ -84,28 +84,56 @@
       "pct": 340
     },
     {
-      "name": "San Francisco 11x14",
-      "sku": "SF_BW_11X14",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
-      "name": "San Francisco Block Font",
-      "sku": "SF_BLOCKFONT_MAG",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
       "name": "State of California 8x10",
       "sku": "STATEOFCALIFORNIA_BW_8X10",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "Paris 8x10",
+      "sku": "PARIS_BW_8X10",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "San Francisco 11x14",
+      "sku": "SF_BW_11X14",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
     }
   ],
   "cold": [
+    {
+      "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
+      "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "City By The Bay Local Notion",
+      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "UC Davis",
+      "sku": "TT-CAMPUS-UCDAVIS",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "CA State Blue",
+      "sku": "CA_BLOCKFONT_BLUE_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
     {
       "name": "SF Magnetic Bookmarks (Set of 6)",
       "sku": "BOOKMARK-MAGNETIC-SET",
@@ -114,38 +142,10 @@
       "pct": -100
     },
     {
-      "name": "Golden Gate Travel Poster 8x10",
-      "sku": "GOLDENGATE_TP_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Chicago (ZOOMED OUT) 9x12",
-      "sku": "CHICAGO_BW_9X12",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "ACRYLIC Golden Gate Bridge",
-      "sku": "MAG-AC-SF-GGB",
+      "name": "Home Sweet Home 8x8",
+      "sku": "HOMESWEETSF_8X8",
       "qty_recent": 0,
       "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "SF Fuzzy Patch Trucker Hat - Navy",
-      "sku": "TH-001-NB",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Stanford",
-      "sku": "TT-CAMPUS-STANFORD",
-      "qty_recent": 0,
-      "qty_prev": 3,
       "pct": -100
     }
   ],
