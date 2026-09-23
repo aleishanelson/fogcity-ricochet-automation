@@ -1,28 +1,28 @@
 {
-  "updated": "September 21, 2026",
-  "period_label": "9/12 \u2013 9/21, 2026",
-  "total_units": 120,
+  "updated": "September 22, 2026",
+  "period_label": "9/13 \u2013 9/22, 2026",
+  "total_units": 108,
   "revenue": {
-    "yesterday": 202.5,
-    "yesterday_label": "9/21",
-    "weekly": 5038.54,
-    "monthly": 11786.27,
-    "ytd": 142776.05
+    "yesterday": 374.99,
+    "yesterday_label": "9/22",
+    "weekly": 5058.54,
+    "monthly": 12161.26,
+    "ytd": 143151.04
   },
   "top10": [
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
-      "qty": 19
-    },
-    {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 15
+      "qty": 16
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
+      "qty": 13
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
       "qty": 13
     },
     {
@@ -31,14 +31,9 @@
       "qty": 12
     },
     {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
-      "qty": 11
-    },
-    {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 11
+      "qty": 12
     },
     {
       "name": "SF Landmarks Mug",
@@ -46,29 +41,27 @@
       "qty": 11
     },
     {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
       "qty": 10
     },
     {
-      "name": "POSTCARDS3FOR10",
-      "sku": "POSTCARDS3FOR10",
-      "qty": 9
+      "name": "San Francisco 8x10",
+      "sku": "SF_BW_8X10",
+      "qty": 7
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
-      "qty": 9
+      "name": "San Francisco",
+      "sku": "SANFRANCISCO_MAP_TT",
+      "qty": 7
+    },
+    {
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PC",
+      "qty": 7
     }
   ],
   "hot": [
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty_recent": 4,
-      "qty_prev": 1,
-      "pct": 700
-    },
     {
       "name": "San Francisco",
       "sku": "SANFRANCISCO_MAP_TT",
@@ -87,12 +80,19 @@
       "name": "SF Landmarks Mug",
       "sku": "MUG-SF-LDMKS",
       "qty_recent": 11,
-      "qty_prev": 4,
-      "pct": 450
+      "qty_prev": 5,
+      "pct": 340
     },
     {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
+      "name": "San Francisco 11x14",
+      "sku": "SF_BW_11X14",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "San Francisco Block Font",
+      "sku": "SF_BLOCKFONT_MAG",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -114,38 +114,38 @@
       "pct": -100
     },
     {
-      "name": "Home Sweet Home 8x8",
-      "sku": "HOMESWEETSF_8X8",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "SWEETBDAYCAKE_A2_GCARD",
-      "sku": "SWEETBDAYCAKE_A2_GCARD",
+      "name": "Golden Gate Travel Poster 8x10",
+      "sku": "GOLDENGATE_TP_8X10",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "TAKETHESCENICROUTE_49MILE_MAGNET",
-      "sku": "TAKETHESCENICROUTE_49MILE_MAGNET",
+      "name": "Chicago (ZOOMED OUT) 9x12",
+      "sku": "CHICAGO_BW_9X12",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "ACRYLIC Golden Gate Bridge",
+      "sku": "MAG-AC-SF-GGB",
       "qty_recent": 0,
       "qty_prev": 6,
       "pct": -100
     },
     {
-      "name": "MAG-AC-SF-FW",
-      "sku": "MAG-AC-SF-FW",
+      "name": "SF Fuzzy Patch Trucker Hat - Navy",
+      "sku": "TH-001-NB",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Stanford",
+      "sku": "TT-CAMPUS-STANFORD",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
@@ -158,15 +158,15 @@
     },
     {
       "category": "Map Prints",
-      "qty_recent": 44,
+      "qty_recent": 40,
       "qty_prev": 59,
-      "pct": 49
+      "pct": 36
     },
     {
       "category": "Landmark Prints",
-      "qty_recent": 4,
+      "qty_recent": 5,
       "qty_prev": 15,
-      "pct": -47
+      "pct": -33
     }
   ]
 }
