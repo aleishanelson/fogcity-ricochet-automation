@@ -84,13 +84,6 @@
       "pct": 367
     },
     {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
       "name": "San Francisco 11x14",
       "sku": "SF_BW_11X14",
       "qty_recent": 2,
@@ -98,8 +91,15 @@
       "pct": 300
     },
     {
-      "name": "State of California 8x10",
-      "sku": "STATEOFCALIFORNIA_BW_8X10",
+      "name": "San Francisco Block Font",
+      "sku": "SF_BLOCKFONT_MAG",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "Paris 8x10",
+      "sku": "PARIS_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,17 +107,31 @@
   ],
   "cold": [
     {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
+      "name": "Home Sweet Home 8x8",
+      "sku": "HOMESWEETSF_8X8",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "UCLA 8x10",
+      "sku": "UCLA_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "UC Davis 8x10",
-      "sku": "UCDAVIS_BW_8X10",
+      "name": "City By The Bay Local Notion",
+      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -128,22 +142,8 @@
       "pct": -100
     },
     {
-      "name": "Lake Tahoe (Cursive)  8x10",
-      "sku": "LAKETAHOE_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Cable Car Magnet",
-      "sku": "SF_CABLECAR_MAG",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Golden Gate Travel Poster 8x10",
-      "sku": "GOLDENGATE_TP_8X10",
+      "name": "GOLDENGATETRAVELPOSTER_A2CARD",
+      "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
