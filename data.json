@@ -1,34 +1,34 @@
 {
-  "updated": "September 24, 2026",
-  "period_label": "9/15 \u2013 9/24, 2026",
-  "total_units": 106,
+  "updated": "September 25, 2026",
+  "period_label": "9/16 \u2013 9/25, 2026",
+  "total_units": 120,
   "revenue": {
-    "yesterday": 209.0,
-    "yesterday_label": "9/24",
-    "weekly": 4920.03,
-    "monthly": 12560.23,
-    "ytd": 143550.01
+    "yesterday": 523.97,
+    "yesterday_label": "9/25",
+    "weekly": 5222.52,
+    "monthly": 13084.2,
+    "ytd": 144073.98
   },
   "top10": [
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
-      "qty": 16
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty": 14
+      "qty": 21
     },
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 13
+      "qty": 17
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty": 17
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 11
+      "qty": 12
     },
     {
       "name": "AC_SF_GGB_MAG",
@@ -36,8 +36,8 @@
       "qty": 10
     },
     {
-      "name": "SF Landmarks Mug",
-      "sku": "MUG-SF-LDMKS",
+      "name": "POSTCARDS3FOR10",
+      "sku": "POSTCARDS3FOR10",
       "qty": 10
     },
     {
@@ -46,29 +46,22 @@
       "qty": 9
     },
     {
-      "name": "POSTCARDS3FOR10",
-      "sku": "POSTCARDS3FOR10",
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "SF_RETRO_GGB_MAG",
       "qty": 9
     },
     {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "sku": "FW_ILLUSTRATED_STICKER",
-      "qty": 7
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_STICKER",
+      "qty": 8
     },
     {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_TT",
+      "name": "SF Landmarks Mug",
+      "sku": "MUG-SF-LDMKS",
       "qty": 7
     }
   ],
   "hot": [
-    {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
     {
       "name": "Los Angeles 8x10",
       "sku": "LA_BW_8X10",
@@ -77,29 +70,36 @@
       "pct": 500
     },
     {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_TT",
-      "qty_recent": 7,
-      "qty_prev": 3,
-      "pct": 367
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 500
     },
     {
-      "name": "San Francisco 11x14",
-      "sku": "SF_BW_11X14",
+      "name": "SF City By The Bay Dad Hat - Cream",
+      "sku": "DH-002-CR",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
     },
     {
-      "name": "San Francisco Block Font",
-      "sku": "SF_BLOCKFONT_MAG",
+      "name": "Bay Area 8x10",
+      "sku": "BAYAREA_BW_8X10",
+      "qty_recent": 4,
+      "qty_prev": 2,
+      "pct": 300
+    },
+    {
+      "name": "Alcatraz Island Retro Postcard",
+      "sku": "ALCATRAZ_RETRO_PC",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
     },
     {
-      "name": "Paris 8x10",
-      "sku": "PARIS_BW_8X10",
+      "name": "State of California 8x10",
+      "sku": "STATEOFCALIFORNIA_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,38 +107,31 @@
   ],
   "cold": [
     {
-      "name": "Home Sweet Home 8x8",
-      "sku": "HOMESWEETSF_8X8",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "UCLA 8x10",
-      "sku": "UCLA_BW_8X10",
+      "name": "UC Davis",
+      "sku": "TT-CAMPUS-UCDAVIS",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "SF Fuzzy Patch Trucker Hat - Navy",
-      "sku": "TH-001-NB",
+      "name": "Icons",
+      "sku": "SFICONS_BLUE_GC",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -147,26 +140,33 @@
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
+    },
+    {
+      "name": "RETROSFFERRYBUILDING_STICKER",
+      "sku": "RETROSFFERRYBUILDING_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Keychains",
-      "qty_recent": 1,
-      "qty_prev": 9,
-      "pct": -78
+      "qty_recent": 2,
+      "qty_prev": 8,
+      "pct": -50
     },
     {
       "category": "Pencil Pouches",
       "qty_recent": 5,
-      "qty_prev": 19,
-      "pct": -47
+      "qty_prev": 18,
+      "pct": -44
     },
     {
       "category": "Postcards",
       "qty_recent": 19,
-      "qty_prev": 59,
-      "pct": -36
+      "qty_prev": 58,
+      "pct": -34
     }
   ]
 }
