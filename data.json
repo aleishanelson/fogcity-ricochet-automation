@@ -84,10 +84,10 @@
       "pct": 300
     },
     {
-      "name": "Bay Area 8x10",
-      "sku": "BAYAREA_BW_8X10",
-      "qty_recent": 4,
-      "qty_prev": 2,
+      "name": "Paris 8x10",
+      "sku": "PARIS_BW_8X10",
+      "qty_recent": 2,
+      "qty_prev": 1,
       "pct": 300
     },
     {
@@ -98,14 +98,35 @@
       "pct": 300
     },
     {
-      "name": "State of California 8x10",
-      "sku": "STATEOFCALIFORNIA_BW_8X10",
-      "qty_recent": 2,
-      "qty_prev": 1,
+      "name": "Bay Area 8x10",
+      "sku": "BAYAREA_BW_8X10",
+      "qty_recent": 4,
+      "qty_prev": 2,
       "pct": 300
     }
   ],
   "cold": [
+    {
+      "name": "Icons",
+      "sku": "SFICONS_BLUE_GC",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Lake Tahoe (Cursive)  8x10",
+      "sku": "LAKETAHOE_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "UC Davis 8x10",
+      "sku": "UCDAVIS_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
     {
       "name": "UC Davis",
       "sku": "TT-CAMPUS-UCDAVIS",
@@ -121,31 +142,10 @@
       "pct": -100
     },
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "Home Sweet Home 8x8",
+      "sku": "HOMESWEETSF_8X8",
       "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "Icons",
-      "sku": "SFICONS_BLUE_GC",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "GOLDENGATETRAVELPOSTER_A2CARD",
-      "sku": "GOLDENGATETRAVELPOSTER_A2CARD",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "RETROSFFERRYBUILDING_STICKER",
-      "sku": "RETROSFFERRYBUILDING_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
