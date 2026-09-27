@@ -1,38 +1,53 @@
 {
-  "updated": "September 25, 2026",
-  "period_label": "9/16 \u2013 9/25, 2026",
-  "total_units": 120,
+  "updated": "September 26, 2026",
+  "period_label": "9/17 \u2013 9/26, 2026",
+  "total_units": 135,
   "revenue": {
-    "yesterday": 523.97,
-    "yesterday_label": "9/25",
-    "weekly": 5222.52,
-    "monthly": 13084.2,
-    "ytd": 144073.98
+    "yesterday": 1006.96,
+    "yesterday_label": "9/26",
+    "weekly": 5597.05,
+    "monthly": 14091.16,
+    "ytd": 145080.94
   },
   "top10": [
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
+      "qty": 21
+    },
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
       "qty": 21
     },
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 17
-    },
-    {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 17
+      "qty": 19
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 12
+      "qty": 13
+    },
+    {
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 11
     },
     {
       "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
+      "qty": 11
+    },
+    {
+      "name": "SF Landmarks Mug",
+      "sku": "MUG-SF-LDMKS",
+      "qty": 10
+    },
+    {
+      "name": "West Coast Best Coast",
+      "sku": "WESTCOASTBESTCOAST_STICKER",
       "qty": 10
     },
     {
@@ -41,33 +56,18 @@
       "qty": 10
     },
     {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
-      "qty": 9
-    },
-    {
       "name": "Retro Golden Gate Bridge Poster Magnet",
       "sku": "SF_RETRO_GGB_MAG",
       "qty": 9
-    },
-    {
-      "name": "West Coast Best Coast",
-      "sku": "WESTCOASTBESTCOAST_STICKER",
-      "qty": 8
-    },
-    {
-      "name": "SF Landmarks Mug",
-      "sku": "MUG-SF-LDMKS",
-      "qty": 7
     }
   ],
   "hot": [
     {
       "name": "Los Angeles 8x10",
       "sku": "LA_BW_8X10",
-      "qty_recent": 3,
+      "qty_recent": 6,
       "qty_prev": 1,
-      "pct": 500
+      "pct": 1100
     },
     {
       "name": "Ferry Building Travel Poster 8x10",
@@ -77,59 +77,38 @@
       "pct": 500
     },
     {
+      "name": "Paris 8x10",
+      "sku": "PARIS_BW_8X10",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 500
+    },
+    {
+      "name": "San Francisco",
+      "sku": "SANFRANCISCO_MAP_TT",
+      "qty_recent": 9,
+      "qty_prev": 4,
+      "pct": 350
+    },
+    {
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
       "name": "SF City By The Bay Dad Hat - Cream",
       "sku": "DH-002-CR",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
-    },
-    {
-      "name": "Paris 8x10",
-      "sku": "PARIS_BW_8X10",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
-      "name": "Bay Area 8x10",
-      "sku": "BAYAREA_BW_8X10",
-      "qty_recent": 4,
-      "qty_prev": 2,
-      "pct": 300
     }
   ],
   "cold": [
     {
-      "name": "Icons",
-      "sku": "SFICONS_BLUE_GC",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Lake Tahoe (Cursive)  8x10",
-      "sku": "LAKETAHOE_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "UC Davis 8x10",
-      "sku": "UCDAVIS_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "UC Davis",
-      "sku": "TT-CAMPUS-UCDAVIS",
+      "name": "Ferry Building Travel Poster Magnet",
+      "sku": "FERRYBUILDINGTP_MAG",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
@@ -142,6 +121,27 @@
       "pct": -100
     },
     {
+      "name": "UC Berkeley",
+      "sku": "TT-CAMPUS-BERKELEY",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "UC Davis",
+      "sku": "TT-CAMPUS-UCDAVIS",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
       "name": "Home Sweet Home 8x8",
       "sku": "HOMESWEETSF_8X8",
       "qty_recent": 0,
@@ -151,6 +151,12 @@
   ],
   "category_trends": [
     {
+      "category": "Tea Towels",
+      "qty_recent": 24,
+      "qty_prev": 29,
+      "pct": 66
+    },
+    {
       "category": "Keychains",
       "qty_recent": 2,
       "qty_prev": 8,
@@ -159,14 +165,8 @@
     {
       "category": "Pencil Pouches",
       "qty_recent": 5,
-      "qty_prev": 18,
-      "pct": -44
-    },
-    {
-      "category": "Postcards",
-      "qty_recent": 19,
-      "qty_prev": 58,
-      "pct": -34
+      "qty_prev": 16,
+      "pct": -38
     }
   ]
 }
