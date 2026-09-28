@@ -1,19 +1,19 @@
 {
-  "updated": "September 26, 2026",
-  "period_label": "9/17 \u2013 9/26, 2026",
-  "total_units": 135,
+  "updated": "September 27, 2026",
+  "period_label": "9/18 \u2013 9/27, 2026",
+  "total_units": 137,
   "revenue": {
-    "yesterday": 1006.96,
-    "yesterday_label": "9/26",
-    "weekly": 5597.05,
-    "monthly": 14091.16,
-    "ytd": 145080.94
+    "yesterday": 358.5,
+    "yesterday_label": "9/27",
+    "weekly": 5238.57,
+    "monthly": 14449.66,
+    "ytd": 145439.44
   },
   "top10": [
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 21
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty": 22
     },
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
@@ -21,14 +21,19 @@
       "qty": 21
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty": 19
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
+      "qty": 21
+    },
+    {
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
+      "qty": 13
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 13
+      "qty": 12
     },
     {
       "name": "Golden Gate Bridge Pink Sticker",
@@ -36,9 +41,9 @@
       "qty": 11
     },
     {
-      "name": "AC_SF_GGB_MAG",
-      "sku": "AC_SF_GGB_MAG",
-      "qty": 11
+      "name": "POSTCARDS3FOR10",
+      "sku": "POSTCARDS3FOR10",
+      "qty": 10
     },
     {
       "name": "SF Landmarks Mug",
@@ -48,17 +53,12 @@
     {
       "name": "West Coast Best Coast",
       "sku": "WESTCOASTBESTCOAST_STICKER",
-      "qty": 10
-    },
-    {
-      "name": "POSTCARDS3FOR10",
-      "sku": "POSTCARDS3FOR10",
-      "qty": 10
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
       "qty": 9
+    },
+    {
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
+      "qty": 8
     }
   ],
   "hot": [
@@ -77,22 +77,8 @@
       "pct": 500
     },
     {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
-    {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_TT",
-      "qty_recent": 9,
-      "qty_prev": 4,
-      "pct": 350
-    },
-    {
-      "name": "SF City By The Bay Dad Hat - Cream",
-      "sku": "DH-002-CR",
+      "name": "San Diego 8x10",
+      "sku": "SANDIEGO_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -103,6 +89,20 @@
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
+    },
+    {
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty_recent": 7,
+      "qty_prev": 4,
+      "pct": 250
     }
   ],
   "cold": [
@@ -114,24 +114,17 @@
       "pct": -100
     },
     {
-      "name": "UC Davis",
-      "sku": "TT-CAMPUS-UCDAVIS",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
       "qty_recent": 0,
       "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Home Sweet Home 8x8",
-      "sku": "HOMESWEETSF_8X8",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Wishing You A Sweet Birthday Card",
-      "sku": "SWEETBDAY_GC",
-      "qty_recent": 0,
-      "qty_prev": 9,
       "pct": -100
     },
     {
@@ -142,8 +135,15 @@
       "pct": -100
     },
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
+      "name": "UC Davis",
+      "sku": "TT-CAMPUS-UCDAVIS",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "UC Berkeley",
+      "sku": "TT-CAMPUS-BERKELEY",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
@@ -152,21 +152,21 @@
   "category_trends": [
     {
       "category": "Tea Towels",
-      "qty_recent": 24,
-      "qty_prev": 29,
-      "pct": 66
-    },
-    {
-      "category": "Keychains",
-      "qty_recent": 2,
-      "qty_prev": 8,
-      "pct": -50
+      "qty_recent": 22,
+      "qty_prev": 31,
+      "pct": 42
     },
     {
       "category": "Pencil Pouches",
       "qty_recent": 5,
-      "qty_prev": 16,
-      "pct": -38
+      "qty_prev": 15,
+      "pct": -33
+    },
+    {
+      "category": "Keychains",
+      "qty_recent": 3,
+      "qty_prev": 8,
+      "pct": -25
     }
   ]
 }
