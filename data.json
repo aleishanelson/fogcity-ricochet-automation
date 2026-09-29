@@ -1,49 +1,44 @@
 {
-  "updated": "September 27, 2026",
-  "period_label": "9/18 \u2013 9/27, 2026",
-  "total_units": 137,
+  "updated": "September 28, 2026",
+  "period_label": "9/19 \u2013 9/28, 2026",
+  "total_units": 129,
   "revenue": {
-    "yesterday": 358.5,
-    "yesterday_label": "9/27",
-    "weekly": 5238.57,
-    "monthly": 14449.66,
-    "ytd": 145439.44
+    "yesterday": 264.0,
+    "yesterday_label": "9/28",
+    "weekly": 5300.07,
+    "monthly": 14713.66,
+    "ytd": 145703.44
   },
   "top10": [
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 22
+      "qty": 21
     },
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
-      "qty": 21
+      "qty": 20
     },
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 21
+      "qty": 20
     },
     {
       "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
-      "qty": 13
+      "qty": 11
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 12
-    },
-    {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
       "qty": 11
     },
     {
       "name": "POSTCARDS3FOR10",
       "sku": "POSTCARDS3FOR10",
-      "qty": 10
+      "qty": 11
     },
     {
       "name": "SF Landmarks Mug",
@@ -54,6 +49,11 @@
       "name": "West Coast Best Coast",
       "sku": "WESTCOASTBESTCOAST_STICKER",
       "qty": 9
+    },
+    {
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 8
     },
     {
       "name": "Illustrated Ferry Building Landmark",
@@ -70,18 +70,18 @@
       "pct": 1100
     },
     {
+      "name": "State of California",
+      "sku": "STATEOFCALIFORNIA_MAP_TT",
+      "qty_recent": 4,
+      "qty_prev": 1,
+      "pct": 700
+    },
+    {
       "name": "Paris 8x10",
       "sku": "PARIS_BW_8X10",
       "qty_recent": 3,
       "qty_prev": 1,
       "pct": 500
-    },
-    {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
     },
     {
       "name": "UCLA",
@@ -91,31 +91,38 @@
       "pct": 300
     },
     {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty_recent": 8,
+      "qty_prev": 4,
+      "pct": 300
+    },
+    {
       "name": "San Diego 8x10",
       "sku": "SANDIEGO_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty_recent": 7,
-      "qty_prev": 4,
-      "pct": 250
     }
   ],
   "cold": [
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "Wishing You A Sweet Birthday Card",
+      "sku": "SWEETBDAY_GC",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 8,
       "pct": -100
     },
     {
-      "name": "Ferry Building Travel Poster Magnet",
-      "sku": "FERRYBUILDINGTP_MAG",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
@@ -140,33 +147,26 @@
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
-    },
-    {
-      "name": "Wishing You A Sweet Birthday Card",
-      "sku": "SWEETBDAY_GC",
-      "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Tea Towels",
-      "qty_recent": 22,
-      "qty_prev": 31,
-      "pct": 42
-    },
-    {
-      "category": "Pencil Pouches",
-      "qty_recent": 5,
-      "qty_prev": 15,
-      "pct": -33
-    },
-    {
       "category": "Map Prints",
-      "qty_recent": 45,
+      "qty_recent": 47,
       "qty_prev": 68,
+      "pct": 38
+    },
+    {
+      "category": "Cards",
+      "qty_recent": 39,
+      "qty_prev": 59,
       "pct": 32
+    },
+    {
+      "category": "Postcards",
+      "qty_recent": 19,
+      "qty_prev": 52,
+      "pct": -27
     }
   ]
 }
