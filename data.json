@@ -1,11 +1,11 @@
 {
-  "updated": "September 28, 2026",
-  "period_label": "9/19 \u2013 9/28, 2026",
-  "total_units": 129,
+  "updated": "September 29, 2026",
+  "period_label": "9/20 \u2013 9/29, 2026",
+  "total_units": 112,
   "revenue": {
-    "yesterday": 264.0,
-    "yesterday_label": "9/28",
-    "weekly": 5300.07,
+    "yesterday": 0.0,
+    "yesterday_label": "9/29",
+    "weekly": 4925.08,
     "monthly": 14713.66,
     "ytd": 145703.44
   },
@@ -13,26 +13,21 @@
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 21
-    },
-    {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
-      "qty": 20
+      "qty": 22
     },
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 20
+      "qty": 16
+    },
+    {
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
+      "qty": 14
     },
     {
       "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
-      "qty": 11
-    },
-    {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GGTRAVELPOSTER_STICKER",
       "qty": 11
     },
     {
@@ -41,24 +36,29 @@
       "qty": 11
     },
     {
-      "name": "SF Landmarks Mug",
-      "sku": "MUG-SF-LDMKS",
-      "qty": 10
+      "name": "AC_SF_PLADIES_MAG",
+      "sku": "AC_SF_PLADIES_MAG",
+      "qty": 8
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty": 8
     },
     {
       "name": "West Coast Best Coast",
       "sku": "WESTCOASTBESTCOAST_STICKER",
-      "qty": 9
-    },
-    {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
       "qty": 8
     },
     {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
-      "qty": 8
+      "name": "SF Landmarks Mug",
+      "sku": "MUG-SF-LDMKS",
+      "qty": 7
+    },
+    {
+      "name": "Sunny and 75 in SF Card",
+      "sku": "SUNNYAND75SF_GC",
+      "qty": 7
     }
   ],
   "hot": [
@@ -70,22 +70,8 @@
       "pct": 1100
     },
     {
-      "name": "State of California",
-      "sku": "STATEOFCALIFORNIA_MAP_TT",
-      "qty_recent": 4,
-      "qty_prev": 1,
-      "pct": 700
-    },
-    {
-      "name": "Paris 8x10",
-      "sku": "PARIS_BW_8X10",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
-    {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
+      "name": "San Diego 8x10",
+      "sku": "SANDIEGO_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -98,6 +84,20 @@
       "pct": 300
     },
     {
+      "name": "Alcatraz Island Retro Postcard",
+      "sku": "ALCATRAZ_RETRO_PC",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "Santa Clara University",
+      "sku": "TT-CAMPUS-SANTACLARA",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
       "name": "UCLA",
       "sku": "TT-CAMPUS-UCLA",
       "qty_recent": 2,
@@ -107,22 +107,29 @@
   ],
   "cold": [
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     },
     {
       "name": "UC Berkeley",
       "sku": "TT-CAMPUS-BERKELEY",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Boston 8x10",
-      "sku": "BOSTON_BW_8X10",
+      "name": "UC Davis",
+      "sku": "TT-CAMPUS-UCDAVIS",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -135,15 +142,8 @@
       "pct": -100
     },
     {
-      "name": "UC Davis",
-      "sku": "TT-CAMPUS-UCDAVIS",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "CA State White and Black",
+      "sku": "CA_BLOCKFONT_BW_STICKER",
       "qty_recent": 0,
       "qty_prev": 5,
       "pct": -100
@@ -151,22 +151,22 @@
   ],
   "category_trends": [
     {
+      "category": "Pencil Pouches",
+      "qty_recent": 1,
+      "qty_prev": 14,
+      "pct": -86
+    },
+    {
+      "category": "Landmark Prints",
+      "qty_recent": 8,
+      "qty_prev": 12,
+      "pct": 33
+    },
+    {
       "category": "Map Prints",
-      "qty_recent": 47,
-      "qty_prev": 68,
-      "pct": 38
-    },
-    {
-      "category": "Cards",
-      "qty_recent": 39,
-      "qty_prev": 59,
-      "pct": 32
-    },
-    {
-      "category": "Postcards",
-      "qty_recent": 19,
-      "qty_prev": 52,
-      "pct": -27
+      "qty_recent": 44,
+      "qty_prev": 66,
+      "pct": 33
     }
   ]
 }
