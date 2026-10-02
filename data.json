@@ -98,8 +98,8 @@
       "pct": 260
     },
     {
-      "name": "Icons",
-      "sku": "SFICONS_BLUE_GC",
+      "name": "UC Davis 8x10",
+      "sku": "UCDAVIS_BW_8X10",
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
@@ -107,17 +107,31 @@
   ],
   "cold": [
     {
-      "name": "UC Davis",
-      "sku": "TT-CAMPUS-UCDAVIS",
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 16,
+      "pct": -100
+    },
+    {
+      "name": "Alcatraz Island Retro Postcard",
+      "sku": "ALCATRAZ_RETRO_PC",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PC",
+      "name": "San Francisco Icons Magnet Set",
+      "sku": "SANFRANCISCOICONS_MAGNETSET",
       "qty_recent": 0,
-      "qty_prev": 16,
+      "qty_prev": 14,
+      "pct": -100
+    },
+    {
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -128,24 +142,10 @@
       "pct": -100
     },
     {
-      "name": "Wishing You A Sweet Birthday Card",
-      "sku": "SWEETBDAY_GC",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
       "name": "Ferry Building Travel Poster 8x10",
       "sku": "FERRYBUILDING_TP_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco Icons Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
-      "qty_recent": 0,
-      "qty_prev": 14,
       "pct": -100
     }
   ],
