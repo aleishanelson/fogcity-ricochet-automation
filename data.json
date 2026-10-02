@@ -1,13 +1,13 @@
 {
-  "updated": "September 30, 2026",
-  "period_label": "9/21 \u2013 9/30, 2026",
-  "total_units": 107,
+  "updated": "October 1, 2026",
+  "period_label": "9/22 \u2013 10/1, 2026",
+  "total_units": 112,
   "revenue": {
-    "yesterday": 209.99,
-    "yesterday_label": "9/30",
-    "weekly": 4945.1,
-    "monthly": 14923.65,
-    "ytd": 145913.43
+    "yesterday": 256.5,
+    "yesterday_label": "10/1",
+    "weekly": 4992.6,
+    "monthly": 4354.68,
+    "ytd": 146169.93
   },
   "top10": [
     {
@@ -18,32 +18,22 @@
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
-      "qty": 16
+      "qty": 17
     },
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 14
+      "qty": 16
     },
     {
       "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
-      "qty": 10
-    },
-    {
-      "name": "POSTCARDS3FOR10",
-      "sku": "POSTCARDS3FOR10",
-      "qty": 9
+      "qty": 13
     },
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSF_STICKER",
       "qty": 9
-    },
-    {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 8
     },
     {
       "name": "Illustrated Fisherman\u2018s Wharf Landmark",
@@ -53,21 +43,38 @@
     {
       "name": "AC_SF_PLADIES_MAG",
       "sku": "AC_SF_PLADIES_MAG",
+      "qty": 8
+    },
+    {
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 8
+    },
+    {
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GGTRAVELPOSTER_STICKER",
       "qty": 7
     },
     {
-      "name": "SFICONS_POSTCARD_PINK",
-      "sku": "SFICONS_POSTCARD_PINK",
+      "name": "SF Landmarks Mug",
+      "sku": "MUG-SF-LDMKS",
       "qty": 7
     }
   ],
   "hot": [
     {
-      "name": "Los Angeles 8x10",
-      "sku": "LA_BW_8X10",
-      "qty_recent": 5,
-      "qty_prev": 2,
-      "pct": 400
+      "name": "San Diego 8x10",
+      "sku": "SANDIEGO_BW_8X10",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 500
+    },
+    {
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     },
     {
       "name": "Golden Gate Travel Poster 8x10",
@@ -84,13 +91,6 @@
       "pct": 300
     },
     {
-      "name": "San Diego 8x10",
-      "sku": "SANDIEGO_BW_8X10",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSF_STICKER",
       "qty_recent": 9,
@@ -98,11 +98,11 @@
       "pct": 260
     },
     {
-      "name": "SFICONS_POSTCARD_PINK",
-      "sku": "SFICONS_POSTCARD_PINK",
-      "qty_recent": 7,
-      "qty_prev": 4,
-      "pct": 250
+      "name": "Icons",
+      "sku": "SFICONS_BLUE_GC",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
     }
   ],
   "cold": [
@@ -114,29 +114,15 @@
       "pct": -100
     },
     {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
       "name": "Golden Gate Bridge Retro Postcard",
       "sku": "SFGGBRIDGE_RETRO_PC",
       "qty_recent": 0,
-      "qty_prev": 17,
+      "qty_prev": 16,
       "pct": -100
     },
     {
-      "name": "UC Berkeley",
-      "sku": "TT-CAMPUS-BERKELEY",
+      "name": "Golden Gate Travel Poster  11x14",
+      "sku": "GOLDENGATE_TP_11X14",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -146,6 +132,20 @@
       "sku": "SWEETBDAY_GC",
       "qty_recent": 0,
       "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco Icons Magnet Set",
+      "sku": "SANFRANCISCOICONS_MAGNETSET",
+      "qty_recent": 0,
+      "qty_prev": 14,
       "pct": -100
     }
   ],
@@ -158,15 +158,15 @@
     },
     {
       "category": "Postcards",
-      "qty_recent": 11,
-      "qty_prev": 49,
-      "pct": -55
+      "qty_recent": 9,
+      "qty_prev": 45,
+      "pct": -60
     },
     {
-      "category": "Tea Towels",
-      "qty_recent": 12,
-      "qty_prev": 34,
-      "pct": -29
+      "category": "Keychains",
+      "qty_recent": 6,
+      "qty_prev": 9,
+      "pct": 33
     }
   ]
 }
