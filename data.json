@@ -107,31 +107,10 @@
   ],
   "cold": [
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_GC",
+      "name": "UC Berkeley",
+      "sku": "TT-CAMPUS-BERKELEY",
       "qty_recent": 0,
-      "qty_prev": 11,
-      "pct": -100
-    },
-    {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Wishing You A Sweet Birthday Card",
-      "sku": "SWEETBDAY_GC",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "State of California",
-      "sku": "STATEOFCALIFORNIA_MAP_TT",
-      "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -146,6 +125,27 @@
       "sku": "SANFRANCISCOICONS_MAGNETSET",
       "qty_recent": 0,
       "qty_prev": 10,
+      "pct": -100
+    },
+    {
+      "name": "Santa Clara University",
+      "sku": "TT-CAMPUS-SANTACLARA",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Wishing You A Sweet Birthday Card",
+      "sku": "SWEETBDAY_GC",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
