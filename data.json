@@ -107,24 +107,31 @@
   ],
   "cold": [
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_GC",
+      "name": "Proud Tourist",
+      "sku": "PROUDTOURIST_STICKER",
       "qty_recent": 0,
-      "qty_prev": 10,
+      "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "Santa Clara University",
-      "sku": "TT-CAMPUS-SANTACLARA",
+      "name": "San Francisco Map",
+      "sku": "SFMAP_GC",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Wishing You A Sweet Birthday Card",
-      "sku": "SWEETBDAY_GC",
+      "name": "UCLA 8x10",
+      "sku": "UCLA_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -135,17 +142,10 @@
       "pct": -100
     },
     {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "SF_RETRO_FB_MAG",
+      "name": "Santa Clara University",
+      "sku": "TT-CAMPUS-SANTACLARA",
       "qty_recent": 0,
-      "qty_prev": 14,
-      "pct": -100
-    },
-    {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
