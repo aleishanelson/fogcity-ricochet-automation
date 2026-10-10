@@ -63,17 +63,17 @@
   ],
   "hot": [
     {
-      "name": "SFBLUEICONS_POSTCARD",
-      "sku": "SFBLUEICONS_POSTCARD",
-      "qty_recent": 6,
-      "qty_prev": 2,
-      "pct": 500
-    },
-    {
       "name": "San Francisco Landmark Sticker Sheet",
       "sku": "SS-SF-LDMKS",
       "qty_recent": 3,
       "qty_prev": 1,
+      "pct": 500
+    },
+    {
+      "name": "SFBLUEICONS_POSTCARD",
+      "sku": "SFBLUEICONS_POSTCARD",
+      "qty_recent": 6,
+      "qty_prev": 2,
       "pct": 500
     },
     {
@@ -107,43 +107,43 @@
   ],
   "cold": [
     {
-      "name": "Home Sweet Home 8x8",
-      "sku": "HOMESWEETSF_8X8",
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco Icons Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "SF City By The Bay Dad Hat - Cream",
-      "sku": "DH-002-CR",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Icons",
-      "sku": "SFICONS_BLUE_GC",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Twists and Turns",
-      "sku": "TWISTSANDTURNS_GC",
-      "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 10,
       "pct": -100
     },
     {
       "name": "Ferry Building Travel Poster Card",
       "sku": "FERRYBLDGTRAVELPOSTER_GC",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Los Angeles 8x10",
+      "sku": "LA_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Paris 8x10",
+      "sku": "PARIS_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "State of California",
+      "sku": "STATEOFCALIFORNIA_MAP_TT",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "Lake Tahoe (Cursive)  8x10",
+      "sku": "LAKETAHOE_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
