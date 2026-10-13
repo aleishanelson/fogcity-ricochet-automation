@@ -1,29 +1,44 @@
 {
-  "updated": "October 11, 2026",
-  "period_label": "10/2 \u2013 10/11, 2026",
-  "total_units": 99,
+  "updated": "October 12, 2026",
+  "period_label": "10/3 \u2013 10/12, 2026",
+  "total_units": 107,
   "revenue": {
-    "yesterday": 408.94,
-    "yesterday_label": "10/11",
-    "weekly": 4615.05,
-    "monthly": 8052.02,
-    "ytd": 149867.27
+    "yesterday": 348.5,
+    "yesterday_label": "10/12",
+    "weekly": 4911.05,
+    "monthly": 8400.52,
+    "ytd": 150215.77
   },
   "top10": [
     {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
+      "name": "AC_SF_PLADIES_MAG",
+      "sku": "AC_SF_PLADIES_MAG",
       "qty": 15
     },
     {
-      "name": "AC_SF_PLADIES_MAG",
-      "sku": "AC_SF_PLADIES_MAG",
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
       "qty": 14
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty": 12
+    },
+    {
+      "name": "Home Sweet SF (flat)",
+      "sku": "HOMESWEETSF_MAG",
+      "qty": 10
+    },
+    {
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
+      "sku": "FW_ILLUSTRATED_STICKER",
+      "qty": 10
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 11
+      "qty": 10
     },
     {
       "name": "SF Illustrated Landmark",
@@ -31,43 +46,28 @@
       "qty": 10
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GGTRAVELPOSTER_STICKER",
       "qty": 9
     },
     {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
-      "qty": 8
+      "name": "Sunny and 75 in SF Card",
+      "sku": "SUNNYAND75SF_GC",
+      "qty": 9
     },
     {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
-      "qty": 8
-    },
-    {
-      "name": "SF Landmarks Mug",
-      "sku": "MUG-SF-LDMKS",
-      "qty": 8
-    },
-    {
-      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
-      "sku": "FW_ILLUSTRATED_STICKER",
-      "qty": 8
-    },
-    {
-      "name": "Retro SF Ferry Building Poster Sticker",
-      "sku": "RETRO_SF_FB_STICKER",
+      "name": "Red SF Pill",
+      "sku": "PILL_SF_RED_STICKER",
       "qty": 8
     }
   ],
   "hot": [
     {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
-      "qty_recent": 8,
-      "qty_prev": 3,
-      "pct": 433
+      "name": "Wishing You A Sweet Birthday Card",
+      "sku": "SWEETBDAY_GC",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 500
     },
     {
       "name": "San Francisco Landmark Sticker Sheet",
@@ -77,22 +77,15 @@
       "pct": 400
     },
     {
-      "name": "Painted Lady Keychain- Pink",
-      "sku": "KC-PAINTEDLADY-PINK",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
+      "qty_recent": 7,
+      "qty_prev": 3,
+      "pct": 367
     },
     {
-      "name": "Painted Lady Keychain- Blue",
-      "sku": "KC-PAINTEDLADY-BLUE",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
-      "name": "Cal Poly SLO",
-      "sku": "TT-CAMPUS-CALPOLYSLO",
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -103,28 +96,21 @@
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
+    },
+    {
+      "name": "Painted Lady Keychain- Blue",
+      "sku": "KC-PAINTEDLADY-BLUE",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     }
   ],
   "cold": [
-    {
-      "name": "SF City By The Bay Dad Hat - Cream",
-      "sku": "DH-002-CR",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
     {
       "name": "City By The Bay Local Notion",
       "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
       "qty_recent": 0,
       "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Painted Lady Keychain- Green",
-      "sku": "KC-PAINTEDLADY-GREEN",
-      "qty_recent": 0,
-      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -135,10 +121,24 @@
       "pct": -100
     },
     {
-      "name": "San Francisco Icons Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
+      "name": "SF City By The Bay Dad Hat - Cream",
+      "sku": "DH-002-CR",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
+      "qty_recent": 0,
+      "qty_prev": 9,
+      "pct": -100
+    },
+    {
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -152,21 +152,21 @@
   "category_trends": [
     {
       "category": "Keychains",
-      "qty_recent": 18,
-      "qty_prev": 10,
-      "pct": 260
+      "qty_recent": 16,
+      "qty_prev": 12,
+      "pct": 167
+    },
+    {
+      "category": "Film Prints",
+      "qty_recent": 1,
+      "qty_prev": 3,
+      "pct": -33
     },
     {
       "category": "Pencil Pouches",
-      "qty_recent": 5,
+      "qty_recent": 4,
       "qty_prev": 6,
-      "pct": 67
-    },
-    {
-      "category": "Landmark Prints",
-      "qty_recent": 8,
-      "qty_prev": 10,
-      "pct": 60
+      "pct": 33
     }
   ]
 }
