@@ -91,15 +91,15 @@
       "pct": 300
     },
     {
-      "name": "Chicago (ZOOMED OUT)  8x10",
-      "sku": "CHICAGO_BW_8X10",
+      "name": "Painted Lady Keychain- Blue",
+      "sku": "KC-PAINTEDLADY-BLUE",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
     },
     {
-      "name": "Painted Lady Keychain- Blue",
-      "sku": "KC-PAINTEDLADY-BLUE",
+      "name": "Painted Lady Keychain- Pink",
+      "sku": "KC-PAINTEDLADY-PINK",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,31 +107,10 @@
   ],
   "cold": [
     {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Twists and Turns",
-      "sku": "TWISTSANDTURNS_GC",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
       "name": "SF City By The Bay Dad Hat - Cream",
       "sku": "DH-002-CR",
       "qty_recent": 0,
       "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "SFICONS_POSTCARD_PINK",
-      "sku": "SFICONS_POSTCARD_PINK",
-      "qty_recent": 0,
-      "qty_prev": 9,
       "pct": -100
     },
     {
@@ -142,10 +121,31 @@
       "pct": -100
     },
     {
-      "name": "Paris 8x10",
-      "sku": "PARIS_BW_8X10",
+      "name": "Twists and Turns",
+      "sku": "TWISTSANDTURNS_GC",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Los Angeles 8x10",
+      "sku": "LA_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
+      "qty_recent": 0,
+      "qty_prev": 9,
+      "pct": -100
+    },
+    {
+      "name": "City By The Bay Local Notion",
+      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
