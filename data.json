@@ -114,10 +114,10 @@
       "pct": -100
     },
     {
-      "name": "Pennant",
-      "sku": "SFPENNANT_STICKER",
+      "name": "Take the scenic route",
+      "sku": "SCENICROUTE_49MILE_MAG",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 6,
       "pct": -100
     },
     {
@@ -128,24 +128,24 @@
       "pct": -100
     },
     {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Los Angeles 8x10",
-      "sku": "LA_BW_8X10",
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 9,
       "pct": -100
     },
     {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
