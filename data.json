@@ -63,15 +63,15 @@
   ],
   "hot": [
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "Ferry Building Travel Poster Magnet",
+      "sku": "FERRYBUILDINGTP_MAG",
       "qty_recent": 6,
       "qty_prev": 1,
       "pct": 1100
     },
     {
-      "name": "Ferry Building Travel Poster Magnet",
-      "sku": "FERRYBUILDINGTP_MAG",
+      "name": "San Francisco Landmark Sticker Sheet",
+      "sku": "SS-SF-LDMKS",
       "qty_recent": 6,
       "qty_prev": 1,
       "pct": 1100
@@ -82,6 +82,13 @@
       "qty_recent": 3,
       "qty_prev": 1,
       "pct": 500
+    },
+    {
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     },
     {
       "name": "Chicago (ZOOMED OUT)  8x10",
@@ -96,35 +103,21 @@
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
-    },
-    {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
     }
   ],
   "cold": [
     {
-      "name": "City By The Bay Local Notion",
-      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "name": "Painted Lady Keychain- Pink",
+      "sku": "KC-PAINTEDLADY-PINK",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "SFICONS_POSTCARD_PINK",
-      "sku": "SFICONS_POSTCARD_PINK",
+      "name": "Paris 8x10",
+      "sku": "PARIS_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
-      "name": "I come with baggage",
-      "sku": "ICOMEWITHBAGGAGE_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -132,6 +125,13 @@
       "sku": "STATEOFCALIFORNIA_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Los Angeles 8x10",
+      "sku": "LA_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 6,
       "pct": -100
     },
     {
