@@ -1,24 +1,29 @@
 {
-  "updated": "October 14, 2026",
-  "period_label": "10/5 \u2013 10/14, 2026",
-  "total_units": 92,
+  "updated": "October 15, 2026",
+  "period_label": "10/6 \u2013 10/15, 2026",
+  "total_units": 96,
   "revenue": {
-    "yesterday": 298.0,
-    "yesterday_label": "10/14",
-    "weekly": 5107.02,
-    "monthly": 9093.48,
-    "ytd": 150908.73
+    "yesterday": 274.98,
+    "yesterday_label": "10/15",
+    "weekly": 4952.53,
+    "monthly": 9368.46,
+    "ytd": 151183.71
   },
   "top10": [
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSF_STICKER",
-      "qty": 12
+      "qty": 13
+    },
+    {
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
+      "qty": 11
     },
     {
       "name": "AC_SF_PLADIES_MAG",
       "sku": "AC_SF_PLADIES_MAG",
-      "qty": 11
+      "qty": 10
     },
     {
       "name": "Sunny and 75 in SF Card",
@@ -31,11 +36,6 @@
       "qty": 10
     },
     {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
-      "qty": 10
-    },
-    {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
       "qty": 9
@@ -43,6 +43,11 @@
     {
       "name": "SF Icons Pencil Pouch - Blue",
       "sku": "PP-SF-CB-01",
+      "qty": 9
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
       "qty": 8
     },
     {
@@ -51,23 +56,18 @@
       "qty": 8
     },
     {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
-      "qty": 7
-    },
-    {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 7
+      "name": "SF Landmarks Mug",
+      "sku": "MUG-SF-LDMKS",
+      "qty": 8
     }
   ],
   "hot": [
     {
       "name": "Ferry Building Travel Poster Magnet",
       "sku": "FERRYBUILDINGTP_MAG",
-      "qty_recent": 6,
+      "qty_recent": 7,
       "qty_prev": 1,
-      "pct": 1100
+      "pct": 1300
     },
     {
       "name": "San Francisco Landmark Sticker Sheet",
@@ -77,11 +77,11 @@
       "pct": 1100
     },
     {
-      "name": "Wishing You A Sweet Birthday Card",
-      "sku": "SWEETBDAY_GC",
-      "qty_recent": 3,
+      "name": "Palace of Fine Arts",
+      "sku": "POFA_FILM_11X14",
+      "qty_recent": 2,
       "qty_prev": 1,
-      "pct": 500
+      "pct": 300
     },
     {
       "name": "Fog City Embroidered Dad Hat - Light Blue",
@@ -98,19 +98,33 @@
       "pct": 300
     },
     {
-      "name": "Palace of Fine Arts",
-      "sku": "POFA_FILM_11X14",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
+      "name": "SF Icons Pencil Pouch - Blue",
+      "sku": "PP-SF-CB-01",
+      "qty_recent": 9,
+      "qty_prev": 6,
+      "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "Painted Lady Keychain- Pink",
-      "sku": "KC-PAINTEDLADY-PINK",
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Twists and Turns",
+      "sku": "TWISTSANDTURNS_GC",
+      "qty_recent": 0,
+      "qty_prev": 7,
       "pct": -100
     },
     {
@@ -121,10 +135,10 @@
       "pct": -100
     },
     {
-      "name": "State of California 8x10",
-      "sku": "STATEOFCALIFORNIA_BW_8X10",
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -133,28 +147,14 @@
       "qty_recent": 0,
       "qty_prev": 6,
       "pct": -100
-    },
-    {
-      "name": "Painted Lady Keychain- Green",
-      "sku": "KC-PAINTEDLADY-GREEN",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Pencil Pouches",
-      "qty_recent": 8,
+      "qty_recent": 9,
       "qty_prev": 6,
-      "pct": 167
+      "pct": 200
     },
     {
       "category": "Film Prints",
@@ -164,9 +164,9 @@
     },
     {
       "category": "Magnets",
-      "qty_recent": 50,
+      "qty_recent": 54,
       "qty_prev": 147,
-      "pct": -32
+      "pct": -27
     }
   ]
 }
