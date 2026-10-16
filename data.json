@@ -107,13 +107,6 @@
   ],
   "cold": [
     {
-      "name": "Lombard Street Retro Postcard",
-      "sku": "LOMBARDST_RETRO_PC",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
       "name": "Pennant",
       "sku": "SFPENNANT_STICKER",
       "qty_recent": 0,
@@ -121,15 +114,22 @@
       "pct": -100
     },
     {
-      "name": "Twists and Turns",
-      "sku": "TWISTSANDTURNS_GC",
+      "name": "Painted Lady Keychain- Pink",
+      "sku": "KC-PAINTEDLADY-PINK",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Paris 8x10",
-      "sku": "PARIS_BW_8X10",
+      "name": "City By The Bay Local Notion",
+      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -142,10 +142,10 @@
       "pct": -100
     },
     {
-      "name": "Los Angeles 8x10",
-      "sku": "LA_BW_8X10",
+      "name": "State of California 8x10",
+      "sku": "STATEOFCALIFORNIA_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
