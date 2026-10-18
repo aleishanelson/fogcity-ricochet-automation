@@ -1,11 +1,11 @@
 {
-  "updated": "October 16, 2026",
-  "period_label": "10/7 \u2013 10/16, 2026",
-  "total_units": 109,
+  "updated": "October 17, 2026",
+  "period_label": "10/8 \u2013 10/17, 2026",
+  "total_units": 114,
   "revenue": {
-    "yesterday": 355.49,
-    "yesterday_label": "10/16",
-    "weekly": 4871.04,
+    "yesterday": 0.0,
+    "yesterday_label": "10/17",
+    "weekly": 4453.55,
     "monthly": 9723.95,
     "ytd": 151539.2
   },
@@ -16,29 +16,34 @@
       "qty": 16
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty": 14
-    },
-    {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
+      "qty": 13
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
       "qty": 12
-    },
-    {
-      "name": "AC_SF_PLADIES_MAG",
-      "sku": "AC_SF_PLADIES_MAG",
-      "qty": 10
-    },
-    {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 10
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 10
+      "qty": 12
+    },
+    {
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GGTRAVELPOSTER_STICKER",
+      "qty": 11
+    },
+    {
+      "name": "POSTCARDS3FOR10",
+      "sku": "POSTCARDS3FOR10",
+      "qty": 11
+    },
+    {
+      "name": "Sunny and 75 in SF Card",
+      "sku": "SUNNYAND75SF_GC",
+      "qty": 11
     },
     {
       "name": "SF Icons Pencil Pouch - Blue",
@@ -46,13 +51,8 @@
       "qty": 10
     },
     {
-      "name": "ACRYLIC SFO Luggage tag",
-      "sku": "AC_SF_SFO_MAG",
-      "qty": 9
-    },
-    {
-      "name": "Sunny and 75 in SF Card",
-      "sku": "SUNNYAND75SF_GC",
+      "name": "AC_SF_PLADIES_MAG",
+      "sku": "AC_SF_PLADIES_MAG",
       "qty": 9
     },
     {
@@ -63,18 +63,25 @@
   ],
   "hot": [
     {
-      "name": "Ferry Building Travel Poster Magnet",
-      "sku": "FERRYBUILDINGTP_MAG",
-      "qty_recent": 8,
-      "qty_prev": 1,
-      "pct": 1500
-    },
-    {
       "name": "San Francisco Landmark Sticker Sheet",
       "sku": "SS-SF-LDMKS",
       "qty_recent": 6,
       "qty_prev": 1,
       "pct": 1100
+    },
+    {
+      "name": "Wishing You A Sweet Birthday Card",
+      "sku": "SWEETBDAY_GC",
+      "qty_recent": 4,
+      "qty_prev": 1,
+      "pct": 700
+    },
+    {
+      "name": "Ferry Building Travel Poster Magnet",
+      "sku": "FERRYBUILDINGTP_MAG",
+      "qty_recent": 7,
+      "qty_prev": 2,
+      "pct": 600
     },
     {
       "name": "Palace of Fine Arts",
@@ -84,47 +91,33 @@
       "pct": 300
     },
     {
-      "name": "SF Icons Pencil Pouch - Blue",
-      "sku": "PP-SF-CB-01",
-      "qty_recent": 10,
-      "qty_prev": 6,
-      "pct": 233
-    },
-    {
-      "name": "SF_BLOCKFONT_TOTE",
-      "sku": "SF_BLOCKFONT_TOTE",
-      "qty_recent": 3,
-      "qty_prev": 2,
+      "name": "CA State Blue",
+      "sku": "CA_BLOCKFONT_BLUE_STICKER",
+      "qty_recent": 6,
+      "qty_prev": 4,
       "pct": 200
     },
     {
-      "name": "Ferry Building Retro Postcard",
-      "sku": "FERRYBUILDING_RETRO_PC",
-      "qty_recent": 7,
-      "qty_prev": 5,
-      "pct": 180
+      "name": "Ferry Building Travel Poster Card",
+      "sku": "FERRYBLDGTRAVELPOSTER_GC",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "Twists and Turns",
-      "sku": "TWISTSANDTURNS_GC",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "Pennant",
-      "sku": "SFPENNANT_STICKER",
+      "name": "Painted Lady Keychain- Blue",
+      "sku": "KC-PAINTEDLADY-BLUE",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -135,10 +128,17 @@
       "pct": -100
     },
     {
-      "name": "State of California 8x10",
-      "sku": "STATEOFCALIFORNIA_BW_8X10",
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "City By The Bay Local Notion",
+      "sku": "MAG-CITYBYTHEBAY-LOCALNOTION",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -153,20 +153,20 @@
     {
       "category": "Pencil Pouches",
       "qty_recent": 10,
-      "qty_prev": 6,
-      "pct": 233
+      "qty_prev": 8,
+      "pct": 150
     },
     {
       "category": "Landmark Prints",
-      "qty_recent": 9,
+      "qty_recent": 11,
       "qty_prev": 14,
-      "pct": 29
+      "pct": 57
     },
     {
-      "category": "Map Prints",
-      "qty_recent": 27,
-      "qty_prev": 75,
-      "pct": -28
+      "category": "Keychains",
+      "qty_recent": 6,
+      "qty_prev": 23,
+      "pct": -48
     }
   ]
 }
