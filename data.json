@@ -70,13 +70,6 @@
       "pct": 700
     },
     {
-      "name": "San Francisco Icons Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
       "name": "San Francisco 11x14",
       "sku": "SF_BW_11X14",
       "qty_recent": 2,
@@ -86,6 +79,13 @@
     {
       "name": "UCLA 11x14",
       "sku": "UCLA_BW_11X14",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "San Francisco Icons Magnet Set",
+      "sku": "SANFRANCISCOICONS_MAGNETSET",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,15 +107,15 @@
   ],
   "cold": [
     {
-      "name": "Proud Tourist",
-      "sku": "PROUDTOURIST_STICKER",
+      "name": "San Francisco Block Font",
+      "sku": "SF_BLOCKFONT_MAG",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
+      "name": "UC Davis 9x12",
+      "sku": "UCDAVIS_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -135,17 +135,17 @@
       "pct": -100
     },
     {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "SF_RETRO_PL_MAG",
+      "name": "Take the scenic route",
+      "sku": "SCENICROUTE_49MILE_MAG",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "San Francisco Block Font",
-      "sku": "SF_BLOCKFONT_MAG",
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
