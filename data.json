@@ -1,13 +1,13 @@
 {
-  "updated": "October 19, 2026",
-  "period_label": "10/10 \u2013 10/19, 2026",
-  "total_units": 128,
+  "updated": "October 20, 2026",
+  "period_label": "10/11 \u2013 10/20, 2026",
+  "total_units": 121,
   "revenue": {
-    "yesterday": 396.99,
-    "yesterday_label": "10/19",
-    "weekly": 4910.1,
-    "monthly": 10937.94,
-    "ytd": 152753.19
+    "yesterday": 170.0,
+    "yesterday_label": "10/20",
+    "weekly": 4685.14,
+    "monthly": 11107.94,
+    "ytd": 152923.19
   },
   "top10": [
     {
@@ -18,27 +18,7 @@
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSF_STICKER",
-      "qty": 17
-    },
-    {
-      "name": "AC_SF_GGB_MAG",
-      "sku": "AC_SF_GGB_MAG",
-      "qty": 13
-    },
-    {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
-      "qty": 12
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty": 12
-    },
-    {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
-      "qty": 12
+      "qty": 16
     },
     {
       "name": "SF Icons Pencil Pouch - Blue",
@@ -51,9 +31,29 @@
       "qty": 12
     },
     {
-      "name": "POSTCARDS3FOR10",
-      "sku": "POSTCARDS3FOR10",
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
+      "qty": 12
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty": 11
+    },
+    {
+      "name": "SF City Name",
+      "sku": "SFCITYNAME_STICKER",
+      "qty": 11
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "SF_RETRO_GGB_MAG",
       "qty": 10
+    },
+    {
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
+      "qty": 9
     },
     {
       "name": "AC_SF_PLADIES_MAG",
@@ -63,29 +63,29 @@
   ],
   "hot": [
     {
-      "name": "Wishing You A Sweet Birthday Card",
-      "sku": "SWEETBDAY_GC",
-      "qty_recent": 4,
+      "name": "Chicago (ZOOMED OUT)  8x10",
+      "sku": "CHICAGO_BW_8X10",
+      "qty_recent": 5,
+      "qty_prev": 2,
+      "pct": 400
+    },
+    {
+      "name": "SF Icons Pencil Pouch - Blue",
+      "sku": "PP-SF-CB-01",
+      "qty_recent": 12,
+      "qty_prev": 5,
+      "pct": 380
+    },
+    {
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
+      "qty_recent": 2,
       "qty_prev": 1,
-      "pct": 700
+      "pct": 300
     },
     {
       "name": "San Francisco 11x14",
       "sku": "SF_BW_11X14",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
-      "name": "UCLA 11x14",
-      "sku": "UCLA_BW_11X14",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
-      "name": "San Francisco Icons Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -98,8 +98,8 @@
       "pct": 300
     },
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
+      "name": "San Francisco Icons Magnet Set",
+      "sku": "SANFRANCISCOICONS_MAGNETSET",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,31 +107,17 @@
   ],
   "cold": [
     {
-      "name": "San Francisco Block Font",
-      "sku": "SF_BLOCKFONT_MAG",
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "San Diego 8x10",
+      "sku": "SANDIEGO_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "UC Davis 9x12",
-      "sku": "UCDAVIS_BW_9X12",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "State of California 8x10",
-      "sku": "STATEOFCALIFORNIA_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Painted Lady Keychain- Green",
-      "sku": "KC-PAINTEDLADY-GREEN",
-      "qty_recent": 0,
-      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -142,10 +128,24 @@
       "pct": -100
     },
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "UC Davis 9x12",
+      "sku": "UCDAVIS_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Twists and Turns",
+      "sku": "TWISTSANDTURNS_GC",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
@@ -153,20 +153,20 @@
     {
       "category": "Pencil Pouches",
       "qty_recent": 12,
-      "qty_prev": 9,
-      "pct": 167
+      "qty_prev": 5,
+      "pct": 380
     },
     {
-      "category": "Landmark Prints",
-      "qty_recent": 10,
-      "qty_prev": 14,
-      "pct": 43
+      "category": "Film Prints",
+      "qty_recent": 1,
+      "qty_prev": 3,
+      "pct": -33
     },
     {
-      "category": "Map Prints",
-      "qty_recent": 50,
-      "qty_prev": 74,
-      "pct": 35
+      "category": "Cards",
+      "qty_recent": 20,
+      "qty_prev": 60,
+      "pct": -33
     }
   ]
 }
