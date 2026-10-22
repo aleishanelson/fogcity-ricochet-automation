@@ -1,19 +1,19 @@
 {
-  "updated": "October 20, 2026",
-  "period_label": "10/11 \u2013 10/20, 2026",
-  "total_units": 121,
+  "updated": "October 21, 2026",
+  "period_label": "10/12 \u2013 10/21, 2026",
+  "total_units": 132,
   "revenue": {
-    "yesterday": 170.0,
-    "yesterday_label": "10/20",
-    "weekly": 4685.14,
-    "monthly": 11107.94,
-    "ytd": 152923.19
+    "yesterday": 190.5,
+    "yesterday_label": "10/21",
+    "weekly": 5315.63,
+    "monthly": 12036.43,
+    "ytd": 153851.68
   },
   "top10": [
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 19
+      "qty": 20
     },
     {
       "name": "Home Sweet SF",
@@ -21,14 +21,19 @@
       "qty": 16
     },
     {
-      "name": "SF Icons Pencil Pouch - Blue",
-      "sku": "PP-SF-CB-01",
-      "qty": 12
-    },
-    {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 12
+      "qty": 16
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty": 13
+    },
+    {
+      "name": "SF City Name",
+      "sku": "SFCITYNAME_STICKER",
+      "qty": 13
     },
     {
       "name": "AC_SF_GGB_MAG",
@@ -36,28 +41,23 @@
       "qty": 12
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty": 11
-    },
-    {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
-      "qty": 11
-    },
-    {
       "name": "Retro Golden Gate Bridge Poster Magnet",
       "sku": "SF_RETRO_GGB_MAG",
-      "qty": 10
+      "qty": 12
     },
     {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
-      "qty": 9
+      "name": "SF Icons Pencil Pouch - Blue",
+      "sku": "PP-SF-CB-01",
+      "qty": 11
     },
     {
       "name": "AC_SF_PLADIES_MAG",
       "sku": "AC_SF_PLADIES_MAG",
+      "qty": 10
+    },
+    {
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
       "qty": 9
     }
   ],
@@ -70,15 +70,8 @@
       "pct": 400
     },
     {
-      "name": "SF Icons Pencil Pouch - Blue",
-      "sku": "PP-SF-CB-01",
-      "qty_recent": 12,
-      "qty_prev": 5,
-      "pct": 380
-    },
-    {
-      "name": "Golden Gate Travel Poster  11x14",
-      "sku": "GOLDENGATE_TP_11X14",
+      "name": "State of California",
+      "sku": "STATEOFCALIFORNIA_MAP_TT",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -91,26 +84,33 @@
       "pct": 300
     },
     {
-      "name": "San Francisco 11x14",
-      "sku": "SF_BW_11X14",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
+      "name": "SF Icons Pencil Pouch - Blue",
+      "sku": "PP-SF-CB-01",
+      "qty_recent": 11,
+      "qty_prev": 6,
+      "pct": 267
     },
     {
-      "name": "State of California",
-      "sku": "STATEOFCALIFORNIA_MAP_TT",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
+      "name": "Icons  (original)",
+      "sku": "SFICONS_TOTE",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
+    },
+    {
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PC",
+      "qty_recent": 6,
+      "qty_prev": 4,
+      "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 6,
       "pct": -100
     },
     {
@@ -121,13 +121,6 @@
       "pct": -100
     },
     {
-      "name": "UC Davis 9x12",
-      "sku": "UCDAVIS_BW_9X12",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
       "name": "Twists and Turns",
       "sku": "TWISTSANDTURNS_GC",
       "qty_recent": 0,
@@ -135,38 +128,45 @@
       "pct": -100
     },
     {
-      "name": "Santa Clara University",
-      "sku": "TT-CAMPUS-SANTACLARA",
+      "name": "UC Davis 9x12",
+      "sku": "UCDAVIS_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "San Francisco Block Font",
-      "sku": "SF_BLOCKFONT_MAG",
+      "name": "Take the scenic route",
+      "sku": "SCENICROUTE_49MILE_MAG",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Pencil Pouches",
-      "qty_recent": 12,
-      "qty_prev": 5,
-      "pct": 380
+      "qty_recent": 11,
+      "qty_prev": 6,
+      "pct": 267
     },
     {
-      "category": "Film Prints",
-      "qty_recent": 1,
-      "qty_prev": 3,
-      "pct": -33
+      "category": "Totes",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
     },
     {
       "category": "Cards",
-      "qty_recent": 20,
-      "qty_prev": 60,
-      "pct": -33
+      "qty_recent": 16,
+      "qty_prev": 57,
+      "pct": -44
     }
   ]
 }
