@@ -91,47 +91,33 @@
       "pct": 267
     },
     {
-      "name": "Icons  (original)",
-      "sku": "SFICONS_TOTE",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 200
-    },
-    {
       "name": "Golden Gate Bridge Retro Postcard",
       "sku": "SFGGBRIDGE_RETRO_PC",
       "qty_recent": 6,
       "qty_prev": 4,
       "pct": 200
+    },
+    {
+      "name": "Icons  (original)",
+      "sku": "SFICONS_TOTE",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "SF_RETRO_PL_MAG",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "Proud Tourist",
-      "sku": "PROUDTOURIST_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "Twists and Turns",
-      "sku": "TWISTSANDTURNS_GC",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "UC Davis 9x12",
-      "sku": "UCDAVIS_BW_9X12",
+      "name": "State of California 8x10",
+      "sku": "STATEOFCALIFORNIA_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "San Diego 8x10",
+      "sku": "SANDIEGO_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -142,10 +128,24 @@
       "pct": -100
     },
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "UC Davis 9x12",
+      "sku": "UCDAVIS_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Proud Tourist",
+      "sku": "PROUDTOURIST_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 6,
       "pct": -100
     }
   ],
