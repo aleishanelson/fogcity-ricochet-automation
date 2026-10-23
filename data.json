@@ -1,38 +1,38 @@
 {
-  "updated": "October 21, 2026",
-  "period_label": "10/12 \u2013 10/21, 2026",
-  "total_units": 132,
+  "updated": "October 22, 2026",
+  "period_label": "10/13 \u2013 10/22, 2026",
+  "total_units": 134,
   "revenue": {
-    "yesterday": 190.5,
-    "yesterday_label": "10/21",
-    "weekly": 5315.63,
-    "monthly": 12036.43,
-    "ytd": 153851.68
+    "yesterday": 370.98,
+    "yesterday_label": "10/22",
+    "weekly": 5411.63,
+    "monthly": 12407.41,
+    "ytd": 154222.66
   },
   "top10": [
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 20
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty": 16
+      "qty": 21
     },
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 16
+      "qty": 18
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 13
+      "qty": 14
     },
     {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty": 14
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "SF_RETRO_GGB_MAG",
       "qty": 13
     },
     {
@@ -41,13 +41,13 @@
       "qty": 12
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
-      "qty": 12
-    },
-    {
       "name": "SF Icons Pencil Pouch - Blue",
       "sku": "PP-SF-CB-01",
+      "qty": 11
+    },
+    {
+      "name": "SF City Name",
+      "sku": "SFCITYNAME_STICKER",
       "qty": 11
     },
     {
@@ -56,9 +56,9 @@
       "qty": 10
     },
     {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
-      "qty": 9
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
+      "qty": 10
     }
   ],
   "hot": [
@@ -77,8 +77,8 @@
       "pct": 300
     },
     {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
+      "name": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -91,11 +91,11 @@
       "pct": 267
     },
     {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PC",
-      "qty_recent": 6,
-      "qty_prev": 4,
-      "pct": 200
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "SF_RETRO_GGB_MAG",
+      "qty_recent": 13,
+      "qty_prev": 8,
+      "pct": 225
     },
     {
       "name": "Icons  (original)",
@@ -107,8 +107,29 @@
   ],
   "cold": [
     {
-      "name": "State of California 8x10",
-      "sku": "STATEOFCALIFORNIA_BW_8X10",
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Fisherman's Wharf Retro Postcard",
+      "sku": "FISHERMANSWHARF_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "Twists and Turns",
+      "sku": "TWISTSANDTURNS_GC",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Santa Clara University",
+      "sku": "TT-CAMPUS-SANTACLARA",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -121,31 +142,10 @@
       "pct": -100
     },
     {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "SF_RETRO_PL_MAG",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
       "name": "UC Davis 9x12",
       "sku": "UCDAVIS_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Proud Tourist",
-      "sku": "PROUDTOURIST_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 6,
       "pct": -100
     }
   ],
@@ -164,9 +164,9 @@
     },
     {
       "category": "Cards",
-      "qty_recent": 16,
-      "qty_prev": 57,
-      "pct": -44
+      "qty_recent": 15,
+      "qty_prev": 55,
+      "pct": -45
     }
   ]
 }
