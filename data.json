@@ -107,24 +107,17 @@
   ],
   "cold": [
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 6,
       "pct": -100
     },
     {
-      "name": "Fisherman's Wharf Retro Postcard",
-      "sku": "FISHERMANSWHARF_RETRO_PC",
+      "name": "Proud Tourist",
+      "sku": "PROUDTOURIST_STICKER",
       "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Twists and Turns",
-      "sku": "TWISTSANDTURNS_GC",
-      "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 6,
       "pct": -100
     },
     {
@@ -135,17 +128,24 @@
       "pct": -100
     },
     {
-      "name": "San Diego 8x10",
-      "sku": "SANDIEGO_BW_8X10",
+      "name": "Take the scenic route",
+      "sku": "SCENICROUTE_49MILE_MAG",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "UC Davis 9x12",
-      "sku": "UCDAVIS_BW_9X12",
+      "name": "Fisherman's Wharf Retro Postcard",
+      "sku": "FISHERMANSWHARF_RETRO_PC",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco Block Font",
+      "sku": "SF_BLOCKFONT_MAG",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
