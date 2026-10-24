@@ -1,24 +1,34 @@
 {
-  "updated": "October 22, 2026",
-  "period_label": "10/13 \u2013 10/22, 2026",
-  "total_units": 134,
+  "updated": "October 23, 2026",
+  "period_label": "10/14 \u2013 10/23, 2026",
+  "total_units": 139,
   "revenue": {
-    "yesterday": 370.98,
-    "yesterday_label": "10/22",
-    "weekly": 5411.63,
-    "monthly": 12407.41,
-    "ytd": 154222.66
+    "yesterday": 264.5,
+    "yesterday_label": "10/23",
+    "weekly": 5320.64,
+    "monthly": 12671.91,
+    "ytd": 154487.16
   },
   "top10": [
     {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GGTRAVELPOSTER_STICKER",
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
       "qty": 21
     },
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 18
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GGTRAVELPOSTER_STICKER",
+      "qty": 20
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty": 15
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "SF_RETRO_GGB_MAG",
+      "qty": 14
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
@@ -26,23 +36,13 @@
       "qty": 14
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty": 14
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
       "qty": 13
     },
     {
-      "name": "AC_SF_GGB_MAG",
-      "sku": "AC_SF_GGB_MAG",
-      "qty": 12
-    },
-    {
-      "name": "SF Icons Pencil Pouch - Blue",
-      "sku": "PP-SF-CB-01",
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
       "qty": 11
     },
     {
@@ -51,14 +51,14 @@
       "qty": 11
     },
     {
-      "name": "AC_SF_PLADIES_MAG",
-      "sku": "AC_SF_PLADIES_MAG",
-      "qty": 10
-    },
-    {
       "name": "Illustrated Ferry Building Landmark",
       "sku": "FB_ILLUSTRATED_STICKER",
-      "qty": 10
+      "qty": 11
+    },
+    {
+      "name": "SF Icons Pencil Pouch - Blue",
+      "sku": "PP-SF-CB-01",
+      "qty": 9
     }
   ],
   "hot": [
@@ -70,8 +70,8 @@
       "pct": 400
     },
     {
-      "name": "State of California",
-      "sku": "STATEOFCALIFORNIA_MAP_TT",
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -84,49 +84,28 @@
       "pct": 300
     },
     {
-      "name": "SF Icons Pencil Pouch - Blue",
-      "sku": "PP-SF-CB-01",
-      "qty_recent": 11,
-      "qty_prev": 6,
-      "pct": 267
-    },
-    {
       "name": "Retro Golden Gate Bridge Poster Magnet",
       "sku": "SF_RETRO_GGB_MAG",
-      "qty_recent": 13,
+      "qty_recent": 14,
       "qty_prev": 8,
-      "pct": 225
+      "pct": 250
     },
     {
-      "name": "Icons  (original)",
-      "sku": "SFICONS_TOTE",
+      "name": "London 8x10",
+      "sku": "LONDON_BW_8X10",
       "qty_recent": 3,
       "qty_prev": 2,
+      "pct": 200
+    },
+    {
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PC",
+      "qty_recent": 6,
+      "qty_prev": 4,
       "pct": 200
     }
   ],
   "cold": [
-    {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "SF_RETRO_PL_MAG",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "Proud Tourist",
-      "sku": "PROUDTOURIST_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "Santa Clara University",
-      "sku": "TT-CAMPUS-SANTACLARA",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
     {
       "name": "Take the scenic route",
       "sku": "SCENICROUTE_49MILE_MAG",
@@ -135,15 +114,36 @@
       "pct": -100
     },
     {
-      "name": "Fisherman's Wharf Retro Postcard",
-      "sku": "FISHERMANSWHARF_RETRO_PC",
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "San Francisco Block Font",
-      "sku": "SF_BLOCKFONT_MAG",
+      "name": "SF City By The Bay Dad Hat - Cream",
+      "sku": "DH-002-CR",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Twists and Turns",
+      "sku": "TWISTSANDTURNS_GC",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Palace of Fine Arts",
+      "sku": "POFA_FILM_11X14",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Fisherman's Wharf Retro Postcard",
+      "sku": "FISHERMANSWHARF_RETRO_PC",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
@@ -151,22 +151,22 @@
   ],
   "category_trends": [
     {
-      "category": "Pencil Pouches",
-      "qty_recent": 11,
-      "qty_prev": 6,
-      "pct": 267
-    },
-    {
       "category": "Totes",
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
     },
     {
-      "category": "Cards",
-      "qty_recent": 15,
-      "qty_prev": 55,
-      "pct": -45
+      "category": "Pencil Pouches",
+      "qty_recent": 9,
+      "qty_prev": 8,
+      "pct": 125
+    },
+    {
+      "category": "Film Prints",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
     }
   ]
 }
