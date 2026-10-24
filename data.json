@@ -107,8 +107,8 @@
   ],
   "cold": [
     {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
@@ -121,13 +121,6 @@
       "pct": -100
     },
     {
-      "name": "SF City By The Bay Dad Hat - Cream",
-      "sku": "DH-002-CR",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
       "name": "Twists and Turns",
       "sku": "TWISTSANDTURNS_GC",
       "qty_recent": 0,
@@ -135,10 +128,17 @@
       "pct": -100
     },
     {
-      "name": "Palace of Fine Arts",
-      "sku": "POFA_FILM_11X14",
+      "name": "UC Davis 9x12",
+      "sku": "UCDAVIS_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Take the scenic route",
+      "sku": "SCENICROUTE_49MILE_MAG",
+      "qty_recent": 0,
+      "qty_prev": 4,
       "pct": -100
     },
     {
