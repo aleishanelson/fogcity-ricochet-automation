@@ -70,17 +70,17 @@
       "pct": 400
     },
     {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PC",
-      "qty_recent": 8,
-      "qty_prev": 4,
-      "pct": 300
-    },
-    {
       "name": "Grey Apartment Postcard",
       "sku": "PC-SF-07",
       "qty_recent": 2,
       "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "Golden Gate Bridge Retro Postcard",
+      "sku": "SFGGBRIDGE_RETRO_PC",
+      "qty_recent": 8,
+      "qty_prev": 4,
       "pct": 300
     },
     {
@@ -91,40 +91,40 @@
       "pct": 300
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
-      "qty_recent": 15,
-      "qty_prev": 9,
-      "pct": 233
-    },
-    {
       "name": "Wishing You A Sweet Birthday Card",
       "sku": "SWEETBDAY_GC",
       "qty_recent": 5,
       "qty_prev": 3,
       "pct": 233
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "SF_RETRO_GGB_MAG",
+      "qty_recent": 15,
+      "qty_prev": 9,
+      "pct": 233
     }
   ],
   "cold": [
+    {
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "SF City By The Bay Dad Hat - Cream",
+      "sku": "DH-002-CR",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
     {
       "name": "UC Davis 9x12",
       "sku": "UCDAVIS_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "SF_BLOCKFONT_TOTE",
-      "sku": "SF_BLOCKFONT_TOTE",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "San Diego 8x10",
-      "sku": "SANDIEGO_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -135,15 +135,15 @@
       "pct": -100
     },
     {
-      "name": "Fisherman's Wharf Retro Postcard",
-      "sku": "FISHERMANSWHARF_RETRO_PC",
+      "name": "San Diego 8x10",
+      "sku": "SANDIEGO_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
+      "name": "Fisherman's Wharf Retro Postcard",
+      "sku": "FISHERMANSWHARF_RETRO_PC",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
