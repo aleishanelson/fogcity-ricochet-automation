@@ -1,24 +1,19 @@
 {
-  "updated": "October 24, 2026",
-  "period_label": "10/15 \u2013 10/24, 2026",
-  "total_units": 153,
+  "updated": "October 25, 2026",
+  "period_label": "10/16 \u2013 10/25, 2026",
+  "total_units": 154,
   "revenue": {
-    "yesterday": 440.49,
-    "yesterday_label": "10/24",
-    "weekly": 5023.14,
-    "monthly": 13112.4,
-    "ytd": 154927.65
+    "yesterday": 484.43,
+    "yesterday_label": "10/25",
+    "weekly": 4690.57,
+    "monthly": 13596.83,
+    "ytd": 155412.08
   },
   "top10": [
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
       "qty": 23
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty": 19
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
@@ -31,14 +26,19 @@
       "qty": 18
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
-      "qty": 15
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty": 17
     },
     {
       "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
-      "qty": 13
+      "qty": 16
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Magnet",
+      "sku": "SF_RETRO_GGB_MAG",
+      "qty": 15
     },
     {
       "name": "SF City Name",
@@ -46,19 +46,19 @@
       "qty": 13
     },
     {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
-      "qty": 11
-    },
-    {
       "name": "SFO Luggage Tag Keychain",
       "sku": "KC-SFO-LUGGAGETAG",
-      "qty": 11
+      "qty": 12
     },
     {
       "name": "Illustrated Ferry Building Landmark",
       "sku": "FB_ILLUSTRATED_STICKER",
       "qty": 11
+    },
+    {
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
+      "qty": 10
     }
   ],
   "hot": [
@@ -70,6 +70,20 @@
       "pct": 400
     },
     {
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "Alcatraz Island Retro Postcard",
+      "sku": "ALCATRAZ_RETRO_PC",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
       "name": "Grey Apartment Postcard",
       "sku": "PC-SF-07",
       "qty_recent": 2,
@@ -77,17 +91,10 @@
       "pct": 300
     },
     {
-      "name": "Golden Gate Bridge Retro Postcard",
-      "sku": "SFGGBRIDGE_RETRO_PC",
-      "qty_recent": 8,
-      "qty_prev": 4,
-      "pct": 300
-    },
-    {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
-      "qty_recent": 2,
-      "qty_prev": 1,
+      "name": "London 8x10",
+      "sku": "LONDON_BW_8X10",
+      "qty_recent": 4,
+      "qty_prev": 2,
       "pct": 300
     },
     {
@@ -96,23 +103,9 @@
       "qty_recent": 5,
       "qty_prev": 3,
       "pct": 233
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
-      "qty_recent": 15,
-      "qty_prev": 9,
-      "pct": 233
     }
   ],
   "cold": [
-    {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "SF_RETRO_PL_MAG",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
     {
       "name": "SF City By The Bay Dad Hat - Cream",
       "sku": "DH-002-CR",
@@ -121,29 +114,36 @@
       "pct": -100
     },
     {
-      "name": "UC Davis 9x12",
-      "sku": "UCDAVIS_BW_9X12",
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "Cal Poly SLO",
+      "sku": "TT-CAMPUS-CALPOLYSLO",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "San Diego 8x10",
-      "sku": "SANDIEGO_BW_8X10",
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "Fisherman's Wharf Retro Postcard",
-      "sku": "FISHERMANSWHARF_RETRO_PC",
+      "name": "San Francisco Block Font",
+      "sku": "SF_BLOCKFONT_MAG",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "SF_BLOCKFONT_TOTE",
+      "sku": "SF_BLOCKFONT_TOTE",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
@@ -164,9 +164,9 @@
     },
     {
       "category": "Postcards",
-      "qty_recent": 21,
+      "qty_recent": 20,
       "qty_prev": 25,
-      "pct": 68
+      "pct": 60
     }
   ]
 }
