@@ -1,48 +1,43 @@
 {
-  "updated": "October 25, 2026",
-  "period_label": "10/16 \u2013 10/25, 2026",
-  "total_units": 154,
+  "updated": "October 26, 2026",
+  "period_label": "10/17 \u2013 10/26, 2026",
+  "total_units": 148,
   "revenue": {
-    "yesterday": 484.43,
-    "yesterday_label": "10/25",
-    "weekly": 4690.57,
-    "monthly": 13596.83,
-    "ytd": 155412.08
+    "yesterday": 234.5,
+    "yesterday_label": "10/26",
+    "weekly": 4528.08,
+    "monthly": 13831.33,
+    "ytd": 155646.58
   },
   "top10": [
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 23
-    },
-    {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 19
+      "qty": 20
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 18
+      "qty": 19
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
+      "qty": 19
     },
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSF_STICKER",
-      "qty": 17
-    },
-    {
-      "name": "AC_SF_GGB_MAG",
-      "sku": "AC_SF_GGB_MAG",
-      "qty": 16
+      "qty": 18
     },
     {
       "name": "Retro Golden Gate Bridge Poster Magnet",
       "sku": "SF_RETRO_GGB_MAG",
-      "qty": 15
+      "qty": 14
     },
     {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
       "qty": 13
     },
     {
@@ -53,15 +48,27 @@
     {
       "name": "Illustrated Ferry Building Landmark",
       "sku": "FB_ILLUSTRATED_STICKER",
+      "qty": 12
+    },
+    {
+      "name": "SF City Name",
+      "sku": "SFCITYNAME_STICKER",
       "qty": 11
     },
     {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
       "qty": 10
     }
   ],
   "hot": [
+    {
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 500
+    },
     {
       "name": "Chicago (ZOOMED OUT)  8x10",
       "sku": "CHICAGO_BW_8X10",
@@ -70,10 +77,10 @@
       "pct": 400
     },
     {
-      "name": "London 8x10",
-      "sku": "LONDON_BW_8X10",
-      "qty_recent": 4,
-      "qty_prev": 2,
+      "name": "Alcatraz Island Retro Postcard",
+      "sku": "ALCATRAZ_RETRO_PC",
+      "qty_recent": 2,
+      "qty_prev": 1,
       "pct": 300
     },
     {
@@ -84,49 +91,21 @@
       "pct": 300
     },
     {
-      "name": "Alcatraz Island Retro Postcard",
-      "sku": "ALCATRAZ_RETRO_PC",
-      "qty_recent": 2,
-      "qty_prev": 1,
+      "name": "London 8x10",
+      "sku": "LONDON_BW_8X10",
+      "qty_recent": 4,
+      "qty_prev": 2,
       "pct": 300
     },
     {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
-      "name": "Los Angeles 8x10",
-      "sku": "LA_BW_8X10",
+      "name": "Wishing You A Sweet Birthday Card",
+      "sku": "SWEETBDAY_GC",
       "qty_recent": 5,
       "qty_prev": 3,
       "pct": 233
     }
   ],
   "cold": [
-    {
-      "name": "SF_BLOCKFONT_TOTE",
-      "sku": "SF_BLOCKFONT_TOTE",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Palace of Fine Arts",
-      "sku": "POFA_FILM_11X14",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
     {
       "name": "Cal Poly SLO",
       "sku": "TT-CAMPUS-CALPOLYSLO",
@@ -142,8 +121,29 @@
       "pct": -100
     },
     {
-      "name": "San Diego 8x10",
-      "sku": "SANDIEGO_BW_8X10",
+      "name": "I'd Escape Alcatraz",
+      "sku": "IDESCAPEALCATRAZFORYOU_GC",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "San Francisco Block Font",
+      "sku": "SF_BLOCKFONT_MAG",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "SF_BLOCKFONT_TOTE",
+      "sku": "SF_BLOCKFONT_TOTE",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
@@ -163,10 +163,10 @@
       "pct": -100
     },
     {
-      "category": "Postcards",
-      "qty_recent": 20,
+      "category": "Keychains",
+      "qty_recent": 21,
       "qty_prev": 25,
-      "pct": 60
+      "pct": 68
     }
   ]
 }
