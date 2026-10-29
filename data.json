@@ -114,24 +114,10 @@
       "pct": -100
     },
     {
-      "name": "Palace of Fine Arts",
-      "sku": "POFA_FILM_11X14",
+      "name": "Lake Tahoe (Cursive)  8x10",
+      "sku": "LAKETAHOE_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
-      "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 4,
       "pct": -100
     },
     {
@@ -142,10 +128,24 @@
       "pct": -100
     },
     {
-      "name": "Ferry Building Travel Poster Card",
-      "sku": "FERRYBLDGTRAVELPOSTER_GC",
+      "name": "Cal Poly SLO",
+      "sku": "TT-CAMPUS-CALPOLYSLO",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Palace of Fine Arts",
+      "sku": "POFA_FILM_11X14",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
