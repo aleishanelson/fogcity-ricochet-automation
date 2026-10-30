@@ -1,19 +1,19 @@
 {
-  "updated": "October 28, 2026",
-  "period_label": "10/19 \u2013 10/28, 2026",
-  "total_units": 118,
+  "updated": "October 29, 2026",
+  "period_label": "10/20 \u2013 10/29, 2026",
+  "total_units": 120,
   "revenue": {
-    "yesterday": 342.47,
-    "yesterday_label": "10/28",
-    "weekly": 4666.05,
-    "monthly": 14329.8,
-    "ytd": 156145.05
+    "yesterday": 181.0,
+    "yesterday_label": "10/29",
+    "weekly": 4476.07,
+    "monthly": 14510.8,
+    "ytd": 156326.05
   },
   "top10": [
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 19
+      "qty": 21
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
@@ -21,19 +21,24 @@
       "qty": 18
     },
     {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty": 13
+    },
+    {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 14
+      "qty": 12
+    },
+    {
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
+      "qty": 10
     },
     {
       "name": "Retro Golden Gate Bridge Poster Magnet",
       "sku": "SF_RETRO_GGB_MAG",
-      "qty": 12
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty": 12
+      "qty": 10
     },
     {
       "name": "SFO Luggage Tag Keychain",
@@ -41,23 +46,18 @@
       "qty": 10
     },
     {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "SF_RETRO_FB_MAG",
+      "name": "Retro SF Ferry Building Poster Sticker",
+      "sku": "RETRO_SF_FB_STICKER",
       "qty": 9
-    },
-    {
-      "name": "SF City Name",
-      "sku": "SFCITYNAME_STICKER",
-      "qty": 8
-    },
-    {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
-      "qty": 8
     },
     {
       "name": "Golden Gate Bridge Pink Sticker",
       "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 9
+    },
+    {
+      "name": "Retro Ferry Building Poster Magnet",
+      "sku": "SF_RETRO_FB_MAG",
       "qty": 8
     }
   ],
@@ -70,15 +70,15 @@
       "pct": 500
     },
     {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "SF_RETRO_FB_MAG",
-      "qty_recent": 9,
-      "qty_prev": 4,
-      "pct": 350
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     },
     {
-      "name": "Cable Car Film Postcard",
-      "sku": "PC-SF-14",
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -91,15 +91,15 @@
       "pct": 300
     },
     {
-      "name": "San Francisco Icons Magnet Set",
-      "sku": "SANFRANCISCOICONS_MAGNETSET",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 200
+      "name": "Retro Ferry Building Poster Magnet",
+      "sku": "SF_RETRO_FB_MAG",
+      "qty_recent": 8,
+      "qty_prev": 5,
+      "pct": 220
     },
     {
-      "name": "London 8x10",
-      "sku": "LONDON_BW_8X10",
+      "name": "San Francisco Icons Magnet Set",
+      "sku": "SANFRANCISCOICONS_MAGNETSET",
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
@@ -107,45 +107,45 @@
   ],
   "cold": [
     {
-      "name": "I'd Escape Alcatraz",
-      "sku": "IDESCAPEALCATRAZFORYOU_GC",
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Lake Tahoe (Cursive)  8x10",
-      "sku": "LAKETAHOE_BW_8X10",
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Ferry Building Travel Poster Card",
+      "sku": "FERRYBLDGTRAVELPOSTER_GC",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Icons  (original)",
+      "sku": "SFICONS_TOTE",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     },
     {
       "name": "Home Sweet Home 8x8",
       "sku": "HOMESWEETSF_8X8",
       "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Cal Poly SLO",
-      "sku": "TT-CAMPUS-CALPOLYSLO",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Palace of Fine Arts",
-      "sku": "POFA_FILM_11X14",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
-      "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
@@ -157,16 +157,16 @@
       "pct": -100
     },
     {
-      "category": "Landmark Prints",
-      "qty_recent": 4,
-      "qty_prev": 18,
-      "pct": -56
+      "category": "Totes",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
     },
     {
       "category": "Pencil Pouches",
-      "qty_recent": 4,
-      "qty_prev": 14,
-      "pct": -43
+      "qty_recent": 2,
+      "qty_prev": 16,
+      "pct": -75
     }
   ]
 }
