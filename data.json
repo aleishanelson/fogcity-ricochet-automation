@@ -1,19 +1,24 @@
 {
-  "updated": "October 30, 2026",
-  "period_label": "10/21 \u2013 10/30, 2026",
-  "total_units": 121,
+  "updated": "October 31, 2026",
+  "period_label": "10/22 \u2013 10/31, 2026",
+  "total_units": 131,
   "revenue": {
-    "yesterday": 0.0,
-    "yesterday_label": "10/30",
-    "weekly": 4211.57,
-    "monthly": 14510.8,
-    "ytd": 156326.05
+    "yesterday": 548.47,
+    "yesterday_label": "10/31",
+    "weekly": 4319.55,
+    "monthly": 15059.27,
+    "ytd": 156874.52
   },
   "top10": [
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 21
+      "qty": 22
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty": 17
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
@@ -26,33 +31,28 @@
       "qty": 13
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty": 13
-    },
-    {
       "name": "Golden Gate Bridge Pink Sticker",
       "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 12
+    },
+    {
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
+      "qty": 11
+    },
+    {
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
+      "qty": 11
+    },
+    {
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
       "qty": 11
     },
     {
       "name": "Retro Golden Gate Bridge Poster Magnet",
       "sku": "SF_RETRO_GGB_MAG",
-      "qty": 10
-    },
-    {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
-      "qty": 10
-    },
-    {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
-      "qty": 9
-    },
-    {
-      "name": "AC_SF_GGB_MAG",
-      "sku": "AC_SF_GGB_MAG",
       "qty": 9
     },
     {
@@ -63,25 +63,18 @@
   ],
   "hot": [
     {
+      "name": "Take the scenic route",
+      "sku": "SCENICROUTE_49MILE_MAG",
+      "qty_recent": 7,
+      "qty_prev": 2,
+      "pct": 600
+    },
+    {
       "name": "Bon Voyage",
       "sku": "BONVOYAGE_STICKER",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
-    },
-    {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
-      "qty_recent": 6,
-      "qty_prev": 3,
-      "pct": 300
-    },
-    {
-      "name": "Retro Ferry Building Poster Magnet",
-      "sku": "SF_RETRO_FB_MAG",
-      "qty_recent": 8,
-      "qty_prev": 5,
-      "pct": 220
     },
     {
       "name": "San Francisco Icons Magnet Set",
@@ -91,11 +84,11 @@
       "pct": 200
     },
     {
-      "name": "I'd Climb Any Hill",
-      "sku": "IDCLIMBANYHILL_GC",
-      "qty_recent": 4,
-      "qty_prev": 3,
-      "pct": 167
+      "name": "SF Pink Icons Magnet",
+      "sku": "SF_PINKICONS_MAG",
+      "qty_recent": 6,
+      "qty_prev": 4,
+      "pct": 200
     },
     {
       "name": "UC Berkeley",
@@ -103,26 +96,40 @@
       "qty_recent": 2,
       "qty_prev": 0,
       "pct": 150
+    },
+    {
+      "name": "Bay Area Map",
+      "sku": "BAYAREAMAP_GC",
+      "qty_recent": 2,
+      "qty_prev": 0,
+      "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "Cal Poly SLO",
-      "sku": "TT-CAMPUS-CALPOLYSLO",
+      "name": "Lake Tahoe (Cursive)  8x10",
+      "sku": "LAKETAHOE_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "I'd Escape Alcatraz",
-      "sku": "IDESCAPEALCATRAZFORYOU_GC",
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
+      "name": "Palace of Fine Arts",
+      "sku": "POFA_FILM_11X14",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Cal Poly SLO",
+      "sku": "TT-CAMPUS-CALPOLYSLO",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -135,15 +142,8 @@
       "pct": -100
     },
     {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Palace of Fine Arts",
-      "sku": "POFA_FILM_11X14",
+      "name": "UC Davis 9x12",
+      "sku": "UCDAVIS_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -151,22 +151,22 @@
   ],
   "category_trends": [
     {
-      "category": "Film Prints",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
       "category": "Totes",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "category": "Pencil Pouches",
-      "qty_recent": 3,
-      "qty_prev": 16,
-      "pct": -62
+      "category": "Film Prints",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "category": "Landmark Prints",
+      "qty_recent": 4,
+      "qty_prev": 17,
+      "pct": -53
     }
   ]
 }
