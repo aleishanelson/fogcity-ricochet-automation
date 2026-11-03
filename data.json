@@ -107,15 +107,29 @@
   ],
   "cold": [
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
+      "name": "UC Davis 9x12",
+      "sku": "UCDAVIS_BW_9X12",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Icons  (original)",
-      "sku": "SFICONS_TOTE",
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "UCLA",
+      "sku": "TT-CAMPUS-UCLA",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -128,22 +142,8 @@
       "pct": -100
     },
     {
-      "name": "UC Davis 9x12",
-      "sku": "UCDAVIS_BW_9X12",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster Magnet",
-      "sku": "FERRYBUILDINGTP_MAG",
-      "qty_recent": 0,
-      "qty_prev": 10,
-      "pct": -100
-    },
-    {
-      "name": "UCLA",
-      "sku": "TT-CAMPUS-UCLA",
+      "name": "Icons  (original)",
+      "sku": "SFICONS_TOTE",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
