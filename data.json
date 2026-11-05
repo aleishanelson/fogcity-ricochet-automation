@@ -1,24 +1,19 @@
 {
-  "updated": "November 3, 2026",
-  "period_label": "10/25 \u2013 11/3, 2026",
-  "total_units": 108,
+  "updated": "November 4, 2026",
+  "period_label": "10/26 \u2013 11/4, 2026",
+  "total_units": 103,
   "revenue": {
-    "yesterday": 106.99,
-    "yesterday_label": "11/3",
-    "weekly": 4335.04,
-    "monthly": 4988.6,
-    "ytd": 157764.94
+    "yesterday": 225.97,
+    "yesterday_label": "11/4",
+    "weekly": 4369.53,
+    "monthly": 5214.57,
+    "ytd": 158141.9
   },
   "top10": [
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 18
-    },
-    {
-      "name": "AC_SF_GGB_MAG",
-      "sku": "AC_SF_GGB_MAG",
-      "qty": 13
+      "qty": 16
     },
     {
       "name": "Home Sweet SF",
@@ -31,13 +26,18 @@
       "qty": 12
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty": 10
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
+      "qty": 11
     },
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
+      "qty": 11
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
       "qty": 10
     },
     {
@@ -46,35 +46,42 @@
       "qty": 9
     },
     {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
-      "qty": 8
+      "name": "Home Sweet SF (flat)",
+      "sku": "HOMESWEETSF_MAG",
+      "qty": 7
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Magnet",
-      "sku": "SF_RETRO_GGB_MAG",
-      "qty": 8
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
+      "qty": 7
     },
     {
-      "name": "POSTCARDS3FOR10",
-      "sku": "POSTCARDS3FOR10",
+      "name": "AC_SF_PLADIES_MAG",
+      "sku": "AC_SF_PLADIES_MAG",
       "qty": 7
     }
   ],
   "hot": [
     {
-      "name": "Take the scenic route",
-      "sku": "SCENICROUTE_49MILE_MAG",
-      "qty_recent": 5,
-      "qty_prev": 2,
-      "pct": 400
+      "name": "Painted Lady Keychain- Pink",
+      "sku": "KC-PAINTEDLADY-PINK",
+      "qty_recent": 4,
+      "qty_prev": 1,
+      "pct": 700
     },
     {
-      "name": "SF Pink Icons Magnet",
-      "sku": "SF_PINKICONS_MAG",
-      "qty_recent": 7,
-      "qty_prev": 3,
-      "pct": 367
+      "name": "Take the scenic route",
+      "sku": "SCENICROUTE_49MILE_MAG",
+      "qty_recent": 6,
+      "qty_prev": 2,
+      "pct": 500
+    },
+    {
+      "name": "Twists and Turns",
+      "sku": "TWISTSANDTURNS_GC",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     },
     {
       "name": "CA State White and Black",
@@ -84,45 +91,52 @@
       "pct": 300
     },
     {
-      "name": "Bay Area Map",
-      "sku": "BAYAREA_MAP_TT",
-      "qty_recent": 5,
-      "qty_prev": 3,
-      "pct": 233
-    },
-    {
-      "name": "Painted Lady Keychain- Pink",
-      "sku": "KC-PAINTEDLADY-PINK",
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
     },
     {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_MAG",
-      "qty_recent": 3,
-      "qty_prev": 2,
+      "name": "SF Pink Icons Magnet",
+      "sku": "SF_PINKICONS_MAG",
+      "qty_recent": 6,
+      "qty_prev": 4,
       "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "UC Berkeley 8x10",
-      "sku": "BERKELEY_CAMPUS_BW_8X10",
+      "name": "AC_SF_FW_MAG",
+      "sku": "AC_SF_FW_MAG",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "Icons  (original)",
-      "sku": "SFICONS_TOTE",
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -133,29 +147,9 @@
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
-    },
-    {
-      "name": "Ferry Building Travel Poster Magnet",
-      "sku": "FERRYBUILDINGTP_MAG",
-      "qty_recent": 0,
-      "qty_prev": 10,
-      "pct": -100
-    },
-    {
-      "name": "Painted Ladies Retro Postcard",
-      "sku": "PAINTEDLADIES_RETRO_PC",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
     }
   ],
   "category_trends": [
-    {
-      "category": "Tea Towels",
-      "qty_recent": 18,
-      "qty_prev": 18,
-      "pct": 100
-    },
     {
       "category": "Totes",
       "qty_recent": 0,
@@ -163,10 +157,16 @@
       "pct": -100
     },
     {
+      "category": "Map Prints",
+      "qty_recent": 12,
+      "qty_prev": 86,
+      "pct": -72
+    },
+    {
       "category": "Postcards",
-      "qty_recent": 6,
-      "qty_prev": 38,
-      "pct": -68
+      "qty_recent": 11,
+      "qty_prev": 45,
+      "pct": -51
     }
   ]
 }
