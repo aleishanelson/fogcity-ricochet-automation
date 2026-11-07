@@ -1,19 +1,24 @@
 {
-  "updated": "November 5, 2026",
-  "period_label": "10/27 \u2013 11/5, 2026",
-  "total_units": 102,
+  "updated": "November 6, 2026",
+  "period_label": "10/28 \u2013 11/6, 2026",
+  "total_units": 104,
   "revenue": {
-    "yesterday": 0.0,
-    "yesterday_label": "11/5",
-    "weekly": 4188.53,
-    "monthly": 5214.57,
-    "ytd": 158141.9
+    "yesterday": 459.47,
+    "yesterday_label": "11/6",
+    "weekly": 4497.01,
+    "monthly": 5674.04,
+    "ytd": 158601.37
   },
   "top10": [
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 16
+      "qty": 15
+    },
+    {
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
+      "qty": 13
     },
     {
       "name": "AC_SF_GGB_MAG",
@@ -21,38 +26,33 @@
       "qty": 12
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty": 12
-    },
-    {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
-      "qty": 12
-    },
-    {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 10
+      "qty": 11
     },
     {
-      "name": "Red SF Pill",
-      "sku": "PILL_SF_RED_STICKER",
-      "qty": 9
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty": 11
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 9
+      "qty": 10
+    },
+    {
+      "name": "Home Sweet SF (flat)",
+      "sku": "HOMESWEETSF_MAG",
+      "qty": 10
+    },
+    {
+      "name": "San Francisco",
+      "sku": "SANFRANCISCO_MAP_TT",
+      "qty": 8
     },
     {
       "name": "Golden Gate Bridge Pink Sticker",
       "sku": "GGBRIDGE_PINK_STICKER",
-      "qty": 8
-    },
-    {
-      "name": "AC_SF_PLADIES_MAG",
-      "sku": "AC_SF_PLADIES_MAG",
       "qty": 7
     },
     {
@@ -70,10 +70,10 @@
       "pct": 500
     },
     {
-      "name": "I come with baggage",
-      "sku": "ICOMEWITHBAGGAGE_STICKER",
-      "qty_recent": 2,
-      "qty_prev": 1,
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
+      "qty_recent": 4,
+      "qty_prev": 2,
       "pct": 300
     },
     {
@@ -84,18 +84,11 @@
       "pct": 200
     },
     {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "SF_RETRO_PL_MAG",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 200
-    },
-    {
-      "name": "UC Davis",
-      "sku": "TT-CAMPUS-UCDAVIS",
-      "qty_recent": 2,
-      "qty_prev": 0,
-      "pct": 150
+      "name": "San Francisco",
+      "sku": "SANFRANCISCO_MAP_TT",
+      "qty_recent": 8,
+      "qty_prev": 6,
+      "pct": 167
     },
     {
       "name": "00305I",
@@ -103,12 +96,19 @@
       "qty_recent": 2,
       "qty_prev": 0,
       "pct": 150
+    },
+    {
+      "name": "State of California 8x10",
+      "sku": "STATEOFCALIFORNIA_BW_8X10",
+      "qty_recent": 2,
+      "qty_prev": 0,
+      "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "Cable Car Film Postcard",
-      "sku": "PC-SF-14",
+      "name": "California Icon Keychain",
+      "sku": "KC-SF-03",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -121,13 +121,6 @@
       "pct": -100
     },
     {
-      "name": "SFBLUEICONS_POSTCARD",
-      "sku": "SFBLUEICONS_POSTCARD",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
       "name": "Lake Tahoe (Cursive)  8x10",
       "sku": "LAKETAHOE_BW_8X10",
       "qty_recent": 0,
@@ -135,10 +128,10 @@
       "pct": -100
     },
     {
-      "name": "California Icon Keychain",
-      "sku": "KC-SF-03",
+      "name": "Chicago (ZOOMED OUT)  8x10",
+      "sku": "CHICAGO_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 7,
       "pct": -100
     },
     {
@@ -146,6 +139,13 @@
       "sku": "AC_SF_FW_MAG",
       "qty_recent": 0,
       "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
@@ -157,16 +157,16 @@
       "pct": -100
     },
     {
-      "category": "Map Prints",
-      "qty_recent": 14,
-      "qty_prev": 86,
-      "pct": -67
+      "category": "Tea Towels",
+      "qty_recent": 20,
+      "qty_prev": 21,
+      "pct": 90
     },
     {
-      "category": "Tea Towels",
+      "category": "Map Prints",
       "qty_recent": 18,
-      "qty_prev": 22,
-      "pct": 64
+      "qty_prev": 84,
+      "pct": -57
     }
   ]
 }
