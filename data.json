@@ -1,43 +1,38 @@
 {
-  "updated": "November 6, 2026",
-  "period_label": "10/28 \u2013 11/6, 2026",
-  "total_units": 104,
+  "updated": "November 7, 2026",
+  "period_label": "10/29 \u2013 11/7, 2026",
+  "total_units": 99,
   "revenue": {
-    "yesterday": 459.47,
-    "yesterday_label": "11/6",
-    "weekly": 4497.01,
-    "monthly": 5674.04,
-    "ytd": 158601.37
+    "yesterday": 345.5,
+    "yesterday_label": "11/7",
+    "weekly": 4294.04,
+    "monthly": 6019.54,
+    "ytd": 158946.87
   },
   "top10": [
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 15
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
+      "qty": 13
     },
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
-      "qty": 13
+      "qty": 12
     },
     {
-      "name": "AC_SF_GGB_MAG",
-      "sku": "AC_SF_GGB_MAG",
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty": 12
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
       "qty": 12
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 11
-    },
-    {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty": 11
-    },
-    {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
       "qty": 10
     },
     {
@@ -46,18 +41,23 @@
       "qty": 10
     },
     {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_TT",
-      "qty": 8
-    },
-    {
       "name": "Golden Gate Bridge Pink Sticker",
       "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 9
+    },
+    {
+      "name": "Red SF Pill",
+      "sku": "PILL_SF_RED_STICKER",
       "qty": 7
     },
     {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
+      "name": "SF Landmarks Mug",
+      "sku": "MUG-SF-LDMKS",
+      "qty": 7
+    },
+    {
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
       "qty": 7
     }
   ],
@@ -72,27 +72,27 @@
     {
       "name": "Retro Painted Ladies Poster Magnet",
       "sku": "SF_RETRO_PL_MAG",
-      "qty_recent": 4,
+      "qty_recent": 6,
       "qty_prev": 2,
-      "pct": 300
+      "pct": 500
     },
     {
-      "name": "Painted Lady Keychain- Pink",
-      "sku": "KC-PAINTEDLADY-PINK",
+      "name": "SF_BLOCKFONT_TOTE",
+      "sku": "SF_BLOCKFONT_TOTE",
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
     },
     {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_TT",
-      "qty_recent": 8,
-      "qty_prev": 6,
-      "pct": 167
+      "name": "Painted Lady Keychain- Blue",
+      "sku": "KC-PAINTEDLADY-BLUE",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
     },
     {
-      "name": "00305I",
-      "sku": "00305I",
+      "name": "UC Davis",
+      "sku": "TT-CAMPUS-UCDAVIS",
       "qty_recent": 2,
       "qty_prev": 0,
       "pct": 150
@@ -107,22 +107,15 @@
   ],
   "cold": [
     {
-      "name": "SFBLUEICONS_POSTCARD",
-      "sku": "SFBLUEICONS_POSTCARD",
+      "name": "Sunny and 75 in SF Card",
+      "sku": "SUNNYAND75SF_GC",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 12,
       "pct": -100
     },
     {
-      "name": "Colored Pencil Kit (Blue Cap)",
-      "sku": "COLOREDPENCILKIT_BLUE",
-      "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -135,15 +128,22 @@
       "pct": -100
     },
     {
-      "name": "Lombard Street Retro Postcard",
-      "sku": "LOMBARDST_RETRO_PC",
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Lake Tahoe (Cursive)  8x10",
-      "sku": "LAKETAHOE_BW_8X10",
+      "name": "SFBLUEICONS_POSTCARD",
+      "sku": "SFBLUEICONS_POSTCARD",
+      "qty_recent": 0,
+      "qty_prev": 5,
+      "pct": -100
+    },
+    {
+      "name": "UCLA 8x10",
+      "sku": "UCLA_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -157,16 +157,16 @@
       "pct": -100
     },
     {
-      "category": "Tea Towels",
-      "qty_recent": 20,
-      "qty_prev": 21,
-      "pct": 90
+      "category": "Map Prints",
+      "qty_recent": 17,
+      "qty_prev": 81,
+      "pct": -58
     },
     {
-      "category": "Map Prints",
-      "qty_recent": 18,
-      "qty_prev": 84,
-      "pct": -57
+      "category": "Landmark Prints",
+      "qty_recent": 4,
+      "qty_prev": 16,
+      "pct": -50
     }
   ]
 }
