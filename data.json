@@ -1,34 +1,29 @@
 {
-  "updated": "November 7, 2026",
-  "period_label": "10/29 \u2013 11/7, 2026",
-  "total_units": 99,
+  "updated": "November 8, 2026",
+  "period_label": "10/30 \u2013 11/8, 2026",
+  "total_units": 100,
   "revenue": {
-    "yesterday": 345.5,
-    "yesterday_label": "11/7",
-    "weekly": 4294.04,
-    "monthly": 6019.54,
-    "ytd": 158946.87
+    "yesterday": 562.46,
+    "yesterday_label": "11/8",
+    "weekly": 4711.52,
+    "monthly": 6940.98,
+    "ytd": 159868.31
   },
   "top10": [
     {
       "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
-      "qty": 13
+      "qty": 16
     },
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
-      "qty": 12
+      "qty": 11
     },
     {
       "name": "Home Sweet SF",
       "sku": "HOMESWEETSF_STICKER",
-      "qty": 12
-    },
-    {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 12
+      "qty": 11
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
@@ -36,51 +31,70 @@
       "qty": 10
     },
     {
-      "name": "Home Sweet SF (flat)",
-      "sku": "HOMESWEETSF_MAG",
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
       "qty": 10
     },
     {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
+      "name": "Home Sweet SF (flat)",
+      "sku": "HOMESWEETSF_MAG",
       "qty": 9
-    },
-    {
-      "name": "Red SF Pill",
-      "sku": "PILL_SF_RED_STICKER",
-      "qty": 7
     },
     {
       "name": "SF Landmarks Mug",
       "sku": "MUG-SF-LDMKS",
-      "qty": 7
+      "qty": 9
     },
     {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
+      "qty": 9
+    },
+    {
+      "name": "Golden Gate Bridge Pink Sticker",
+      "sku": "GGBRIDGE_PINK_STICKER",
+      "qty": 8
+    },
+    {
+      "name": "The City by the Bay Pink",
+      "sku": "SFCITYBYTHEBAY_PINK_STICKER",
       "qty": 7
     }
   ],
   "hot": [
     {
-      "name": "Twists and Turns",
-      "sku": "TWISTSANDTURNS_GC",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
-    },
-    {
       "name": "Retro Painted Ladies Poster Magnet",
       "sku": "SF_RETRO_PL_MAG",
       "qty_recent": 6,
-      "qty_prev": 2,
-      "pct": 500
+      "qty_prev": 1,
+      "pct": 1100
+    },
+    {
+      "name": "San Francisco Block Font",
+      "sku": "SF_BLOCKFONT_MAG",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     },
     {
       "name": "SF_BLOCKFONT_TOTE",
       "sku": "SF_BLOCKFONT_TOTE",
-      "qty_recent": 3,
+      "qty_recent": 4,
       "qty_prev": 2,
+      "pct": 300
+    },
+    {
+      "name": "SCRIBBLERS PEN PACKS",
+      "sku": "SCRIBBLERS PEN PACKS",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "3 for $11",
+      "sku": "STICKERS3FOR11",
+      "qty_recent": 9,
+      "qty_prev": 6,
       "pct": 200
     },
     {
@@ -89,47 +103,40 @@
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
-    },
-    {
-      "name": "00305I",
-      "sku": "00305I",
-      "qty_recent": 2,
-      "qty_prev": 0,
-      "pct": 150
-    },
-    {
-      "name": "State of California 8x10",
-      "sku": "STATEOFCALIFORNIA_BW_8X10",
-      "qty_recent": 2,
-      "qty_prev": 0,
-      "pct": 150
     }
   ],
   "cold": [
     {
-      "name": "Sunny and 75 in SF Card",
-      "sku": "SUNNYAND75SF_GC",
-      "qty_recent": 0,
-      "qty_prev": 12,
-      "pct": -100
-    },
-    {
-      "name": "SFBLUEICONS_POSTCARD",
-      "sku": "SFBLUEICONS_POSTCARD",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
+      "name": "Bon Voyage",
+      "sku": "BONVOYAGE_STICKER",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Icons  (original)",
-      "sku": "SFICONS_TOTE",
+      "name": "Chicago (ZOOMED OUT)  8x10",
+      "sku": "CHICAGO_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "POSTCARDS3FOR10",
+      "sku": "POSTCARDS3FOR10",
+      "qty_recent": 0,
+      "qty_prev": 8,
+      "pct": -100
+    },
+    {
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -139,13 +146,6 @@
       "sku": "COLOREDPENCILKIT_BLUE",
       "qty_recent": 0,
       "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "UCLA 8x10",
-      "sku": "UCLA_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 3,
       "pct": -100
     }
   ],
@@ -157,16 +157,16 @@
       "pct": -100
     },
     {
-      "category": "Map Prints",
-      "qty_recent": 17,
-      "qty_prev": 81,
-      "pct": -58
+      "category": "Tea Towels",
+      "qty_recent": 20,
+      "qty_prev": 21,
+      "pct": 90
     },
     {
-      "category": "Landmark Prints",
-      "qty_recent": 4,
-      "qty_prev": 16,
-      "pct": -50
+      "category": "Postcards",
+      "qty_recent": 13,
+      "qty_prev": 41,
+      "pct": -37
     }
   ]
 }
