@@ -1,23 +1,33 @@
 {
-  "updated": "November 8, 2026",
-  "period_label": "10/30 \u2013 11/8, 2026",
-  "total_units": 100,
+  "updated": "November 9, 2026",
+  "period_label": "10/31 \u2013 11/9, 2026",
+  "total_units": 106,
   "revenue": {
-    "yesterday": 562.46,
-    "yesterday_label": "11/8",
-    "weekly": 4711.52,
-    "monthly": 6940.98,
-    "ytd": 159868.31
+    "yesterday": 225.5,
+    "yesterday_label": "11/9",
+    "weekly": 4657.55,
+    "monthly": 7166.48,
+    "ytd": 160093.81
   },
   "top10": [
     {
       "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
-      "qty": 16
+      "qty": 15
+    },
+    {
+      "name": "Home Sweet SF (flat)",
+      "sku": "HOMESWEETSF_MAG",
+      "qty": 13
     },
     {
       "name": "Golden Gate Travel Poster Magnet (new version)",
       "sku": "GOLDENGATETP_MAG",
+      "qty": 11
+    },
+    {
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GGTRAVELPOSTER_STICKER",
       "qty": 11
     },
     {
@@ -26,24 +36,14 @@
       "qty": 11
     },
     {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 10
-    },
-    {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 10
-    },
-    {
-      "name": "Home Sweet SF (flat)",
-      "sku": "HOMESWEETSF_MAG",
-      "qty": 9
+      "qty": 11
     },
     {
       "name": "SF Landmarks Mug",
       "sku": "MUG-SF-LDMKS",
-      "qty": 9
+      "qty": 10
     },
     {
       "name": "3 for $11",
@@ -51,34 +51,27 @@
       "qty": 9
     },
     {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
       "qty": 8
     },
     {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_STICKER",
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
       "qty": 7
     }
   ],
   "hot": [
     {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "SF_RETRO_PL_MAG",
-      "qty_recent": 6,
+      "name": "I'd Escape Alcatraz",
+      "sku": "IDESCAPEALCATRAZFORYOU_GC",
+      "qty_recent": 4,
       "qty_prev": 1,
-      "pct": 1100
+      "pct": 700
     },
     {
       "name": "SCRIBBLERS PEN PACKS",
       "sku": "SCRIBBLERS PEN PACKS",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
-      "name": "San Francisco Block Font",
-      "sku": "SF_BLOCKFONT_MAG",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -94,8 +87,8 @@
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
       "qty_recent": 9,
-      "qty_prev": 6,
-      "pct": 200
+      "qty_prev": 5,
+      "pct": 260
     },
     {
       "name": "Painted Lady Keychain- Blue",
@@ -103,12 +96,40 @@
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
+    },
+    {
+      "name": "Twists and Turns",
+      "sku": "TWISTSANDTURNS_GC",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
+      "name": "Chicago (ZOOMED OUT)  8x10",
+      "sku": "CHICAGO_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Pennant",
+      "sku": "SFPENNANT_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -126,27 +147,6 @@
       "qty_recent": 0,
       "qty_prev": 7,
       "pct": -100
-    },
-    {
-      "name": "Lombard Street Retro Postcard",
-      "sku": "LOMBARDST_RETRO_PC",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "POSTCARDS3FOR10",
-      "sku": "POSTCARDS3FOR10",
-      "qty_recent": 0,
-      "qty_prev": 8,
-      "pct": -100
-    },
-    {
-      "name": "Bon Voyage",
-      "sku": "BONVOYAGE_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
     }
   ],
   "category_trends": [
@@ -158,15 +158,15 @@
     },
     {
       "category": "Tea Towels",
-      "qty_recent": 20,
-      "qty_prev": 21,
-      "pct": 90
+      "qty_recent": 19,
+      "qty_prev": 22,
+      "pct": 73
     },
     {
-      "category": "Postcards",
-      "qty_recent": 13,
-      "qty_prev": 41,
-      "pct": -37
+      "category": "Pencil Pouches",
+      "qty_recent": 4,
+      "qty_prev": 15,
+      "pct": -47
     }
   ]
 }
