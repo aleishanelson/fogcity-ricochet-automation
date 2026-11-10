@@ -289,8 +289,8 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "blue icons postcard":                           "SFICONS_BLUE_4x6",
         "golden gate bridge retro postcard":             "SFGGBRIDGE_RETRO_PC",
         "san francisco golden gate bridge retro postcard": "SFGGBRIDGE_RETRO_PC",
-        "postcards 3 for $11":                           "postcards3for10",
-        "postcards- 3 for $11":                          "postcards3for10",
+        "postcards 3 for $11":                           "postcards3for11",
+        "postcards- 3 for $11":                          "postcards3for11",
         # Magnets
         # ACRYLIC die-cut magnets — separate product line from flat magnets
         # canonical names match what normalize() returns
@@ -592,7 +592,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "golden gate travel poster magnet":                  "GOLDENGATETP_MAG",
         "home sweet home sticker":                           "HOMESWEETSF_STICKER",
         "magnet set san francisco":                          "SANFRANCISCOICONS_MAGNETSET",
-        "postcards 3 for $11":                               "postcards3for10",
+        "postcards 3 for $11":                               "postcards3for11",
         "retro ferry building poster magnet":                "SF_RETRO_FB_MAG",
         "retro golden gate bridge poster sticker":           "RETRO_GGB_STICKER",
         "retro painted ladies poster magnet":                "SF_RETRO_PL_MAG",
@@ -659,7 +659,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "retro golden gate bridge poster magnet":  "SF_RETRO_GGB_MAG",
         "home sweet san francisco art print 11x11": "HOMESWEETSF_11x15",
         "sf tote block letters":                  "SF_BLOCKFONT_TOTE",
-        "postcards 3 for $10":                    "postcards3for10",
+        "postcards 3 for $10":                    "postcards3for11",
         # ── 8/24/2026 fix: items resolving to raw Ricochet codes (manual-paste
         # incident review). Inventory Summary confirmed current as of this date.
         "stanford tea towel":                     "TT-CAMPUS-STANFORD",
@@ -700,14 +700,41 @@ def find_sku(item_name: str, lookup: dict) -> str:
         "usc campus map print 11x14":                "USC_BW_11x14",
         "ohio state university map print 8x10 - aleisha": "OHIOSTATEU_BW_8x10",
         "uc davis campus map print 8x10 - aleisha":  "UCDAVIS_BW_8x10",
+        # 11/10/2026: Inventory Summary's acrylic magnet SKUs changed back to
+        # MAG-AC-SF-* (later keys win over the earlier AC_SF_* entries above).
+        "ferry building acrylic die cut magnet":     "MAG-AC-SF-FERRYB",
+        "acrylic ferry building magnet":             "MAG-AC-SF-FERRYB",
+        "acrylic ferry building":                    "MAG-AC-SF-FERRYB",
+        "golden gate acrylic die cut magnet":        "MAG-AC-SF-GGB",
+        "acrylic golden gate bridge magnet":         "MAG-AC-SF-GGB",
+        "acrylic golden gate magnet":                "MAG-AC-SF-GGB",
+        "acrylic gg magnet":                         "MAG-AC-SF-GGB",
+        "golden gate bridge acrylic die cut magnet": "MAG-AC-SF-GGB",
+        "gg acrylic die cut magnet":                 "MAG-AC-SF-GGB",
+        "golden gate bridge acrylic":                "MAG-AC-SF-GGB",
+        "fishermans wharf acrylic die cut magnet":   "MAG-AC-SF-FWHARF",
+        "acrylic fishermans wharf":                  "MAG-AC-SF-FWHARF",
+        "acrylic fisherman's wharf magnet":          "MAG-AC-SF-FWHARF",
+        "acrylic fishermans wharf magnet":           "MAG-AC-SF-FWHARF",
+        "acrylic painted ladies magnet":             "MAG-AC-SF-PLADIES",
+        "acrylic painted ladies":                    "MAG-AC-SF-PLADIES",
         # NOTE: a bare, size-less "Boston Map Print" (no "- Aleisha", no
         # size token) is intentionally NOT hardcoded here - its size varies
         # by price ($20->8x10, $32->9x12, $38->11x14; see
         # resolve_ambiguous_map_print). The 9/8 case at $32 is 9x12.
     }
     # 0. Exact-match override - curated fixes always take priority over fuzzy matching
+    # The Inventory Summary is the source of truth: if it has since been
+    # reorganized so the override's SKU no longer exists there, don't trust the
+    # stale override -- try the live lookup first and only fall back to the
+    # override at the very end. (Fixes recurring OVERRIDES drift, e.g.
+    # AC_SF_FB_MAG vs the Inventory's current MAG-AC-SF-FERRYB, 2026-11-10.)
+    _valid_skus = {s for s in (all_lookup.values() if isinstance(all_lookup, dict) else []) if s}
+    _stale_override = ""
     if key in OVERRIDES:
-        return OVERRIDES[key]
+        if not _valid_skus or OVERRIDES[key] in _valid_skus:
+            return OVERRIDES[key]
+        _stale_override = OVERRIDES[key]
 
     # Categories where a category-hint match must NEVER fall through to the
     # broad, cross-category search in step 2 below. Without this guard, an
@@ -760,7 +787,7 @@ def find_sku(item_name: str, lookup: dict) -> str:
             if not _sku_is_valid_for_item(item_name, sku):
                 continue
             return sku
-    return ""
+    return _stale_override
 
 
 def resolve_ambiguous_map_print(item_name: str, unit_price: float, lookup: dict) -> str:
@@ -1697,7 +1724,23 @@ def reconcile_unresolved_rows(sheets, sku_lookup, lookback_rows: int = 200) -> N
     known_skus = {sku.strip().lower() for sku in sku_lookup.get("all", {}).values() if sku}
     start_idx = max(1, len(rows) - lookback_rows)  # skip header row 0
 
+    # Unit-price history (name -> $/unit) from rows that DO have revenue, so
+    # manually-pasted rows (blank Revenue) can be back-filled. Later rows win.
+    # Added 2026-11-10: a pasted 11/9 block had raw Ricochet codes AND no
+    # prices; this script only repaired SKUs, never revenue.
+    unit_price_by_name = {}
+    for row in rows[1:]:
+        try:
+            nm  = row[2].strip().lower()
+            qty = float(row[4])
+            rev = float(str(row[6]).replace("$", "").replace(",", ""))
+        except (IndexError, ValueError, AttributeError):
+            continue
+        if nm and qty > 0 and rev > 0:
+            unit_price_by_name[nm] = round(rev / qty, 2)
+
     fixes = []              # (sheet_row_1indexed, new_sku)
+    rev_fixes = []          # (sheet_row_1indexed, revenue)
     still_unresolved = []   # (sheet_row_1indexed, item_name, raw_sku)
 
     for i in range(start_idx, len(rows)):
@@ -1709,10 +1752,25 @@ def reconcile_unresolved_rows(sheets, sku_lookup, lookback_rows: int = 200) -> N
 
         if not item_name or not raw_sku:
             continue
-        if raw_sku.lower() in known_skus:
-            continue   # already a real Inventory Summary SKU -- nothing to fix
         if revenue:
             continue   # has revenue -- was likely already hand-reviewed/fixed
+
+        # Back-fill revenue (qty x last known unit price for this item name).
+        try:
+            qty = float(row[4])
+        except (IndexError, ValueError):
+            qty = 0
+        unit = unit_price_by_name.get(item_name.lower())
+        if unit is None and qty:
+            # Unsized-price fallback for map prints: $20=8x10, $32=9x12, $38=11x14
+            m = _SIZE_TOKEN_RE.search(item_name.lower())
+            if m and "map print" in item_name.lower():
+                unit = {"8x10": 20, "9x12": 32, "11x14": 38}.get(m.group(1))
+        if unit is not None and qty:
+            rev_fixes.append((sheet_row, round(unit * qty, 2)))
+
+        if raw_sku.lower() in known_skus:
+            continue   # already a real Inventory Summary SKU -- SKU is fine
 
         resolved = find_sku(normalize(item_name), sku_lookup)
         if resolved:
@@ -1720,19 +1778,23 @@ def reconcile_unresolved_rows(sheets, sku_lookup, lookback_rows: int = 200) -> N
         else:
             still_unresolved.append((sheet_row, item_name, raw_sku))
 
-    if fixes:
-        data = [
-            {"range": f"'{FOG_CITY_TAB}'!D{r}", "values": [[sku]]}
-            for r, sku in fixes
-        ]
+    data = [
+        {"range": f"'{FOG_CITY_TAB}'!D{r}", "values": [[sku]]}
+        for r, sku in fixes
+    ] + [
+        {"range": f"'{FOG_CITY_TAB}'!G{r}", "values": [[rev]]}
+        for r, rev in rev_fixes
+    ]
+    if data:
         sheets.values().batchUpdate(
             spreadsheetId=SPREADSHEET_ID,
             body={"valueInputOption": "USER_ENTERED", "data": data},
         ).execute()
         log.warning(
-            f"Reconciliation: auto-corrected {len(fixes)} SKU(s) that bypassed the "
-            f"normal pipeline (likely a manual paste): rows {[r for r, _ in fixes]}. "
-            f"Revenue for these rows is still blank and needs manual entry."
+            f"Reconciliation: auto-corrected {len(fixes)} SKU(s) and back-filled "
+            f"{len(rev_fixes)} revenue value(s) on rows that bypassed the normal "
+            f"pipeline (likely a manual paste): SKU rows {[r for r, _ in fixes]}, "
+            f"revenue rows {[r for r, _ in rev_fixes]}."
         )
 
     if still_unresolved:
