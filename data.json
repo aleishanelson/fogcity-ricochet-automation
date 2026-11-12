@@ -1,53 +1,33 @@
 {
-  "updated": "November 9, 2026",
-  "period_label": "10/31 \u2013 11/9, 2026",
-  "total_units": 106,
+  "updated": "November 10, 2026",
+  "period_label": "11/1 \u2013 11/10, 2026",
+  "total_units": 91,
   "revenue": {
-    "yesterday": 225.5,
-    "yesterday_label": "11/9",
-    "weekly": 4657.55,
-    "monthly": 7166.48,
-    "ytd": 160093.81
+    "yesterday": 266.98,
+    "yesterday_label": "11/10",
+    "weekly": 4817.54,
+    "monthly": 7433.46,
+    "ytd": 160360.79
   },
   "top10": [
     {
-      "name": "AC_SF_GGB_MAG",
-      "sku": "AC_SF_GGB_MAG",
-      "qty": 15
-    },
-    {
       "name": "Home Sweet SF (flat)",
       "sku": "HOMESWEETSF_MAG",
-      "qty": 13
+      "qty": 14
     },
     {
-      "name": "Golden Gate Travel Poster Magnet (new version)",
-      "sku": "GOLDENGATETP_MAG",
-      "qty": 11
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
+      "qty": 13
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 11
+      "qty": 12
     },
     {
-      "name": "Home Sweet SF",
-      "sku": "HOMESWEETSF_STICKER",
-      "qty": 11
-    },
-    {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 11
-    },
-    {
-      "name": "SF Landmarks Mug",
-      "sku": "MUG-SF-LDMKS",
-      "qty": 10
-    },
-    {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
       "qty": 9
     },
     {
@@ -56,18 +36,38 @@
       "qty": 8
     },
     {
+      "name": "SF Landmarks Mug",
+      "sku": "MUG-SF-LDMKS",
+      "qty": 8
+    },
+    {
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
+      "qty": 7
+    },
+    {
       "name": "SFO Luggage Tag Keychain",
       "sku": "KC-SFO-LUGGAGETAG",
       "qty": 7
+    },
+    {
+      "name": "San Francisco Landmarks Ornament",
+      "sku": "ORNAMENT-SF-LDMK",
+      "qty": 7
+    },
+    {
+      "name": "Home Sweet SF",
+      "sku": "HOMESWEETSF_STICKER",
+      "qty": 6
     }
   ],
   "hot": [
     {
-      "name": "I'd Escape Alcatraz",
-      "sku": "IDESCAPEALCATRAZFORYOU_GC",
-      "qty_recent": 4,
+      "name": "Retro Painted Ladies Poster Magnet",
+      "sku": "SF_RETRO_PL_MAG",
+      "qty_recent": 5,
       "qty_prev": 1,
-      "pct": 700
+      "pct": 900
     },
     {
       "name": "SCRIBBLERS PEN PACKS",
@@ -77,18 +77,11 @@
       "pct": 300
     },
     {
-      "name": "SF_BLOCKFONT_TOTE",
-      "sku": "SF_BLOCKFONT_TOTE",
-      "qty_recent": 4,
+      "name": "I'd Escape Alcatraz",
+      "sku": "IDESCAPEALCATRAZFORYOU_GC",
+      "qty_recent": 3,
       "qty_prev": 2,
-      "pct": 300
-    },
-    {
-      "name": "3 for $11",
-      "sku": "STICKERS3FOR11",
-      "qty_recent": 9,
-      "qty_prev": 5,
-      "pct": 260
+      "pct": 200
     },
     {
       "name": "Painted Lady Keychain- Blue",
@@ -103,33 +96,26 @@
       "qty_recent": 3,
       "qty_prev": 2,
       "pct": 200
+    },
+    {
+      "name": "Ferry Building Travel Poster Card",
+      "sku": "FERRYBLDGTRAVELPOSTER_GC",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
     }
   ],
   "cold": [
     {
-      "name": "Chicago (ZOOMED OUT)  8x10",
-      "sku": "CHICAGO_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "Pennant",
-      "sku": "SFPENNANT_STICKER",
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Ferry Building Travel Poster 8x10",
-      "sku": "FERRYBUILDING_TP_8X10",
-      "qty_recent": 0,
-      "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Lombard Street Retro Postcard",
-      "sku": "LOMBARDST_RETRO_PC",
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -147,6 +133,20 @@
       "qty_recent": 0,
       "qty_prev": 7,
       "pct": -100
+    },
+    {
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "Icons  (original)",
+      "sku": "SFICONS_TOTE",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
     }
   ],
   "category_trends": [
@@ -157,16 +157,16 @@
       "pct": -100
     },
     {
-      "category": "Tea Towels",
-      "qty_recent": 19,
-      "qty_prev": 22,
-      "pct": 73
+      "category": "Pencil Pouches",
+      "qty_recent": 1,
+      "qty_prev": 18,
+      "pct": -89
     },
     {
-      "category": "Pencil Pouches",
-      "qty_recent": 4,
-      "qty_prev": 15,
-      "pct": -47
+      "category": "Tea Towels",
+      "qty_recent": 19,
+      "qty_prev": 24,
+      "pct": 58
     }
   ]
 }
