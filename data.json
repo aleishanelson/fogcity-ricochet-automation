@@ -1,33 +1,28 @@
 {
-  "updated": "November 11, 2026",
-  "period_label": "11/2 \u2013 11/11, 2026",
-  "total_units": 97,
+  "updated": "November 12, 2026",
+  "period_label": "11/3 \u2013 11/12, 2026",
+  "total_units": 96,
   "revenue": {
-    "yesterday": 305.49,
-    "yesterday_label": "11/11",
-    "weekly": 4897.06,
-    "monthly": 7738.95,
-    "ytd": 160666.28
+    "yesterday": 239.97,
+    "yesterday_label": "11/12",
+    "weekly": 4778.05,
+    "monthly": 7978.92,
+    "ytd": 160906.25
   },
   "top10": [
     {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
-      "qty": 15
+      "qty": 16
     },
     {
       "name": "Home Sweet SF (flat)",
       "sku": "HOMESWEETSF_MAG",
-      "qty": 14
+      "qty": 15
     },
     {
       "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
-      "qty": 12
-    },
-    {
-      "name": "Illustrated Ferry Building Landmark",
-      "sku": "FB_ILLUSTRATED_STICKER",
       "qty": 11
     },
     {
@@ -36,8 +31,8 @@
       "qty": 8
     },
     {
-      "name": "SF Landmarks Mug",
-      "sku": "MUG-SF-LDMKS",
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
       "qty": 8
     },
     {
@@ -46,13 +41,18 @@
       "qty": 8
     },
     {
-      "name": "San Francisco",
-      "sku": "SANFRANCISCO_MAP_TT",
-      "qty": 7
+      "name": "Illustrated Ferry Building Landmark",
+      "sku": "FB_ILLUSTRATED_STICKER",
+      "qty": 8
     },
     {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
+      "name": "Golden Gate Travel",
+      "sku": "GOLDENGATETRAVELPOSTER_GC",
+      "qty": 8
+    },
+    {
+      "name": "SF Landmarks Mug",
+      "sku": "MUG-SF-LDMKS",
       "qty": 7
     },
     {
@@ -77,6 +77,20 @@
       "pct": 400
     },
     {
+      "name": "Twists and Turns",
+      "sku": "TWISTSANDTURNS_GC",
+      "qty_recent": 4,
+      "qty_prev": 2,
+      "pct": 300
+    },
+    {
+      "name": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "qty_recent": 4,
+      "qty_prev": 2,
+      "pct": 300
+    },
+    {
       "name": "UC Santa Barbara 8x10",
       "sku": "UCSANTABARBARA_BW_8X10",
       "qty_recent": 2,
@@ -84,47 +98,19 @@
       "pct": 300
     },
     {
-      "name": "SF_BLOCKFONT_TOTE",
-      "sku": "SF_BLOCKFONT_TOTE",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 200
-    },
-    {
-      "name": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
-      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 200
-    },
-    {
       "name": "Ferry Building Travel Poster Card",
       "sku": "FERRYBLDGTRAVELPOSTER_GC",
-      "qty_recent": 3,
+      "qty_recent": 4,
       "qty_prev": 2,
-      "pct": 200
+      "pct": 300
     }
   ],
   "cold": [
     {
-      "name": "Colored Pencil Kit (Blue Cap)",
-      "sku": "COLOREDPENCILKIT_BLUE",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
-    {
-      "name": "London 8x10",
-      "sku": "LONDON_BW_8X10",
+      "name": "Painted Lady Keychain- Blue",
+      "sku": "KC-PAINTEDLADY-BLUE",
       "qty_recent": 0,
       "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "Lombard Street Retro Postcard",
-      "sku": "LOMBARDST_RETRO_PC",
-      "qty_recent": 0,
-      "qty_prev": 3,
       "pct": -100
     },
     {
@@ -135,27 +121,35 @@
       "pct": -100
     },
     {
-      "name": "AC_SF_FB_MAG",
-      "sku": "AC_SF_FB_MAG",
+      "name": "Retro SF Ferry Building Poster Sticker",
+      "sku": "RETRO_SF_FB_STICKER",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 17,
       "pct": -100
     },
     {
-      "name": "Pennant",
-      "sku": "SFPENNANT_STICKER",
+      "name": "CA State White and Black",
+      "sku": "CA_BLOCKFONT_BW_STICKER",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Los Angeles 8x10",
+      "sku": "LA_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Proud Tourist",
+      "sku": "PROUDTOURIST_STICKER",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     }
   ],
   "category_trends": [
-    {
-      "category": "Totes",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
     {
       "category": "Pencil Pouches",
       "qty_recent": 2,
@@ -164,9 +158,15 @@
     },
     {
       "category": "Cards",
-      "qty_recent": 27,
-      "qty_prev": 37,
-      "pct": 46
+      "qty_recent": 31,
+      "qty_prev": 38,
+      "pct": 63
+    },
+    {
+      "category": "Stickers",
+      "qty_recent": 75,
+      "qty_prev": 255,
+      "pct": -41
     }
   ]
 }
