@@ -1,13 +1,13 @@
 {
-  "updated": "November 12, 2026",
-  "period_label": "11/3 \u2013 11/12, 2026",
-  "total_units": 96,
+  "updated": "November 13, 2026",
+  "period_label": "11/4 \u2013 11/13, 2026",
+  "total_units": 91,
   "revenue": {
-    "yesterday": 239.97,
-    "yesterday_label": "11/12",
-    "weekly": 4778.05,
-    "monthly": 7978.92,
-    "ytd": 160906.25
+    "yesterday": 138.49,
+    "yesterday_label": "11/13",
+    "weekly": 4457.07,
+    "monthly": 8117.41,
+    "ytd": 161044.74
   },
   "top10": [
     {
@@ -18,17 +18,12 @@
     {
       "name": "Home Sweet SF (flat)",
       "sku": "HOMESWEETSF_MAG",
-      "qty": 15
+      "qty": 14
     },
     {
       "name": "AC_SF_GGB_MAG",
       "sku": "AC_SF_GGB_MAG",
-      "qty": 11
-    },
-    {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 8
+      "qty": 9
     },
     {
       "name": "SFO Luggage Tag Keychain",
@@ -59,6 +54,11 @@
       "name": "San Francisco Landmarks Ornament",
       "sku": "ORNAMENT-SF-LDMK",
       "qty": 7
+    },
+    {
+      "name": "Golden Gate Travel Poster Magnet (new version)",
+      "sku": "GOLDENGATETP_MAG",
+      "qty": 6
     }
   ],
   "hot": [
@@ -70,15 +70,8 @@
       "pct": 500
     },
     {
-      "name": "Retro Painted Ladies Poster Magnet",
-      "sku": "SF_RETRO_PL_MAG",
-      "qty_recent": 5,
-      "qty_prev": 2,
-      "pct": 400
-    },
-    {
-      "name": "Ferry Building Travel Poster Card",
-      "sku": "FERRYBLDGTRAVELPOSTER_GC",
+      "name": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
       "qty_recent": 4,
       "qty_prev": 2,
       "pct": 300
@@ -91,35 +84,28 @@
       "pct": 300
     },
     {
-      "name": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
-      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "name": "State of California",
+      "sku": "STATEOFCALIFORNIA_MAP_TT",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "Ferry Building Travel Poster Card",
+      "sku": "FERRYBLDGTRAVELPOSTER_GC",
       "qty_recent": 4,
       "qty_prev": 2,
       "pct": 300
     },
     {
-      "name": "Twists and Turns",
-      "sku": "TWISTSANDTURNS_GC",
-      "qty_recent": 4,
-      "qty_prev": 2,
+      "name": "Fog City Embroidered Dad Hat - Light Blue",
+      "sku": "DH-004-LB",
+      "qty_recent": 2,
+      "qty_prev": 1,
       "pct": 300
     }
   ],
   "cold": [
-    {
-      "name": "Painted Lady Keychain- Yellow",
-      "sku": "KC-PAINTEDLADY-YELLOW",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Colored Pencil Kit (Blue Cap)",
-      "sku": "COLOREDPENCILKIT_BLUE",
-      "qty_recent": 0,
-      "qty_prev": 7,
-      "pct": -100
-    },
     {
       "name": "Proud Tourist",
       "sku": "PROUDTOURIST_STICKER",
@@ -128,24 +114,38 @@
       "pct": -100
     },
     {
-      "name": "Retro SF Ferry Building Poster Sticker",
-      "sku": "RETRO_SF_FB_STICKER",
+      "name": "Illustrated Fisherman\u2018s Wharf Landmark",
+      "sku": "FW_ILLUSTRATED_STICKER",
       "qty_recent": 0,
-      "qty_prev": 17,
+      "qty_prev": 10,
       "pct": -100
     },
     {
-      "name": "POSTCARDS3FOR10",
-      "sku": "POSTCARDS3FOR10",
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "Painted Lady Keychain- Blue",
-      "sku": "KC-PAINTEDLADY-BLUE",
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Colored Pencil Kit (Blue Cap)",
+      "sku": "COLOREDPENCILKIT_BLUE",
+      "qty_recent": 0,
+      "qty_prev": 6,
+      "pct": -100
+    },
+    {
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
+      "qty_recent": 0,
+      "qty_prev": 3,
       "pct": -100
     }
   ],
@@ -153,20 +153,20 @@
     {
       "category": "Pencil Pouches",
       "qty_recent": 2,
-      "qty_prev": 17,
-      "pct": -76
+      "qty_prev": 15,
+      "pct": -73
     },
     {
       "category": "Cards",
       "qty_recent": 31,
-      "qty_prev": 38,
-      "pct": 63
+      "qty_prev": 36,
+      "pct": 72
     },
     {
       "category": "Stickers",
-      "qty_recent": 75,
-      "qty_prev": 255,
-      "pct": -41
+      "qty_recent": 68,
+      "qty_prev": 253,
+      "pct": -46
     }
   ]
 }
