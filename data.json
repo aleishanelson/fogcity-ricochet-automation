@@ -77,15 +77,8 @@
       "pct": 400
     },
     {
-      "name": "Twists and Turns",
-      "sku": "TWISTSANDTURNS_GC",
-      "qty_recent": 4,
-      "qty_prev": 2,
-      "pct": 300
-    },
-    {
-      "name": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
-      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "name": "Ferry Building Travel Poster Card",
+      "sku": "FERRYBLDGTRAVELPOSTER_GC",
       "qty_recent": 4,
       "qty_prev": 2,
       "pct": 300
@@ -98,8 +91,15 @@
       "pct": 300
     },
     {
-      "name": "Ferry Building Travel Poster Card",
-      "sku": "FERRYBLDGTRAVELPOSTER_GC",
+      "name": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
+      "qty_recent": 4,
+      "qty_prev": 2,
+      "pct": 300
+    },
+    {
+      "name": "Twists and Turns",
+      "sku": "TWISTSANDTURNS_GC",
       "qty_recent": 4,
       "qty_prev": 2,
       "pct": 300
@@ -107,15 +107,22 @@
   ],
   "cold": [
     {
-      "name": "Painted Lady Keychain- Blue",
-      "sku": "KC-PAINTEDLADY-BLUE",
+      "name": "Painted Lady Keychain- Yellow",
+      "sku": "KC-PAINTEDLADY-YELLOW",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
+      "name": "Colored Pencil Kit (Blue Cap)",
+      "sku": "COLOREDPENCILKIT_BLUE",
+      "qty_recent": 0,
+      "qty_prev": 7,
+      "pct": -100
+    },
+    {
+      "name": "Proud Tourist",
+      "sku": "PROUDTOURIST_STICKER",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -128,24 +135,17 @@
       "pct": -100
     },
     {
-      "name": "CA State White and Black",
-      "sku": "CA_BLOCKFONT_BW_STICKER",
+      "name": "POSTCARDS3FOR10",
+      "sku": "POSTCARDS3FOR10",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "Los Angeles 8x10",
-      "sku": "LA_BW_8X10",
+      "name": "Painted Lady Keychain- Blue",
+      "sku": "KC-PAINTEDLADY-BLUE",
       "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "Proud Tourist",
-      "sku": "PROUDTOURIST_STICKER",
-      "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
