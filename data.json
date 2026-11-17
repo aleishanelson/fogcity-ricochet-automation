@@ -84,15 +84,15 @@
       "pct": 500
     },
     {
-      "name": "San Diego 8x10",
-      "sku": "SANDIEGO_BW_8X10",
+      "name": "SF_BLOCKFONT_TOTE",
+      "sku": "SF_BLOCKFONT_TOTE",
       "qty_recent": 3,
       "qty_prev": 1,
       "pct": 500
     },
     {
-      "name": "SF_BLOCKFONT_TOTE",
-      "sku": "SF_BLOCKFONT_TOTE",
+      "name": "San Diego 8x10",
+      "sku": "SANDIEGO_BW_8X10",
       "qty_recent": 3,
       "qty_prev": 1,
       "pct": 500
@@ -107,24 +107,31 @@
   ],
   "cold": [
     {
-      "name": "UC Davis 8x10",
-      "sku": "UCDAVIS_BW_8X10",
-      "qty_recent": 0,
-      "qty_prev": 5,
-      "pct": -100
-    },
-    {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_MAG",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
+      "name": "Proud Tourist",
+      "sku": "PROUDTOURIST_STICKER",
       "qty_recent": 0,
       "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Lombard Street Retro Postcard",
+      "sku": "LOMBARDST_RETRO_PC",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "Chicago (ZOOMED OUT)  8x10",
+      "sku": "CHICAGO_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     },
     {
@@ -135,17 +142,10 @@
       "pct": -100
     },
     {
-      "name": "Pennant",
-      "sku": "SFPENNANT_STICKER",
+      "name": "NYC 8x10",
+      "sku": "NYC_BW_8X10",
       "qty_recent": 0,
       "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "AC_SF_PLADIES_MAG",
-      "sku": "AC_SF_PLADIES_MAG",
-      "qty_recent": 0,
-      "qty_prev": 16,
       "pct": -100
     }
   ],
@@ -163,9 +163,9 @@
       "pct": 40
     },
     {
-      "category": "Totes",
-      "qty_recent": 1,
-      "qty_prev": 3,
+      "category": "Keychains",
+      "qty_recent": 11,
+      "qty_prev": 33,
       "pct": -33
     }
   ]
