@@ -1,18 +1,28 @@
 {
-  "updated": "November 16, 2026",
-  "period_label": "11/7 \u2013 11/16, 2026",
-  "total_units": 99,
+  "updated": "November 17, 2026",
+  "period_label": "11/8 \u2013 11/17, 2026",
+  "total_units": 115,
   "revenue": {
-    "yesterday": 224.99,
-    "yesterday_label": "11/16",
-    "weekly": 4479.96,
-    "monthly": 9273.76,
-    "ytd": 162201.09
+    "yesterday": 375.98,
+    "yesterday_label": "11/17",
+    "weekly": 4588.96,
+    "monthly": 9649.74,
+    "ytd": 162577.07
   },
   "top10": [
     {
+      "name": "ACRYLIC Golden Gate Bridge",
+      "sku": "MAG-AC-SF-GGB",
+      "qty": 18
+    },
+    {
       "name": "Golden Gate Travel Poster Sticker",
       "sku": "GGTRAVELPOSTER_STICKER",
+      "qty": 16
+    },
+    {
+      "name": "Icons",
+      "sku": "SFICONS_BLUE_GC",
       "qty": 16
     },
     {
@@ -26,42 +36,39 @@
       "qty": 13
     },
     {
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
+      "qty": 10
+    },
+    {
       "name": "San Francisco Map",
       "sku": "SFMAP_STICKER",
       "qty": 9
     },
     {
-      "name": "ACRYLIC Golden Gate Bridge",
-      "sku": "MAG-AC-SF-GGB",
-      "qty": 9
-    },
-    {
-      "name": "Golden Gate Bridge Pink Sticker",
-      "sku": "GGBRIDGE_PINK_STICKER",
-      "qty": 8
-    },
-    {
-      "name": "Golden Gate Travel",
-      "sku": "GOLDENGATETRAVELPOSTER_GC",
-      "qty": 8
-    },
-    {
       "name": "Illustrated Ferry Building Landmark",
       "sku": "FB_ILLUSTRATED_STICKER",
-      "qty": 8
+      "qty": 7
     },
     {
       "name": "SF Landmarks Mug",
       "sku": "MUG-SF-LDMKS",
-      "qty": 8
+      "qty": 7
     },
     {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
-      "qty": 7
+      "name": "Golden Gate Travel",
+      "sku": "GOLDENGATETRAVELPOSTER_GC",
+      "qty": 6
     }
   ],
   "hot": [
+    {
+      "name": "Icons",
+      "sku": "SFICONS_BLUE_GC",
+      "qty_recent": 16,
+      "qty_prev": 1,
+      "pct": 3100
+    },
     {
       "name": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
       "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
@@ -70,11 +77,11 @@
       "pct": 900
     },
     {
-      "name": "SF_BLOCKFONT_TOTE",
-      "sku": "SF_BLOCKFONT_TOTE",
-      "qty_recent": 3,
+      "name": "Sunny and 75 in SF Card",
+      "sku": "SUNNYAND75SF_GC",
+      "qty_recent": 4,
       "qty_prev": 1,
-      "pct": 500
+      "pct": 700
     },
     {
       "name": "San Diego 8x10",
@@ -91,15 +98,8 @@
       "pct": 400
     },
     {
-      "name": "Fog City Embroidered Dad Hat - Light Blue",
-      "sku": "DH-004-LB",
-      "qty_recent": 2,
-      "qty_prev": 1,
-      "pct": 300
-    },
-    {
-      "name": "UC Santa Barbara 8x10",
-      "sku": "UCSANTABARBARA_BW_8X10",
+      "name": "Pink Golden Gate Bridge Acrylic Keychain",
+      "sku": "KC-AC-PINKGGB",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,22 +107,15 @@
   ],
   "cold": [
     {
-      "name": "AC_SF_PLADIES_MAG",
-      "sku": "AC_SF_PLADIES_MAG",
+      "name": "UC Davis 8x10",
+      "sku": "UCDAVIS_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 15,
+      "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "The City by the Bay Pink",
-      "sku": "SFCITYBYTHEBAY_PINK_MAG",
-      "qty_recent": 0,
-      "qty_prev": 6,
-      "pct": -100
-    },
-    {
-      "name": "NYC 8x10",
-      "sku": "NYC_BW_8X10",
+      "name": "San Francisco 11x14",
+      "sku": "SF_BW_11X14",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
@@ -135,38 +128,45 @@
       "pct": -100
     },
     {
-      "name": "Chicago (ZOOMED OUT)  8x10",
-      "sku": "CHICAGO_BW_8X10",
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "UC Davis 8x10",
-      "sku": "UCDAVIS_BW_8X10",
+      "name": "POSTCARDS3FOR10",
+      "sku": "POSTCARDS3FOR10",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "The City by the Bay Pink",
+      "sku": "SFCITYBYTHEBAY_PINK_MAG",
+      "qty_recent": 0,
+      "qty_prev": 6,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Tea Towels",
-      "qty_recent": 22,
-      "qty_prev": 28,
-      "pct": 57
-    },
-    {
-      "category": "Map Prints",
-      "qty_recent": 20,
-      "qty_prev": 76,
-      "pct": -47
-    },
-    {
       "category": "Cards",
-      "qty_recent": 29,
-      "qty_prev": 42,
-      "pct": 38
+      "qty_recent": 42,
+      "qty_prev": 41,
+      "pct": 105
+    },
+    {
+      "category": "Tea Towels",
+      "qty_recent": 24,
+      "qty_prev": 27,
+      "pct": 78
+    },
+    {
+      "category": "Postcards",
+      "qty_recent": 23,
+      "qty_prev": 30,
+      "pct": 53
     }
   ]
 }
