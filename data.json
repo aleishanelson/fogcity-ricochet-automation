@@ -1,13 +1,13 @@
 {
-  "updated": "November 17, 2026",
-  "period_label": "11/8 \u2013 11/17, 2026",
-  "total_units": 115,
+  "updated": "November 18, 2026",
+  "period_label": "11/9 \u2013 11/18, 2026",
+  "total_units": 110,
   "revenue": {
-    "yesterday": 375.98,
-    "yesterday_label": "11/17",
-    "weekly": 4588.96,
-    "monthly": 9649.74,
-    "ytd": 162577.07
+    "yesterday": 76.0,
+    "yesterday_label": "11/18",
+    "weekly": 4359.47,
+    "monthly": 9725.74,
+    "ytd": 162653.07
   },
   "top10": [
     {
@@ -43,22 +43,22 @@
     {
       "name": "San Francisco Map",
       "sku": "SFMAP_STICKER",
-      "qty": 9
+      "qty": 8
     },
     {
       "name": "Illustrated Ferry Building Landmark",
       "sku": "FB_ILLUSTRATED_STICKER",
-      "qty": 7
-    },
-    {
-      "name": "SF Landmarks Mug",
-      "sku": "MUG-SF-LDMKS",
-      "qty": 7
+      "qty": 6
     },
     {
       "name": "Golden Gate Travel",
       "sku": "GOLDENGATETRAVELPOSTER_GC",
-      "qty": 6
+      "qty": 5
+    },
+    {
+      "name": "3 for $11",
+      "sku": "POSTCARDS3FOR11",
+      "qty": 5
     }
   ],
   "hot": [
@@ -70,25 +70,11 @@
       "pct": 3100
     },
     {
-      "name": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
-      "sku": "SFCITYBYTHEBAY_CIRCLE_STICKER-2",
-      "qty_recent": 5,
-      "qty_prev": 1,
-      "pct": 900
-    },
-    {
       "name": "Sunny and 75 in SF Card",
       "sku": "SUNNYAND75SF_GC",
       "qty_recent": 4,
       "qty_prev": 1,
       "pct": 700
-    },
-    {
-      "name": "San Diego 8x10",
-      "sku": "SANDIEGO_BW_8X10",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
     },
     {
       "name": "Cal Poly SLO",
@@ -98,75 +84,89 @@
       "pct": 400
     },
     {
-      "name": "UC Berkeley",
-      "sku": "TT-CAMPUS-BERKELEY",
-      "qty_recent": 4,
+      "name": "UC Davis",
+      "sku": "TT-CAMPUS-UCDAVIS",
+      "qty_recent": 3,
       "qty_prev": 2,
-      "pct": 300
+      "pct": 200
+    },
+    {
+      "name": "Cable Car Film Postcard",
+      "sku": "PC-SF-14",
+      "qty_recent": 3,
+      "qty_prev": 2,
+      "pct": 200
+    },
+    {
+      "name": "San Francisco Map",
+      "sku": "SFMAP_STICKER",
+      "qty_recent": 8,
+      "qty_prev": 6,
+      "pct": 167
     }
   ],
   "cold": [
     {
-      "name": "AC_SF_PLADIES_MAG",
-      "sku": "AC_SF_PLADIES_MAG",
+      "name": "Chicago (ZOOMED OUT)  8x10",
+      "sku": "CHICAGO_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 14,
+      "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "London 8x10",
-      "sku": "LONDON_BW_8X10",
+      "name": "Painted Lady Keychain- Green",
+      "sku": "KC-PAINTEDLADY-GREEN",
+      "qty_recent": 0,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "CA State White and Black",
+      "sku": "CA_BLOCKFONT_BW_STICKER",
       "qty_recent": 0,
       "qty_prev": 4,
-      "pct": -100
-    },
-    {
-      "name": "Colored Pencil Kit (Blue Cap)",
-      "sku": "COLOREDPENCILKIT_BLUE",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "San Francisco 11x14",
-      "sku": "SF_BW_11X14",
-      "qty_recent": 0,
-      "qty_prev": 3,
       "pct": -100
     },
     {
       "name": "SFICONS_POSTCARD_PINK",
       "sku": "SFICONS_POSTCARD_PINK",
       "qty_recent": 0,
-      "qty_prev": 8,
+      "qty_prev": 6,
       "pct": -100
     },
     {
-      "name": "Proud Tourist",
-      "sku": "PROUDTOURIST_STICKER",
+      "name": "AC_SF_PLADIES_MAG",
+      "sku": "AC_SF_PLADIES_MAG",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 11,
+      "pct": -100
+    },
+    {
+      "name": "The City by the Bay Pink",
+      "sku": "SFCITYBYTHEBAY_PINK_MAG",
+      "qty_recent": 0,
+      "qty_prev": 5,
       "pct": -100
     }
   ],
   "category_trends": [
     {
       "category": "Cards",
-      "qty_recent": 42,
-      "qty_prev": 41,
-      "pct": 105
+      "qty_recent": 39,
+      "qty_prev": 43,
+      "pct": 81
     },
     {
-      "category": "Tea Towels",
-      "qty_recent": 24,
-      "qty_prev": 27,
-      "pct": 78
+      "category": "Map Prints",
+      "qty_recent": 14,
+      "qty_prev": 57,
+      "pct": -51
     },
     {
       "category": "Postcards",
-      "qty_recent": 23,
-      "qty_prev": 30,
-      "pct": 53
+      "qty_recent": 21,
+      "qty_prev": 29,
+      "pct": 45
     }
   ]
 }
