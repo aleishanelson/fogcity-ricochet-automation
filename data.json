@@ -1,19 +1,19 @@
 {
-  "updated": "November 19, 2026",
-  "period_label": "11/10 \u2013 11/19, 2026",
+  "updated": "November 20, 2026",
+  "period_label": "11/11 \u2013 11/20, 2026",
   "total_units": 109,
   "revenue": {
-    "yesterday": 324.98,
-    "yesterday_label": "11/19",
-    "weekly": 4444.48,
-    "monthly": 10050.72,
-    "ytd": 162978.05
+    "yesterday": 198.99,
+    "yesterday_label": "11/20",
+    "weekly": 4504.98,
+    "monthly": 10249.71,
+    "ytd": 163177.04
   },
   "top10": [
     {
       "name": "ACRYLIC Golden Gate Bridge",
       "sku": "MAG-AC-SF-GGB",
-      "qty": 20
+      "qty": 19
     },
     {
       "name": "Icons",
@@ -21,14 +21,14 @@
       "qty": 16
     },
     {
-      "name": "Golden Gate Travel Poster Sticker",
-      "sku": "GGTRAVELPOSTER_STICKER",
+      "name": "SF Illustrated Landmark",
+      "sku": "LDMKS_SF_MAG",
       "qty": 14
     },
     {
-      "name": "SF Illustrated Landmark",
-      "sku": "LDMKS_SF_MAG",
-      "qty": 13
+      "name": "Golden Gate Travel Poster Sticker",
+      "sku": "GGTRAVELPOSTER_STICKER",
+      "qty": 12
     },
     {
       "name": "SFO Luggage Tag Keychain",
@@ -36,14 +36,14 @@
       "qty": 10
     },
     {
-      "name": "Home Sweet SF (flat)",
-      "sku": "HOMESWEETSF_MAG",
-      "qty": 9
-    },
-    {
       "name": "3 for $11",
       "sku": "STICKERS3FOR11",
-      "qty": 8
+      "qty": 10
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty": 9
     },
     {
       "name": "San Francisco Map",
@@ -51,14 +51,14 @@
       "qty": 7
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty": 7
+      "name": "Home Sweet SF (flat)",
+      "sku": "HOMESWEETSF_MAG",
+      "qty": 6
     },
     {
-      "name": "Cal Poly SLO",
-      "sku": "TT-CAMPUS-CALPOLYSLO",
-      "qty": 5
+      "name": "3 for $11",
+      "sku": "POSTCARDS3FOR11",
+      "qty": 6
     }
   ],
   "hot": [
@@ -70,18 +70,18 @@
       "pct": 3100
     },
     {
+      "name": "ACRYLIC Golden Gate Bridge",
+      "sku": "MAG-AC-SF-GGB",
+      "qty_recent": 19,
+      "qty_prev": 2,
+      "pct": 1800
+    },
+    {
       "name": "Sunny and 75 in SF Card",
       "sku": "SUNNYAND75SF_GC",
       "qty_recent": 5,
       "qty_prev": 1,
       "pct": 900
-    },
-    {
-      "name": "Cable Car Film Postcard",
-      "sku": "PC-SF-14",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
     },
     {
       "name": "ACRYLIC Ferry Building",
@@ -91,82 +91,82 @@
       "pct": 500
     },
     {
-      "name": "Cal Poly SLO",
-      "sku": "TT-CAMPUS-CALPOLYSLO",
-      "qty_recent": 5,
-      "qty_prev": 2,
-      "pct": 400
+      "name": "Cable Car Film Postcard",
+      "sku": "PC-SF-14",
+      "qty_recent": 3,
+      "qty_prev": 1,
+      "pct": 500
     },
     {
-      "name": "UC Santa Barbara 8x10",
-      "sku": "UCSANTABARBARA_BW_8X10",
-      "qty_recent": 3,
-      "qty_prev": 2,
-      "pct": 200
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
     }
   ],
   "cold": [
     {
-      "name": "AC_SF_PLADIES_MAG",
-      "sku": "AC_SF_PLADIES_MAG",
-      "qty_recent": 0,
-      "qty_prev": 9,
-      "pct": -100
-    },
-    {
-      "name": "AC_SF_FB_MAG",
-      "sku": "AC_SF_FB_MAG",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "Colored Pencil Kit (Blue Cap)",
-      "sku": "COLOREDPENCILKIT_BLUE",
-      "qty_recent": 0,
-      "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "SF_BLOCKFONT_TOTE",
-      "sku": "SF_BLOCKFONT_TOTE",
+      "name": "CA State White and Black",
+      "sku": "CA_BLOCKFONT_BW_STICKER",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
     },
     {
-      "name": "SFICONS_POSTCARD_PINK",
-      "sku": "SFICONS_POSTCARD_PINK",
+      "name": "London 8x10",
+      "sku": "LONDON_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 3,
+      "pct": -100
+    },
+    {
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
+      "qty_recent": 0,
+      "qty_prev": 24,
       "pct": -100
     },
     {
       "name": "The City by the Bay Pink",
       "sku": "SFCITYBYTHEBAY_PINK_MAG",
       "qty_recent": 0,
-      "qty_prev": 5,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "San Diego 8x10",
+      "sku": "SANDIEGO_BW_8X10",
+      "qty_recent": 0,
+      "qty_prev": 4,
+      "pct": -100
+    },
+    {
+      "name": "AC_SF_PLADIES_MAG",
+      "sku": "AC_SF_PLADIES_MAG",
+      "qty_recent": 0,
+      "qty_prev": 9,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Tea Towels",
+      "category": "Postcards",
       "qty_recent": 23,
-      "qty_prev": 29,
-      "pct": 59
-    },
-    {
-      "category": "Cards",
-      "qty_recent": 35,
-      "qty_prev": 48,
-      "pct": 46
+      "qty_prev": 26,
+      "pct": 77
     },
     {
       "category": "Landmark Prints",
-      "qty_recent": 3,
-      "qty_prev": 10,
-      "pct": -40
+      "qty_recent": 2,
+      "qty_prev": 11,
+      "pct": -64
+    },
+    {
+      "category": "Pencil Pouches",
+      "qty_recent": 5,
+      "qty_prev": 7,
+      "pct": 43
     }
   ]
 }
