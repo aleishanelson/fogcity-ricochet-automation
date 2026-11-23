@@ -1,19 +1,19 @@
 {
-  "updated": "November 21, 2026",
-  "period_label": "11/12 \u2013 11/21, 2026",
-  "total_units": 106,
+  "updated": "November 22, 2026",
+  "period_label": "11/13 \u2013 11/22, 2026",
+  "total_units": 108,
   "revenue": {
-    "yesterday": 543.95,
-    "yesterday_label": "11/21",
-    "weekly": 4343.56,
-    "monthly": 10793.66,
-    "ytd": 163720.99
+    "yesterday": 545.96,
+    "yesterday_label": "11/22",
+    "weekly": 4663.53,
+    "monthly": 11339.62,
+    "ytd": 164266.95
   },
   "top10": [
     {
       "name": "ACRYLIC Golden Gate Bridge",
       "sku": "MAG-AC-SF-GGB",
-      "qty": 18
+      "qty": 22
     },
     {
       "name": "Icons",
@@ -23,17 +23,12 @@
     {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 13
-    },
-    {
-      "name": "SFO Luggage Tag Keychain",
-      "sku": "KC-SFO-LUGGAGETAG",
-      "qty": 10
+      "qty": 12
     },
     {
       "name": "Retro Golden Gate Bridge Poster Sticker",
       "sku": "RETRO_GGB_STICKER",
-      "qty": 10
+      "qty": 11
     },
     {
       "name": "3 for $11",
@@ -41,9 +36,14 @@
       "qty": 10
     },
     {
-      "name": "San Francisco Map",
-      "sku": "SFMAP_STICKER",
-      "qty": 8
+      "name": "SFO Luggage Tag Keychain",
+      "sku": "KC-SFO-LUGGAGETAG",
+      "qty": 9
+    },
+    {
+      "name": "Bay Area Map",
+      "sku": "BAYAREA_MAP_TT",
+      "qty": 7
     },
     {
       "name": "Golden Gate Travel Poster Sticker",
@@ -51,13 +51,13 @@
       "qty": 7
     },
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "3 for $11",
+      "sku": "POSTCARDS3FOR11",
       "qty": 7
     },
     {
-      "name": "3 for $11",
-      "sku": "POSTCARDS3FOR11",
+      "name": "SF Icons Pencil Pouch - Blue",
+      "sku": "PP-SF-CB-01",
       "qty": 7
     }
   ],
@@ -72,16 +72,9 @@
     {
       "name": "ACRYLIC Golden Gate Bridge",
       "sku": "MAG-AC-SF-GGB",
-      "qty_recent": 18,
+      "qty_recent": 22,
       "qty_prev": 3,
-      "pct": 1100
-    },
-    {
-      "name": "Sunny and 75 in SF Card",
-      "sku": "SUNNYAND75SF_GC",
-      "qty_recent": 5,
-      "qty_prev": 1,
-      "pct": 900
+      "pct": 1367
     },
     {
       "name": "ACRYLIC Ferry Building",
@@ -91,15 +84,22 @@
       "pct": 700
     },
     {
-      "name": "ACRYLIC Fishermans Wharf",
-      "sku": "MAG-AC-SF-FWHARF",
+      "name": "Pink Icons Postcard",
+      "sku": "SFICONS_PINK_PC",
       "qty_recent": 3,
       "qty_prev": 1,
       "pct": 500
     },
     {
-      "name": "Painted Ladies Retro Postcard",
-      "sku": "PAINTEDLADIES_RETRO_PC",
+      "name": "Ferry Building Travel Poster Magnet",
+      "sku": "FERRYBUILDINGTP_MAG",
+      "qty_recent": 6,
+      "qty_prev": 2,
+      "pct": 500
+    },
+    {
+      "name": "ACRYLIC Fishermans Wharf",
+      "sku": "MAG-AC-SF-FWHARF",
       "qty_recent": 3,
       "qty_prev": 1,
       "pct": 500
@@ -107,17 +107,24 @@
   ],
   "cold": [
     {
-      "name": "UC Berkeley 8x10",
-      "sku": "BERKELEY_CAMPUS_BW_8X10",
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
+      "qty_recent": 0,
+      "qty_prev": 24,
+      "pct": -100
+    },
+    {
+      "name": "AC_SF_FB_MAG",
+      "sku": "AC_SF_FB_MAG",
       "qty_recent": 0,
       "qty_prev": 3,
       "pct": -100
     },
     {
-      "name": "San Diego 8x10",
-      "sku": "SANDIEGO_BW_8X10",
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
       "qty_recent": 0,
-      "qty_prev": 4,
+      "qty_prev": 6,
       "pct": -100
     },
     {
@@ -135,38 +142,31 @@
       "pct": -100
     },
     {
-      "name": "UC Davis 8x10",
-      "sku": "UCDAVIS_BW_8X10",
+      "name": "Colored Pencil Kit (Blue Cap)",
+      "sku": "COLOREDPENCILKIT_BLUE",
       "qty_recent": 0,
       "qty_prev": 3,
-      "pct": -100
-    },
-    {
-      "name": "SFICONS_POSTCARD_PINK",
-      "sku": "SFICONS_POSTCARD_PINK",
-      "qty_recent": 0,
-      "qty_prev": 6,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Postcards",
-      "qty_recent": 28,
-      "qty_prev": 29,
-      "pct": 93
+      "category": "Pencil Pouches",
+      "qty_recent": 7,
+      "qty_prev": 8,
+      "pct": 75
     },
     {
-      "category": "Map Prints",
-      "qty_recent": 12,
-      "qty_prev": 56,
-      "pct": -57
+      "category": "Landmark Prints",
+      "qty_recent": 2,
+      "qty_prev": 12,
+      "pct": -67
     },
     {
-      "category": "Cards",
-      "qty_recent": 37,
-      "qty_prev": 48,
-      "pct": 54
+      "category": "Tea Towels",
+      "qty_recent": 25,
+      "qty_prev": 32,
+      "pct": 56
     }
   ]
 }
