@@ -1,19 +1,19 @@
 {
-  "updated": "November 24, 2026",
-  "period_label": "11/15 \u2013 11/24, 2026",
-  "total_units": 112,
+  "updated": "November 25, 2026",
+  "period_label": "11/16 \u2013 11/25, 2026",
+  "total_units": 113,
   "revenue": {
-    "yesterday": 342.49,
-    "yesterday_label": "11/24",
-    "weekly": 4605.03,
-    "monthly": 11882.09,
-    "ytd": 164809.42
+    "yesterday": 136.49,
+    "yesterday_label": "11/25",
+    "weekly": 4665.52,
+    "monthly": 12018.58,
+    "ytd": 164945.91
   },
   "top10": [
     {
       "name": "ACRYLIC Golden Gate Bridge",
       "sku": "MAG-AC-SF-GGB",
-      "qty": 22
+      "qty": 20
     },
     {
       "name": "Icons",
@@ -21,14 +21,14 @@
       "qty": 16
     },
     {
-      "name": "Retro Golden Gate Bridge Poster Sticker",
-      "sku": "RETRO_GGB_STICKER",
-      "qty": 12
-    },
-    {
       "name": "SF Illustrated Landmark",
       "sku": "LDMKS_SF_MAG",
-      "qty": 12
+      "qty": 14
+    },
+    {
+      "name": "Retro Golden Gate Bridge Poster Sticker",
+      "sku": "RETRO_GGB_STICKER",
+      "qty": 13
     },
     {
       "name": "SFO Luggage Tag Keychain",
@@ -56,8 +56,8 @@
       "qty": 7
     },
     {
-      "name": "San Francisco Landmark Sticker Sheet",
-      "sku": "SS-SF-LDMKS",
+      "name": "San Francisco Icons Magnet Set",
+      "sku": "SANFRANCISCOICONS_MAGNETSET",
       "qty": 6
     }
   ],
@@ -70,18 +70,11 @@
       "pct": 3100
     },
     {
-      "name": "ACRYLIC Golden Gate Bridge",
-      "sku": "MAG-AC-SF-GGB",
-      "qty_recent": 22,
-      "qty_prev": 5,
-      "pct": 780
-    },
-    {
-      "name": "Pink Icons Postcard",
-      "sku": "SFICONS_PINK_PC",
-      "qty_recent": 4,
+      "name": "Bay Area 9x12",
+      "sku": "BAYAREA_BW_9X12",
+      "qty_recent": 3,
       "qty_prev": 1,
-      "pct": 700
+      "pct": 500
     },
     {
       "name": "Fisherman's Wharf Retro Postcard",
@@ -91,15 +84,22 @@
       "pct": 500
     },
     {
-      "name": "Bay Area 9x12",
-      "sku": "BAYAREA_BW_9X12",
-      "qty_recent": 3,
-      "qty_prev": 1,
-      "pct": 500
+      "name": "ACRYLIC Golden Gate Bridge",
+      "sku": "MAG-AC-SF-GGB",
+      "qty_recent": 20,
+      "qty_prev": 7,
+      "pct": 471
     },
     {
-      "name": "The City by the Bay Black/White",
-      "sku": "SFCITYBYTHEBAY_BW_STICKER",
+      "name": "Ferry Building Travel Poster 8x10",
+      "sku": "FERRYBUILDING_TP_8X10",
+      "qty_recent": 2,
+      "qty_prev": 1,
+      "pct": 300
+    },
+    {
+      "name": "Painted Ladies Retro Postcard",
+      "sku": "PAINTEDLADIES_RETRO_PC",
       "qty_recent": 2,
       "qty_prev": 1,
       "pct": 300
@@ -107,15 +107,15 @@
   ],
   "cold": [
     {
-      "name": "AC_SF_FB_MAG",
-      "sku": "AC_SF_FB_MAG",
+      "name": "Retro SF Ferry Building Poster Sticker",
+      "sku": "RETRO_SF_FB_STICKER",
       "qty_recent": 0,
-      "qty_prev": 3,
+      "qty_prev": 7,
       "pct": -100
     },
     {
-      "name": "San Diego 8x10",
-      "sku": "SANDIEGO_BW_8X10",
+      "name": "SFICONS_POSTCARD_PINK",
+      "sku": "SFICONS_POSTCARD_PINK",
       "qty_recent": 0,
       "qty_prev": 4,
       "pct": -100
@@ -128,45 +128,45 @@
       "pct": -100
     },
     {
-      "name": "AC_SF_PLADIES_MAG",
-      "sku": "AC_SF_PLADIES_MAG",
+      "name": "AC_SF_GGB_MAG",
+      "sku": "AC_SF_GGB_MAG",
       "qty_recent": 0,
-      "qty_prev": 7,
+      "qty_prev": 19,
       "pct": -100
     },
     {
-      "name": "SFICONS_POSTCARD_PINK",
-      "sku": "SFICONS_POSTCARD_PINK",
+      "name": "Ferry Building Travel Poster Card",
+      "sku": "FERRYBLDGTRAVELPOSTER_GC",
       "qty_recent": 0,
       "qty_prev": 5,
       "pct": -100
     },
     {
-      "name": "Golden Gate Travel Poster 8x10",
-      "sku": "GOLDENGATE_TP_8X10",
+      "name": "San Diego 8x10",
+      "sku": "SANDIEGO_BW_8X10",
       "qty_recent": 0,
-      "qty_prev": 6,
+      "qty_prev": 4,
       "pct": -100
     }
   ],
   "category_trends": [
     {
-      "category": "Postcards",
-      "qty_recent": 26,
-      "qty_prev": 31,
-      "pct": 68
+      "category": "Cards",
+      "qty_recent": 35,
+      "qty_prev": 53,
+      "pct": 32
     },
     {
       "category": "Tea Towels",
-      "qty_recent": 13,
-      "qty_prev": 45,
-      "pct": -42
+      "qty_recent": 14,
+      "qty_prev": 41,
+      "pct": -32
     },
     {
-      "category": "Cards",
-      "qty_recent": 36,
-      "qty_prev": 54,
-      "pct": 33
+      "category": "Stickers",
+      "qty_recent": 69,
+      "qty_prev": 192,
+      "pct": -28
     }
   ]
 }
